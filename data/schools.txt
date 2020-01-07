@@ -1,0 +1,28 @@
+\item
+    Member, Mitglied
+    HU Berlin IRI Life Sciences Graduate School
+    Berlin
+    2015-today, 2015-heute
+\item
+    Complex Systems Summer School
+    Santa Fe Institute
+    Santa Fe 
+    2018
+\item
+    Specialization \"Deep Learning\", Spezialisierung \"Deep Learning\"
+    coursera.org
+    2017-2018
+\item
+    Seminar \"Time-Management\", Seminar \"Zeitmanagement\"
+    Humboldt Graduate School
+    Berlin (2015)
+\item
+    Member, Mitglied
+    Humboldt Graduate School
+    Berlin
+    2015
+\item
+    Complex Networks: Theory, Methods and Applications
+    Lake Como School of Advanced Studies in Complex Systems
+    Como
+    2015

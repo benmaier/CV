@@ -7,7 +7,8 @@ h1 {
     color: #262261;
     font-weight: bold;    
     font-size: 36pt;
-    margin-left: 36pt;
+    margin-left: 0pt;
+    margin-top: 0pt;
     margin-right: 36pt;
     /*
     -moz-transform: rotate(90deg);
@@ -17,7 +18,9 @@ h1 {
     */
 }
 
+
 .cv-container {
+    /*
    -webkit-column-count: 2;
       -moz-column-count: 2;
            column-count: 2;
@@ -25,10 +28,11 @@ h1 {
    -webkit-column-gap: 20px;
       -moz-column-gap: 20px;
            column-gap: 20px;
+           */
 }
 
 h2.cv-section-title {
-   color: #444;
+   color: #777;
     margin-right: 0pt;
     font-size: 20pt;
     margin-left: 0pt;
@@ -51,10 +55,6 @@ table.cv-table {
     border: 0px;
 }
 
-tr.cv-first-row {
-  line-height: 1.5;
-}
-
 tr.cv-row {
   line-height: 1.5;
 }
@@ -68,6 +68,7 @@ td.cv-left-col {
     padding-right: 12pt;
     font-variant: small-caps;
     text-align: right;
+    white-space: nowrap;
 }
 
 .cv-item-title {

@@ -1,0 +1,535 @@
+{
+  "fieldorder": [
+    "academic",
+    "science",
+    "education",
+    "teaching",
+    "additional_working",
+    "fellowships",
+    "voluntary_freetime",
+    "it",
+    "languages",
+    "publications",
+    "talks",
+    "packages"
+  ],
+  "fieldnames": {
+    "education": ["Education", "Ausbildung"],
+    "teaching": ["Teaching", "Lehre"],
+    "academic": ["Academic Positions", "Akademische Stellen"],
+    "additional_working": [
+      "Additional Work Experience",
+      "Zusätzliche Arbeitserfahrung"
+    ],
+    "fellowships": [
+      "Fellowships &amp; Awards",
+      "Stipendien &amp; Auszeichnungen"
+    ],
+    "personal": ["Person"],
+    "science": ["Scientific Work", "Wissenschaftliche Arbeiten"],
+    "voluntary_freetime": [
+      "Voluntary Work &amp; Free Time Activities",
+      "Ehrenämter &amp; Freizeit"
+    ],
+    "it": ["IT Knowledge", "IT-Fähigkeiten"],
+    "languages": ["Languages", "Sprachen"],
+    "publications": ["Publications", "Publikationen"],
+    "talks": ["Talks", "Vorträge"],
+    "packages": ["Open-Source Software"]
+  },
+  "fieldcontent": {
+    "personal": {
+      "name": ["Benjamin F. Maier"],
+      "address": ["RKI, Nordufer 20, D-13353 Berlin"],
+      "telephone": ["+49 30 18754 2033"],
+      "email": ["contact@benmaier.org"],
+      "website": ["benmaier.org"]
+    },
+    "education": [
+      {
+        "date": ["2014–2019"],
+        "name": [
+          "PhD in Theoretical Physics",
+          "Promotion in Theoretischer Physik"
+        ],
+        "place": [
+          "Humboldt University of Berlin, Robert Koch Institute",
+          "Humboldt-Universität zu Berlin, Robert Koch-Institut"
+        ],
+        "description": [
+          "final grade: summa cum laude",
+          "Abschlussnote: summa cum laude"
+        ],
+        "important": true
+      },
+      {
+        "date": ["2011–2014"],
+        "name": ["M. Sc. in physics", "M. Sc. in Physik"],
+        "place": [
+          "Humboldt University of Berlin",
+          "Humboldt-Universität zu Berlin"
+        ],
+        "description": [
+          "final grade: 1.2, thesis: 1.0",
+          "Abschlussnote: 1.2, Masterarbeit: 1.0"
+        ],
+        "important": true
+      },
+      {
+        "date": ["2011–2012"],
+        "name": ["Erasmus exchange program", "Erasmus-Programm"],
+        "place": ["Universiteit Utrecht (NL)"],
+        "description": ["ten-month visit", "zehnmonatiger Aufenthalt"],
+        "important": true
+      },
+      {
+        "date": ["2008–2011"],
+        "name": ["B. Sc. in physics", "B. Sc. in Physik"],
+        "place": [
+          "Humboldt University of Berlin",
+          "Humboldt-Universität zu Berlin"
+        ],
+        "description": [
+          "final grade: 1.7, thesis: 1.0",
+          "Abschlussnote: 1.7, Bachelorarbeit: 1.0"
+        ],
+        "important": true
+      },
+      {
+        "date": ["2008"],
+        "name": ["Abitur (German high school diploma)", "Abitur"],
+        "place": ["Berlin", "Sartre-Gymnasium (Berlin)"],
+        "description": [
+          "final grade: 1.2, intensive courses: physics, computer science",
+          "Abschlussnote: 1.2, Leistungskurse: Physik, Informatik"
+        ],
+        "important": false
+      }
+    ],
+    "teaching": [
+      {
+        "date": ["2018"],
+        "name": ["Teaching Assistant", "Übungsleiter"],
+        "place": ["Santa Fe Insitute", "Santa Fe Institut"],
+        "description": [
+          "for D. Feldman's \"Introduction to Dynamical Systems\" on the MOOC-platform \"Complexity Explorer\"",
+          "für D. Feldmans Kurs \"Einführung in dynamische Systeme\" der MOOC-Plattform \"Complexity Explorer\""
+        ],
+        "important": true
+      },
+      {
+        "date": ["2016"],
+        "name": ["Teacher", "Kursleiter"],
+        "place": ["Deutsche SchülerAkademie"],
+        "description": [
+          "three-week course on \"Network Science and Complex Systems\" in a summer school for gifted high-school students",
+          "Dreiwöchiger Kurs zu \"Netzwerktheorie und komplexe Systeme\" für begabte Schüler"
+        ],
+        "important": true
+      },
+      {
+        "date": ["2013&mdash;2014"],
+        "name": ["Teaching Assistant", "Übungsleiter"],
+        "place": [
+          "Department of Physics (HU Berlin)",
+          "Institut für Physik (HU Berlin)"
+        ],
+        "description": [
+          "Course: \"Classical Mechanics and Introduction to Thermodynamics\"",
+          "Kurs \"Klassische Mechanik und Einführung in die Wärmelehre\""
+        ],
+        "important": true
+      },
+      {
+        "date": ["2013"],
+        "name": ["Teacher", "Lehrender"],
+        "place": [
+          "Student Association Physics (HU Berlin)",
+          "Fachschaftsinitiative Physik (HU Berlin)"
+        ],
+        "description": [
+          "Lectures in a prep course for the course \"Computational Physics\"",
+          "Vorbereitungsvorlesung und -übung für den Kurs \"Computational Physics\""
+        ],
+        "important": false
+      },
+      {
+        "date": ["2010&mdash;2011"],
+        "name": ["Teaching Assistant", "Praktikumsbetreuer"],
+        "place": [
+          "Department of Medicine (HU Berlin): Charité",
+          "Charité (HU Berlin)"
+        ],
+        "description": [
+          "Introductory lab class in physics for freshmen in medicine",
+          "Einführungspraktikum Physik für Medizin-Erstsemester"
+        ],
+        "important": false
+      },
+      {
+        "date": ["2009"],
+        "name": ["Teacher", "Lehrender"],
+        "place": [
+          "Student Association Physics (HU Berlin)",
+          "Fachschaftsinitiative Physik (HU Berlin)"
+        ],
+        "description": [
+          "Lectures in a prep course for freshmen in physics",
+          "Vorbereitungsvorlesung und -übung für Physik-Erstsemester"
+        ],
+        "important": false
+      }
+    ],
+    "additional_working": [
+      {
+        "date": ["2019"],
+        "name": ["Full-Stack Developer", "Full-Stack Entwickler"],
+        "place": ["Robert Koch Institute", "Robert Koch-Institut"],
+        "description": [
+          "Conceptualization, implementation, and deployment of an internal web-application to improve data management and work flows (based on Django 2, JavaScript, MySQL 8)",
+          "Konzeptionierung, Implementierung und Deployment einer internen Web-Applikation um Datenpflege und Arbeitsprozesse zu vereinfachen (basierend auf Django 2, JavaScript, MySQL 8)"
+        ],
+        "important": true
+      },
+      {
+        "date": ["2015&mdash;"],
+        "name": ["Scientific Consultant", "Wissenschaftlicher Berater"],
+        "place": ["Self-employed", "Freiberuflich"],
+        "description": [
+          "customers include e.g. Universal Music Germany and the Santa Fe Institute",
+          "Kunden u.a. Universal Music Deutschland und das Santa Fe Institut"
+        ],
+        "important": true
+      },
+      {
+        "date": ["2010&mdash;2011"],
+        "name": ["Student Assistant", "Werkstudent"],
+        "place": ["Institute for Scientific Instruments (Berlin-Adlershof)"],
+        "description": [
+          "Software development (C++)",
+          "Softwareentwicklung (C++)"
+        ],
+        "important": true
+      },
+      {
+        "date": ["2010"],
+        "name": ["Research Intern", "Forschungspraktikant"],
+        "place": [
+          "HU Berlin, Department of Physics, Group \"PHÄ\"",
+          "HU Berlin, Institut für Physik, AG \"PHÄ\""
+        ],
+        "description": [
+          "Research internships in lattice gauge theory",
+          "Forschungspraktika in Gittereichtheorie"
+        ],
+        "important": false
+      }
+    ],
+    "fellowships": [
+      {
+        "date": ["2019&mdash;"],
+        "name": [
+          "Add-on Fellow for Interdisciplinary Life Science of the Joachim Herz Stiftung",
+          "Add-on Fellow for Interdisciplinary Life Science der Joachim Herz Stiftung"
+        ],
+        "important": true
+      },
+      {
+        "date": ["2014"],
+        "name": [
+          "HU Berlin Research Track Scholarship",
+          "HU Berlin Research Track Stipendium"
+        ],
+        "important": true
+      },
+      {
+        "date": ["2011&mdash;2014"],
+        "name": [
+          "Fellow of the German National Academic Foundation (SDV) including scholarship",
+          "Stipendiat der Studienstiftung des Deutschen Volkes"
+        ],
+        "important": true
+      },
+      {
+        "date": ["2008"],
+        "name": [
+          "Award for excellent performance in the Abitur exam (Deutsche Physikalische Gesellschaft)",
+          "Preis für exzellente Leistungen in der Abiturprüfung Physik (Deutsche Physikalische Gesellschaft)"
+        ],
+        "important": false
+      },
+      {
+        "date": ["2007"],
+        "name": [
+          "Award for excellent performance in the physics intensive course (Deutsche Physikalische Gesellschaft)",
+          "Preis für exzellente Leistungen im Leistungskurs Physik (Deutsche Physikalische Gesellschaft)"
+        ],
+        "important": false
+      }
+    ],
+    "academic": [
+      {
+        "date": ["2019&mdash;"],
+        "name": ["Postdoc", "Postdoc"],
+        "place": ["Robert Koch Institute", "Robert Koch-Institut"],
+        "description": [
+          "Research focusing on epidemic spreading processes in human systems, mainly using methods from complex network theory and statistical phyics",
+          "Forschung zu infektiösen Ausbreitungsprozessen in menschlichen Systemem, hauptsächlich mit Methoden der Netzwerktheorie und Statistischer Physik"
+        ],
+        "important": true
+      }
+    ],
+    "science": [
+      {
+        "name": ["Publications", "Publikationen"],
+        "description": [
+          "(co-)author of XX articles",
+          "(Co-)Autor von XX Artikeln"
+        ],
+        "important": true
+      },
+      {
+        "name": ["Talks", "Vorträge"],
+        "description": [
+          "presenter at XX events",
+          "Vortragender bei XX Gelegenheiten"
+        ],
+        "important": true
+      },
+      {
+        "name": ["Theses", "Abschlussarbeiten"],
+        "description": [
+          "<i>M. Sc.</i>: Thermophoresis in Liquids and its Connection to Equilibrium Quantities, <i>B. Sc.</i>: Simulations of Dyon Configurations in SU(2) Yang-Mills Theory, <i>PhD</i>: Spreading Processes in Human Systems"
+        ],
+        "important": false
+      }
+    ],
+    "voluntary_freetime": [
+      {
+        "name": ["Voluntary Work", "Ehrenämter"],
+        "description": [
+          "I have participated in voluntary activities in the Department of Physics' student association since 2008. Responsibilities besides others: redesigning the department's study regulations together with professors, partial organisation of a student association conference (ZaPF 2010), partial organisation of numerous freshmen introduction weekend trips, handling the association's finances, mentoring for freshmen, design and implementation of various web pages. From 2015 to 2016 I have given private lessons in math and programming to a teenager of a less fortunate economic background in the Fibonacci program.",
+          "Während meiner Studienzeit war ich Teil zahlreicher Aktivitäten der Fachschaftsinitiative Physik, u.a. der Umarbeitung der Studienordnungen in der Kommission für Lehre und Studium, Organisation der Zusammenkunft aller Physik-Fachschaften (ZaPF 2010), Organisation zahlreicher Erstsemester-Einführungswochenenden, Schatzmeister der Initiative, Mentoring für Erstsemester und Design und Implementierung einiger Webseiten. Von 2015 bis 2016 gab ich Einzelunterricht in Mathematik und Programmierung für einen begabten Schüler von wirtschaftlich schwächerem Hintergrund über das Fibonacci-Programm. "
+        ]
+      },
+      {
+        "name": ["Hobbies", "Hobbys"],
+        "description": [
+          "In my free time I produce electronic music using synthesizers and live coding techniques, build furniture or play the guitar.",
+          "In meiner Freizeit produziere ich leidenschaftlich elektronische Musik unter Benutzung von Synthesizern und \"Live Coding\"-Techniken, baue Möbel oder spiele Gitarre."
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "name": ["German", "Deutsch"],
+        "description": ["mother tongue", "Muttersprache"],
+        "important": true
+      },
+      {
+        "name": ["English", "Englisch"],
+        "description": [
+          "fluent (TOEFL-certified)",
+          "verhandlungssicher (TOEFL-zertifiziert)"
+        ],
+        "important": true
+      },
+      {
+        "name": ["French", "Französisch"],
+        "description": ["basic (level A2)", "Grundkenntnisse (Level A2)"],
+        "important": false
+      }
+    ],
+    "it": [
+      {
+        "name": ["OSes", "Betriebssysteme"],
+        "items": [
+          ["various Linux distributions", "diverse Linuxdistributionen"],
+          "Mac OSX"
+        ],
+        "important": true
+      },
+      {
+        "name": ["Scientific", "Wissenschaft"],
+        "items": ["Numpy", "Scipy", "Matlab", "Mathematica", "Sun Grid Engine"],
+        "important": true
+      },
+      {
+        "name": ["Development", "Entwicklung"],
+        "items": [
+          "Python",
+          "C++",
+          "JavaScript",
+          "bash",
+          ["various SQL dialects", "diverse SQL-Dialekte"]
+        ],
+        "important": true
+      },
+      {
+        "name": ["Web"],
+        "items": ["D3.js", "Phaser.js", "Three.js", "HTML", "CSS"],
+        "important": true
+      },
+      {
+        "name": ["APIs"],
+        "items": ["Twitter", "Spotify"],
+        "important": false
+      },
+      {
+        "name": ["Office", "Büro"],
+        "items": ["LaTeX", "MS Word", "MS Excel", "Keynote"],
+        "important": false
+      },
+      {
+        "name": ["Graphic design", "Grafikdesign"],
+        "items": ["Autodesk Graphic", "Gimp", "InkScape"],
+        "important": false
+      },
+      {
+        "name": ["Audio &amp; Music", "Audio &amp; Musik"],
+        "items": [
+          "Ableton Live 9",
+          "Maschine 2",
+          "Reason 8",
+          "Audacity",
+          "Foxdot",
+          "Sonic Pi"
+        ],
+        "important": false
+      }
+    ],
+    "publications": [
+      {
+        "authors": [
+          "B. Neumann*",
+          "J. K. Bender",
+          "B. F. Maier",
+          "A. Wittig",
+          "S. Fuchs",
+          "T. Semmler",
+          "D. Brockmann",
+          "H. Einsele",
+          "S. Kraus",
+          "L. H. Wieler",
+          "U. Vogel",
+          "G. Werner"
+        ],
+        "title": [
+          "Combining clinical epidemiology, NGS-based analysis and modelling approaches to reveal transmission dynamics of vancomycin-resistant enterococci in a high risk population within a tertiary care hospital"
+        ],
+        "year": ["2019"],
+        "additional": ["in review", "in Review"],
+        "hyperlink": "",
+        "arxiv": "",
+        "doi": ""
+      },
+      {
+        "authors": ["U. Aslak*", "B. F. Maier*"],
+        "title": ["Netwulf: Interactive visualization of networks in Python"],
+        "year": ["2019"],
+        "additional": ["Journal of Open Source Software 4 (42), 1425"],
+        "hyperlink": "https://joss.theoj.org/papers/10.21105/joss.01425",
+        "arxiv": "",
+        "doi": "10.21105/joss.01425"
+      },
+      {
+        "authors": [
+          "G. T. Cantwell*",
+          "Y. Liu",
+          "B. F. Maier*",
+          "A. C. Schwarze",
+          "C. A. Serván",
+          "J. Snyder",
+          "G. St-Onge"
+        ],
+        "title": [
+          "Thresholding normally distributed data creates complex networks"
+        ],
+        "year": ["2019"],
+        "additional": [
+          "in review at \"Phys. Rev. E\"",
+          "in Review bei \"Phys. Rev. E\""
+        ],
+        "hyperlink": "",
+        "arxiv": "1902.08278",
+        "doi": ""
+      },
+      {
+        "authors": ["B. F. Maier*"],
+        "title": [
+          "Generalization of the small-world effect on a model approaching the Erdős-Rényi random graph"
+        ],
+        "year": ["2019"],
+        "additional": ["Scientific reports 9 (1), 9268"],
+        "hyperlink": "https://www.nature.com/articles/s41598-019-45576-3",
+        "arxiv": "1901.02381",
+        "doi": "10.1038/s41598-019-45576-3"
+      },
+      {
+        "authors": ["B. F. Maier*", "C. Huepe", "D. Brockmann"],
+        "title": [
+          "Modular hierarchical and power-law small-world networks bear structural optima for minimal first passage times and cover time"
+        ],
+        "year": ["2019"],
+        "additional": ["Journal of Complex Networks 7 (6), 865-895"],
+        "hyperlink": "https://academic.oup.com/comnet/advance-article-abstract/doi/10.1093/comnet/cnz010/5432290?redirectedFrom=fulltext",
+        "arxiv": "1808.00240",
+        "doi": "10.1093/comnet/cnz010"
+      },
+      {
+        "authors": ["F. Klimm*", "B. F. Maier*"],
+        "title": "A network science summer course for high school students",
+        "year": ["2017"],
+        "additional": ["in review", "in Review"],
+        "hyperlink": "",
+        "arxiv": "",
+        "doi": ""
+      },
+      {
+        "authors": ["B. F. Maier*", "D. Brockmann"],
+        "title": ["Cover time for random walks on arbitrary complex networks"],
+        "year": ["2017"],
+        "additional": ["Phys. Rev. E 96 (4), 042307"],
+        "hyperlink": "https://journals.aps.org/pre/abstract/10.1103/PhysRevE.96.042307",
+        "arxiv": "1706.02356",
+        "doi": "10.1103/PhysRevE.96.042307"
+      },
+      {
+        "authors": [
+          "B. Maier*",
+          "F. Bruckmann",
+          "S. Dinter",
+          "E. M. Ilgenfritz",
+          "M. Müller-Preußker",
+          "M. Wagner"
+        ],
+        "title": [
+          "Application of Ewald's Method for Efficient Summation of Dyon Long-Range Potentials"
+        ],
+        "year": ["2013"],
+        "additional": ["PoS Confinement10:051"],
+        "hyperlink": "https://pos.sissa.it/171/051",
+        "arxiv": "1212.5557",
+        "doi": "10.22323/1.171.0051"
+      },
+      {
+        "authors": [
+          "F. Bruckmann*",
+          "S. Dinter",
+          "E. M. Ilgenfritz",
+          "B. Maier",
+          "M. Müller-Preußker",
+          "M. Wagner*"
+        ],
+        "title": [
+          "Confining dyon gas with finite-volume effects under control"
+        ],
+        "year": ["2012"],
+        "additional": ["Phys. Rev. D 85, 034502"],
+        "hyperlink": "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.85.034502",
+        "arxiv": "1111.3158",
+        "doi": "10.1103/PhysRevD.85.034502"
+      }
+    ]
+  }
+}

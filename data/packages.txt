@@ -1,0 +1,72 @@
+\item
+    \textit{cMHRN}
+    github.com/benmaier/cMHRN
+    Schnelle Erstellung von modular-hierarchischen Netzwerken
+    power-law small-world-Netzwerken und herk\"ommlichen Netzwerken 
+\item
+    \textit{QSuite}
+    github.com/benmaier/qsuite
+    Ein Paket und Kommandozeilenprogramm f\"ur die effiziente
+    Verwaltung und Analyse von Simulationen auf Compute-Clusters.
+\item
+    \textit{binpacking}
+    github.com/benmaier/binpacking
+    Optimale Verteilung von Gewichten auf Container.
+\item
+    \textit{EffectiveDistance}
+    github.com/benmaier/effective-distance
+    \\Berechnung der effektiven Distanz in menschlichen
+    Transportnetzwerken 
+\item
+    \textit{RadialDistanceLayout}
+    github.com/benmaier/radial-distance-layout
+    Radiale Visualisierung eines shortest-path Trees unter
+    Beachtung der effektiven Distanz
+\item
+    \textit{NetworkProperties}
+    github.com/benmaier/network-properties 
+    Sammlung n\"utzlicher Netzwerkanalysemethoden f\"ur Netzwerke
+\item
+    \textit{nwDiff}
+    github.com/benmaier/nwDiff
+    Python-Paket 
+    f\"ur die Simulation und Berechnung von
+    Diffusionsprozessen in komplexen Netzwerken 
+\item
+    \textit{cNetworkDiff}, github.com/benmaier/cNetworkDiff,
+    C++-basiertes Paket
+    f\"ur die Simulation und Berechnung von
+    Diffusionsprozessen in komplexen Netzwerken 
+\item
+    \textit{tacoma}, github.com/benmaier/tacoma,
+    C++ und Python-Paket f\"ur die Analyse und Simulation
+    von zeitlich aufgel\"osten Kontaktnetzwerken in kontinuierlicher
+    Zeit
+\item
+    \textit{fisheye}, github.com/benmaier/fisheye,
+    Javascript-Bibliothek f\"ur lokale Vergr\"o\ss{}erung
+    von Daten in Visualisierungen, siehe auch:
+    beta.observablehq.com/\@benmaier/a-visually-more\appealing-fisheye-function
+\item
+    \textit{hospiTrans}, github.com/benmaier/hospiTrans,
+    work in\\progress, Python-package f\"ur die Analyse von 
+    MRSA-Diffusion in Krankenh\"ausern, (mit A. Wittig, and T. Denell)
+\item
+    \textit{GTOM}, github.com/benmaier/GTOM,
+    Python-Paket f\"ur die Berechnung der \"general topological
+    overlap measure\" f\"ur potentiell sehr gro\ss{}e Netzwerke
+\item
+    \textit{circleplot}
+    github.com/benmaier/circleplot
+    Visualisierungswerkzeug zur Illustration der Entwicklung von
+    Interaktionsparametern in co-evolvierenden Keimen
+\item
+    \textit{species-overlap}
+    github.com/benmaier/species-overlap
+    Schnelle Berechnung von \"incidence-\" und \"abundance-basierten
+    Ueberlappungen von Spezies 
+\item
+    \textit{quasispycies}
+    github.com/benmaier/quasispycies
+    Klassen zur Berechnungen des stabilen Gleichgewichts der
+    \"Quasispecies\"-equation on komplexen Netzwerken.

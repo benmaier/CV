@@ -1,0 +1,186 @@
+[
+    {
+        "title": [
+            "cMHRN"
+        ],
+        "href": [
+            "github.com/benmaier/cMHRN"
+        ],
+        "description": [
+            "fast creation of modular-hierarchical, power-law, and regular small-world networks",
+            "schnelle Erstellung von modular-hierarchischen Netzwerken, power-law small-world-Netzwerken und herkömmlichen Netzwerken"
+        ],
+        "additional_hrefs": []
+    },
+    {
+        "title": [
+            "QSuite"
+        ],
+        "href": [
+            "github.com/benmaier/qsuite"
+        ],
+        "description": [
+            "a command-line interface for efficient management and analysis of simulations on compute clusters",
+            "Paket und Kommandozeilenprogramm für die effiziente Verwaltung und Analyse von Simulationen auf Compute-Clusters"
+        ],
+        "additional_hrefs": []
+    },
+    {
+        "title": [
+            "binpacking"
+        ],
+        "href": [
+            "github.com/benmaier/binpacking"
+        ],
+        "description": [
+            "optimal distribution of weights to containers",
+            "optimale Verteilung von Gewichten auf Container"
+        ],
+        "additional_hrefs": []
+    },
+    {
+        "title": [
+            "EffectiveDistance"
+        ],
+        "href": [
+            "github.com/benmaier/effective-distance"
+        ],
+        "description": [
+            "computing the effective distance of spreading processes in transport networks",
+            "Berechnung der effektiven Distanz für Ausbreitungsprozesse in Transportnetzwerken"
+        ],
+        "additional_hrefs": []
+    },
+    {
+        "title": [
+            "RadialDistanceLayout"
+        ],
+        "href": [
+            "github.com/benmaier/radial-distance-layout"
+        ],
+        "description": [
+            "radial visualization of a shortest-path tree with respect to the effective distance",
+            "Radiale Visualisierung eines shortest-path Trees unter Beachtung der effektiven Distanz"
+        ],
+        "additional_hrefs": []
+    },
+    {
+        "title": [
+            "NetworkProperties"
+        ],
+        "href": [
+            "github.com/benmaier/network-properties"
+        ],
+        "description": [
+            "collection of useful network analysis methods",
+            "Sammlung nützlicher Netzwerkanalysemethoden für Netzwerke"
+        ],
+        "additional_hrefs": []
+    },
+    {
+        "title": [
+            "nwDiff"
+        ],
+        "href": [
+            "github.com/benmaier/nwDiff"
+        ],
+        "description": [
+            "Python package for the simulation and analysis of diffusion processes in complex networks",
+            "Python-Paket für die Simulation und Berechnung von Diffusionsprozessen in komplexen Netzwerken"
+        ],
+        "additional_hrefs": []
+    },
+    {
+        "title": [
+            "cNetworkDiff"
+        ],
+        "href": [
+            "github.com/benmaier/cNetworkDiff"
+        ],
+        "description": [
+            "C++-based packaged for the simulation and analysis of diffusion processes in complex networks",
+            "C++-basiertes Paket für die Simulation und Berechnung von Diffusionsprozessen in komplexen Netzwerken"
+        ],
+        "additional_hrefs": []
+    },
+    {
+        "title": [
+            "netwulf"
+        ],
+        "href": [
+            "github.com/benmaier/netwulf"
+        ],
+        "description": [
+            "Interactive visualizations of networks",
+            "Interaktive Visualisierungen von Netzwerken"
+        ],
+        "additional_hrefs": []
+    },
+    {
+        "title": [
+            "tacoma"
+        ],
+        "href": [
+            "github.com/benmaier/tacoma"
+        ],
+        "description": [
+            "C++ and Python package for the analysis and simulation of temporal networks in continuous time",
+            "C++ und Python-Paket für die Analyse und Simulation von zeitlich aufgelösten Kontaktnetzwerken in kontinuierlicher Zeit"
+        ],
+        "additional_hrefs": []
+    },
+    {
+        "title": [
+            "fisheye"
+        ],
+        "href": [
+            "github.com/benmaier/fisheye"
+        ],
+        "description": [
+            "JavaScript library for local magnification of data in visualizations",
+            "JavaScript-Bibliothek für lokale Vergrößerung von Daten in Visualisierungen"
+        ],
+        "additional_hrefs": [
+            "beta.observablehq.com/@benmaier/a-visually-more-appealing-fisheye-function"
+        ]
+    },
+    {
+        "title": [
+            "GTOM"
+        ],
+        "href": [
+            "github.com/benmaier/GTOM"
+        ],
+        "description": [
+            "Python package for computing the \"general topological overlap measure\" of potentially very large networks",
+            "Python-Paket für die Berechnung der \"general topological overlap measure\" für potentiell sehr große Netzwerke"
+        ],
+        "additional_hrefs": []
+    },
+    {
+        "title": [
+            "species-overlap"
+        ],
+        "href": [
+            "github.com/benmaier/species-overlap"
+        ],
+        "description": [
+            "Fast evaluation of incidence- and abundance-based species overlap measures",
+            "Schnelle Berechnung von \"incidence\"- und \"abundance\"-basierten Überlappungen von Spezies"
+        ],
+        "additional_hrefs": []
+    },
+    {
+        "title": [
+            "quasispycies"
+        ],
+        "href": [
+            "github.com/benmaier/quasispycies"
+        ],
+        "description": [
+            "Classes to compute the stable equilibrium of the quasispecies-equation on complex networks",
+            "Klassen zur Berechnungen des stabilen Gleichgewichts der \"Quasispecies\"-equation on komplexen Netzwerken"
+        ],
+        "additional_hrefs": []
+    }
+]

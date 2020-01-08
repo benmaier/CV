@@ -1,71 +1,57 @@
 \item
-    \textit{cMHRN}
+    cMHRN
     github.com/benmaier/cMHRN
-    Schnelle Erstellung von modular-hierarchischen Netzwerken, power-law small-world-Netzwerken und herk\"ommlichen Netzwerken 
-    Fast creation of modular-hierarchical, power-law, and regular small-world networks
+    schnelle Erstellung von modular-hierarchischen Netzwerken, power-law small-world-Netzwerken und herkömmlichen Netzwerken|fast creation of modular-hierarchical, power-law, and regular small-world networks
 \item
-    \textit{QSuite}
+    QSuite
     github.com/benmaier/qsuite
-    Ein Paket und Kommandozeilenprogramm f\"ur die effiziente Verwaltung und Analyse von Simulationen auf Compute-Clusters.
-    A command-line interface for efficient management and analysis of simulations on compute clusters
+    Paket und Kommandozeilenprogramm für die effiziente Verwaltung und Analyse von Simulationen auf Compute-Clusters|a command-line interface for efficient management and analysis of simulations on compute clusters
 \item
-    \textit{binpacking}
+    binpacking
     github.com/benmaier/binpacking
-    Optimale Verteilung von Gewichten auf Container
-    Optimal distribution of weights to containers
+    optimale Verteilung von Gewichten auf Container|optimal distribution of weights to containers
 \item
-    \textit{EffectiveDistance}
+    EffectiveDistance
     github.com/benmaier/effective-distance
-    Berechnung der effektiven Distanz f\"ur Ausbreitungsprozesse in Transportnetzwerken 
-    Computing the effective distance of spreading processes in transport networks
+    Berechnung der effektiven Distanz für Ausbreitungsprozesse in Transportnetzwerken|computing the effective distance of spreading processes in transport networks
 \item
-    \textit{RadialDistanceLayout}
+    RadialDistanceLayout
     github.com/benmaier/radial-distance-layout
-    Radiale Visualisierung eines shortest-path Trees unter Beachtung der effektiven Distanz
-    Radial visualization of a shortest-path tree with respect to the effective distance
+    Radiale Visualisierung eines shortest-path Trees unter Beachtung der effektiven Distanz|radial visualization of a shortest-path tree with respect to the effective distance
 \item
-    \textit{NetworkProperties}
+    NetworkProperties
     github.com/benmaier/network-properties 
-    Sammlung n\"utzlicher Netzwerkanalysemethoden f\"ur Netzwerke
-    collection of usefule network analysis methods
+    Sammlung nützlicher Netzwerkanalysemethoden für Netzwerke|collection of useful network analysis methods
 \item
-    \textit{nwDiff}
+    nwDiff
     github.com/benmaier/nwDiff
-    Python-Paket f\"ur die Simulation und Berechnung von Diffusionsprozessen in komplexen Netzwerken 
-    Python package for the simulation and analysis of diffusion processes in complex networks
+    Python-Paket für die Simulation und Berechnung von Diffusionsprozessen in komplexen Netzwerken|Python package for the simulation and analysis of diffusion processes in complex networks
 \item
-    \textit{cNetworkDiff}
+    cNetworkDiff
     github.com/benmaier/cNetworkDiff
-    C++-basiertes Paket f\"ur die Simulation und Berechnung von Diffusionsprozessen in komplexen Netzwerken
-    C++-based packaged for the simulation and analysis of diffusion processes in complex networks
+    C++-basiertes Paket für die Simulation und Berechnung von Diffusionsprozessen in komplexen Netzwerken|C++-based packaged for the simulation and analysis of diffusion processes in complex networks
 \item
-    \textit{netwulf}
+    netwulf
     github.com/benmaier/netwulf
-    Interaktive Visualisierungen von Netzwerken
-    Interactive visualizations of networks
+    Interaktive Visualisierungen von Netzwerken|Interactive visualizations of networks
 \item
-    \textit{tacoma}
+    tacoma
     github.com/benmaier/tacoma
-    C++ und Python-Paket f\"ur die Analyse und Simulation von zeitlich aufgel\"osten Kontaktnetzwerken in kontinuierlicher Zeit
-    C++ and Python package for the analysis and simulation of temporal networks in continuous time
+    C++ und Python-Paket für die Analyse und Simulation von zeitlich aufgelösten Kontaktnetzwerken in kontinuierlicher Zeit|C++ and Python package for the analysis and simulation of temporal networks in continuous time
 \item
-    \textit{fisheye}
+    fisheye
     github.com/benmaier/fisheye
-    JavaScript-Bibliothek f\"ur lokale Vergr\"o\ss{}erung von Daten in Visualisierungen
-    JavaScript library for local magnification of data in visualizations 
-    beta.observablehq.com/\@benmaier/a-visually-more\appealing-fisheye-function
+    JavaScript-Bibliothek für lokale Vergrößerung von Daten in Visualisierungen|JavaScript library for local magnification of data in visualizations 
+    beta.observablehq.com/@benmaier/a-visually-more-appealing-fisheye-function
 \item
-    \textit{GTOM}
+    GTOM
     github.com/benmaier/GTOM   
-    Python-Paket f\"ur die Berechnung der "general topological overlap measure" f\"ur potentiell sehr gro\ss{}e Netzwerke
-    Python package for computing the "general topological overlap measure" of potentially very large networks
+    Python-Paket für die Berechnung der "general topological overlap measure" für potentiell sehr große Netzwerke|Python package for computing the "general topological overlap measure" of potentially very large networks
 \item
-    \textit{species-overlap}
+    species-overlap
     github.com/benmaier/species-overlap
-    Schnelle Berechnung von "incidence"- und "abundance"-basierten \"Uberlappungen von Spezies 
-    Fast evaluation of incidence- and abundance-based species overlap measures
+    Schnelle Berechnung von "incidence"- und "abundance"-basierten Überlappungen von Spezies|Fast evaluation of incidence- and abundance-based species overlap measures
 \item
-    \textit{quasispycies}
+    quasispycies
     github.com/benmaier/quasispycies
-    Klassen zur Berechnungen des stabilen Gleichgewichts der "Quasispecies"-equation on komplexen Netzwerken
-    Classes to compute the stable equilibrium of the quasispecies-equation on complex networks
+    Klassen zur Berechnungen des stabilen Gleichgewichts der "Quasispecies"-equation on komplexen Netzwerken|Classes to compute the stable equilibrium of the quasispecies-equation on complex networks

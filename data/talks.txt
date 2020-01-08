@@ -20,7 +20,7 @@
     2018
 \item 
     Flockworks: A class of dynamic network models for face-to-face interactions
-    DPG Spring Meeting|DPG-Fr\"uhjahrstagung
+    DPG Spring Meeting|DPG-Frühjahrstagung
     Berlin
     2018
 \item 
@@ -57,15 +57,15 @@
 \item
     Application of Ewald's Method for Efficient Summation of Dyon Long-Range Potentials
     Confinement X
-    Munich|M\"unchen
+    Munich|München
     2012
 \item
     Confining dyon gas with finite-volume effects under control
-    DPG Spring Meeting|DPG-Fr\"uhjahrstagung 
-    G\"ottingen
+    DPG Spring Meeting|DPG-Frühjahrstagung 
+    Göttingen
     2012
 \item
     Simulations of dyon configurations in SU(2) Yang-Mills theory
-    DPG Spring Meeting|DPG-Fr\"uhjahrstagung 
+    DPG Spring Meeting|DPG-Frühjahrstagung 
     Karlsruhe
     2011

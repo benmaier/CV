@@ -1,0 +1,208 @@
+[
+    {
+        "title": [
+            "Flockworks: A class of dynamic network models for face-to-face interactions"
+        ],
+        "event": [
+            "CompleNet"
+        ],
+        "place": [
+            "Tarragona"
+        ],
+        "year": [
+            "2019"
+        ]
+    },
+    {
+        "title": [
+            "Tacoma: A C++/Python package for temporal network analysis"
+        ],
+        "event": [
+            "CompleNet"
+        ],
+        "place": [
+            "Tarragona"
+        ],
+        "year": [
+            "2019"
+        ]
+    },
+    {
+        "title": [
+            "Flockworks: A class of dynamic network models for face-to-face interactions"
+        ],
+        "event": [
+            "Conference on Complex Sytems"
+        ],
+        "place": [
+            "Thessaloniki"
+        ],
+        "year": [
+            "2018"
+        ]
+    },
+    {
+        "title": [
+            "When you're sick, please stay at home&mdash;Making sense of spreading phenomena using human mobility and contact data"
+        ],
+        "event": [
+            "\"idalab\" company seminar (invited)",
+            "\"idalab\"-Firmenseminar (geladen)"
+        ],
+        "place": [
+            "Berlin"
+        ],
+        "year": [
+            "2018"
+        ]
+    },
+    {
+        "title": [
+            "Flockworks: A class of dynamic network models for face-to-face interactions"
+        ],
+        "event": [
+            "DPG Spring Meeting",
+            "DPG-Frühjahrstagung"
+        ],
+        "place": [
+            "Berlin"
+        ],
+        "year": [
+            "2018"
+        ]
+    },
+    {
+        "title": [
+            "Flockworks: A class of dynamic network models for face-to-face interactions"
+        ],
+        "event": [
+            "Group seminar DTU COMPUTE",
+            "Gruppenseminar DTU COMPUTE"
+        ],
+        "place": [
+            "Copenhagen",
+            "Kopenhagen"
+        ],
+        "year": [
+            "2017"
+        ]
+    },
+    {
+        "title": [
+            "Influence of group-structured network topologies on dynamical processes"
+        ],
+        "event": [
+            "Princeton-Humboldt cooperation workshop CoCCoN",
+            "Princeton-Humboldt Kooperationsworkshop CoCCoN"
+        ],
+        "place": [
+            "Princeton"
+        ],
+        "year": [
+            "2017"
+        ]
+    },
+    {
+        "title": [
+            "Influence of group-structured network topologies on dynamical processes"
+        ],
+        "event": [
+            "\"Biophysics and Evolutionary Dynamics\" Gruppenseminar",
+            "\"Biophysics and Evolutionary Dynamics\" group seminar"
+        ],
+        "place": [
+            "UC Berkeley"
+        ],
+        "year": [
+            "Berkeley"
+        ]
+    },
+    {
+        "title": [
+            "Flockworks: A class of dynamic network models for face-to-face interactions"
+        ],
+        "event": [
+            "NetSci"
+        ],
+        "place": [
+            "Seoul"
+        ],
+        "year": [
+            "2016"
+        ]
+    },
+    {
+        "title": [
+            "Flockworks: A class of dynamic network models for face-to-face interactions"
+        ],
+        "event": [
+            "Network Journal Club"
+        ],
+        "place": [
+            "Oxford"
+        ],
+        "year": [
+            "2016"
+        ]
+    },
+    {
+        "title": [
+            "Modular hierarchical random networks&mdash;Topology and Dynamics"
+        ],
+        "event": [
+            "NetSci"
+        ],
+        "place": [
+            "Zaragoza",
+            "Saragossa"
+        ],
+        "year": [
+            "2015"
+        ]
+    },
+    {
+        "title": [
+            "Application of Ewald's Method for Efficient Summation of Dyon Long-Range Potentials"
+        ],
+        "event": [
+            "Confinement X"
+        ],
+        "place": [
+            "Munich",
+            "München"
+        ],
+        "year": [
+            "2012"
+        ]
+    },
+    {
+        "title": [
+            "Confining dyon gas with finite-volume effects under control"
+        ],
+        "event": [
+            "DPG Spring Meeting",
+            "DPG-Frühjahrstagung"
+        ],
+        "place": [
+            "Göttingen"
+        ],
+        "year": [
+            "2012"
+        ]
+    },
+    {
+        "title": [
+            "Simulations of dyon configurations in SU(2) Yang-Mills theory"
+        ],
+        "event": [
+            "DPG Spring Meeting",
+            "DPG-Frühjahrstagung"
+        ],
+        "place": [
+            "Karlsruhe"
+        ],
+        "year": [
+            "2011"
+        ]
+    }
+]

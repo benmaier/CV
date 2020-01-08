@@ -3,16 +3,17 @@
     "academic",
     "science",
     "education",
-    "teaching",
     "additional_working",
+    "teaching",
     "fellowships",
-    "voluntary_freetime",
     "it",
     "languages",
+    "voluntary_freetime",
+    "schools",
     "publications",
     "talks",
-    "packages",
-    "schools"
+    "theses",
+    "packages"
   ],
   "fieldnames": {
     "education": ["Education", "Ausbildung"],
@@ -38,7 +39,8 @@
     "publications": ["Publications", "Publikationen"],
     "talks": ["Talks", "Vorträge"],
     "packages": ["Open-Source Software"],
-    "schools": ["Schools", "Schulen &amp; Weiterbildung"]
+    "schools": ["Schools", "Schulen &amp; Weiterbildung"],
+    "theses": ["Theses", "Abschlussarbeiten"]
   },
   "fieldcontent": {
     "personal": {
@@ -137,8 +139,8 @@
         "name": ["Co-supervisor", "Co-Betreuer"],
         "place": ["Robert Koch Institute", "Robert Koch-Institut"],
         "description": [
-            "Co-supervision of 3 Master students in the Biophysics program of HU Berlin",
-            "Co-Betreuung von 3 Studierenden des Biophysikprogramm der HU Berlin"
+            "Co-supervision of three Master students in the Biophysics program of HU Berlin",
+            "Co-Betreuung von drei Studierenden des Biophysikprogramms der HU Berlin"
         ],
         "important": true
       },
@@ -308,7 +310,7 @@
         "name": ["Postdoc", "Postdoc"],
         "place": ["Robert Koch Institute", "Robert Koch-Institut"],
         "description": [
-          "Research focusing on epidemic spreading processes in human systems, mainly using methods from complex network theory and statistical phyics",
+          "Research focusing on epidemic spreading processes in human systems, mainly using methods from Complex Network Theory and Statistical Physics",
           "Forschung zu infektiösen Ausbreitungsprozessen in menschlichen Systemen, hauptsächlich mit Methoden der Netzwerktheorie und Statistischer Physik"
         ],
         "important": true
@@ -318,39 +320,43 @@
       {
         "name": ["Publications", "Publikationen"],
         "description": [
-          "(co-)author of XX articles",
-          "(Co-)Autor von XX Artikeln"
+          "(co-)author of <span id=\"publications-link\"><span id=\"publications-counter\"></span> articles</span>",
+          "(Co-)Autor von <span id=\"publications-link\"><span id=\"publications-counter\"></span> Artikeln</span>"
         ],
         "important": true
       },
       {
         "name": ["Talks", "Vorträge"],
         "description": [
-          "presenter at XX events",
-          "Vortragender bei XX Gelegenheiten"
+          "presenter at <span id=\"talks-link\"><span id=\"talks-counter\"></span> events</span>",
+          "Vortragender bei <span id=\"talks-link\"><span id=\"talks-counter\"></span> Gelegenheiten</span>"
         ],
         "important": true
       },
       {
-        "name": ["Theses", "Abschlussarbeiten"],
-        "description": [
-          "<i>M. Sc.</i>: Thermophoresis in Liquids and its Connection to Equilibrium Quantities, <i>B. Sc.</i>: Simulations of Dyon Configurations in SU(2) Yang-Mills Theory, <i>PhD</i>: Spreading Processes in Human Systems"
-        ],
-        "important": false
+        "name": ["PhD Thesis", "Dissertation"],
+        "description":
+            {
+                "title": ["Spreading Processes in Human Systems"],
+                "href": "",
+                "arxiv": "",
+                "doi": ""
+            },
+        "important": true
       }
     ],
     "voluntary_freetime": [
       {
         "name": ["Voluntary Work", "Ehrenämter"],
         "description": [
-          "I have participated in voluntary activities in the Department of Physics' student association since 2008. Responsibilities besides others: redesigning the department's study regulations together with professors, partial organisation of a student association conference (ZaPF 2010), partial organisation of numerous freshmen introduction weekend trips, handling the association's finances, mentoring for freshmen, design and implementation of various web pages. From 2015 to 2016 I have given private lessons in math and programming to a teenager of a less fortunate economic background in the Fibonacci program.",
-          "Während meiner Studienzeit war ich Teil zahlreicher Aktivitäten der Fachschaftsinitiative Physik, u.a. der Umarbeitung der Studienordnungen in der Kommission für Lehre und Studium, Organisation der Zusammenkunft aller Physik-Fachschaften (ZaPF 2010), Organisation zahlreicher Erstsemester-Einführungswochenenden, Schatzmeister der Initiative, Mentoring für Erstsemester und Design und Implementierung einiger Webseiten. Von 2015 bis 2016 gab ich Einzelunterricht in Mathematik und Programmierung für einen begabten Schüler von wirtschaftlich schwächerem Hintergrund über das Fibonacci-Programm. "
+          "From 2015 to 2016 I have given private lessons in math and programming to a teenager of a less fortunate economic background in the Fibonacci program. During my studies I participated in voluntary activities for the HU Berlin Department of Physics' student association. Responsibilities included: redesigning the department's study regulations together with professors, partial organisation of a student association conference (ZaPF 2010), partial organisation of numerous freshmen introduction weekend trips, handling the association's finances, mentoring for freshmen, design and implementation of various web pages.",
+          "Von 2015 bis 2016 gab ich Einzelunterricht in Mathematik und Programmierung für einen begabten Schüler von wirtschaftlich schwächerem Hintergrund über das Fibonacci-Programm. Während meiner Studienzeit war ich Teil zahlreicher Aktivitäten der Fachschaftsinitiative Physik, u. a. der Umarbeitung der Studienordnungen in der Kommission für Lehre und Studium, Organisation der Zusammenkunft aller Physik-Fachschaften (ZaPF 2010), Organisation zahlreicher Erstsemester-Einführungswochenenden, Schatzmeister der Initiative, Mentoring für Erstsemester und Design und Implementierung einiger Webseiten."
         ]
       },
       {
         "name": ["Hobbies", "Hobbys"],
         "description": [
-          "In my free time I produce electronic music using synthesizers and live coding techniques, build furniture or play the guitar.",
+          "In my free time I produce electronic music using synthesizers, and live coding techniques, build furniture or play the guitar.",
           "In meiner Freizeit produziere ich leidenschaftlich elektronische Musik unter Benutzung von Synthesizern und \"Live Coding\"-Techniken, baue Möbel oder spiele Gitarre."
         ]
       }
@@ -433,6 +439,32 @@
         "important": false
       }
     ],
+    "theses": [
+        {
+            "title": ["Spreading Processes in Human Systems"],
+            "qualification": ["PhD"],
+            "year": "2019",
+            "href": "",
+            "arxiv": "",
+            "doi": ""
+        },
+        {
+            "title": ["Thermophoresis in Liquids and its Connection to Equilibrium Quantities"],
+            "qualification": ["M. Sc."],
+            "year": "2014",
+            "href": "",
+            "arxiv": "",
+            "doi": ""
+        },
+        {
+            "title": ["Simulations of Dyon Configurations in SU(2) Yang-Mills Theory"],
+            "qualification": ["B. Sc."],
+            "year": "2011",
+            "href": "",
+            "arxiv": "",
+            "doi": ""
+        }
+    ],
     "publications": [
       {
         "authors": [
@@ -453,7 +485,7 @@
           "Combining clinical epidemiology, NGS-based analysis and modelling approaches to reveal transmission dynamics of vancomycin-resistant enterococci in a high risk population within a tertiary care hospital"
         ],
         "year": ["2019"],
-        "additional": ["in review", "in Review"],
+        "additional": ["In review", "In Review"],
         "hyperlink": "",
         "arxiv": "",
         "doi": ""
@@ -675,14 +707,14 @@
                 "Influence of group-structured network topologies on dynamical processes"
             ],
             "event": [
-                "\"Biophysics and Evolutionary Dynamics\" Gruppenseminar",
-                "\"Biophysics and Evolutionary Dynamics\" group seminar"
+                "\"Biophysics and Evolutionary Dynamics\" Gruppenseminar UC Berkeley",
+                "\"Biophysics and Evolutionary Dynamics\" group seminar UC Berkeley"
             ],
             "place": [
-                "UC Berkeley"
+                "Berkeley"
             ],
             "year": [
-                "Berkeley"
+                "2016"
             ]
         },
         {

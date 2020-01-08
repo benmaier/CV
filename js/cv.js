@@ -5,9 +5,11 @@ let _CV_PRINT = true;
 
 class CVBuilder {
   
-  constructor(id,jsonpath)
+  constructor(contentid,jsonpath,profileid="")
   {
     let self = this;
+    self.contentid = contentid;
+    self.profileid = profileid;
 
     fetch(jsonpath)
       .then((response) => {
@@ -37,28 +39,29 @@ class CVBuilder {
 
       if (section == "education")
       {
-        cvsection = parseTabledSection(title, content[section], parseEducationTableRow);
+        cvsection = parseTabledSection(title, content[section], parseEducationTableRow, section);
       }
       else if (section == 'additional_working')
       {
         //cvsection = parseImportantSection(title, content[section], parseImportantEntry);
-        cvsection = parseTabledSection(title, content[section], parseEducationTableRow);
+        cvsection = parseTabledSection(title, content[section], parseEducationTableRow, section);
       }
       else if (section == 'academic')
       {
-        cvsection = parseImportantSection(title, content[section], parseImportantEntry);
+        cvsection = parseImportantSection(title, content[section], parseImportantEntry, section);
       }
       else if (section == 'science')
       {
-        cvsection = parseTabledSection(title, content[section], parseScientificEntry);
+        cvsection = parseTabledSection(title, content[section], parseScientificEntry, section);
       }
       else if (section == 'teaching')
       {
-        cvsection = parseTabledSection(title, content[section], parseEducationTableRow);
+        cvsection = parseTabledSection(title, content[section], parseEducationTableRow, section);
       }
       else if (section == 'voluntary_freetime')
       {
-        cvsection = _cv_templates.importantSection.replace("{{ title }}", title);
+        cvsection = _cv_templates.importantSection.replace("{{ title }}", title)
+                                                  .replace("{{ id }}", `id="${section}"`);
         let descriptions = '';
         content[section].forEach(function (entry) {
           descriptions += `<p>${_cv_templates.itemDescription.replace("{{ item-description }}", _T(entry.description))}</p>`;
@@ -67,32 +70,36 @@ class CVBuilder {
       }
       else if (section == 'languages')
       {
-        cvsection = parseTabledSection(title, content[section], parseScientificEntry);
+        cvsection = parseTabledSection(title, content[section], parseScientificEntry, section);
       }
       else if (section == 'fellowships')
       {
-        cvsection = parseTabledSection(title, content[section], parseFellowshipEntry);
+        cvsection = parseTabledSection(title, content[section], parseFellowshipEntry, section);
       }
       else if (section == 'it')
       {
-        cvsection = parseTabledSection(title, content[section], parseITEntry);
+        cvsection = parseTabledSection(title, content[section], parseITEntry, section);
       }
       else if (section == 'publications')
       {
-        cvsection = parseListSection(title, content[section], parsePublicationEntry);
+        cvsection = parseListSection(title, content[section], parsePublicationEntry, section);
       }
       else if (section == 'schools')
       {
         //cvsection = parseListSection(title, content[section], parseListSchoolEntry);
-        cvsection = parseTabledSection(title, content[section], parseSchoolEntry);
+        cvsection = parseTabledSection(title, content[section], parseSchoolEntry, section);
+      }
+      else if (section == 'theses')
+      {
+        cvsection = parseTabledSection(title, content[section], parseThesisEntry, section);
       }
       else if (section == 'talks')
       {
-        cvsection = parseListSection(title, content[section], parseTalkEntry);
+        cvsection = parseListSection(title, content[section], parseTalkEntry, section);
       }
       else if (section == 'packages')
       {
-        cvsection = parseListSection(title, content[section], parsePackageEntry);
+        cvsection = parseListSection(title, content[section], parsePackageEntry, section);
       }
 
       cvhtml += cvsection;
@@ -110,6 +117,20 @@ class CVBuilder {
                                        .replace("{{ items }}", bulletList);
 
     document.getElementById("profilecontainer").innerHTML = profileHTML;
+
+    document.getElementById("publications-counter").innerHTML = content.publications.length;
+    document.getElementById("talks-counter").innerHTML = content.talks.length;
+
+    if (order.includes("publications"))
+    {
+      let pubLink = document.getElementById("publications-link");
+      pubLink.innerHTML = `<a href="#publications" class="cv-link">${pubLink.innerHTML}</a>`;
+    }
+    if (order.includes("talks"))
+    {
+      let talkLink = document.getElementById("talks-link");
+      talkLink.innerHTML = `<a href="#talks" class="cv-link">${talkLink.innerHTML}</a>`;
+    }
   };
 }
 
@@ -139,9 +160,12 @@ function parseEducationTableRow(entry) {
     return row;
 }
 
-function parseTabledSection(title, entries, rowparser)
+function parseTabledSection(title, entries, rowparser, id="")
 {
   let cvsection = _cv_templates.tabledSection.replace("{{ title }}", title); 
+  if (id != "")
+    id = `id="${id}"`
+  cvsection = cvsection.replace("{{ id }}",id);
   let rows = '';
   entries.forEach(function(entry) {
     rows += rowparser(entry);
@@ -161,9 +185,12 @@ function parseUntitledTableSection(entries, rowparser)
   return cvsection;
 }
 
-function parseImportantSection(title, entries, rowparser)
+function parseImportantSection(title, entries, rowparser, id="")
 {
   let cvsection = _cv_templates.importantSection.replace("{{ title }}", title); 
+  if (id != "")
+    id = `id="${id}"`
+  cvsection = cvsection.replace("{{ id }}",id);
   let rows = '';
   entries.forEach(function(entry,i) {
     if (i>0) {
@@ -175,9 +202,12 @@ function parseImportantSection(title, entries, rowparser)
   return cvsection;
 }
 
-function parseListSection(title, entries, rowparser)
+function parseListSection(title, entries, rowparser, id="")
 {
   let cvsection = _cv_templates.listSection.replace("{{ title }}", title); 
+  if (id != "")
+    id = `id="${id}"`
+  cvsection = cvsection.replace("{{ id }}",id);
   let rows = '';
   entries.forEach(function(entry) {
     rows += rowparser(entry);
@@ -203,14 +233,75 @@ function parseImportantEntry(entry) {
 }
 
 function parseScientificEntry(entry) {
-    let row = _cv_templates.tableRow;
-    let left = _T(entry.name);
-    let right = _cv_templates.itemDescription.replace("{{ item-description }}",_T(entry.description));
-  //console.log(right);
-    row = row.replace("{{ left-col-content }}", left)
-             .replace("{{ right-col-content }}", right);
 
-    return row;
+  let row = _cv_templates.tableRow;
+  let left = _T(entry.name);
+  let right = "";
+
+  if (!entry.name.includes("PhD Thesis"))
+  {
+    let target = "";
+    if (entry.name.includes("Publications"))
+      target = "publications";
+    else if (entry.name.includes("Talks"))
+      target = "talks";
+    right = _cv_templates.itemDescription.replace("{{ item-description }}",_T(entry.description));
+  }
+  else
+  {
+      let t = entry.description;
+    console.log(t);
+
+      let title = _T(t.title);
+    console.log(title);
+      let arxivlink = "https://arxiv.org/abs/" + t.arxiv;      
+      let doilink = "https://doi.org/" + t.doi;
+      let arxiv = "arXiv:" + _cv_templates.paperLink.replace("{{ linktext }}", t.arxiv)
+                                                    .replace("{{ href }}", arxivlink);
+      let doi = "doi:" + _cv_templates.paperLink.replace("{{ linktext }}", t.doi)
+                                                    .replace("{{ href }}", doilink);
+
+      if (t.href != "")
+      {
+        title = _cv_templates.paperLink.replace("{{ linktext }}", title)
+                                       .replace("{{ href }}", t.href);
+      }
+      else if (t.arxiv != "")
+      {
+
+        title = _cv_templates.paperLink.replace("{{ linktext }}", title)
+                                       .replace("{{ href }}", arxivlink);
+      }
+      else if (t.doi != "")
+      {
+        title = _cv_templates.paperLink.replace("{{ linktext }}", title)
+                                       .replace("{{ href }}", doilink);
+      }
+
+
+      let links = "";
+      if (t.arxiv != "")
+      {
+        links += " " + arxiv + ".";
+      }
+
+      if (t.doi != "")
+      {
+        links += " " + doi + ".";
+      }
+
+      let thesis = `&ldquo;${title}&rdquo;`;
+      if (links != "")
+        thesis = `<br/>${links}`;
+
+    right = thesis;
+  }
+
+  row = row.replace("{{ left-col-content }}", left)
+           .replace("{{ right-col-content }}", right);
+
+  return row;
+  
 }
 
 function parseITEntry(entry) {
@@ -262,7 +353,6 @@ function parsePublicationEntry(entry) {
   }
   else if (entry.arxiv != "")
   {
-
     title = _cv_templates.paperLink.replace("{{ linktext }}", title)
                                    .replace("{{ href }}", arxivlink);
   }
@@ -273,7 +363,7 @@ function parsePublicationEntry(entry) {
   }
 
 
-  let links = ""
+  let links = "";
   if (entry.arxiv != "")
   {
     links += " " + arxiv + ".";
@@ -363,3 +453,60 @@ function parsePackageEntry(entry) {
   let item = _cv_templates.listSectionItem.replace("{{ item }}", pack);
   return item;
 }
+
+function parseThesisEntry(entry){
+
+    let row = _cv_templates.tableRow;
+    let left = _cv_templates.timeRange.replace("{{ time-range }}",_T(entry.year));
+
+    let t = entry;
+
+      let title = _T(t.title);
+      let arxivlink = "https://arxiv.org/abs/" + t.arxiv;      
+      let doilink = "https://doi.org/" + t.doi;
+      let arxiv = "arXiv:" + _cv_templates.paperLink.replace("{{ linktext }}", t.arxiv)
+                                                    .replace("{{ href }}", arxivlink);
+      let doi = "doi:" + _cv_templates.paperLink.replace("{{ linktext }}", t.doi)
+                                                    .replace("{{ href }}", doilink);
+
+      if (t.href != "")
+      {
+        title = _cv_templates.paperLink.replace("{{ linktext }}", title)
+                                       .replace("{{ href }}", t.href);
+      }
+      else if (t.arxiv != "")
+      {
+
+        title = _cv_templates.paperLink.replace("{{ linktext }}", title)
+                                       .replace("{{ href }}", arxivlink);
+      }
+      else if (t.doi != "")
+      {
+        title = _cv_templates.paperLink.replace("{{ linktext }}", title)
+                                       .replace("{{ href }}", doilink);
+      }
+
+
+      let links = "";
+      if (t.arxiv != "")
+      {
+        links += " " + arxiv + ".";
+      }
+
+      if (t.doi != "")
+      {
+        links += " " + doi + ".";
+      }
+
+      let thesis = `&ldquo;${title}&rdquo; (${_T(t.qualification)})`;
+      if (links != "")
+        thesis = `<br/>${links}`;
+
+
+    
+    row = row.replace("{{ left-col-content }}", left)
+             .replace("{{ right-col-content }}", thesis);
+
+    return row;
+  }
+ 

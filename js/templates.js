@@ -38,7 +38,7 @@ _cv_templates.tabledSection = `
   
       <div class="cv-section cv-avoid-breaking">
 
-          <div class="cv-section-title">{{ title }}</div>
+          <div class="cv-section-title" {{ id }}>{{ title }}</div>
 
             <div class="cv-section-content">
 
@@ -73,7 +73,7 @@ _cv_templates.importantEntry = `
 _cv_templates.importantSection = `
   <div class="cv-section cv-important-section cv-avoid-breaking">
 
-      <div class="cv-section-title">{{ title }}</div>
+      <div class="cv-section-title" {{ id }}>{{ title }}</div>
 
       <div class="cv-section-content">
           {{ entries }}
@@ -93,7 +93,7 @@ _cv_templates.profile = `
 _cv_templates.listSection = `
   <div class="cv-section">
 
-      <div class="cv-section-title">{{ title }}</div>
+      <div class="cv-section-title" {{ id }}>{{ title }}</div>
 
       <div class="cv-section-content">
         <ul class="cv-list">

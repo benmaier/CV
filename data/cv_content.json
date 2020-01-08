@@ -15,6 +15,22 @@
     "theses",
     "packages"
   ],
+  "fieldimportance": {
+    "academic": true,
+    "science": true,
+    "education": true,
+    "additional_working": true,
+    "teaching": true,
+    "fellowships": true,
+    "it": true,
+    "languages": false,
+    "voluntary_freetime": false,
+    "schools": false,
+    "publications": true,
+    "talks": true,
+    "theses": false,
+    "packages": true
+  },
   "fieldnames": {
     "education": ["Education", "Ausbildung"],
     "teaching": ["Teaching", "Lehre"],
@@ -39,7 +55,7 @@
     "publications": ["Publications", "Publikationen"],
     "talks": ["Talks", "Vorträge"],
     "packages": ["Open-Source Software"],
-    "schools": ["Schools", "Schulen &amp; Weiterbildung"],
+    "schools": ["Schools", "Schulen &amp; Weiterbildungen"],
     "theses": ["Theses", "Abschlussarbeiten"]
   },
   "fieldcontent": {
@@ -135,7 +151,7 @@
     ],
     "teaching": [
       {
-          "date": ["2016&ndash;"],
+          "date": ["since 2016", "seit 2016"],
         "name": ["Co-supervisor", "Co-Betreuer"],
         "place": ["Robert Koch Institute", "Robert Koch-Institut"],
         "description": [
@@ -229,7 +245,7 @@
         "important": true
       },
       {
-        "date": ["2015&ndash;"],
+        "date": ["since 2015", "seit 2015"],
         "name": ["Scientific Consultant", "Wissenschaftlicher Berater"],
         "place": ["Self-employed", "Freiberuflich"],
         "description": [
@@ -264,7 +280,7 @@
     ],
     "fellowships": [
       {
-        "date": ["2019&ndash;"],
+        "date": ["since 2019","seit 2019"],
         "name": [
           "Add-on Fellow for Interdisciplinary Life Science of the Joachim Herz Stiftung",
           "Add-on Fellow for Interdisciplinary Life Science der Joachim Herz Stiftung"
@@ -306,7 +322,7 @@
     ],
     "academic": [
       {
-        "date": ["2020&ndash;"],
+        "date": ["since 2020","seit 2020"],
         "name": ["Postdoc", "Postdoc"],
         "place": ["Robert Koch Institute", "Robert Koch-Institut"],
         "description": [
@@ -342,7 +358,7 @@
                 "arxiv": "",
                 "doi": ""
             },
-        "important": true
+        "important": false
       }
     ],
     "voluntary_freetime": [
@@ -378,7 +394,7 @@
       {
         "name": ["French", "Französisch"],
         "description": ["basic (level A2)", "Grundkenntnisse (Level A2)"],
-        "important": false
+        "important": true
       }
     ],
     "it": [
@@ -446,11 +462,13 @@
             "year": "2019",
             "href": "",
             "arxiv": "",
+            "important": true,
             "doi": ""
         },
         {
             "title": ["Thermophoresis in Liquids and its Connection to Equilibrium Quantities"],
             "qualification": ["M. Sc."],
+            "important": true,
             "year": "2014",
             "href": "",
             "arxiv": "",
@@ -459,6 +477,7 @@
         {
             "title": ["Simulations of Dyon Configurations in SU(2) Yang-Mills Theory"],
             "qualification": ["B. Sc."],
+            "important": true,
             "year": "2011",
             "href": "",
             "arxiv": "",
@@ -488,7 +507,8 @@
         "additional": ["In review", "In Review"],
         "hyperlink": "",
         "arxiv": "",
-        "doi": ""
+        "doi": "",
+        "important": false
       },
       {
         "authors": ["U. Aslak*", "B. F. Maier*"],
@@ -497,7 +517,8 @@
         "additional": ["Journal of Open Source Software 4 (42), 1425"],
         "hyperlink": "https://joss.theoj.org/papers/10.21105/joss.01425",
         "arxiv": "",
-        "doi": "10.21105/joss.01425"
+        "doi": "10.21105/joss.01425",
+        "important": true
       },
       {
         "authors": [
@@ -519,7 +540,8 @@
         ],
         "hyperlink": "",
         "arxiv": "1902.08278",
-        "doi": ""
+        "doi": "",
+        "important": true
       },
       {
         "authors": ["B. F. Maier*"],
@@ -530,7 +552,8 @@
         "additional": ["Scientific reports 9 (1), 9268"],
         "hyperlink": "https://www.nature.com/articles/s41598-019-45576-3",
         "arxiv": "1901.02381",
-        "doi": "10.1038/s41598-019-45576-3"
+        "doi": "10.1038/s41598-019-45576-3",
+        "important": true
       },
       {
         "authors": ["B. F. Maier*", "C. Huepe", "D. Brockmann"],
@@ -541,7 +564,8 @@
         "additional": ["Journal of Complex Networks 7 (6), 865-895"],
         "hyperlink": "https://academic.oup.com/comnet/advance-article-abstract/doi/10.1093/comnet/cnz010/5432290?redirectedFrom=fulltext",
         "arxiv": "1808.00240",
-        "doi": "10.1093/comnet/cnz010"
+        "doi": "10.1093/comnet/cnz010",
+        "important": true
       },
       {
         "authors": ["F. Klimm*", "B. F. Maier*"],
@@ -550,7 +574,8 @@
         "additional": ["in review", "in Review"],
         "hyperlink": "",
         "arxiv": "",
-        "doi": ""
+        "doi": "",
+        "important": false
       },
       {
         "authors": ["B. F. Maier*", "D. Brockmann"],
@@ -559,7 +584,8 @@
         "additional": ["Phys. Rev. E 96 (4), 042307"],
         "hyperlink": "https://journals.aps.org/pre/abstract/10.1103/PhysRevE.96.042307",
         "arxiv": "1706.02356",
-        "doi": "10.1103/PhysRevE.96.042307"
+        "doi": "10.1103/PhysRevE.96.042307",
+        "important": true
       },
       {
         "authors": [
@@ -577,7 +603,8 @@
         "additional": ["PoS Confinement10:051"],
         "hyperlink": "https://pos.sissa.it/171/051",
         "arxiv": "1212.5557",
-        "doi": "10.22323/1.171.0051"
+        "doi": "10.22323/1.171.0051",
+        "important": false
       },
       {
         "authors": [
@@ -595,7 +622,8 @@
         "additional": ["Phys. Rev. D 85, 034502"],
         "hyperlink": "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.85.034502",
         "arxiv": "1111.3158",
-        "doi": "10.1103/PhysRevD.85.034502"
+        "doi": "10.1103/PhysRevD.85.034502",
+        "important": false
       }
     ],
     "talks": [
@@ -611,7 +639,8 @@
             ],
             "year": [
                 "2019"
-            ]
+            ],
+            "important": true
         },
         {
             "title": [
@@ -625,7 +654,8 @@
             ],
             "year": [
                 "2019"
-            ]
+            ],
+            "important": true
         },
         {
             "title": [
@@ -639,7 +669,8 @@
             ],
             "year": [
                 "2018"
-            ]
+            ],
+            "important": true
         },
         {
             "title": [
@@ -654,7 +685,8 @@
             ],
             "year": [
                 "2018"
-            ]
+            ],
+            "important": true
         },
         {
             "title": [
@@ -669,7 +701,8 @@
             ],
             "year": [
                 "2018"
-            ]
+            ],
+            "important": true
         },
         {
             "title": [
@@ -685,7 +718,8 @@
             ],
             "year": [
                 "2017"
-            ]
+            ],
+            "important": true
         },
         {
             "title": [
@@ -700,7 +734,8 @@
             ],
             "year": [
                 "2017"
-            ]
+            ],
+            "important": true
         },
         {
             "title": [
@@ -715,7 +750,8 @@
             ],
             "year": [
                 "2016"
-            ]
+            ],
+            "important": true
         },
         {
             "title": [
@@ -729,7 +765,8 @@
             ],
             "year": [
                 "2016"
-            ]
+            ],
+            "important": true
         },
         {
             "title": [
@@ -743,7 +780,8 @@
             ],
             "year": [
                 "2016"
-            ]
+            ],
+            "important": true
         },
         {
             "title": [
@@ -758,7 +796,8 @@
             ],
             "year": [
                 "2015"
-            ]
+            ],
+            "important": true
         },
         {
             "title": [
@@ -773,7 +812,8 @@
             ],
             "year": [
                 "2012"
-            ]
+            ],
+            "important": false
         },
         {
             "title": [
@@ -788,7 +828,8 @@
             ],
             "year": [
                 "2012"
-            ]
+            ],
+            "important": false
         },
         {
             "title": [
@@ -803,7 +844,8 @@
             ],
             "year": [
                 "2011"
-            ]
+            ],
+            "important": false
         }
     ],
     "schools": [
@@ -817,7 +859,8 @@
             ],
             "year": [
                 "2015&ndash;2019"
-            ]
+            ],
+            "important": false
         },
         {
             "title": [
@@ -828,7 +871,8 @@
             ],
             "year": [
                 "2018"
-            ]
+            ],
+            "important": true
         },
         {
             "title": [
@@ -840,7 +884,8 @@
             ],
             "year": [
                 "2017&ndash;2018"
-            ]
+            ],
+            "important": true
         },
         {
             "title": [
@@ -852,7 +897,8 @@
             ],
             "year": [
                 "2015"
-            ]
+            ],
+            "important": false
         },
         {
             "title": [
@@ -864,7 +910,8 @@
             ],
             "year": [
                 "2015"
-            ]
+            ],
+            "important": true
         },
         {
             "title": [
@@ -875,114 +922,11 @@
             ],
             "year": [
                 "2015"
-            ]
+            ],
+            "important": true
         }
     ],
     "packages": [
-        {
-            "title": [
-                "cMHRN"
-            ],
-            "href": [
-                "github.com/benmaier/cMHRN"
-            ],
-            "description": [
-                "fast creation of modular-hierarchical, power-law, and regular small-world networks",
-                "schnelle Erstellung von modular-hierarchischen Netzwerken, power-law small-world-Netzwerken und herkömmlichen Netzwerken"
-            ],
-            "additional_hrefs": []
-        },
-        {
-            "title": [
-                "QSuite"
-            ],
-            "href": [
-                "github.com/benmaier/qsuite"
-            ],
-            "description": [
-                "a command-line interface for efficient management and analysis of simulations on compute clusters",
-                "Paket und Kommandozeilenprogramm für die effiziente Verwaltung und Analyse von Simulationen auf Compute-Clusters"
-            ],
-            "additional_hrefs": []
-        },
-        {
-            "title": [
-                "binpacking"
-            ],
-            "href": [
-                "github.com/benmaier/binpacking"
-            ],
-            "description": [
-                "optimal distribution of weights to containers",
-                "optimale Verteilung von Gewichten auf Container"
-            ],
-            "additional_hrefs": []
-        },
-        {
-            "title": [
-                "EffectiveDistance"
-            ],
-            "href": [
-                "github.com/benmaier/effective-distance"
-            ],
-            "description": [
-                "computing the effective distance of spreading processes in transport networks",
-                "Berechnung der effektiven Distanz für Ausbreitungsprozesse in Transportnetzwerken"
-            ],
-            "additional_hrefs": []
-        },
-        {
-            "title": [
-                "RadialDistanceLayout"
-            ],
-            "href": [
-                "github.com/benmaier/radial-distance-layout"
-            ],
-            "description": [
-                "radial visualization of a shortest-path tree with respect to the effective distance",
-                "Radiale Visualisierung eines shortest-path Trees unter Beachtung der effektiven Distanz"
-            ],
-            "additional_hrefs": []
-        },
-        {
-            "title": [
-                "NetworkProperties"
-            ],
-            "href": [
-                "github.com/benmaier/network-properties"
-            ],
-            "description": [
-                "collection of useful network analysis methods",
-                "Sammlung nützlicher Netzwerkanalysemethoden für Netzwerke"
-            ],
-            "additional_hrefs": []
-        },
-        {
-            "title": [
-                "nwDiff"
-            ],
-            "href": [
-                "github.com/benmaier/nwDiff"
-            ],
-            "description": [
-                "Python package for the simulation and analysis of diffusion processes in complex networks",
-                "Python-Paket für die Simulation und Berechnung von Diffusionsprozessen in komplexen Netzwerken"
-            ],
-            "additional_hrefs": []
-        },
-        {
-            "title": [
-                "cNetworkDiff"
-            ],
-            "href": [
-                "github.com/benmaier/cNetworkDiff"
-            ],
-            "description": [
-                "C++-based packaged for the simulation and analysis of diffusion processes in complex networks",
-                "C++-basiertes Paket für die Simulation und Berechnung von Diffusionsprozessen in komplexen Netzwerken"
-            ],
-            "additional_hrefs": []
-        },
         {
             "title": [
                 "netwulf"
@@ -994,7 +938,8 @@
                 "Interactive visualizations of networks",
                 "Interaktive Visualisierungen von Netzwerken"
             ],
-            "additional_hrefs": []
+            "additional_hrefs": [],
+            "important": true
         },
         {
             "title": [
@@ -1007,7 +952,120 @@
                 "C++ and Python package for the analysis and simulation of temporal networks in continuous time",
                 "C++ und Python-Paket für die Analyse und Simulation von zeitlich aufgelösten Kontaktnetzwerken in kontinuierlicher Zeit"
             ],
-            "additional_hrefs": []
+            "additional_hrefs": [],
+            "important": true
+        },
+        {
+            "title": [
+                "cMHRN"
+            ],
+            "href": [
+                "github.com/benmaier/cMHRN"
+            ],
+            "description": [
+                "fast creation of modular-hierarchical, power-law, and regular small-world networks",
+                "schnelle Erstellung von modular-hierarchischen Netzwerken, power-law small-world-Netzwerken und herkömmlichen Netzwerken"
+            ],
+            "additional_hrefs": [],
+            "important": true
+        },
+        {
+            "title": [
+                "QSuite"
+            ],
+            "href": [
+                "github.com/benmaier/qsuite"
+            ],
+            "description": [
+                "a command-line interface for efficient management and analysis of simulations on compute clusters",
+                "Paket und Kommandozeilenprogramm für die effiziente Verwaltung und Analyse von Simulationen auf Compute-Clusters"
+            ],
+            "additional_hrefs": [],
+            "important": true
+        },
+        {
+            "title": [
+                "binpacking"
+            ],
+            "href": [
+                "github.com/benmaier/binpacking"
+            ],
+            "description": [
+                "optimal distribution of weights to containers",
+                "optimale Verteilung von Gewichten auf Container"
+            ],
+            "additional_hrefs": [],
+            "important": true
+        },
+        {
+            "title": [
+                "EffectiveDistance"
+            ],
+            "href": [
+                "github.com/benmaier/effective-distance"
+            ],
+            "description": [
+                "computing the effective distance of spreading processes in transport networks",
+                "Berechnung der effektiven Distanz für Ausbreitungsprozesse in Transportnetzwerken"
+            ],
+            "additional_hrefs": [],
+            "important": false
+        },
+        {
+            "title": [
+                "RadialDistanceLayout"
+            ],
+            "href": [
+                "github.com/benmaier/radial-distance-layout"
+            ],
+            "description": [
+                "radial visualization of a shortest-path tree with respect to the effective distance",
+                "Radiale Visualisierung eines shortest-path Trees unter Beachtung der effektiven Distanz"
+            ],
+            "additional_hrefs": [],
+            "important": false
+        },
+        {
+            "title": [
+                "NetworkProperties"
+            ],
+            "href": [
+                "github.com/benmaier/network-properties"
+            ],
+            "description": [
+                "collection of useful network analysis methods",
+                "Sammlung nützlicher Netzwerkanalysemethoden für Netzwerke"
+            ],
+            "additional_hrefs": [],
+            "important": false
+        },
+        {
+            "title": [
+                "nwDiff"
+            ],
+            "href": [
+                "github.com/benmaier/nwDiff"
+            ],
+            "description": [
+                "Python package for the simulation and analysis of diffusion processes in complex networks",
+                "Python-Paket für die Simulation und Berechnung von Diffusionsprozessen in komplexen Netzwerken"
+            ],
+            "additional_hrefs": [],
+            "important": false
+        },
+        {
+            "title": [
+                "cNetworkDiff"
+            ],
+            "href": [
+                "github.com/benmaier/cNetworkDiff"
+            ],
+            "description": [
+                "C++-based packaged for the simulation and analysis of diffusion processes in complex networks",
+                "C++-basiertes Paket für die Simulation und Berechnung von Diffusionsprozessen in komplexen Netzwerken"
+            ],
+            "additional_hrefs": [],
+            "important": false
         },
         {
             "title": [
@@ -1022,7 +1080,8 @@
             ],
             "additional_hrefs": [
                 "beta.observablehq.com/@benmaier/a-visually-more-appealing-fisheye-function"
-            ]
+            ],
+            "important": true
         },
         {
             "title": [
@@ -1035,7 +1094,8 @@
                 "Python package for computing the \"general topological overlap measure\" of potentially very large networks",
                 "Python-Paket für die Berechnung der \"general topological overlap measure\" für potentiell sehr große Netzwerke"
             ],
-            "additional_hrefs": []
+            "additional_hrefs": [],
+            "important": false
         },
         {
             "title": [
@@ -1048,7 +1108,8 @@
                 "Fast evaluation of incidence- and abundance-based species overlap measures",
                 "Schnelle Berechnung von \"incidence\"- und \"abundance\"-basierten Überlappungen von Spezies"
             ],
-            "additional_hrefs": []
+            "additional_hrefs": [],
+            "important": false
         },
         {
             "title": [
@@ -1061,7 +1122,8 @@
                 "Classes to compute the stable equilibrium of the quasispecies-equation on complex networks",
                 "Klassen zur Berechnungen des stabilen Gleichgewichts der \"Quasispecies\"-equation on komplexen Netzwerken"
             ],
-            "additional_hrefs": []
+            "additional_hrefs": [],
+            "important": false
         }
     ]
 

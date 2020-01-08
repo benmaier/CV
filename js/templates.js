@@ -70,6 +70,20 @@ _cv_templates.importantEntry = `
 
 `;
 
+_cv_templates.importantEntryNonPrint = `
+        <div class="cv-important-entry">
+
+          <div class="cv-important-title">
+              {{ item-title }}
+          </div>
+          <div class="cv-description">
+                  {{ header-right }}, {{ header-left }} <br/>
+              {{ item-description }}
+          </div>
+        </div>
+
+`;
+
 _cv_templates.importantSection = `
   <div class="cv-section cv-important-section cv-avoid-breaking">
 

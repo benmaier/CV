@@ -1,16 +1,16 @@
 body {
     font-family: Helvetica Neue, Arial, sans-serif;
-    font-size: 12pt;
+    font-size: 10pt;
     -webkit-print-color-adjust: exact;
     hyphens: auto;
 }
 
 .cv-title {
-    color: #334;
+    color: #262261;
     font-weight: bold;    
     font-size: 36pt;
     margin-left: 0pt;
-    margin-top: 36pt;
+    margin-top: 0pt;
     margin-right: 36pt;
     -webkit-print-color-adjust: exact;
     float: left;
@@ -24,19 +24,17 @@ body {
 
 .cv-header-row {
     display: flex;
-    margin-left: 100px;
-    max-width: calc(800px + 128pt);
+    max-width: calc(600px + 128pt);
 }
 
 .cv-main-row {
-    margin-top: 0cm;
-    margin-left: 100px;
+    margin-top: 0.5cm;
     display: flex;
-    max-width: calc(800px + 128pt);
+    max-width: calc(600px + 128pt);
 }
 
 .cv-header-column {
-    flex: 100%;
+    flex: 50%;
 }
 
 .cv-main-column-left {
@@ -71,23 +69,23 @@ body {
 
 
 .cv-section-title {
-   color: #778;
+   color: #777;
     margin-right: 0pt;
-    font-size: 20pt;
+    font-size: 16pt;
     margin-left: 0pt;
     font-weight: bold;
-    /*border-bottom: 1px solid;*/
+    border-bottom: 2px solid;
     text-align: left;
     -webkit-print-color-adjust: exact;
-    margin-bottom:14pt;
+    margin-bottom:12pt;
     margin-top: 0;
 }
 
 .cv-section {
     /*margin-left: 128pt; */
-    margin-top:48pt;
-    margin-right: 72pt;
-    /*max-width: 600px;*/
+    margin-top:16pt;
+    margin-right: 36pt;
+    max-width: 600px;
 }
 
 .cv-avoid-breaking {
@@ -99,8 +97,7 @@ body {
 }
 
 .cv-section-content {
-    padding-left: 25px;
-    border-left: solid 1px #777;
+    margin-left: 25px;
 }
 
 table.cv-table {
@@ -118,11 +115,9 @@ td {
 
 td.cv-left-col {
     padding-right: 12pt;
-    /*font-variant: small-caps;*/
+    font-variant: small-caps;
     text-align: right;
     white-space: nowrap;
-    font-weight: bold;
-    color: #333;
 }
 
 .cv-item-title {
@@ -137,28 +132,22 @@ td.cv-left-col {
 }
 
 .cv-item-time-range {
-    font-weight: normal;
-    color: #000;
 }
 
 .cv-item-place {
     font-style: italic;
 }
 .cv-important-header-left {
-    /*float: left;*/
+    float: left;
 }
 .cv-important-header-right {
-    text-align: left;
-    font-size: 12pt;
-    margin-bottom: 4pt;
-    float: left;
-    width: 100%
+    text-align: right;
 }
 
 .cv-important-title {
-    font-size: 16pt; 
+    font-size: 14pt; 
     margin-top: 5pt;
-    margin-bottom: 2pt;
+    margin-bottom: 5pt;
     font-weight: bold;
     color: #444;
 }

@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>CV: Ben F. Maier</title>
+  <title>CV Ben F. Maier</title>
   <meta name="description" content="Ben F. Maier's CV, Lebenslauf">
   <meta name="author" content="Ben F. Maier">
 
@@ -13,13 +13,40 @@
 </head>
 
 <body>
-  <h1>Ben F. <br/>Maier — CV</h1>
+  <div class="cv-header-row">
+      <div class="cv-header-column">
+          <div id="h1" class="cv-title">Ben F. <br/>Maier — CV</div>
+      </div>
 
-  <div id="cvcontainer" class="cv-container">
+      <div class="cv-header-column">
+      <div id="personalcontainer" class="cv-personal-container">
+          Plesser Str. 10<br/>
+          12435 Berlin<br/>
+          GERMANY<br/>
+          <br/>
+          +49 178 644 72 62<br/>
+          <br/>
+          contact@benmaier.org<br/>
+          benmaier.org</br>
+      </div>
+      </div>
+  </div>
 
+  <div class="cv-main-row">
+      <div class="cv-main-column-left">
+          <div id="profilecontainer" class="cv-main-column-left-content">
+          </div>
+      </div>
+      <div class="cv-main-column-right">
+          <div id="cvcontainer" class="cv-container">
+          </div>
+      </div>
   </div>
 
   <script src="js/templates.js"></script>
   <script src="js/cv.js"></script>
+  <script>
+        let CV = new CVBuilder("cvcontainer", "data/cv_content.json","profilecontainer");
+  </script>
 </body>
 </html>

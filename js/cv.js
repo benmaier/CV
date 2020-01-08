@@ -1,34 +1,123 @@
 "use strict";
 
-let LANG = 0;
+let _CV_LANG = 0;
+let _CV_PRINT = true;
 
-//this translates everything according to the 
-function T(entry) {
+class CVBuilder {
+  
+  constructor(id,jsonpath)
+  {
+    let self = this;
+
+    fetch(jsonpath)
+      .then((response) => {
+        return response.json();
+      })
+      .then((json) => {
+
+        self.data = json;
+        self.buildCV();
+      });
+  }
+
+  buildCV() 
+  {
+    let data = this.data;
+    let order = data.fieldorder;
+    let titles = data.fieldnames;
+    let content = data.fieldcontent;
+
+    //order = ["academic", "science","education", "additional_working"];
+
+    let cvhtml = '';
+
+    order.forEach(function(section) {
+      let title = _T(titles[section]);
+      let cvsection = '';
+
+      if (section == "education")
+      {
+        cvsection = parseTabledSection(title, content[section], parseEducationTableRow);
+      }
+      else if (section == 'additional_working')
+      {
+        //cvsection = parseImportantSection(title, content[section], parseImportantEntry);
+        cvsection = parseTabledSection(title, content[section], parseEducationTableRow);
+      }
+      else if (section == 'academic')
+      {
+        cvsection = parseImportantSection(title, content[section], parseImportantEntry);
+      }
+      else if (section == 'science')
+      {
+        cvsection = parseTabledSection(title, content[section], parseScientificEntry);
+      }
+      else if (section == 'teaching')
+      {
+        cvsection = parseTabledSection(title, content[section], parseEducationTableRow);
+      }
+      else if (section == 'voluntary_freetime')
+      {
+        cvsection = _cv_templates.importantSection.replace("{{ title }}", title);
+        let descriptions = '';
+        content[section].forEach(function (entry) {
+          descriptions += `<p>${_cv_templates.itemDescription.replace("{{ item-description }}", _T(entry.description))}</p>`;
+        });
+        cvsection = cvsection.replace("{{ entries }}", descriptions);
+      }
+      else if (section == 'languages')
+      {
+        cvsection = parseTabledSection(title, content[section], parseScientificEntry);
+      }
+      else if (section == 'fellowships')
+      {
+        cvsection = parseTabledSection(title, content[section], parseFellowshipEntry);
+      }
+      else if (section == 'it')
+      {
+        cvsection = parseTabledSection(title, content[section], parseITEntry);
+      }
+      else if (section == 'publications')
+      {
+        cvsection = parseListSection(title, content[section], parsePublicationEntry);
+      }
+
+      cvhtml += cvsection;
+    });
+
+    document.getElementById("cvcontainer").innerHTML = cvhtml;
+
+    //short profile
+    let bulletList = '';
+    content.profile.forEach(function(item) {
+      bulletList += _cv_templates.profileItem.replace("{{ item }}", _T(item));
+    });
+
+    let profileHTML = _cv_templates.profile.replace("{{ title }}", _T(titles.profile))
+                                       .replace("{{ items }}", bulletList);
+
+    document.getElementById("profilecontainer").innerHTML = profileHTML;
+  };
+}
+
+
+//this translates everything according to the desired language 
+function _T(entry) {
   if (!Array.isArray(entry))
     return entry;
 
-  if (LANG >= entry.length)
+  if (_CV_LANG >= entry.length)
     return entry[0];
   else
-    return entry[LANG];
+    return entry[_CV_LANG];
 }
 
-fetch('data/cv_content.json')
-  .then((response) => {
-    return response.json();
-  })
-  .then((myJson) => {
-    console.log(myJson);
-    buildCV(myJson);
-
-  });
-
 function parseEducationTableRow(entry) {
-    let row = templates.tableRow;
-    let left = templates.timeRange.replace("{{ time-range }}",T(entry.date));
-    let title = templates.itemTitle.replace("{{ item-title }}",T(entry.name));
-    let place = templates.itemPlace.replace("{{ item-place }}",T(entry.place));
-    let desc = templates.itemDescription.replace("{{ item-description }}",T(entry.description));
+    let row = _cv_templates.tableRow;
+    let left = _cv_templates.timeRange.replace("{{ time-range }}",_T(entry.date));
+    let title = _cv_templates.itemTitle.replace("{{ item-title }}",_T(entry.name));
+    let place = _cv_templates.itemPlace.replace("{{ item-place }}",_T(entry.place));
+    let desc = _cv_templates.itemDescription.replace("{{ item-description }}",_T(entry.description));
     let right = `${title}<br/>${place}, ${desc}`;
   //console.log(right);
     row = row.replace("{{ left-col-content }}", left)
@@ -39,7 +128,7 @@ function parseEducationTableRow(entry) {
 
 function parseTabledSection(title, entries, rowparser)
 {
-  let cvsection = templates.tabledSection.replace("{{ title }}", title); 
+  let cvsection = _cv_templates.tabledSection.replace("{{ title }}", title); 
   let rows = '';
   entries.forEach(function(entry) {
     rows += rowparser(entry);
@@ -50,7 +139,7 @@ function parseTabledSection(title, entries, rowparser)
 
 function parseUntitledTableSection(entries, rowparser)
 {
-  let cvsection = templates.untitledTableSection;
+  let cvsection = _cv_templates.untitledTableSection;
   let rows = '';
   entries.forEach(function(entry) {
     rows += rowparser(entry);
@@ -61,7 +150,7 @@ function parseUntitledTableSection(entries, rowparser)
 
 function parseImportantSection(title, entries, rowparser)
 {
-  let cvsection = templates.importantSection.replace("{{ title }}", title); 
+  let cvsection = _cv_templates.importantSection.replace("{{ title }}", title); 
   let rows = '';
   entries.forEach(function(entry,i) {
     if (i>0) {
@@ -73,12 +162,23 @@ function parseImportantSection(title, entries, rowparser)
   return cvsection;
 }
 
+function parseListSection(title, entries, rowparser)
+{
+  let cvsection = _cv_templates.listSection.replace("{{ title }}", title); 
+  let rows = '';
+  entries.forEach(function(entry) {
+    rows += rowparser(entry);
+  });
+  cvsection = cvsection.replace("{{ entries }}", rows);
+  return cvsection;
+}
+
 function parseImportantEntry(entry) {
-    let row = templates.importantEntry;
-    let time = templates.timeRange.replace("{{ time-range }}",T(entry.date));
-    let title = templates.itemTitle.replace("{{ item-title }}",T(entry.name));
-    let place = templates.itemPlace.replace("{{ item-place }}",T(entry.place));
-    let desc = templates.itemDescription.replace("{{ item-description }}",T(entry.description));
+    let row = _cv_templates.importantEntry;
+    let time = _cv_templates.timeRange.replace("{{ time-range }}",_T(entry.date));
+    let title = _cv_templates.itemTitle.replace("{{ item-title }}",_T(entry.name));
+    let place = _cv_templates.itemPlace.replace("{{ item-place }}",_T(entry.place));
+    let desc = _cv_templates.itemDescription.replace("{{ item-description }}",_T(entry.description));
   //console.log(right);
     row = row.replace("{{ header-left }}", place)
              .replace("{{ header-right }}", time)
@@ -90,9 +190,9 @@ function parseImportantEntry(entry) {
 }
 
 function parseScientificEntry(entry) {
-    let row = templates.tableRow;
-    let left = T(entry.name);
-    let right = templates.itemDescription.replace("{{ item-description }}",T(entry.description));
+    let row = _cv_templates.tableRow;
+    let left = _T(entry.name);
+    let right = _cv_templates.itemDescription.replace("{{ item-description }}",_T(entry.description));
   //console.log(right);
     row = row.replace("{{ left-col-content }}", left)
              .replace("{{ right-col-content }}", right);
@@ -101,9 +201,9 @@ function parseScientificEntry(entry) {
 }
 
 function parseITEntry(entry) {
-    let row = templates.tableRow;
-    let left = T(entry.name);
-    let right = entry.items.map(T).join(", ");
+    let row = _cv_templates.tableRow;
+    let left = _T(entry.name);
+    let right = entry.items.map(_T).join(", ");
   //console.log(right);
     row = row.replace("{{ left-col-content }}", left)
              .replace("{{ right-col-content }}", right);
@@ -112,9 +212,9 @@ function parseITEntry(entry) {
 }
 
 function parseFellowshipEntry(entry) {
-    let row = templates.tableRow;
-    let left = templates.timeRange.replace("{{ time-range }}",T(entry.date));
-    let right = templates.itemDescription.replace("{{ item-description }}",T(entry.name));
+    let row = _cv_templates.tableRow;
+    let left = _cv_templates.timeRange.replace("{{ time-range }}",_T(entry.date));
+    let right = _cv_templates.itemDescription.replace("{{ item-description }}",_T(entry.name));
   //console.log(right);
     row = row.replace("{{ left-col-content }}", left)
              .replace("{{ right-col-content }}", right);
@@ -122,66 +222,63 @@ function parseFellowshipEntry(entry) {
     return row;
 }
 
+function parsePublicationEntry(entry) {
+
+  let authors = entry.authors.map(function(a){
+      let _a = a;
+      if (a.includes("B. F. Maier") || a.includes("B. Maier"))
+        _a = `<span class="cv-item-title">${_a}</span>`;
+      _a = _cv_templates.paperAuthor.replace("{{ author }}", _a);
+      return _a;
+    
+    }).join(", ");
+  let title = _cv_templates.paperTitle.replace("{{ title }}", _T(entry.title));
+  let additional = _cv_templates.paperAdd.replace("{{ additional }}", _T(entry.additional));
+
+  let arxivlink = "https://arxiv.org/abs/" + entry.arxiv;
+  let doilink = "https://doi.org/" + entry.doi;
+  let arxiv = "arXiv:" + _cv_templates.paperLink.replace("{{ linktext }}", entry.arxiv)
+                                                .replace("{{ href }}", arxivlink);
+  let doi = "doi:" + _cv_templates.paperLink.replace("{{ linktext }}", entry.doi)
+                                                .replace("{{ href }}", doilink);
+
+  if (entry.hyperlink != "")
+  {
+    title = _cv_templates.paperLink.replace("{{ linktext }}", title)
+                                   .replace("{{ href }}", entry.hyperlink);
+  }
+  else if (entry.arxiv != "")
+  {
+
+    title = _cv_templates.paperLink.replace("{{ linktext }}", title)
+                                   .replace("{{ href }}", arxivlink);
+  }
+  else if (entry.doi != "")
+  {
+    title = _cv_templates.paperLink.replace("{{ linktext }}", title)
+                                   .replace("{{ href }}", doilink);
+  }
 
 
-function buildCV(data) {
-  let order = data.fieldorder;
-  let titles = data.fieldnames;
-  let content = data.fieldcontent;
+  let links = ""
+  if (entry.arxiv != "")
+  {
+    links += " " + arxiv + ".";
+  }
 
-  //order = ["academic", "science","education", "additional_working"];
+  if (entry.doi != "")
+  {
+    links += " " + doi + ".";
+  }
 
-  let cvhtml = '';
+  let paper = _cv_templates.paperEntry.replace("{{ authors }}", authors)
+                                      .replace("{{ year }}", entry.year)
+                                      .replace("{{ title }}", title)
+                                      .replace("{{ additional }}", additional) 
+                                      .replace("{{ links }}", links) 
+      ;
 
-  order.forEach(function(section) {
-    let title = T(titles[section]);
-    let cvsection = '';
+  let item = _cv_templates.listSectionItem.replace("{{ item }}", paper);
 
-    if (section == "education")
-    {
-      cvsection = parseTabledSection(title, content[section], parseEducationTableRow);
-    }
-    else if (section == 'additional_working')
-    {
-      //cvsection = parseImportantSection(title, content[section], parseImportantEntry);
-      cvsection = parseTabledSection(title, content[section], parseEducationTableRow);
-    }
-    else if (section == 'academic')
-    {
-      cvsection = parseImportantSection(title, content[section], parseImportantEntry);
-    }
-    else if (section == 'science')
-    {
-      cvsection = parseTabledSection(title, content[section], parseScientificEntry);
-    }
-    else if (section == 'teaching')
-    {
-      cvsection = parseTabledSection(title, content[section], parseEducationTableRow);
-    }
-    else if (section == 'voluntary_freetime')
-    {
-      cvsection = templates.importantSection.replace("{{ title }}", title);
-      let descriptions = '';
-      content[section].forEach(function (entry) {
-        descriptions += `<p>${templates.itemDescription.replace("{{ item-description }}", T(entry.description))}</p>`;
-      });
-      cvsection = cvsection.replace("{{ entries }}", descriptions);
-    }
-    else if (section == 'languages')
-    {
-      cvsection = parseTabledSection(title, content[section], parseScientificEntry);
-    }
-    else if (section == 'fellowships')
-    {
-      cvsection = parseTabledSection(title, content[section], parseFellowshipEntry);
-    }
-    else if (section == 'it')
-    {
-      cvsection = parseTabledSection(title, content[section], parseITEntry);
-    }
-
-    cvhtml += cvsection;
-  });
-
-  document.getElementById("cvcontainer").innerHTML = cvhtml;
-};
+  return item;
+}

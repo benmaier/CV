@@ -26,9 +26,10 @@
       "Stipendien &amp; Auszeichnungen"
     ],
     "personal": ["Person"],
+    "profile": ["Short Profile", "Kurzprofil"],
     "science": ["Scientific Work", "Wissenschaftliche Arbeiten"],
     "voluntary_freetime": [
-      "Voluntary Work &amp; Free Time Activities",
+      "Voluntary Work &amp; Free Time",
       "Ehrenämter &amp; Freizeit"
     ],
     "it": ["IT Knowledge", "IT-Fähigkeiten"],
@@ -45,6 +46,28 @@
       "email": ["contact@benmaier.org"],
       "website": ["benmaier.org"]
     },
+    "profile": [
+        [
+            "ambitious researcher with an expertise in Statistical Physics and Complex Systems",
+            "Wissenschaft&shy;ler mit Expertise in Statistischer Phy&shy;sik und Komplexen Systemen"
+        ],
+        [
+            "author of numerous publications and presentations",
+            "Autor zahlreicher Artikel und Vortr&auml;ge"
+        ],
+        [
+            "skilled in scienctific computing, backend, and frontend development",
+            "versiert in Wissen&shy;schaft&shy;lichem Rechnen sowie Backend- und Frontend Development"
+        ],
+        [
+            "taught courses and supervised projects on numerous occasions",
+            "erfahren in Lehre und Supervision von Projekten"
+        ],
+        [
+            "awarded several fellowships and graduated with honors",
+            "Empf&auml;nger verschiedener Stipendien und Promotion summa cum laude"
+        ]
+    ],
     "education": [
       {
         "date": ["2014–2019"],
@@ -64,7 +87,7 @@
       },
       {
         "date": ["2011–2014"],
-        "name": ["M. Sc. in physics", "M. Sc. in Physik"],
+        "name": ["M. Sc. in Physics", "M. Sc. in Physik"],
         "place": [
           "Humboldt University of Berlin",
           "Humboldt-Universität zu Berlin"
@@ -84,7 +107,7 @@
       },
       {
         "date": ["2008–2011"],
-        "name": ["B. Sc. in physics", "B. Sc. in Physik"],
+        "name": ["B. Sc. in Physics", "B. Sc. in Physik"],
         "place": [
           "Humboldt University of Berlin",
           "Humboldt-Universität zu Berlin"
@@ -108,6 +131,16 @@
     ],
     "teaching": [
       {
+          "date": ["2016&ndash;"],
+        "name": ["Co-supervisor", "Co-Betreuer"],
+        "place": ["Robert Koch Institute", "Robert Koch-Institut"],
+        "description": [
+            "Co-supervision of 3 Master students in the Biophysics program of HU Berlin",
+            "Co-Betreuung von 3 Studierenden des Biophysikprogramm der HU Berlin"
+        ],
+        "important": true
+      },
+      {
         "date": ["2018"],
         "name": ["Teaching Assistant", "Übungsleiter"],
         "place": ["Santa Fe Insitute", "Santa Fe Institut"],
@@ -128,7 +161,7 @@
         "important": true
       },
       {
-        "date": ["2013&mdash;2014"],
+        "date": ["2013&ndash;2014"],
         "name": ["Teaching Assistant", "Übungsleiter"],
         "place": [
           "Department of Physics (HU Berlin)",
@@ -154,7 +187,7 @@
         "important": false
       },
       {
-        "date": ["2010&mdash;2011"],
+        "date": ["2010&ndash;2011"],
         "name": ["Teaching Assistant", "Praktikumsbetreuer"],
         "place": [
           "Department of Medicine (HU Berlin): Charité",
@@ -192,7 +225,7 @@
         "important": true
       },
       {
-        "date": ["2015&mdash;"],
+        "date": ["2015&ndash;"],
         "name": ["Scientific Consultant", "Wissenschaftlicher Berater"],
         "place": ["Self-employed", "Freiberuflich"],
         "description": [
@@ -202,7 +235,7 @@
         "important": true
       },
       {
-        "date": ["2010&mdash;2011"],
+        "date": ["2010&ndash;2011"],
         "name": ["Student Assistant", "Werkstudent"],
         "place": ["Institute for Scientific Instruments (Berlin-Adlershof)"],
         "description": [
@@ -227,7 +260,7 @@
     ],
     "fellowships": [
       {
-        "date": ["2019&mdash;"],
+        "date": ["2019&ndash;"],
         "name": [
           "Add-on Fellow for Interdisciplinary Life Science of the Joachim Herz Stiftung",
           "Add-on Fellow for Interdisciplinary Life Science der Joachim Herz Stiftung"
@@ -243,7 +276,7 @@
         "important": true
       },
       {
-        "date": ["2011&mdash;2014"],
+        "date": ["2011&ndash;2014"],
         "name": [
           "Fellow of the German National Academic Foundation (SDV) including scholarship",
           "Stipendiat der Studienstiftung des Deutschen Volkes"
@@ -269,12 +302,12 @@
     ],
     "academic": [
       {
-        "date": ["2019&mdash;"],
+        "date": ["2020&ndash;"],
         "name": ["Postdoc", "Postdoc"],
         "place": ["Robert Koch Institute", "Robert Koch-Institut"],
         "description": [
           "Research focusing on epidemic spreading processes in human systems, mainly using methods from complex network theory and statistical phyics",
-          "Forschung zu infektiösen Ausbreitungsprozessen in menschlichen Systemem, hauptsächlich mit Methoden der Netzwerktheorie und Statistischer Physik"
+          "Forschung zu infektiösen Ausbreitungsprozessen in menschlichen Systemen, hauptsächlich mit Methoden der Netzwerktheorie und Statistischer Physik"
         ],
         "important": true
       }

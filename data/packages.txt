@@ -1,72 +1,71 @@
 \item
     \textit{cMHRN}
     github.com/benmaier/cMHRN
-    Schnelle Erstellung von modular-hierarchischen Netzwerken
-    power-law small-world-Netzwerken und herk\"ommlichen Netzwerken 
+    Schnelle Erstellung von modular-hierarchischen Netzwerken, power-law small-world-Netzwerken und herk\"ommlichen Netzwerken 
+    Fast creation of modular-hierarchical, power-law, and regular small-world networks
 \item
     \textit{QSuite}
     github.com/benmaier/qsuite
-    Ein Paket und Kommandozeilenprogramm f\"ur die effiziente
-    Verwaltung und Analyse von Simulationen auf Compute-Clusters.
+    Ein Paket und Kommandozeilenprogramm f\"ur die effiziente Verwaltung und Analyse von Simulationen auf Compute-Clusters.
+    A command-line interface for efficient management and analysis of simulations on compute clusters
 \item
     \textit{binpacking}
     github.com/benmaier/binpacking
-    Optimale Verteilung von Gewichten auf Container.
+    Optimale Verteilung von Gewichten auf Container
+    Optimal distribution of weights to containers
 \item
     \textit{EffectiveDistance}
     github.com/benmaier/effective-distance
-    \\Berechnung der effektiven Distanz in menschlichen
-    Transportnetzwerken 
+    Berechnung der effektiven Distanz f\"ur Ausbreitungsprozesse in Transportnetzwerken 
+    Computing the effective distance of spreading processes in transport networks
 \item
     \textit{RadialDistanceLayout}
     github.com/benmaier/radial-distance-layout
-    Radiale Visualisierung eines shortest-path Trees unter
-    Beachtung der effektiven Distanz
+    Radiale Visualisierung eines shortest-path Trees unter Beachtung der effektiven Distanz
+    Radial visualization of a shortest-path tree with respect to the effective distance
 \item
     \textit{NetworkProperties}
     github.com/benmaier/network-properties 
     Sammlung n\"utzlicher Netzwerkanalysemethoden f\"ur Netzwerke
+    collection of usefule network analysis methods
 \item
     \textit{nwDiff}
     github.com/benmaier/nwDiff
-    Python-Paket 
-    f\"ur die Simulation und Berechnung von
-    Diffusionsprozessen in komplexen Netzwerken 
+    Python-Paket f\"ur die Simulation und Berechnung von Diffusionsprozessen in komplexen Netzwerken 
+    Python package for the simulation and analysis of diffusion processes in complex networks
 \item
-    \textit{cNetworkDiff}, github.com/benmaier/cNetworkDiff,
-    C++-basiertes Paket
-    f\"ur die Simulation und Berechnung von
-    Diffusionsprozessen in komplexen Netzwerken 
+    \textit{cNetworkDiff}
+    github.com/benmaier/cNetworkDiff
+    C++-basiertes Paket f\"ur die Simulation und Berechnung von Diffusionsprozessen in komplexen Netzwerken
+    C++-based packaged for the simulation and analysis of diffusion processes in complex networks
 \item
-    \textit{tacoma}, github.com/benmaier/tacoma,
-    C++ und Python-Paket f\"ur die Analyse und Simulation
-    von zeitlich aufgel\"osten Kontaktnetzwerken in kontinuierlicher
-    Zeit
+    \textit{netwulf}
+    github.com/benmaier/netwulf
+    Interaktive Visualisierungen von Netzwerken
+    Interactive visualizations of networks
 \item
-    \textit{fisheye}, github.com/benmaier/fisheye,
-    Javascript-Bibliothek f\"ur lokale Vergr\"o\ss{}erung
-    von Daten in Visualisierungen, siehe auch:
+    \textit{tacoma}
+    github.com/benmaier/tacoma
+    C++ und Python-Paket f\"ur die Analyse und Simulation von zeitlich aufgel\"osten Kontaktnetzwerken in kontinuierlicher Zeit
+    C++ and Python package for the analysis and simulation of temporal networks in continuous time
+\item
+    \textit{fisheye}
+    github.com/benmaier/fisheye
+    JavaScript-Bibliothek f\"ur lokale Vergr\"o\ss{}erung von Daten in Visualisierungen
+    JavaScript library for local magnification of data in visualizations 
     beta.observablehq.com/\@benmaier/a-visually-more\appealing-fisheye-function
 \item
-    \textit{hospiTrans}, github.com/benmaier/hospiTrans,
-    work in\\progress, Python-package f\"ur die Analyse von 
-    MRSA-Diffusion in Krankenh\"ausern, (mit A. Wittig, and T. Denell)
-\item
-    \textit{GTOM}, github.com/benmaier/GTOM,
-    Python-Paket f\"ur die Berechnung der \"general topological
-    overlap measure\" f\"ur potentiell sehr gro\ss{}e Netzwerke
-\item
-    \textit{circleplot}
-    github.com/benmaier/circleplot
-    Visualisierungswerkzeug zur Illustration der Entwicklung von
-    Interaktionsparametern in co-evolvierenden Keimen
+    \textit{GTOM}
+    github.com/benmaier/GTOM   
+    Python-Paket f\"ur die Berechnung der "general topological overlap measure" f\"ur potentiell sehr gro\ss{}e Netzwerke
+    Python package for computing the "general topological overlap measure" of potentially very large networks
 \item
     \textit{species-overlap}
     github.com/benmaier/species-overlap
-    Schnelle Berechnung von \"incidence-\" und \"abundance-basierten
-    Ueberlappungen von Spezies 
+    Schnelle Berechnung von "incidence"- und "abundance"-basierten \"Uberlappungen von Spezies 
+    Fast evaluation of incidence- and abundance-based species overlap measures
 \item
     \textit{quasispycies}
     github.com/benmaier/quasispycies
-    Klassen zur Berechnungen des stabilen Gleichgewichts der
-    \"Quasispecies\"-equation on komplexen Netzwerken.
+    Klassen zur Berechnungen des stabilen Gleichgewichts der "Quasispecies"-equation on komplexen Netzwerken
+    Classes to compute the stable equilibrium of the quasispecies-equation on complex networks

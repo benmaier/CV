@@ -1,11 +1,11 @@
 \item 
     Flockworks: A class of dynamic network models for face-to-face interactions
-    Conference on Complex Networks (CompleNet)
+    CompleNet
     Tarragona
     2019
 \item 
     Tacoma: A C++/Python package for temporal network analysis
-    Conference on Complex Networks (CompleNet)
+    CompleNet
     Tarragona
     2019
 \item 
@@ -14,56 +14,58 @@
     Thessaloniki
     2018
 \item
-    When you're sick, please stay at home - Making sense of spreading phenomena using human mobility and contact data
-    \"idalab\"-Firmenseminar (geladen), \"idalab\" company seminar (invited)
+    When you're sick, please stay at home&mdash;Making sense of spreading phenomena using human mobility and contact data
+    "idalab" company seminar (invited)|"idalab"-Firmenseminar (geladen)
     Berlin 
     2018
 \item 
     Flockworks: A class of dynamic network models for face-to-face interactions
-    DPG-Fr\"uhjahrstagung
+    DPG Spring Meeting|DPG-Fr\"uhjahrstagung
     Berlin
     2018
 \item 
     Flockworks: A class of dynamic network models for face-to-face interactions
-    Gruppenseminar XXX (DTU), XXX group seminar (DTU)
-    Kopenhagen 
+    Group seminar DTU COMPUTE|Gruppenseminar DTU COMPUTE
+    Copenhagen|Kopenhagen 
     2017
 \item
     Influence of group-structured network topologies on dynamical processes
-    Princeton-Humboldt cooperation workshop CoCCoN
+    Princeton-Humboldt cooperation workshop CoCCoN|Princeton-Humboldt Kooperationsworkshop CoCCoN
     Princeton
     2017
 \item
     Influence of group-structured network topologies on dynamical processes
-    \"Biophysics and Evolutionary Dynamics\" Gruppenseminar, ``Biophysics and Evolutionary Dynamics'' group seminar
+    "Biophysics and Evolutionary Dynamics" Gruppenseminar|"Biophysics and Evolutionary Dynamics" group seminar
     UC Berkeley
+    Berkeley
     2016
 \item 
     Flockworks: A class of dynamic network models for face-to-face interactions
-    NetSci, Seoul (2016)
+    NetSci
+    Seoul
+    2016
 \item
     Flockworks: A class of dynamic network models for face-to-face interactions
-    Network Journal Club, 
+    Network Journal Club
     Oxford
     2016
 \item
-    {Modular hierarchical random networks -- Topology and Dynamics
+    Modular hierarchical random networks&mdash;Topology and Dynamics
     NetSci
-    Zaragoza, Saragossa
+    Zaragoza|Saragossa
     2015
 \item
     Application of Ewald's Method for Efficient Summation of Dyon Long-Range Potentials
     Confinement X
-    Munich, M\"unchen,
+    Munich|M\"unchen
     2012
 \item
     Confining dyon gas with finite-volume effects under control
-    DPG-Fr\"uhjahrstagung 
+    DPG Spring Meeting|DPG-Fr\"uhjahrstagung 
     G\"ottingen
     2012
 \item
     Simulations of dyon configurations in SU(2) Yang-Mills theory
-    DPG-Fr\"uhjahrstagung 
+    DPG Spring Meeting|DPG-Fr\"uhjahrstagung 
     Karlsruhe
     2011
-

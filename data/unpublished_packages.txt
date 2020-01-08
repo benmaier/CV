@@ -1,0 +1,8 @@
+\item
+    \textit{hospiTrans}
+    github.com/benmaier/hospiTrans
+    work in\\progress, Python-package f\"ur die Analyse von MRSA-Diffusion in Krankenh\"ausern, (mit A. Wittig, and T. Denell)
+\item
+    \textit{circleplot}
+    github.com/benmaier/circleplot
+    Visualisierungswerkzeug zur Illustration der Entwicklung von Interaktionsparametern in co-evolvierenden Keimen

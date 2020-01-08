@@ -2,22 +2,22 @@
     Member, Mitglied
     HU Berlin IRI Life Sciences Graduate School
     Berlin
-    2015-today, 2015-heute
+    2015&ndash;today|2015&ndash;heute
 \item
     Complex Systems Summer School
     Santa Fe Institute
     Santa Fe 
     2018
 \item
-    Specialization \"Deep Learning\", Spezialisierung \"Deep Learning\"
+    Specialization "Deep Learning"|Spezialisierung "Deep Learning"
     coursera.org
-    2017-2018
+    2017&ndash;2018
 \item
-    Seminar \"Time-Management\", Seminar \"Zeitmanagement\"
+    Seminar "Time-Management"|Seminar "Zeitmanagement"
     Humboldt Graduate School
     Berlin (2015)
 \item
-    Member, Mitglied
+    Member|Mitglied
     Humboldt Graduate School
     Berlin
     2015

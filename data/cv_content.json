@@ -11,7 +11,8 @@
     "languages",
     "publications",
     "talks",
-    "packages"
+    "packages",
+    "schools"
   ],
   "fieldnames": {
     "education": ["Education", "Ausbildung"],
@@ -36,7 +37,8 @@
     "languages": ["Languages", "Sprachen"],
     "publications": ["Publications", "Publikationen"],
     "talks": ["Talks", "Vorträge"],
-    "packages": ["Open-Source Software"]
+    "packages": ["Open-Source Software"],
+    "schools": ["Schools", "Schulen &amp; Weiterbildung"]
   },
   "fieldcontent": {
     "personal": {

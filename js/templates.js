@@ -120,3 +120,8 @@ _cv_templates.packageTitle = `<span class="cv-item-title">{{ title }}</span>`;
 _cv_templates.packageHREF = `<a href="https://{{ href }}" class="cv-link" target="_blank"><span class="cv-package-href">{{ href }}</span></a>`;
 _cv_templates.packageDescription = `<span class="cv-item-description">{{ description }}</span>`;
 _cv_templates.packageEntry = `{{ title }}, {{ href }}, {{ description }}`
+
+_cv_templates.schoolTitle = `<span class="cv-school-title">{{ title }}</span>`;
+_cv_templates.schoolPlace = `<span class="cv-school-place">{{ place }}</span>`;
+_cv_templates.schoolEntry = `{{ title }}, {{ place }} ({{ year }})`
+

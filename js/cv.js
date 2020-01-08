@@ -81,6 +81,19 @@ class CVBuilder {
       {
         cvsection = parseListSection(title, content[section], parsePublicationEntry);
       }
+      else if (section == 'schools')
+      {
+        //cvsection = parseListSection(title, content[section], parseListSchoolEntry);
+        cvsection = parseTabledSection(title, content[section], parseSchoolEntry);
+      }
+      else if (section == 'talks')
+      {
+        cvsection = parseListSection(title, content[section], parseTalkEntry);
+      }
+      else if (section == 'packages')
+      {
+        cvsection = parseListSection(title, content[section], parsePackageEntry);
+      }
 
       cvhtml += cvsection;
     });
@@ -280,5 +293,73 @@ function parsePublicationEntry(entry) {
 
   let item = _cv_templates.listSectionItem.replace("{{ item }}", paper);
 
+  return item;
+}
+
+function parseListSchoolEntry(entry) {
+
+  let title = _cv_templates.schoolTitle.replace("{{ title }}", _T(entry.title));
+  let place = _cv_templates.schoolPlace.replace("{{ place }}", _T(entry.place));
+
+
+  let school = _cv_templates.schoolEntry.replace("{{ title }}", title)
+                                        .replace("{{ place }}", place)
+                                        .replace("{{ year }}", _T(entry.year))
+      ;
+  let item = _cv_templates.listSectionItem.replace("{{ item }}", school);
+  return item;
+}
+
+function parseSchoolEntry(entry) {
+    let row = _cv_templates.tableRow;
+    let left = _cv_templates.timeRange.replace("{{ time-range }}",_T(entry.year));
+    let title = _cv_templates.itemTitle.replace("{{ item-title }}",_T(entry.title));
+    let place = _cv_templates.itemPlace.replace("{{ item-place }}",_T(entry.place));
+    let desc = _cv_templates.itemDescription.replace("{{ item-description }}","");
+    let right = `${title}<br/>${place}`;
+  //console.log(right);
+    row = row.replace("{{ left-col-content }}", left)
+             .replace("{{ right-col-content }}", right);
+
+    return row;
+}
+
+function parseTalkEntry(entry) {
+  let title = _cv_templates.itemTitle.replace("{{ item-title }}", _T(entry.title));
+  let place = _cv_templates.itemPlace.replace("{{ item-place }}", _T(entry.place));
+  let event = _cv_templates.itemDescription.replace("{{ item-description }}", _T(entry.event));
+
+
+  let talk = _cv_templates.talkEntry.replace("{{ title }}", title)
+                                        .replace("{{ place }}", place )
+                                        .replace("{{ event }}", event )
+                                        .replace("{{ year }}", _T(entry.year) )
+      ;
+  let item = _cv_templates.listSectionItem.replace("{{ item }}", talk);
+  return item;
+}
+
+function parsePackageEntry(entry) {
+  let title = _cv_templates.itemTitle.replace("{{ item-title }}", _T(entry.title));
+  let desc = _cv_templates.itemDescription.replace("{{ item-description }}", _T(entry.description));
+  let href = _cv_templates.packageHREF.replace(/{{ href }}/g, entry.href); //replace all (/g for globally)
+
+  let addHREFs = "";
+  if (entry.additional_hrefs.length > 0){
+    if (_CV_LANG == 0)
+      addHREFs += ", see also: ";
+    else
+      addHREFs += ", siehe auch: ";
+  }
+  addHREFs += entry.additional_hrefs.map(function(h){
+    return _cv_templates.packageHREF.replace(/{{ href }}/g, h);
+  }).join(", ");
+
+  let pack = _cv_templates.packageEntry.replace("{{ title }}", title)
+                                        .replace("{{ description }}", desc)
+                                        .replace("{{ href }}", href )
+      ;
+  pack += addHREFs;
+  let item = _cv_templates.listSectionItem.replace("{{ item }}", pack);
   return item;
 }

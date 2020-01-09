@@ -1,5 +1,5 @@
 body {
-    font-family: Helvetica Neue, Arial, sans-serif;
+    font-family: Helvetica Neue, Arial, Free Sans, sans-serif;
     font-size: 12pt;
     -webkit-print-color-adjust: exact;
     hyphens: auto;
@@ -10,10 +10,11 @@ body {
     font-weight: bold;    
     font-size: 36pt;
     margin-left: 0pt;
-    margin-top: 36pt;
+    margin-top: 100px;
     margin-right: 36pt;
     -webkit-print-color-adjust: exact;
-    float: left;
+    width: 100%;
+
     /*
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
@@ -26,6 +27,20 @@ body {
     display: flex;
     margin-left: 100px;
     max-width: calc(800px + 128pt);
+}
+
+.cv-control-row {
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    max-width: calc(800px + 128pt);
+}
+
+td.cv-control-table {
+    padding: 5px;
+}
+td.cv-control-td {
+    vertical-align: middle;
 }
 
 .cv-main-row {

@@ -57,3 +57,26 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+.button {
+  background-color: #ccc; /* Green */
+  border: none;
+  color: white;
+  padding: 2px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border-radius: 34px;
+  width: 40px;
+  height: 26px;
+  color: #333;
+  cursor: pointer;
+
+}
+
+.button:hover {
+  background-color: #333; /* Green */
+  color: white;
+}

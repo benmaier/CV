@@ -6,7 +6,7 @@ body {
 }
 
 .cv-title {
-    color: #334;
+    color: #33333f;
     font-weight: bold;    
     font-size: 36pt;
     margin-left: 0pt;
@@ -86,7 +86,7 @@ td.cv-control-td {
 
 
 .cv-section-title {
-   color: #778;
+   color: #77777f;
     margin-right: 0pt;
     font-size: 20pt;
     margin-left: 0pt;

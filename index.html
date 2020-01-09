@@ -18,7 +18,7 @@
           <div id="h1" class="cv-title">Ben F. Maier — CV</div>
   </div>
   <div class="cv-control-row">
-      <table class="cv-control-table">
+      <table class="cv-control-table" cellspacing="5">
           <tr>
               <td class="cv-control-td">English</td>
               <td class="cv-control-td">
@@ -49,6 +49,14 @@
               </td>
               <td class="cv-control-td">Show all entries per section</td>
           </tr>
+          <tr>
+              <td></td>
+              <td class="cv-control-td">
+                  <button name="download" class="button" onclick="download()"><b>⇓</b></button>
+              </td>
+              <td class="cv-control-td">Download PDF</td>
+          </tr>
+
        </table>
   </div>
   </label>
@@ -62,6 +70,9 @@
   <script src="js/cv.js"></script>
   <script>
         let CV = new CVBuilder("cvcontainer", "data/cv_content.json");
+
+        function download() {
+        }
   </script>
 </body>
 </html>

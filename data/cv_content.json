@@ -629,6 +629,21 @@
     "talks": [
         {
             "title": [
+                "Misconceptions of spreading processes in sparse temporal networks"
+            ],
+            "event": [
+                "PIK, RD4 seminar series"
+            ],
+            "place": [
+                "Potsdam"
+            ],
+            "year": [
+                "2020"
+            ],
+            "important": true
+        },
+        {
+            "title": [
                 "Flockworks: A class of dynamic network models for face-to-face interactions"
             ],
             "event": [
@@ -860,7 +875,7 @@
             "year": [
                 "2015&ndash;2019"
             ],
-            "important": false
+            "important": true
         },
         {
             "title": [

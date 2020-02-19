@@ -52,7 +52,7 @@
           <tr>
               <td></td>
               <td class="cv-control-td">
-                  <button name="download" class="button" onclick="download()"><b>⇓</b></button>
+                  <button name="download" class="button" onclick="download()"><b>⇓</b></a></button>
               </td>
               <td class="cv-control-td">Download PDF</td>
           </tr>
@@ -72,6 +72,14 @@
         let CV = new CVBuilder("cvcontainer", "data/cv_content.json");
 
         function download() {
+
+            let a = document.createElement('a')
+            let url = "CV_Ben_F._Maier.pdf";
+            a.href = url;
+            a.download = url.split('/').pop()
+            document.body.appendChild(a)
+            a.click()
+            document.body.removeChild(a)
         }
   </script>
 </body>

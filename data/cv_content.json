@@ -486,6 +486,16 @@
     ],
     "publications": [
       {
+        "authors": ["B. F. Maier*", "D. Brockmann"],
+        "title": ["Effective containment explains sub-exponential growth in confirmed cases of recent COVID-19 outbreak in Mainland China"],
+        "year": ["2020"],
+        "additional": "",
+        "hyperlink": "",
+        "arxiv": "2002.07572",
+        "doi": "",
+        "important": true
+      },
+      {
         "authors": [
           "B. Neumann*",
           "J. K. Bender",
@@ -639,6 +649,21 @@
             ],
             "year": [
                 "2020"
+            ],
+            "important": true
+        },
+        {
+            "title": [
+                "Epidemic spreading on face-to-face temporal networks"
+            ],
+            "event": [
+                "Seminar series"
+            ],
+            "place": [
+                "Santa Fe Institute"
+            ],
+            "year": [
+                "2019"
             ],
             "important": true
         },

@@ -516,6 +516,16 @@
         "important": true
       },
       {
+        "authors": ["F. Klimm*", "B. F. Maier*"],
+        "title": "Commentary: A network science summer course for high school students",
+        "year": ["2020"],
+        "additional": ["Network Science, 1-13"],
+        "hyperlink": "https://www.cambridge.org/core/journals/network-science/article/commentary-a-network-science-summer-course-for-highschool-students/CFCE737C7A392033AD05E9EDA9FA54CD",
+        "arxiv": "2005.02487",
+        "doi": "10.1017/nws.2020.12",
+        "important": true
+      },
+      {
         "authors": [
           "B. Neumann*",
           "J. K. Bender",
@@ -573,16 +583,6 @@
         "arxiv": "1808.00240",
         "doi": "10.1093/comnet/cnz010",
         "important": true
-      },
-      {
-        "authors": ["F. Klimm*", "B. F. Maier*"],
-        "title": "A network science summer course for high school students",
-        "year": ["2017"],
-        "additional": ["in review", "in Review"],
-        "hyperlink": "",
-        "arxiv": "",
-        "doi": "",
-        "important": false
       },
       {
         "authors": ["B. F. Maier*", "D. Brockmann"],

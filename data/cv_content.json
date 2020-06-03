@@ -496,16 +496,6 @@
         "important": true
       },
       {
-        "authors": ["U. Aslak*", "B. F. Maier*"],
-        "title": ["Netwulf: Interactive visualization of networks in Python"],
-        "year": ["2019"],
-        "additional": ["Journal of Open Source Software 4 (42), 1425"],
-        "hyperlink": "https://joss.theoj.org/papers/10.21105/joss.01425",
-        "arxiv": "",
-        "doi": "10.21105/joss.01425",
-        "important": true
-      },
-      {
         "authors": [
           "G. T. Cantwell*",
           "Y. Liu",
@@ -549,6 +539,16 @@
         "arxiv": "",
         "doi": "",
         "important": false
+      },
+      {
+        "authors": ["U. Aslak*", "B. F. Maier*"],
+        "title": ["Netwulf: Interactive visualization of networks in Python"],
+        "year": ["2019"],
+        "additional": ["Journal of Open Source Software 4 (42), 1425"],
+        "hyperlink": "https://joss.theoj.org/papers/10.21105/joss.01425",
+        "arxiv": "",
+        "doi": "10.21105/joss.01425",
+        "important": true
       },
       {
         "authors": ["B. F. Maier*"],

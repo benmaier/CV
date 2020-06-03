@@ -487,38 +487,13 @@
     "publications": [
       {
         "authors": ["B. F. Maier*", "D. Brockmann"],
-        "title": ["Effective containment explains sub-exponential growth in confirmed cases of recent COVID-19 outbreak in Mainland China"],
+        "title": ["Effective containment explains subexponential growth in recent confirmed COVID-19 cases in China"],
         "year": ["2020"],
-        "additional": "",
-        "hyperlink": "",
+        "additional": "Science 368 (6492), pp. 742-746",
+        "hyperlink": "https://science.sciencemag.org/content/368/6492/742/tab-article-info",
         "arxiv": "2002.07572",
-        "doi": "",
+        "doi": "10.1126/science.abb4557",
         "important": true
-      },
-      {
-        "authors": [
-          "B. Neumann*",
-          "J. K. Bender",
-          "B. F. Maier",
-          "A. Wittig",
-          "S. Fuchs",
-          "T. Semmler",
-          "D. Brockmann",
-          "H. Einsele",
-          "S. Kraus",
-          "L. H. Wieler",
-          "U. Vogel",
-          "G. Werner"
-        ],
-        "title": [
-          "Combining clinical epidemiology, NGS-based analysis and modelling approaches to reveal transmission dynamics of vancomycin-resistant enterococci in a high risk population within a tertiary care hospital"
-        ],
-        "year": ["2019"],
-        "additional": ["In review", "In Review"],
-        "hyperlink": "",
-        "arxiv": "",
-        "doi": "",
-        "important": false
       },
       {
         "authors": ["U. Aslak*", "B. F. Maier*"],
@@ -543,15 +518,37 @@
         "title": [
           "Thresholding normally distributed data creates complex networks"
         ],
-        "year": ["2019"],
-        "additional": [
-          "in review at \"Phys. Rev. E\"",
-          "in Review bei \"Phys. Rev. E\""
-        ],
-        "hyperlink": "",
+        "year": ["2020"],
+        "additional": ["Phys. Rev. E 101, 062302"],
+        "hyperlink": "https://journals.aps.org/pre/abstract/10.1103/PhysRevE.101.062302",
         "arxiv": "1902.08278",
-        "doi": "",
+        "doi": "10.1103/PhysRevE.101.062302",
         "important": true
+      },
+      {
+        "authors": [
+          "B. Neumann*",
+          "J. K. Bender",
+          "B. F. Maier",
+          "A. Wittig",
+          "S. Fuchs",
+          "T. Semmler",
+          "D. Brockmann",
+          "H. Einsele",
+          "S. Kraus",
+          "L. H. Wieler",
+          "U. Vogel",
+          "G. Werner"
+        ],
+        "title": [
+          "Combining clinical epidemiology, NGS-based analysis and modelling approaches to reveal transmission dynamics of vancomycin-resistant enterococci in a high risk population within a tertiary care hospital"
+        ],
+        "year": ["2020"],
+        "additional": ["In review", "In Review"],
+        "hyperlink": "",
+        "arxiv": "",
+        "doi": "",
+        "important": false
       },
       {
         "authors": ["B. F. Maier*"],

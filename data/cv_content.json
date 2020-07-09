@@ -496,6 +496,16 @@
         "important": true
       },
       {
+        "authors": ["F. Schlosser*", "B. F. Maier", "D. Hinrichs", "A. Zachariae", "D. Brockmann"],
+        "title": ["COVID-19 lockdown induces structural changes in mobility networks — Implication for mitigating disease dynamics"],
+        "year": ["2020"],
+        "additional": "",
+        "hyperlink": "",
+        "arxiv": "2007.01583",
+        "doi": "",
+        "important": false
+      },
+      {
         "authors": [
           "G. T. Cantwell*",
           "Y. Liu",
@@ -544,10 +554,10 @@
           "Combining clinical epidemiology, NGS-based analysis and modelling approaches to reveal transmission dynamics of vancomycin-resistant enterococci in a high risk population within a tertiary care hospital"
         ],
         "year": ["2020"],
-        "additional": ["In review", "In Review"],
-        "hyperlink": "",
+        "additional": ["PloS one 15 (6), e0235160"],
+        "hyperlink": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0235160",
         "arxiv": "",
-        "doi": "",
+        "doi": "10.1371/journal.pone.0235160",
         "important": false
       },
       {

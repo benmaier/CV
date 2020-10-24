@@ -991,6 +991,20 @@
     "packages": [
         {
             "title": [
+                "epipack"
+            ],
+            "href": [
+                "github.com/benmaier/epipack"
+            ],
+            "description": [
+                "Build epidemiological models for analytical and numerical analyses as well as network simulations",
+                "Erstellen von epidemiologischen Modellen für analytische und numerische Analysen sowie Netzwerksimulationen"
+            ],
+            "additional_hrefs": [],
+            "important": true
+        },
+        {
+            "title": [
                 "netwulf"
             ],
             "href": [

@@ -646,6 +646,21 @@
     "talks": [
         {
             "title": [
+                "Signaling on modular hierarchical and other small-world networks"
+            ],
+            "event": [
+                "NetSci"
+            ],
+            "place": [
+                "Rome"
+            ],
+            "year": [
+                "2020"
+            ],
+            "important": true
+        },
+        {
+            "title": [
                 "Misconceptions of spreading processes in sparse temporal networks"
             ],
             "event": [

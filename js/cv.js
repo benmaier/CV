@@ -4,6 +4,7 @@ let _CV_LANG = 0;
 let _CV_PRINT = false;
 let _CV_SHOW_UNIMPORTANT = false;
 let _CV_SHOW_ALL_SECTIONS = false;
+let _CV_LINK_PAPERS = false;
 
 class CVBuilder {
   
@@ -315,10 +316,10 @@ function parseScientificEntry(entry) {
   else
   {
       let t = entry.description;
-    console.log(t);
+      console.log(t);
 
       let title = _T(t.title);
-    console.log(title);
+      console.log(title);
       let arxivlink = "https://arxiv.org/abs/" + t.arxiv;      
       let doilink = "https://doi.org/" + t.doi;
       let arxiv = "arXiv:" + _cv_templates.paperLink.replace("{{ linktext }}", t.arxiv)
@@ -326,21 +327,24 @@ function parseScientificEntry(entry) {
       let doi = "doi:" + _cv_templates.paperLink.replace("{{ linktext }}", t.doi)
                                                     .replace("{{ href }}", doilink);
 
-      if (t.href != "")
+      if (_CV_LINK_PAPERS)
       {
-        title = _cv_templates.paperLink.replace("{{ linktext }}", title)
-                                       .replace("{{ href }}", t.href);
-      }
-      else if (t.arxiv != "")
-      {
+        if (t.href != "")
+        {
+          title = _cv_templates.paperLink.replace("{{ linktext }}", title)
+                                         .replace("{{ href }}", t.href);
+        }
+        else if (t.arxiv != "")
+        {
 
-        title = _cv_templates.paperLink.replace("{{ linktext }}", title)
-                                       .replace("{{ href }}", arxivlink);
-      }
-      else if (t.doi != "")
-      {
-        title = _cv_templates.paperLink.replace("{{ linktext }}", title)
-                                       .replace("{{ href }}", doilink);
+          title = _cv_templates.paperLink.replace("{{ linktext }}", title)
+                                         .replace("{{ href }}", arxivlink);
+        }
+        else if (t.doi != "")
+        {
+          title = _cv_templates.paperLink.replace("{{ linktext }}", title)
+                                         .replace("{{ href }}", doilink);
+        }
       }
 
 
@@ -355,9 +359,9 @@ function parseScientificEntry(entry) {
         links += " " + doi + ".";
       }
 
-      let thesis = `&ldquo;${title}&rdquo;`;
+      let thesis = `${title}`;
       if (links != "")
-        thesis = `<br/>${links}`;
+        thesis += `<br/>${links}`;
 
     right = thesis;
   }
@@ -393,6 +397,7 @@ function parseFellowshipEntry(entry) {
 
 function parsePublicationEntry(entry) {
 
+  let self = this;
   let authors = entry.authors.map(function(a){
       let _a = a;
       if (a.includes("B. F. Maier") || a.includes("B. Maier"))
@@ -411,20 +416,23 @@ function parsePublicationEntry(entry) {
   let doi = "doi:" + _cv_templates.paperLink.replace("{{ linktext }}", entry.doi)
                                                 .replace("{{ href }}", doilink);
 
-  if (entry.hyperlink != "")
+  if (_CV_LINK_PAPERS) 
   {
-    title = _cv_templates.paperLink.replace("{{ linktext }}", title)
-                                   .replace("{{ href }}", entry.hyperlink);
-  }
-  else if (entry.arxiv != "")
-  {
-    title = _cv_templates.paperLink.replace("{{ linktext }}", title)
-                                   .replace("{{ href }}", arxivlink);
-  }
-  else if (entry.doi != "")
-  {
-    title = _cv_templates.paperLink.replace("{{ linktext }}", title)
-                                   .replace("{{ href }}", doilink);
+    if (entry.hyperlink != "")
+    {
+      title = _cv_templates.paperLink.replace("{{ linktext }}", title)
+                                     .replace("{{ href }}", entry.hyperlink);
+    }
+    else if (entry.arxiv != "")
+    {
+      title = _cv_templates.paperLink.replace("{{ linktext }}", title)
+                                     .replace("{{ href }}", arxivlink);
+    }
+    else if (entry.doi != "")
+    {
+      title = _cv_templates.paperLink.replace("{{ linktext }}", title)
+                                     .replace("{{ href }}", doilink);
+    }
   }
 
 
@@ -534,22 +542,26 @@ function parseThesisEntry(entry){
       let doi = "doi:" + _cv_templates.paperLink.replace("{{ linktext }}", t.doi)
                                                     .replace("{{ href }}", doilink);
 
-      if (t.href != "")
+      if (_CV_LINK_PAPERS)
       {
-        title = _cv_templates.paperLink.replace("{{ linktext }}", title)
-                                       .replace("{{ href }}", t.href);
-      }
-      else if (t.arxiv != "")
-      {
+        if (t.href != "")
+        {
+          title = _cv_templates.paperLink.replace("{{ linktext }}", title)
+                                         .replace("{{ href }}", t.href);
+        }
+        else if (t.arxiv != "")
+        {
 
-        title = _cv_templates.paperLink.replace("{{ linktext }}", title)
-                                       .replace("{{ href }}", arxivlink);
+          title = _cv_templates.paperLink.replace("{{ linktext }}", title)
+                                         .replace("{{ href }}", arxivlink);
+        }
+        else if (t.doi != "")
+        {
+          title = _cv_templates.paperLink.replace("{{ linktext }}", title)
+                                         .replace("{{ href }}", doilink);
+        }
       }
-      else if (t.doi != "")
-      {
-        title = _cv_templates.paperLink.replace("{{ linktext }}", title)
-                                       .replace("{{ href }}", doilink);
-      }
+      console.log(title, doi);
 
 
       let links = "";
@@ -563,9 +575,11 @@ function parseThesisEntry(entry){
         links += " " + doi + ".";
       }
 
-      let thesis = `&ldquo;${title}&rdquo; (${_T(t.qualification)})`;
+      let thesis = `${title} (${_T(t.qualification)})`;
       if (links != "")
-        thesis = `<br/>${links}`;
+        thesis += `<br/>${links}`;
+
+    console.log(thesis);
 
 
     

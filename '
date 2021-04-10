@@ -68,7 +68,7 @@
     },
     "profile": [
         [
-            "ambitious researcher with an expertise in Statistical Physics and Complex Systems",
+            "researcher trained in statistical physics and big data analysis",
             "Wissenschaft&shy;ler mit Expertise in Statistischer Phy&shy;sik und Komplexen Systemen"
         ],
         [
@@ -107,7 +107,7 @@
       },
       {
         "date": ["2011–2014"],
-        "name": ["MSc in Physics", "M. Sc. in Physik"],
+        "name": ["M. Sc. in Physics", "M. Sc. in Physik"],
         "place": [
           "Humboldt University of Berlin",
           "Humboldt-Universität zu Berlin"
@@ -127,7 +127,7 @@
       },
       {
         "date": ["2008–2011"],
-        "name": ["BSc in Physics", "B. Sc. in Physik"],
+        "name": ["B. Sc. in Physics", "B. Sc. in Physik"],
         "place": [
           "Humboldt University of Berlin",
           "Humboldt-Universität zu Berlin"
@@ -356,7 +356,7 @@
                 "title": ["Spreading Processes in Human Systems"],
                 "href": "",
                 "arxiv": "",
-                "doi": "10.18452/21035"
+                "doi": ""
             },
         "important": false
       }
@@ -424,7 +424,7 @@
       },
       {
         "name": ["Web"],
-        "items": ["D3.js", "Phaser.js", "Three.js", "HTML", "CSS", "django"],
+        "items": ["D3.js", "Phaser.js", "Three.js", "HTML", "CSS"],
         "important": true
       },
       {
@@ -463,25 +463,25 @@
             "href": "",
             "arxiv": "",
             "important": true,
-            "doi": "10.18452/20950"
+            "doi": ""
         },
         {
             "title": ["Thermophoresis in Liquids and its Connection to Equilibrium Quantities"],
-            "qualification": ["MSc"],
+            "qualification": ["M. Sc."],
             "important": true,
             "year": "2014",
             "href": "",
             "arxiv": "",
-            "doi": "10.18452/21036"
+            "doi": ""
         },
         {
             "title": ["Simulations of Dyon Configurations in SU(2) Yang-Mills Theory"],
-            "qualification": ["BSc"],
+            "qualification": ["B. Sc."],
             "important": true,
             "year": "2011",
             "href": "",
             "arxiv": "",
-            "doi": "10.18452/21035"
+            "doi": ""
         }
     ],
     "publications": [

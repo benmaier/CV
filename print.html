@@ -8,32 +8,36 @@
   <meta name="description" content="Ben F. Maier's CV, Lebenslauf">
   <meta name="author" content="Ben F. Maier">
 
-  <link rel="stylesheet" href="css/cvprint.css">
+  <link rel="stylesheet" href="css/cvprint-apple.css">
 
 </head>
 
 <body>
   <div class="cv-header-row">
       <div class="cv-header-column">
-          <div id="h1" class="cv-title">Ben F. <br/>Maier — CV</div>
+          <div id="h1" class="cv-title">Ben F. <br/>Maier</div>
       </div>
 
+      <!--
       <div class="cv-header-column">
-      <div id="personalcontainer" class="cv-personal-container">
+        <div id="personalcontainer" class="cv-personal-container">
+        </div>
+      </div>
+      -->
+  </div>
+
+  <div class="cv-main-row">
+      <div class="cv-main-column-left">
+          <div id="profilecontainer" class="cv-main-column-left-content">
           Robert Koch-Institut<br/>
           Nordufer 20<br/>
           13353 Berlin<br/>
           GERMANY<br/>
           <br/>
           contact@benmaier.org<br/>
-          benmaier.org</br>
-      </div>
-      </div>
-  </div>
-
-  <div class="cv-main-row">
-      <div class="cv-main-column-left">
-          <div id="profilecontainer" class="cv-main-column-left-content">
+          benmaier.org<br/>
+          <br/>
+          github.com/benmaier<br/>
           </div>
       </div>
       <div class="cv-main-column-right">
@@ -45,7 +49,9 @@
   <script src="js/templates.js"></script>
   <script src="js/cv.js"></script>
   <script>
-        let CV = new CVBuilder("cvcontainer", "data/cv_content.json","profilecontainer");
+        //let CV = new CVBuilder("cvcontainer", "data/cv_content.json","profilecontainer");
+        let CV = new CVBuilder("cvcontainer", "data/cv_content.json","");
   </script>
+
 </body>
 </html>

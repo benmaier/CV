@@ -123,17 +123,18 @@ _cv_templates.paperAuthor = `<span class="cv-paper-author">{{ author }}</span>`;
 _cv_templates.paperTitle = `<span class="cv-paper-title">{{ title }}</span>`;
 _cv_templates.paperLink = `<a href="{{ href }}" class="cv-link" target="_blank">{{ linktext }}</a>`;
 _cv_templates.paperAdd = `<span class="cv-paper-additional">{{ additional }}</span>`;
-_cv_templates.paperEntry = `{{ authors }} ({{ year }}). &ldquo;{{ title }}&rdquo;. {{ additional }}.{{ links }}`;
+//_cv_templates.paperEntry = `{{ authors }}, &ldquo;{{ title }}&rdquo; ({{ year }}). {{ additional }}.{{ links }}`;
+_cv_templates.paperEntry = `{{ title }}<br/>{{ year }}, {{ additional }}.{{ links }} <br/>{{ authors }}`;
 
 _cv_templates.talkTitle = `<span class="cv-talk-title">{{ title }}</span>`;
 _cv_templates.talkPlace = `<span class="cv-talk-place">{{ place }}</span>`;
 _cv_templates.talkEvent = `<span class="cv-talk-event">{{ event }}</span>`;
-_cv_templates.talkEntry = `{{ title }}, {{ event }}, {{ place }} ({{ year }})`
+_cv_templates.talkEntry = `{{ title }}<br/> {{ event }}, {{ place }} ({{ year }})`
 
 _cv_templates.packageTitle = `<span class="cv-item-title">{{ title }}</span>`;
 _cv_templates.packageHREF = `<a href="https://{{ href }}" class="cv-link" target="_blank"><span class="cv-package-href">{{ href }}</span></a>`;
 _cv_templates.packageDescription = `<span class="cv-item-description">{{ description }}</span>`;
-_cv_templates.packageEntry = `{{ title }}, {{ href }}, {{ description }}`
+_cv_templates.packageEntry = `{{ title }}, {{ description }}, {{ href }}`
 
 _cv_templates.schoolTitle = `<span class="cv-school-title">{{ title }}</span>`;
 _cv_templates.schoolPlace = `<span class="cv-school-place">{{ place }}</span>`;

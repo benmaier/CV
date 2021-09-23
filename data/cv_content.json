@@ -2,6 +2,7 @@
   "fieldorder": [
     "academic",
     "science",
+    "reviews",
     "education",
     "additional_working",
     "teaching",
@@ -18,6 +19,7 @@
   "fieldimportance": {
     "academic": true,
     "science": true,
+    "reviews": true,
     "education": true,
     "additional_working": true,
     "teaching": true,
@@ -34,6 +36,7 @@
   "fieldnames": {
     "education": ["Education", "Ausbildung"],
     "teaching": ["Teaching", "Lehre"],
+    "reviews": ["Reviewing Work", "Gutachten"],
     "academic": ["Academic Positions", "Akademische Stellen"],
     "additional_working": [
       "Additional Work Experience",
@@ -88,6 +91,96 @@
             "Empf&auml;nger verschiedener Stipendien und Promotion summa cum laude"
         ]
     ],
+    "reviews": { 
+        "reviews" : [
+            {
+                "journal": "plosone",
+                "year": 2021
+            },
+            {
+                "journal": "physbio",
+                "year": 2020
+            },
+            {
+                "journal": "physA",
+                "year": 2020
+            },
+            {
+                "journal": "scienceadv",
+                "year": 2020
+            },
+            {
+                "journal": "prx",
+                "year": 2020
+            },
+            {
+                "journal": "pre",
+                "year": 2021
+            },
+            {
+                "journal": "pnas",
+                "year": 2021
+            },
+            {
+                "journal": "plosone",
+                "year": 2021
+            },
+            {
+                "journal": "naturecomm",
+                "year": 2021
+            }
+        ],
+        "journals" : {
+            "physbio" : {
+                "title": "Physical Biology",
+                "longtitle": "Physical Biology - IOPscience",
+                "shorttitle": "PhysBio",
+                "href": "https://iopscience.iop.org/journal/1478-3975"
+            },
+            "physA" : {
+                "title": "Physica A",
+                "longtitle": "Physica A: Statistical Mechanics and its Applications",
+                "shorttitle": "PhysA",
+                "href": "https://www.journals.elsevier.com/physica-a-statistical-mechanics-and-its-applications"
+            },
+            "plosone" : {
+                "title": "PLOS ONE",
+                "longtitle": "Public Library of Science ONE",
+                "shorttitle": "PLOS ONE",
+                "href": "https://journals.plos.org/plosone/"
+            },
+            "prx" : {
+                "title": "Physical Review X",
+                "longtitle": "Physical Review X",
+                "shorttitle": "PhysRevX",
+                "href": "https://journals.aps.org/prx/"
+            },
+            "scienceadv" : {
+                "title": "Science Advances",
+                "longtitle": "Science Advances",
+                "shorttitle": "Science Adv.",
+                "href": "https://www.science.org/journal/sciadv"
+            },
+            "naturecomm" : {
+                "title": "Nature Communications",
+                "longtitle": "Nature Communications",
+                "shorttitle": "Nature Comm.",
+                "href": "https://www.nature.com/ncomms/"
+            },
+            "pre" : {
+                "title": "Physical Review E",
+                "longtitle": "Physical Review E",
+                "shorttitle": "PhysRevE",
+                "href": "https://journals.aps.org/pre/"
+            },
+            "pnas" : {
+                "title": "PNAS",
+                "longtitle": "Proceedings of the National Academy of Sciences",
+                "shorttitle": "PNAS",
+                "href": "https://www.pnas.org"
+            }
+        }
+    },
     "education": [
       {
         "date": ["2014–2019"],
@@ -151,7 +244,7 @@
     ],
     "teaching": [
       {
-          "date": ["since 2016", "seit 2016"],
+        "date": ["since 2016", "seit 2016"],
         "name": ["Co-supervisor", "Co-Betreuer"],
         "place": ["Robert Koch Institute", "Robert Koch-Institut"],
         "description": [

@@ -74,9 +74,9 @@
         function download() {
 
             let a = document.createElement('a')
-            let url = "benmaier.org/CV/data/CV_Ben_F._Maier.pdf";
+            let url = "https://github.com/benmaier/CV/raw/master/data/CV%20Ben%20F.%20Maier.pdf";
             a.href = url;
-            a.download = url.split('/').pop()
+            a.download = "CV_-_Ben_F_Maier.pdf";
             document.body.appendChild(a)
             a.click()
             document.body.removeChild(a)

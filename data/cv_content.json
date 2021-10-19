@@ -585,6 +585,26 @@
     ],
     "publications": [
       {
+        "authors": ["B. F. Maier*", "D. Brockmann"],
+        "title": ["Effective containment explains subexponential growth in recent confirmed COVID-19 cases in China"],
+        "year": ["2020"],
+        "additional": "Science 368 (6492), pp. 742-746",
+        "hyperlink": "https://science.sciencemag.org/content/368/6492/742/tab-article-info",
+        "arxiv": "2002.07572",
+        "doi": "10.1126/science.abb4557",
+        "important": true
+      },
+      {
+        "authors": ["F. Schlosser*", "B. F. Maier", "D. Hinrichs", "A. Zachariae", "D. Brockmann"],
+        "title": ["COVID-19 lockdown induces structural changes in mobility networks — Implication for mitigating disease dynamics"],
+        "year": ["2020"],
+        "additional": "PNAS 117 (52), 32883-32890",
+        "hyperlink": "https://www.pnas.org/content/117/52/32883.short",
+        "arxiv": "2007.01583",
+        "doi": "10.1073/pnas.2012326117",
+        "important": true
+      },
+      {
         "authors": ["B. F. Maier*"],
         "title": ["epipack: An infectious disease modeling package for Python"],
         "year": ["2021"],
@@ -613,26 +633,6 @@
         "arxiv": "",
         "doi": "10.1101/2021.06.21.21259258",
         "important": true
-      },
-      {
-        "authors": ["B. F. Maier*", "D. Brockmann"],
-        "title": ["Effective containment explains subexponential growth in recent confirmed COVID-19 cases in China"],
-        "year": ["2020"],
-        "additional": "Science 368 (6492), pp. 742-746",
-        "hyperlink": "https://science.sciencemag.org/content/368/6492/742/tab-article-info",
-        "arxiv": "2002.07572",
-        "doi": "10.1126/science.abb4557",
-        "important": true
-      },
-      {
-        "authors": ["F. Schlosser*", "B. F. Maier", "D. Hinrichs", "A. Zachariae", "D. Brockmann"],
-        "title": ["COVID-19 lockdown induces structural changes in mobility networks — Implication for mitigating disease dynamics"],
-        "year": ["2020"],
-        "additional": "PNAS 117 (52), 32883-32890",
-        "hyperlink": "https://www.pnas.org/content/117/52/32883.short",
-        "arxiv": "2007.01583",
-        "doi": "10.1073/pnas.2012326117",
-        "important": false
       },
       {
         "authors": [
@@ -687,7 +687,7 @@
         "hyperlink": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0235160",
         "arxiv": "",
         "doi": "10.1371/journal.pone.0235160",
-        "important": false
+        "important": true
       },
       {
         "authors": ["U. Aslak*", "B. F. Maier*"],
@@ -1417,7 +1417,7 @@
             "important": true
         },
         {
-            "title": "Coronavirus curve shows much of Europe could face Italy-like surge within weeks - The Washington Post",
+            "title": "Coronavirus curve shows much of Europe could face Italy-like surge within weeks",
             "type": [
                 "newspaper article",
                 "Zeitungsartikel"

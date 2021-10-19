@@ -210,10 +210,10 @@ class CVBuilder {
           let prfx = '';
           let sffx = '\n';
           if ((nrev > 1) && (d == nrev-1)) {
-              prfx = 'and ';
+              prfx = (['and ','und '])[_CV_LANG];
               sffx = '.';
           }
-          else if (d < nrev-1){
+          else if ( ((_CV_LANG == 0) && (d < nrev-1)) || ((_CV_LANG==1) && (d<nrev-2)) ){
             sffx = ', ';
           }
           let link = prfx + l + _T(entry.title)+ r + sffx;
@@ -368,10 +368,8 @@ function parseScientificEntry(entry) {
   else if (entry.name.includes("PhD Thesis"))
   {
       let t = entry.description;
-      console.log(t);
 
       let title = _T(t.title);
-      console.log(title);
       let arxivlink = "https://arxiv.org/abs/" + t.arxiv;      
       let doilink = "https://doi.org/" + t.doi;
       let arxiv = "arXiv:" + _cv_templates.paperLink.replace("{{ linktext }}", t.arxiv)
@@ -452,8 +450,8 @@ function parsePublicationEntry(entry) {
   let self = this;
   let authors = entry.authors.map(function(a){
       let _a = a;
-      if (a.includes("B. F. Maier") || a.includes("B. Maier"))
-        _a = `<span class="cv-item-title">${_a}</span>`;
+      //if (a.includes("B. F. Maier") || a.includes("B. Maier"))
+      //  _a = `<span class="cv-item-title">${_a}</span>`;
       _a = _cv_templates.paperAuthor.replace("{{ author }}", _a);
       return _a;
     
@@ -541,7 +539,6 @@ function parseSchoolEntry(entry) {
 function parsePressEntry(entry) {
 
     let title = _T(entry.title);
-    console.log(entry);
 
     if (entry.href != "")
       title = `<a href="${entry.href}" class="cv-link">${title}</a>`;
@@ -636,7 +633,6 @@ function parseThesisEntry(entry){
                                          .replace("{{ href }}", doilink);
         }
       }
-      console.log(title, doi);
 
 
       let links = "";
@@ -654,7 +650,6 @@ function parseThesisEntry(entry){
       if (links != "")
         thesis += `<br/>${links}`;
 
-    console.log(thesis);
 
 
     

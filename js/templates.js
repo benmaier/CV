@@ -124,7 +124,8 @@ _cv_templates.paperTitle = `<span class="cv-paper-title">{{ title }}</span>`;
 _cv_templates.paperLink = `<a href="{{ href }}" class="cv-link" target="_blank">{{ linktext }}</a>`;
 _cv_templates.paperAdd = `<span class="cv-paper-additional">{{ additional }}</span>`;
 //_cv_templates.paperEntry = `{{ authors }}, &ldquo;{{ title }}&rdquo; ({{ year }}). {{ additional }}.{{ links }}`;
-_cv_templates.paperEntry = `{{ title }}<br/>{{ year }}, {{ additional }}.{{ links }} <br/>{{ authors }}`;
+//_cv_templates.paperEntry = `{{ title }}<br/>{{ year }}, {{ additional }}.{{ links }} <br/>{{ authors }}`;
+_cv_templates.paperEntry = `{{ additional }} ({{ year }})<br/><b>{{ title }}</b><br/>{{ authors }}, {{ links }}`;
 
 _cv_templates.talkTitle = `<span class="cv-talk-title">{{ title }}</span>`;
 _cv_templates.talkPlace = `<span class="cv-talk-place">{{ place }}</span>`;

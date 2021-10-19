@@ -1,0 +1,1192 @@
+[
+	{
+		"id": "http://zotero.org/users/2275129/items/9RJ4ED39",
+		"type": "broadcast",
+		"abstract": "Frank Schlosser knows how Germans are reacting to quarantine. Because he watches them move. Listen to DW's science podcast for a different angle on the coronavirus — 5 minutes every day from Germany.",
+		"collection-title": "Deutsche Welle: \"Science Unscripted\"",
+		"language": "en_GB",
+		"title": "Tracking quarantine movement",
+		"URL": "https://www.dw.com/en/tracking-quarantine-movement/av-52954720",
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					5,
+					20
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/ZYAYC6ZD",
+		"type": "article-magazine",
+		"abstract": "Social distancing measures are based on limited data. As much of the world remains stuck in lockdown, researchers are trying to measure the benefits.",
+		"container-title": "The Scientist Magazine",
+		"language": "en",
+		"note": "source: www.the-scientist.com",
+		"title": "The Effects of Physical Isolation on the Pandemic Quantified",
+		"URL": "https://www.the-scientist.com/news-opinion/the-effects-of-physical-isolation-on-the-pandemic-quantified-67407",
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					5,
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					4,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/JY7AUUB8",
+		"type": "article-newspaper",
+		"container-title": "South China Morning Post",
+		"title": "Coronavirus: China got it right by locking down Wuhan, German study says",
+		"URL": "https://www.scmp.com/news/china/society/article/3079528/coronavirus-china-got-it-right-locking-down-wuhan-german-study",
+		"author": [
+			{
+				"family": "Rui",
+				"given": "Guo"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					5,
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					4,
+					12
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/G468Z6D2",
+		"type": "article-newspaper",
+		"abstract": "Viele Menschen leiden unter der aktuellen Kontaktsperre Dank Modellierern des Robert KochInstituts wissen wir jetzt dass diese Maßnahme Wirkung zeigt",
+		"container-title": "Laborjournal",
+		"language": "Deutsch",
+		"note": "source: www.laborjournal.de",
+		"title": "Bleibt zu Hause!",
+		"URL": "http://www.laborjournal.de/editorials/1985.php",
+		"author": [
+			{
+				"family": "Tetsch",
+				"given": "Larissa"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					5,
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					4,
+					20
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/KZY7Q9Y6",
+		"type": "article-newspaper",
+		"abstract": "We analyzed the movements of hundreds of millions of people to show why the most extensive travel restrictions to stop an outbreak in human history haven’t been enough.",
+		"container-title": "The New York Times",
+		"ISSN": "0362-4331",
+		"language": "en-US",
+		"section": "World",
+		"source": "NYTimes.com",
+		"title": "How the Virus Got Out",
+		"URL": "https://www.nytimes.com/interactive/2020/03/22/world/coronavirus-spread.html",
+		"author": [
+			{
+				"family": "Wu",
+				"given": "Jin"
+			},
+			{
+				"family": "Cai",
+				"given": "Weiyi"
+			},
+			{
+				"family": "Watkins",
+				"given": "Derek"
+			},
+			{
+				"family": "Glanz",
+				"given": "James"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					5,
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					3,
+					22
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/56SXXW37",
+		"type": "article-newspaper",
+		"abstract": "Neki od najboljih svjetskih stručnjaka koji prate širenje korona virusa predviđaju da bi se veći dio Evrope za nekoliko sedmica mogao suočiti s naglim povećanjem broja slučajeva zaraženih korona virusom i situacijom sličnoj onoj u kojoj se našla Italija.",
+		"container-title": "Radio Televizija BN",
+		"note": "source: www.rtvbn.com",
+		"title": "Veći dio Evrope može zadesiti scenarij iz Italije",
+		"URL": "https://www.rtvbn.com/3979664/veci-dio-evrope-moze-zadesiti-scenarij-iz-italije",
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					5,
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					3,
+					16
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/NHU3LER9",
+		"type": "article-newspaper",
+		"abstract": "Advierten que en pocas semanas toda Europa puede estar como Italia - LA NACION",
+		"container-title": "La Nación",
+		"language": "es",
+		"note": "source: www.lanacion.com.ar",
+		"title": "Advierten que en pocas semanas toda Europa puede estar como Italia",
+		"URL": "https://www.lanacion.com.ar/el-mundo/advierten-pocas-semanas-toda-europa-puede-estar-nid2343119",
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					5,
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					3,
+					13
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/JC6FFIT2",
+		"type": "article-newspaper",
+		"abstract": "Neki od najboljih svjetskih stručnjaka koji prate širenje koronavirusa predviđaju da bi se veći dio Evrope za nekoliko sedmica mogao suočiti s naglim povećanjem broja slučajeva zaraženih koronavirusom i situacijom sličnoj onoj u kojoj se našla Italija....",
+		"container-title": "Klix.ba",
+		"language": "bs-BA",
+		"note": "source: www.klix.ba",
+		"title": "Prognoze epidemiologa: Veći dio Evrope za nekoliko sedmica će zadesiti italijanski scenarij",
+		"title-short": "Prognoze epidemiologa",
+		"URL": "https://www.klix.ba/vijesti/svijet/prognoze-epidemiologa-veci-dio-evrope-za-nekoliko-sedmica-ce-zadesiti-italijanski-scenarij/200316007",
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					5,
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					3,
+					16
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/F6IZPXSK",
+		"type": "article-newspaper",
+		"abstract": "A Europa poderá enfrentar dentro de poucas semanas uma situação semelhante à vivida atualmente em Itália, com uma explosão de casos de COVID-19, hospitais sobrecarregados e milhões de pessoas obrigadas a ficar de quarentena.",
+		"container-title": "Rádio e Televisão de Portugal",
+		"language": "pt",
+		"note": "source: www.rtp.pt",
+		"title": "COVID-19. Europa à beira de se tornar uma gigantesca Itália",
+		"URL": "https://www.rtp.pt/noticias/mundo/covid-19-europa-a-beira-de-se-tornar-uma-gigantesca-italia_n1211891",
+		"author": [
+			{
+				"family": "Portugal",
+				"given": "Rádio e Televisão",
+				"dropping-particle": "de"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					5,
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					3,
+					16
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/HDM38D46",
+		"type": "article-newspaper",
+		"abstract": "‘Italy is about two weeks ahead of Britain and the rest of Europe,’ professor Francois Balloux says",
+		"container-title": "The Independent",
+		"language": "en",
+		"note": "source: www.independent.co.uk\nsection: Europe",
+		"title": "Epidemiological models show Europe faces Italy-like coronavirus surges within weeks",
+		"URL": "https://www.independent.co.uk/news/world/europe/coronavirus-news-update-covid-19-mathematical-model-epidemiology-a9402131.html",
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					5,
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					3,
+					14
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/QDAP9R8A",
+		"type": "article-newspaper",
+		"container-title": "The Washington Post",
+		"title": "Coronavirus curve shows much of Europe could face Italy-like surge within weeks - The Washington Post",
+		"URL": "https://www.washingtonpost.com/world/europe/flatten-the-curve-coronavirus/2020/03/12/a648883c-6460-11ea-8a8e-5c5336b32760_story.html",
+		"author": [
+			{
+				"family": "Morris",
+				"given": "Loveday"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					5,
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					3,
+					13
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/YJ5B2ZE7",
+		"type": "article-magazine",
+		"abstract": "Die Corona-Krise zeigt viele Gesichter: Auf der einen Seite streiten sich Menschen um Klopapier, auf der anderen Seite gibt es eine große Welle der Hilfsbereitschaft, vor allem unter Nachbarn. Die Nächstenliebe kann aber auch zur Gefahr werden, weiß ein Experte vom Robert-Koch-Institut.",
+		"container-title": "FIT FOR FUN",
+		"language": "de",
+		"note": "source: www.fitforfun.de",
+		"title": "Einkaufen für Nachbarn? Richtig helfen in Corona-Zeiten",
+		"title-short": "Einkaufen für Nachbarn?",
+		"URL": "https://www.fitforfun.de/news/nachbarschaftshilfe-aber-richtig-das-sollte-man-bei-aller-naechstenliebe-wissen-421238.html",
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					5,
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					4,
+					14
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/WM4NC35P",
+		"type": "broadcast",
+		"container-title": "Ab 21",
+		"publisher": "Deutschlandfunk Nova",
+		"title": "Gut gemeint ist nicht immer gut gemacht: Richtig helfen in der Corona-Krise",
+		"URL": "https://www.deutschlandfunknova.de/beitrag/nachbarschaftshilfe-wie-wir-waehrend-corona-richtig-helfen-tipps-vom-experten",
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					4,
+					9
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/FQNSEBQZ",
+		"type": "broadcast",
+		"collection-title": "Gemeinsam gegen Corona - der Wissenspodcast von GEOlino",
+		"number": "6",
+		"title": "Die Pandemie",
+		"URL": "https://www.geo.de/geolino/mensch/22743-rtkl-jetzt-anhoeren-gemeinsam-gegen-corona-der-wissenspodcast-von-geolino",
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					5,
+					20
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/MQH7WKVG",
+		"type": "broadcast",
+		"publisher": "NDR",
+		"title": "Solidarität: Richtig helfen in der Corona-Krise",
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					3,
+					18
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/7KUXFIZX",
+		"type": "article-magazine",
+		"abstract": "Auch über Ostern sollen wir Abstand halten. Ist das angesichts der sich verlangsamenden Geschwindigkeit von Neuinfektionen noch angebracht? Erklärungen für die anhaltende Kontaktverbote. Von Haluka Maier-Borst und Vanessa Klüber",
+		"container-title": "rbb24",
+		"language": "de",
+		"note": "source: www.rbb24.de",
+		"title": "Warum Abstand halten an Ostern gegen die Pandemie helfen kann",
+		"URL": "https://www.rbb24.de/panorama/thema/2020/coronavirus/beitraege_neu/2020/04/ostern-abstand-kontaktverbot-feiertage-coronavirus-daten-zahlen.html",
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					5,
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					4,
+					12
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/SW2MC7CM",
+		"type": "article-magazine",
+		"abstract": "Am 20. April werden die bisherigen Maßnahmen gegen Corona auslaufen. Doch was kommt dann? Modelle legen nahe, dass eine Verlängerung des Lockdowns prinzipiell helfen kann. Am wichtigsten ist aber, was danach kommt. Von Haluka Maier-Borst und Arne Schlüter",
+		"container-title": "rbb24",
+		"language": "de",
+		"note": "source: www.rbb24.de",
+		"title": "Corona ist ein Marathon, kein Sprint",
+		"URL": "https://www.rbb24.de/panorama/thema/2020/coronavirus/beitraege_neu/2020/04/modellrechnungen-epidemie-corona-massnahmen-nach-lockdown.html",
+		"author": [
+			{
+				"family": "Maier-Borst",
+				"given": ""
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					5,
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					4,
+					14
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/PFUF5T88",
+		"type": "article-newspaper",
+		"abstract": "Die Corona-Fallzahlen in Berlin und Brandenburg werden auch nach Einführung der neuen Maßnahmen steigen. Warum das so ist und wieso Vorkehrungen wie Quarantäne jetzt trotzdem enorm wichtig sein könnten, fasst Haluka Maier-Borst zusammen.",
+		"container-title": "rbb24",
+		"language": "de",
+		"note": "source: www.rbb24.de",
+		"title": "Wieso die Fallzahlen steigen und Social Distancing hilft",
+		"URL": "https://www.rbb24.de/panorama/thema/2020/coronavirus/beitraege/dunkelziffer-quarantaene-social-distancing-effekt.html",
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					5,
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					2,
+					22
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/T9HCPZ9R",
+		"type": "article-newspaper",
+		"abstract": "Gut gemeint, aber schnell falsch gemacht: Ein Netzwerkforscher erklärt, wie man seinen Nachbarn sicher helfen kann – und wer sich zurückhalten sollte.",
+		"container-title": "Die Zeit",
+		"event-place": "Hamburg",
+		"ISSN": "0044-2070",
+		"language": "de-DE",
+		"publisher-place": "Hamburg",
+		"source": "Die Zeit",
+		"title": "Nachbarschaftshilfe: \"Nicht einfach draufloshelfen\"",
+		"title-short": "Nachbarschaftshilfe",
+		"URL": "https://www.zeit.de/zeit-magazin/leben/2020-03/nachbarschaftshilfe-coronavirus-infektionskette-solidaritaet-netzwerkforschung",
+		"author": [
+			{
+				"family": "Frisse",
+				"given": "Juliane"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					5,
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					3,
+					19
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/8TH67DTK",
+		"type": "article-newspaper",
+		"abstract": "In Deutschland werden erste Schutzmaßnahmen gelockert, zugleich sprechen Politiker und Virologen düstere Warnungen aus. Sucht man nach wissenschaftlichen Grundlagen für diese Sorge, findet man auch einigen Grund für Hoffnung.",
+		"container-title": "DIE WELT",
+		"source": "www.welt.de",
+		"title": "Lockerung des Lockdowns: So groß ist die Gefahr der zweiten Welle",
+		"title-short": "Lockerung des Lockdowns",
+		"URL": "https://www.welt.de/wissenschaft/plus207528275/Lockerung-des-Lockdowns-So-gross-ist-die-Gefahr-der-zweiten-Welle.html",
+		"author": [
+			{
+				"family": "Herden",
+				"given": "Birgit"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					5,
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					4,
+					27
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/TJKEZS7Q",
+		"type": "article-newspaper",
+		"abstract": "Alle Welt starrt auf Werte, die Virologen und Epidemiologen berechnen, um die Pandemie in den Griff zu bekommen. Wie sinnvoll ist das? Im Gespräch erklärt der Physiker und Modellierer Benjamin Maier, wo Stärken und Schwächen der Berechnungen liegen.",
+		"container-title": "DIE WELT",
+		"source": "www.welt.de",
+		"title": "Corona-Leitfaden: Diese Zahlen helfen Ihnen, die Pandemie zu verstehen",
+		"title-short": "Corona-Leitfaden",
+		"URL": "https://www.welt.de/wissenschaft/plus207886867/Corona-Leitfaden-Diese-Zahlen-helfen-Ihnen-die-Pandemie-zu-verstehen.html",
+		"author": [
+			{
+				"family": "Herden",
+				"given": "Birgit"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					5,
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					5,
+					11
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/CHNBPMFN",
+		"type": "article-newspaper",
+		"abstract": "Forscher rät: Kontakt mit nur einem bedürftigen Haushalt",
+		"container-title": "neues deutschland",
+		"language": "de",
+		"note": "source: www.neues-deutschland.de",
+		"title": "Nicht drauflos helfen",
+		"URL": "https://www.neues-deutschland.de/artikel/1134687.nicht-drauflos-helfen.html",
+		"author": [
+			{
+				"family": "Hillebrand",
+				"given": "Fabian"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					5,
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					3,
+					24
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/AU5QRJ4B",
+		"type": "article-newspaper",
+		"abstract": "Das Coronavirus verändert unseren Alltag rasant und grundlegend. Abstand birgt die Gefahr sozialer Isolation. Vielen verschafft die Situation aber auch ungeahnte Kontakte.",
+		"container-title": "neues deutschland",
+		"language": "de",
+		"note": "source: www.neues-deutschland.de",
+		"title": "Distanz und Nähe",
+		"URL": "https://www.neues-deutschland.de/artikel/1134688.corona-pandemie-distanz-und-naehe.html",
+		"author": [
+			{
+				"family": "Hillebrand",
+				"given": "Fabian"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					5,
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					3,
+					4
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/7FI28W6J",
+		"type": "article-magazine",
+		"abstract": "Deutschland will die Grenzen zu Tschechien und Österreich stärker kontrollieren. Ins Land dürfen nur Menschen mit einem negativen Corona-Test. Was bringen die Maßnahmen?",
+		"container-title": "DER SPIEGEL",
+		"language": "de",
+		"title": "Corona: So sinnvoll sind Grenzschließungen zu Tschechien und Österreich",
+		"title-short": "Corona",
+		"URL": "https://www.spiegel.de/wissenschaft/mensch/corona-so-sinnvoll-sind-grenzschliessungen-zu-tschechien-und-oesterreich-a-8a6f9da9-ccae-4000-8124-330809a46e5e",
+		"author": [
+			{
+				"family": "Seidler",
+				"given": "Christoph"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					2,
+					13
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					2,
+					12
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/H4EGBTFX",
+		"type": "article-newspaper",
+		"abstract": "Aus den Gesundheitsämtern kommt die Forderung, die Lage nicht nur anhand der Corona-Inzidenzwerte zu bewerten. Doch so verständlich einige Kritikpunkte sind, so fehlgeleitet sind viele der Schlussfolgerungen. Eine Analyse von Haluka Maier-Borst",
+		"container-title": "rbb24",
+		"language": "de",
+		"title": "Warum die Berliner Amtsärzte richtig argumentieren - aber falsche Schlüsse ziehen",
+		"URL": "https://www.rbb24.de/panorama/thema/corona/beitraege/2021/02/berlin-amtsaerzte-epidemiologen-argumente.html",
+		"author": [
+			{
+				"family": "Maier-Borst",
+				"given": "Haluka"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					2,
+					23
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					2,
+					22
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/BXBF78JG",
+		"type": "article-newspaper",
+		"abstract": "Angesichts wieder steigender Infektionszahlen fordern viele Experten, die Impfkampagne massiv zu beschleunigen.",
+		"container-title": "Süddeutsche Zeitung",
+		"language": "de",
+		"title": "Es kann nicht sein, dass Impfstoff liegen bleibt",
+		"URL": "https://www.sueddeutsche.de/gesundheit/coronavirus-impfstrategie-astra-zeneca-biontech-1.5221584",
+		"author": [
+			{
+				"family": "Charisius",
+				"given": "Hanno"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					3,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					3,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/3I5SBT4I",
+		"type": "article-magazine",
+		"abstract": "Der SPD-Gesundheitsexperte Lauterbach erwartet einen neuen Anstieg der Infektionszahlen in Deutschland. Dem SPIEGEL erklärte er, wie sich laut einer Simulationsrechnung Tausende Leben retten – und Geschäfte öffnen lassen.",
+		"container-title": "DER SPIEGEL",
+		"language": "de",
+		"title": "Corona-Strategie von Karl Lauterbach: So will er die dritte Welle brechen",
+		"title-short": "Corona-Strategie von Karl Lauterbach",
+		"URL": "https://www.spiegel.de/politik/deutschland/corona-strategie-von-karl-lauterbach-mit-schnelleren-impfungen-und-mehr-tests-gegen-die-dritte-welle-a-4363c47e-5305-4126-aad5-02478bd4d386",
+		"author": [
+			{
+				"family": "Mestermann",
+				"given": "Marius"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					3,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					2,
+					28
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/DRIX32KT",
+		"type": "article-magazine",
+		"abstract": "Berlin - SPD-Politiker Karl Lauterbach hat mit Forschern der Humboldt-Universität und des Helmholtz-Zentrums eine Strategie entwickelt, die Öffnungsschritte ermöglichen und gleichzeitig tausende Leben retten soll.",
+		"container-title": "nordbayern.de",
+		"language": "de-DE",
+		"title": "Simulationsrechnung: So lässt sich die dritte Corona-Welle brechen",
+		"title-short": "Simulationsrechnung",
+		"URL": "https://www.nordbayern.de/politik/simulationsrechnung-so-lasst-sich-die-dritte-corona-welle-brechen-1.10883130",
+		"author": [
+			{
+				"family": "Trabert",
+				"given": "Kilian"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					3,
+					2
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					3,
+					2
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/I2WPSQ55",
+		"type": "article-magazine",
+		"container-title": "fuldainfo.de",
+		"language": "de-DE",
+		"note": "section: Politik",
+		"title": "Scholz will Strategiewechsel bei Corona-Politik",
+		"URL": "https://www.fuldainfo.de/scholz-will-strategiewechsel-bei-corona-politik/",
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					3,
+					2
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					3,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/YI6JYJ7V",
+		"type": "article-newspaper",
+		"abstract": "SPD-Gesundheitspolitiker Karl Lauterbach schlägt kurz vor der Ministerpräsidentenkonferenz von Bund und Ländern eine neue Strategie vor. Wie der \"Spiegel\"",
+		"container-title": "BSAktuell",
+		"language": "de-DE",
+		"title": "Lauterbach schlägt neue Impf- und Teststrategie vor",
+		"URL": "https://www.bsaktuell.de/deutschland-und-welt/lauterbach-schlaegt-neue-impf-und-teststrategie-vor/197824/",
+		"author": [
+			{
+				"family": "Obeser",
+				"given": "Mario"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					3,
+					2
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					2,
+					28
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/FU2W5ZWH",
+		"type": "article-newspaper",
+		"abstract": "Viele sind mürbe vom Lockdown. Doch nun beginnen die Fallzahlen wieder zu steigen. Wissenschaftlerinnen und Wissenschaftler diskutieren Ideen, die bei der Bekämpfung der Pandemie helfen könnten. Von Haluka Maier-Borst",
+		"container-title": "rbb24",
+		"language": "de",
+		"title": "Drei Ideen, um die Pandemie besser in den Griff zu kriegen",
+		"URL": "https://www.rbb24.de/panorama/thema/corona/beitraege/2021/03/erstimpfung-biontech-schulen-schnelltests.html",
+		"author": [
+			{
+				"family": "Maier-Borst",
+				"given": "Haluka"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					3,
+					3
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					3,
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/HA7XA8DF",
+		"type": "article-newspaper",
+		"abstract": "Selbsttests und wöchentliche Schnelltests sollen mehr Sicherheit schaffen - und ab jetzt die Lockerungen der Corona-Maßnahmen begleiten. Doch was kann die neue Strategie wirklich leisten und wo muss man vorsichtig sein? Von Haluka Maier-Borst",
+		"container-title": "rbb24",
+		"language": "de",
+		"title": "Zu viele Hoffnungen und absurde Zweifel an neuen Tests",
+		"URL": "https://www.rbb24.de/panorama/thema/corona/beitraege/2021/03/selbsttests-schnelltests-inzidenz-auswirkung.html",
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					3,
+					11
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					2,
+					22
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/8AT4P9JW",
+		"type": "article-newspaper",
+		"abstract": "Um die dritte Corona-Welle aufzuhalten, plädiert SPD-Politiker Lauterbach für ein Aufschieben der zweiten Dosis. Was das bewirkt, zeigt eine Modellrechnung.",
+		"container-title": "Der Tagesspiegel",
+		"language": "de",
+		"title": "Lauterbach hält Änderung der Impfstrategie für dringend nötig",
+		"URL": "https://www.tagesspiegel.de/wissen/bis-zu-14-000-corona-tote-weniger-lauterbach-haelt-aenderung-der-impfstrategie-fuer-dringend-noetig/26963916.html",
+		"author": [
+			{
+				"family": "Bernewasser",
+				"given": "Julia"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					3,
+					14
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					3,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/RKKXF8AG",
+		"type": "article-newspaper",
+		"abstract": "Wie viele Menschen muss man impfen, um Herdenimmunität zu erreichen? Und was heißt das für die Corona-Variante Delta? Testen Sie es mit unserem interaktiven Rechner.",
+		"container-title": "Die Zeit",
+		"event-place": "Hamburg",
+		"ISSN": "0044-2070",
+		"language": "de-DE",
+		"publisher-place": "Hamburg",
+		"section": "Wissen",
+		"source": "Die Zeit",
+		"title": "Herdenimmunität: Endet so die Pandemie?",
+		"title-short": "Herdenimmunität",
+		"URL": "https://www.zeit.de/wissen/2021-06/herdenimmunitaet-corona-infektionsgeschehen-impfung-neuinfektionen-simulation",
+		"author": [
+			{
+				"family": "Ehmann",
+				"given": "Annick"
+			},
+			{
+				"family": "Erdmann",
+				"given": "Elena"
+			},
+			{
+				"family": "Pietsch",
+				"given": "Christopher"
+			},
+			{
+				"family": "Tröger",
+				"given": "Julius"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					19
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					24
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/WK73LHUA",
+		"type": "article-newspaper",
+		"abstract": "How many people have to be vaccinated to achieve herd immunity against COVID-19? And how does the delta variant factor in? Find out with our interactive calculator.",
+		"container-title": "Die Zeit",
+		"event-place": "Hamburg",
+		"ISSN": "0044-2070",
+		"language": "de-DE",
+		"publisher-place": "Hamburg",
+		"section": "Wissen",
+		"source": "Die Zeit",
+		"title": "Herd Immunity: Is This How the Pandemic Comes to an End?",
+		"title-short": "Herd Immunity",
+		"URL": "https://www.zeit.de/wissen/2021-06/herd-immunity-calculator-covid-end-of-pandemic",
+		"author": [
+			{
+				"family": "Ehmann",
+				"given": "Annick"
+			},
+			{
+				"family": "Erdmann",
+				"given": "Elena"
+			},
+			{
+				"family": "Pietsch",
+				"given": "Christopher"
+			},
+			{
+				"family": "Tröger",
+				"given": "Julius"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					19
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					7,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/P9C3DKJI",
+		"type": "article-newspaper",
+		"abstract": "Der Physiker Benjamin Maier hat ausgerechnet, wie man die bislang noch knappen Impfstoffe besser einsetzen könnte. Eine unorthodoxe Strategie könnte in den kommenden Monaten einiges Leid verhindern – wenn die Menschen bereit wären mitzumachen.",
+		"container-title": "DIE WELT",
+		"language": "de",
+		"source": "www.welt.de",
+		"title": "Dritte Welle: Längere Impfintervalle würden Tausende Leben retten",
+		"title-short": "Dritte Welle",
+		"URL": "https://www.welt.de/gesundheit/plus227507463/Dritte-Welle-Laengere-Impfintervalle-wuerden-Tausende-Leben-retten.html",
+		"author": [
+			{
+				"family": "Herden",
+				"given": "Birgit"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					19
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					3,
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/RV6FEBNB",
+		"type": "article-newspaper",
+		"container-title": "Welt am Sonntag",
+		"title": "Eine Vorhersage würde ich für maximal sechs Tage wagen",
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					5,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/VV5HARRX",
+		"type": "article-newspaper",
+		"container-title": "Welt am Sonntag",
+		"title": "Die Zahlen der Pandemie",
+		"author": [
+			{
+				"family": "Herden",
+				"given": "Birgit"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					5,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/S5RMT8MR",
+		"type": "broadcast",
+		"container-title": "ARTE Re:",
+		"number": "565",
+		"publisher": "ARTE",
+		"title": "Schneller als das Virus",
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					6,
+					12
+				]
+			]
+		}
+	}
+]

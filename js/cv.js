@@ -110,7 +110,7 @@ class CVBuilder {
       }
       else if (section == 'languages')
       {
-        cvsection = parseTabledSection(title, content[section], parseScientificEntry, section);
+        cvsection = parseTabledSection(title, content[section], parseLanguageEntry, section);
       }
       else if (section == 'fellowships')
       {
@@ -141,6 +141,11 @@ class CVBuilder {
         title = _modify_title(title);
         cvsection = parseListSection(title, content[section], parseTalkEntry, section);
       }
+      else if (section == 'press')
+      {
+        title = _modify_title(title);
+        cvsection = parseTabledSection(title, content[section], parsePressEntry, section);
+      }
       else if (section == 'packages')
       {
         title = _modify_title(title);
@@ -161,7 +166,7 @@ class CVBuilder {
       });
 
       let profileHTML = _cv_templates.profile.replace("{{ title }}", _T(titles.profile))
-                                         .replace("{{ items }}", bulletList);
+                                             .replace("{{ items }}", bulletList);
 
       document.getElementById(self.profileid).innerHTML = profileHTML;
     }
@@ -179,6 +184,45 @@ class CVBuilder {
       let talkLink = document.getElementById("talks-link");
       talkLink.innerHTML = `<a href="#talks" class="cv-link">${talkLink.innerHTML}</a>`;
     }
+    
+    // add reviewing section
+    if (important.hasOwnProperty('reviews') && (important['reviews'] || _CV_SHOW_ALL_SECTIONS))
+    {
+      let reviewSpan = document.getElementById("reviews-list");
+      let journals = '';
+
+      let already_mentioned = [];
+      let entries = []
+      content['reviews'].forEach(function(entry,d){
+        if (! already_mentioned.includes(entry.journal) )
+        {
+          already_mentioned.push(entry.journal);
+          entries.push(entry);
+        }
+      });
+
+      let nrev = entries.length;
+
+      entries.forEach(function(entry,d){
+
+          let l = `<a href="${entry.href}" class="cv-link">`;
+          let r = `</a>`;
+          let prfx = '';
+          let sffx = '\n';
+          if ((nrev > 1) && (d == nrev-1)) {
+              prfx = 'and ';
+              sffx = '.';
+          }
+          else if (d < nrev-1){
+            sffx = ', ';
+          }
+          let link = prfx + l + _T(entry.title)+ r + sffx;
+          journals += link;
+      });
+
+      reviewSpan.innerHTML = journals;
+    }
+
   };
 }
 
@@ -224,7 +268,7 @@ function parseTabledSection(title, entries, rowparser, id="")
 {
   let cvsection = _cv_templates.tabledSection.replace("{{ title }}", title); 
   if (id != "")
-    id = `id="${id}"`
+    id = `id="${id}"`;
   cvsection = cvsection.replace("{{ id }}",id);
   let rows = '';
   entries.forEach(function(entry) {
@@ -251,17 +295,17 @@ function parseImportantSection(title, entries, rowparser, id="")
 {
   let cvsection = _cv_templates.importantSection.replace("{{ title }}", title); 
   if (id != "")
-    id = `id="${id}"`
+    id = `id="${id}"`;
   cvsection = cvsection.replace("{{ id }}",id);
   let rows = '';
   entries.forEach(function(entry,i) {
-    if ( (!_CV_SHOW_UNIMPORTANT && entry.important) || _CV_SHOW_UNIMPORTANT)
-    {
-      if (i>0) {
-        rows += '<div style="font-size:16pt;">&nbsp;</div>';
-      }
-      rows += rowparser(entry);
+  if ( (!_CV_SHOW_UNIMPORTANT && entry.important) || _CV_SHOW_UNIMPORTANT)
+  {
+    if (i>0) {
+      rows += '<div style="font-size:16pt;">&nbsp;</div>';
     }
+    rows += rowparser(entry);
+  }
   });
   cvsection = cvsection.replace("{{ entries }}", rows);
   return cvsection;
@@ -271,12 +315,12 @@ function parseListSection(title, entries, rowparser, id="")
 {
   let cvsection = _cv_templates.listSection.replace("{{ title }}", title); 
   if (id != "")
-    id = `id="${id}"`
+    id = `id="${id}"`;
   cvsection = cvsection.replace("{{ id }}",id);
   let rows = '';
   entries.forEach(function(entry) {
-    if ( (!_CV_SHOW_UNIMPORTANT && entry.important) || _CV_SHOW_UNIMPORTANT)
-      rows += rowparser(entry);
+  if ( (!_CV_SHOW_UNIMPORTANT && entry.important) || _CV_SHOW_UNIMPORTANT)
+    rows += rowparser(entry);
   });
   cvsection = cvsection.replace("{{ entries }}", rows);
   return cvsection;
@@ -298,22 +342,30 @@ function parseImportantEntry(entry) {
     return row;
 }
 
+function parseLanguageEntry(entry) {
+  let row = _cv_templates.tableRow;
+  let left = _T(entry.name);
+  let right = "";
+
+  right = _cv_templates.itemDescription.replace("{{ item-description }}",_T(entry.description));
+
+  row = row.replace("{{ left-col-content }}", left)
+           .replace("{{ right-col-content }}", right);
+
+  return row;
+}
+
 function parseScientificEntry(entry) {
 
   let row = _cv_templates.tableRow;
   let left = _T(entry.name);
   let right = "";
 
-  if (!entry.name.includes("PhD Thesis"))
+  if ( (entry.name.includes("Publications")) || (entry.name.includes("Talks") || (entry.name.includes("Reviews"))))
   {
-    let target = "";
-    if (entry.name.includes("Publications"))
-      target = "publications";
-    else if (entry.name.includes("Talks"))
-      target = "talks";
     right = _cv_templates.itemDescription.replace("{{ item-description }}",_T(entry.description));
   }
-  else
+  else if (entry.name.includes("PhD Thesis"))
   {
       let t = entry.description;
       console.log(t);
@@ -480,7 +532,30 @@ function parseSchoolEntry(entry) {
     let place = _cv_templates.itemPlace.replace("{{ item-place }}",_T(entry.place));
     let desc = _cv_templates.itemDescription.replace("{{ item-description }}","");
     let right = `${title}<br/>${place}`;
-  //console.log(right);
+    row = row.replace("{{ left-col-content }}", left)
+             .replace("{{ right-col-content }}", right);
+
+    return row;
+}
+
+function parsePressEntry(entry) {
+
+    let title = _T(entry.title);
+    console.log(entry);
+
+    if (entry.href != "")
+      title = `<a href="${entry.href}" class="cv-link">${title}</a>`;
+
+    let row = _cv_templates.tableRow;
+    let left = _cv_templates.timeRange.replace("{{ time-range }}",_T(entry.month) + ' ' +_T(entry.year));
+    title = _cv_templates.itemTitle.replace("{{ item-title }}",title);
+    let place = _cv_templates.itemPlace.replace("{{ item-place }}",_T(entry.publication));
+    let desc = _cv_templates.itemDescription.replace("{{ item-description }}",_T(entry.type));
+    let right;
+    if (entry.type == "")
+      right = `${title}<br/>${place}`;
+    else
+      right = `${title}<br/>${place}, ${desc}`;
     row = row.replace("{{ left-col-content }}", left)
              .replace("{{ right-col-content }}", right);
 

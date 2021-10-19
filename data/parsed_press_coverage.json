@@ -1,0 +1,704 @@
+[
+    {
+        "title": "Herd Immunity: Is This How the Pandemic Comes to an End?",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.zeit.de/wissen/2021-06/herd-immunity-calculator-covid-end-of-pandemic",
+        "year": 2021,
+        "month": [
+            "Jul",
+            "Juli"
+        ],
+        "month_numeric": 7,
+        "day": 1,
+        "publication": "Die Zeit",
+        "score": 100.0,
+        "important": true
+    },
+    {
+        "title": "Schneller als das Virus",
+        "type": [
+            "TV broadcast",
+            "TV-Sendung"
+        ],
+        "href": "",
+        "year": 2020,
+        "month": [
+            "Jun",
+            "Juni"
+        ],
+        "month_numeric": 6,
+        "day": 12,
+        "publication": "ARTE Re:",
+        "score": 100.0,
+        "important": true
+    },
+    {
+        "title": "How the Virus Got Out",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.nytimes.com/interactive/2020/03/22/world/coronavirus-spread.html",
+        "year": 2020,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 22,
+        "publication": "The New York Times",
+        "score": 100.0,
+        "important": true
+    },
+    {
+        "title": "Coronavirus curve shows much of Europe could face Italy-like surge within weeks - The Washington Post",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.washingtonpost.com/world/europe/flatten-the-curve-coronavirus/2020/03/12/a648883c-6460-11ea-8a8e-5c5336b32760_story.html",
+        "year": 2020,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 13,
+        "publication": "The Washington Post",
+        "score": 100.0,
+        "important": true
+    },
+    {
+        "title": "Drei Ideen, um die Pandemie besser in den Griff zu kriegen",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.rbb24.de/panorama/thema/corona/beitraege/2021/03/erstimpfung-biontech-schulen-schnelltests.html",
+        "year": 2021,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 3,
+        "publication": "rbb24",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "Dritte Welle: L\u00e4ngere Impfintervalle w\u00fcrden Tausende Leben retten",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.welt.de/gesundheit/plus227507463/Dritte-Welle-Laengere-Impfintervalle-wuerden-Tausende-Leben-retten.html",
+        "year": 2021,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 3,
+        "publication": "DIE WELT",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "Corona: So sinnvoll sind Grenzschlie\u00dfungen zu Tschechien und \u00d6sterreich",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.spiegel.de/wissenschaft/mensch/corona-so-sinnvoll-sind-grenzschliessungen-zu-tschechien-und-oesterreich-a-8a6f9da9-ccae-4000-8124-330809a46e5e",
+        "year": 2021,
+        "month": [
+            "Feb",
+            "Feb."
+        ],
+        "month_numeric": 2,
+        "day": 12,
+        "publication": "DER SPIEGEL",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "Corona-Leitfaden: Diese Zahlen helfen Ihnen, die Pandemie zu verstehen",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.welt.de/wissenschaft/plus207886867/Corona-Leitfaden-Diese-Zahlen-helfen-Ihnen-die-Pandemie-zu-verstehen.html",
+        "year": 2020,
+        "month": [
+            "May",
+            "Mai"
+        ],
+        "month_numeric": 5,
+        "day": 11,
+        "publication": "DIE WELT",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "\"Eine Vorhersage w\u00fcrde ich f\u00fcr maximal sechs Tage wagen\"",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "",
+        "year": 2020,
+        "month": [
+            "May",
+            "Mai"
+        ],
+        "month_numeric": 5,
+        "day": 10,
+        "publication": "Welt am Sonntag",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "Die Zahlen der Pandemie",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "",
+        "year": 2020,
+        "month": [
+            "May",
+            "Mai"
+        ],
+        "month_numeric": 5,
+        "day": 10,
+        "publication": "Welt am Sonntag",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "Gut gemeint ist nicht immer gut gemacht: Richtig helfen in der Corona-Krise",
+        "type": [
+            "radio broadcast",
+            "Radiosendung"
+        ],
+        "href": "https://www.deutschlandfunknova.de/beitrag/nachbarschaftshilfe-wie-wir-waehrend-corona-richtig-helfen-tipps-vom-experten",
+        "year": 2020,
+        "month": [
+            "Apr",
+            "Apr."
+        ],
+        "month_numeric": 4,
+        "day": 9,
+        "publication": "Deutschlandfunk Nova",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "Warum Abstand halten an Ostern gegen die Pandemie helfen kann",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.rbb24.de/panorama/thema/2020/coronavirus/beitraege_neu/2020/04/ostern-abstand-kontaktverbot-feiertage-coronavirus-daten-zahlen.html",
+        "year": 2020,
+        "month": [
+            "Apr",
+            "Apr."
+        ],
+        "month_numeric": 4,
+        "day": 12,
+        "publication": "rbb24",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "Lockerung des Lockdowns: So gro\u00df ist die Gefahr der zweiten Welle",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.welt.de/wissenschaft/plus207528275/Lockerung-des-Lockdowns-So-gross-ist-die-Gefahr-der-zweiten-Welle.html",
+        "year": 2020,
+        "month": [
+            "Apr",
+            "Apr."
+        ],
+        "month_numeric": 4,
+        "day": 27,
+        "publication": "DIE WELT",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "Epidemiological models show Europe faces Italy-like coronavirus surges within weeks",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.independent.co.uk/news/world/europe/coronavirus-news-update-covid-19-mathematical-model-epidemiology-a9402131.html",
+        "year": 2020,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 14,
+        "publication": "The Independent",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "Nachbarschaftshilfe: \"Nicht einfach draufloshelfen\"",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.zeit.de/zeit-magazin/leben/2020-03/nachbarschaftshilfe-coronavirus-infektionskette-solidaritaet-netzwerkforschung",
+        "year": 2020,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 19,
+        "publication": "Die Zeit",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "\"Es kann nicht sein, dass Impfstoff liegen bleibt\"",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.sueddeutsche.de/gesundheit/coronavirus-impfstrategie-astra-zeneca-biontech-1.5221584",
+        "year": 2020,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 1,
+        "publication": "S\u00fcddeutsche Zeitung",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "Wieso die Fallzahlen steigen und Social Distancing hilft",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.rbb24.de/panorama/thema/2020/coronavirus/beitraege/dunkelziffer-quarantaene-social-distancing-effekt.html",
+        "year": 2021,
+        "month": [
+            "Feb",
+            "Feb."
+        ],
+        "month_numeric": 2,
+        "day": 22,
+        "publication": "rbb24",
+        "score": 5.0,
+        "important": false
+    },
+    {
+        "title": "Zu viele Hoffnungen und absurde Zweifel an neuen Tests",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.rbb24.de/panorama/thema/corona/beitraege/2021/03/selbsttests-schnelltests-inzidenz-auswirkung.html",
+        "year": 2021,
+        "month": [
+            "Feb",
+            "Feb."
+        ],
+        "month_numeric": 2,
+        "day": 22,
+        "publication": "rbb24",
+        "score": 5.0,
+        "important": false
+    },
+    {
+        "title": "Solidarit\u00e4t: Richtig helfen in der Corona-Krise",
+        "type": [
+            "radio broadcast",
+            "Radiosendung"
+        ],
+        "href": "",
+        "year": 2020,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 18,
+        "publication": "NDR",
+        "score": 5.0,
+        "important": false
+    },
+    {
+        "title": "Warum die Berliner Amts\u00e4rzte richtig argumentieren - aber falsche Schl\u00fcsse ziehen",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.rbb24.de/panorama/thema/corona/beitraege/2021/02/berlin-amtsaerzte-epidemiologen-argumente.html",
+        "year": 2021,
+        "month": [
+            "Feb",
+            "Feb."
+        ],
+        "month_numeric": 2,
+        "day": 22,
+        "publication": "rbb24",
+        "score": 1.0,
+        "important": false
+    },
+    {
+        "title": "Tracking quarantine movement",
+        "type": [
+            "podcast",
+            "Podcast"
+        ],
+        "href": "https://www.dw.com/en/tracking-quarantine-movement/av-52954720",
+        "year": 2020,
+        "month": [
+            "May",
+            "Mai"
+        ],
+        "month_numeric": 5,
+        "day": 20,
+        "publication": "Deutsche Welle: \"Science Unscripted\"",
+        "score": 1.0,
+        "important": false
+    },
+    {
+        "title": "Die Pandemie",
+        "type": [
+            "podcast",
+            "Podcast"
+        ],
+        "href": "https://www.geo.de/geolino/mensch/22743-rtkl-jetzt-anhoeren-gemeinsam-gegen-corona-der-wissenspodcast-von-geolino",
+        "year": 2020,
+        "month": [
+            "May",
+            "Mai"
+        ],
+        "month_numeric": 5,
+        "day": 20,
+        "publication": "Gemeinsam gegen Corona - der Wissenspodcast von GEOlino",
+        "score": 1.0,
+        "important": false
+    },
+    {
+        "title": "Corona ist ein Marathon, kein Sprint",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.rbb24.de/panorama/thema/2020/coronavirus/beitraege_neu/2020/04/modellrechnungen-epidemie-corona-massnahmen-nach-lockdown.html",
+        "year": 2020,
+        "month": [
+            "Apr",
+            "Apr."
+        ],
+        "month_numeric": 4,
+        "day": 14,
+        "publication": "rbb24",
+        "score": 1.0,
+        "important": false
+    },
+    {
+        "title": "Nicht drauflos helfen",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.neues-deutschland.de/artikel/1134687.nicht-drauflos-helfen.html",
+        "year": 2020,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 24,
+        "publication": "neues deutschland",
+        "score": 1.0,
+        "important": false
+    },
+    {
+        "title": "Distanz und N\u00e4he",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.neues-deutschland.de/artikel/1134688.corona-pandemie-distanz-und-naehe.html",
+        "year": 2020,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 4,
+        "publication": "neues deutschland",
+        "score": 1.0,
+        "important": false
+    },
+    {
+        "title": "Herdenimmunit\u00e4t: Endet so die Pandemie?",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.zeit.de/wissen/2021-06/herdenimmunitaet-corona-infektionsgeschehen-impfung-neuinfektionen-simulation",
+        "year": 2021,
+        "month": [
+            "Jun",
+            "Juni"
+        ],
+        "month_numeric": 6,
+        "day": 24,
+        "publication": "Die Zeit",
+        "score": 0.0,
+        "important": false
+    },
+    {
+        "title": "Simulationsrechnung: So l\u00e4sst sich die dritte Corona-Welle brechen",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.nordbayern.de/politik/simulationsrechnung-so-lasst-sich-die-dritte-corona-welle-brechen-1.10883130",
+        "year": 2021,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 2,
+        "publication": "nordbayern.de",
+        "score": 0.0,
+        "important": false
+    },
+    {
+        "title": "Lauterbach h\u00e4lt \u00c4nderung der Impfstrategie f\u00fcr dringend n\u00f6tig",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.tagesspiegel.de/wissen/bis-zu-14-000-corona-tote-weniger-lauterbach-haelt-aenderung-der-impfstrategie-fuer-dringend-noetig/26963916.html",
+        "year": 2021,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 1,
+        "publication": "Der Tagesspiegel",
+        "score": 0.0,
+        "important": false
+    },
+    {
+        "title": "Corona-Strategie von Karl Lauterbach: So will er die dritte Welle brechen",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.spiegel.de/politik/deutschland/corona-strategie-von-karl-lauterbach-mit-schnelleren-impfungen-und-mehr-tests-gegen-die-dritte-welle-a-4363c47e-5305-4126-aad5-02478bd4d386",
+        "year": 2021,
+        "month": [
+            "Feb",
+            "Feb."
+        ],
+        "month_numeric": 2,
+        "day": 28,
+        "publication": "DER SPIEGEL",
+        "score": 0.0,
+        "important": false
+    },
+    {
+        "title": "Lauterbach schl\u00e4gt neue Impf- und Teststrategie vor",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.bsaktuell.de/deutschland-und-welt/lauterbach-schlaegt-neue-impf-und-teststrategie-vor/197824/",
+        "year": 2021,
+        "month": [
+            "Feb",
+            "Feb."
+        ],
+        "month_numeric": 2,
+        "day": 28,
+        "publication": "BSAktuell",
+        "score": 0.0,
+        "important": false
+    },
+    {
+        "title": "The Effects of Physical Isolation on the Pandemic Quantified",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.the-scientist.com/news-opinion/the-effects-of-physical-isolation-on-the-pandemic-quantified-67407",
+        "year": 2020,
+        "month": [
+            "Apr",
+            "Apr."
+        ],
+        "month_numeric": 4,
+        "day": 10,
+        "publication": "The Scientist Magazine",
+        "score": 0.0,
+        "important": false
+    },
+    {
+        "title": "Coronavirus: China got it right by locking down Wuhan, German study says",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.scmp.com/news/china/society/article/3079528/coronavirus-china-got-it-right-locking-down-wuhan-german-study",
+        "year": 2020,
+        "month": [
+            "Apr",
+            "Apr."
+        ],
+        "month_numeric": 4,
+        "day": 12,
+        "publication": "South China Morning Post",
+        "score": 0.0,
+        "important": false
+    },
+    {
+        "title": "Bleibt zu Hause!",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "http://www.laborjournal.de/editorials/1985.php",
+        "year": 2020,
+        "month": [
+            "Apr",
+            "Apr."
+        ],
+        "month_numeric": 4,
+        "day": 20,
+        "publication": "Laborjournal",
+        "score": 0.0,
+        "important": false
+    },
+    {
+        "title": "Einkaufen f\u00fcr Nachbarn? Richtig helfen in Corona-Zeiten",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.fitforfun.de/news/nachbarschaftshilfe-aber-richtig-das-sollte-man-bei-aller-naechstenliebe-wissen-421238.html",
+        "year": 2020,
+        "month": [
+            "Apr",
+            "Apr."
+        ],
+        "month_numeric": 4,
+        "day": 14,
+        "publication": "FIT FOR FUN",
+        "score": 0.0,
+        "important": false
+    },
+    {
+        "title": "Ve\u0107i dio Evrope mo\u017ee zadesiti scenarij iz Italije",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.rtvbn.com/3979664/veci-dio-evrope-moze-zadesiti-scenarij-iz-italije",
+        "year": 2020,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 16,
+        "publication": "Radio Televizija BN",
+        "score": 0.0,
+        "important": false
+    },
+    {
+        "title": "Advierten que en pocas semanas toda Europa puede estar como Italia",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.lanacion.com.ar/el-mundo/advierten-pocas-semanas-toda-europa-puede-estar-nid2343119",
+        "year": 2020,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 13,
+        "publication": "La Naci\u00f3n",
+        "score": 0.0,
+        "important": false
+    },
+    {
+        "title": "Prognoze epidemiologa: Ve\u0107i dio Evrope za nekoliko sedmica \u0107e zadesiti italijanski scenarij",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.klix.ba/vijesti/svijet/prognoze-epidemiologa-veci-dio-evrope-za-nekoliko-sedmica-ce-zadesiti-italijanski-scenarij/200316007",
+        "year": 2020,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 16,
+        "publication": "Klix.ba",
+        "score": 0.0,
+        "important": false
+    },
+    {
+        "title": "COVID-19. Europa \u00e0 beira de se tornar uma gigantesca It\u00e1lia",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.rtp.pt/noticias/mundo/covid-19-europa-a-beira-de-se-tornar-uma-gigantesca-italia_n1211891",
+        "year": 2020,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 16,
+        "publication": "R\u00e1dio e Televis\u00e3o de Portugal",
+        "score": 0.0,
+        "important": false
+    },
+    {
+        "title": "Scholz will Strategiewechsel bei Corona-Politik",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.fuldainfo.de/scholz-will-strategiewechsel-bei-corona-politik/",
+        "year": 2020,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 1,
+        "publication": "fuldainfo.de",
+        "score": 0.0,
+        "important": false
+    }
+]

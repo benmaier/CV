@@ -1,12 +1,12 @@
 body {
-    font-family: Helvetica Neue, Arial, Free Sans, sans-serif;
+    font-family: Roboto, Helvetica Neue, Arial, Free Sans, sans-serif;
     font-size: 12pt;
     -webkit-print-color-adjust: exact;
     hyphens: auto;
 }
 
 .cv-title {
-    color: #33333f;
+    color: #333333;
     font-weight: bold;    
     font-size: 36pt;
     margin-left: 0pt;
@@ -86,7 +86,8 @@ td.cv-control-td {
 
 
 .cv-section-title {
-   color: #77777f;
+    /*color: #77777f;*/
+    color: #333333;
     margin-right: 0pt;
     font-size: 20pt;
     margin-left: 0pt;

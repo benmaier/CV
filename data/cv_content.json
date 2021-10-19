@@ -95,47 +95,55 @@
         "reviews" : [
             {
                 "journal": "plosone",
-                "year": 2021
+                "year": ["2021"],
+                "title": "PLOS ONE",
+                "longtitle": "Public Library of Science ONE",
+                "shorttitle": "PLOS ONE",
+                "href": "https://journals.plos.org/plosone/"
             },
             {
                 "journal": "physbio",
-                "year": 2020
-            },
-            {
-                "journal": "physA",
-                "year": 2020
-            },
-            {
-                "journal": "scienceadv",
-                "year": 2020
-            },
-            {
-                "journal": "prx",
-                "year": 2020
-            },
-            {
-                "journal": "pre",
-                "year": 2021
-            },
-            {
-                "journal": "pnas",
-                "year": 2021
-            },
-            {
-                "journal": "plosone",
-                "year": 2021
-            },
-            {
-                "journal": "naturecomm",
-                "year": 2021
-            }
-        ],
-        "journals" : {
-            "physbio" : {
+                "year": ["2020"],
                 "title": "Physical Biology",
                 "longtitle": "Physical Biology - IOPscience",
                 "shorttitle": "PhysBio",
                 "href": "https://iopscience.iop.org/journal/1478-3975"
+            },
+            {
+                "journal": "physA",
+                "year": ["2020"],
+            },
+            {
+                "journal": "scienceadv",
+                "year": ["2020"],
+            },
+            {
+                "journal": "prx",
+                "year": ["2020"],
+            },
+            {
+                "journal": "pre",
+                "year": ["2021"],
+            },
+            {
+                "journal": "pnas",
+                "year": ["2021"],
+            },
+            {
+                "journal": "plosone",
+                "year": ["2021"],
+                "title": "PLOS ONE",
+                "longtitle": "Public Library of Science ONE",
+                "shorttitle": "PLOS ONE",
+                "href": "https://journals.plos.org/plosone/"
+            },
+            {
+                "journal": "naturecomm",
+                "year": ["2021"]
+            }
+        ],
+        "journals" : {
+            "physbio" : {
             },
             "physA" : {
                 "title": "Physica A",
@@ -144,10 +152,6 @@
                 "href": "https://www.journals.elsevier.com/physica-a-statistical-mechanics-and-its-applications"
             },
             "plosone" : {
-                "title": "PLOS ONE",
-                "longtitle": "Public Library of Science ONE",
-                "shorttitle": "PLOS ONE",
-                "href": "https://journals.plos.org/plosone/"
             },
             "prx" : {
                 "title": "Physical Review X",

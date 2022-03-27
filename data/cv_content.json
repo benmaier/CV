@@ -73,7 +73,7 @@
     },
     "profile": [
         [
-            "trans-disciplinary researcher with an expertise in infectiuos disease spreading, statistical physics and complex systems",
+            "trans-disciplinary researcher with an expertise in infectiuos disease modeling, statistical physics, and complex systems",
             "Transdisziplin&auml;rer Wissenschaft&shy;ler mit Expertise in Modellierung von Infektionskrankheiten, statistischer Phy&shy;sik und komplexen Systemen"
         ],
         [
@@ -201,7 +201,7 @@
         ],
         "description": [
           "final grade: 1.2, thesis: 1.0 (highest possible grade)",
-          "Abschlussnote: 1.2, asterarbeit: 1.0"
+          "Abschlussnote: 1.2, Masterarbeit: 1.0"
         ],
         "important": true
       },
@@ -464,15 +464,15 @@
       {
         "name": ["Voluntary Work", "Ehrenämter"],
         "description": [
-          "From 2015 to 2016 I have given private lessons in math and programming to teenagers in the Fibonacci program. During my studies I participated in voluntary activities for the HU Berlin Department of Physics' student association. Responsibilities included: redesigning the department's study regulations together with professors, partial organisation of a student association conference (ZaPF 2010), partial organisation of numerous freshmen introduction weekend trips, handling the association's finances, mentoring for freshmen, design and implementation of various web pages.",
-          "Von 2015 bis 2016 gab ich Einzelunterricht in Mathematik und Programmierung für begabte Schüler über das Fibonacci-Programm. Während meiner Studienzeit war ich Teil zahlreicher Aktivitäten der Fachschaftsinitiative Physik, u. a. der Umarbeitung der Studienordnungen in der Kommission für Lehre und Studium, Organisation der Zusammenkunft aller Physik-Fachschaften (ZaPF 2010), Organisation zahlreicher Erstsemester-Einführungswochenenden, Schatzmeister der Initiative, Mentoring für Erstsemester und Design und Implementierung einiger Webseiten."
+          "I help painting rooms in a shelter for homeless women from time to time. From 2015 to 2016 I have given private lessons in math and programming to teenagers in the Fibonacci program. During my studies I participated in voluntary activities for the HU Berlin Department of Physics' student association. Responsibilities included: redesigning the department's study regulations together with professors, partial organisation of a student association conference (ZaPF 2010), partial organisation of numerous freshmen introduction weekend trips, handling the association's finances, mentoring for freshmen, design and implementation of various web pages.",
+          "Gelegentlich streiche ich Zimmer in einer Einrichtung der Diakonie f&uuml;r wohnungslose Frauen. Von 2015 bis 2016 gab ich Einzelunterricht in Mathematik und Programmierung für begabte Schüler über das Fibonacci-Programm. Während meiner Studienzeit war ich Teil zahlreicher Aktivitäten der Fachschaftsinitiative Physik, u. a. der Umarbeitung der Studienordnungen in der Kommission für Lehre und Studium, Organisation der Zusammenkunft aller Physik-Fachschaften (ZaPF 2010), Organisation zahlreicher Erstsemester-Einführungswochenenden, Schatzmeister der Initiative, Mentoring für Erstsemester und Design und Implementierung einiger Webseiten."
         ]
       },
       {
         "name": ["Hobbies", "Hobbys"],
         "description": [
           "In my free time I produce electronic music using synthesizers and live coding techniques, build furniture or play the guitar. I also produce visualizations and make algorithmic art.",
-          "In meiner Freizeit produziere ich leidenschaftlich elektronische Musik unter Benutzung von Synthesizern und \"Live Coding\"-Techniken, baue Möbel oder spiele Gitarre."
+          "In meiner Freizeit produziere ich leidenschaftlich elektronische Musik unter Benutzung von Synthesizern und \"Live Coding\"-Techniken, baue Möbel oder spiele Gitarre. Au&szlig;erdem produziere ich Visualisierungen von Daten oder algorithmscher Kunst."
         ]
       }
     ],
@@ -602,6 +602,26 @@
         "hyperlink": "https://www.pnas.org/content/117/52/32883.short",
         "arxiv": "2007.01583",
         "doi": "10.1073/pnas.2012326117",
+        "important": true
+      },
+      {
+        "authors": ["B. F. Maier*, A. Burdinski, M. Wiedermann, M. an der Heiden, T. Harder, F. Schlosser, D. Brockmann"],
+        "title": ["Abschätzung der Infektionswelle durch die SARS-CoV-2 VOC Omikron"],
+        "year": ["2022"],
+        "additional": "Robert Koch Institute",
+        "hyperlink": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Modellierung_Omikronwelle_Bericht.pdf?__blob=publicationFile",
+        "arxiv": "",
+        "doi": "",
+        "important": true
+      },
+      {
+        "authors": ["B. F. Maier*, M. Wiedermann, A. Burdinski, P. Klamser, M. A. Jenny, C. Betsch, D. Brockmann"],
+        "title": ["Germany's current COVID-19 crisis is mainly driven by the unvaccinated"],
+        "year": ["2021"],
+        "additional": "arXiv",
+        "hyperlink": "",
+        "arxiv": "2111.12806",
+        "doi": "10.1101/2021.11.24.21266831",
         "important": true
       },
       {
@@ -1363,6 +1383,78 @@
     ],
     "press": [
         {
+            "title": "RKI-Modellierung der Omikron-Welle: Mitte Februar k\u00f6nnten die Fallzahlen wieder sinken",
+            "type": [
+                "magazine article",
+                "Zeitschriftenartikel"
+            ],
+            "href": "https://www.spiegel.de/wissenschaft/medizin/coronavirus-mitte-februar-koennten-die-fallzahlen-wieder-sinken-a-47050116-b31c-4dbc-a27c-514070af45f1",
+            "year": 2022,
+            "month": [
+                "Feb",
+                "Feb."
+            ],
+            "month_numeric": 2,
+            "day": 3,
+            "publication": "DER SPIEGEL",
+            "score": 100.0,
+            "important": true
+        },
+        {
+            "title": "Corona: \u00dcberlastung unwahrscheinlich, aber nicht ausgeschlossen",
+            "type": [
+                "newspaper article",
+                "Zeitungsartikel"
+            ],
+            "href": "https://www.zeit.de/wissen/2022-02/corona-ueberlastung-omikron-rki-karl-lauterbach",
+            "year": 2022,
+            "month": [
+                "Feb",
+                "Feb."
+            ],
+            "month_numeric": 2,
+            "day": 3,
+            "publication": "Die Zeit",
+            "score": 100.0,
+            "important": true
+        },
+        {
+            "title": "Omikron: 300.000 Neuinfektionen pro Tag zu erwarten",
+            "type": [
+                "magazine article",
+                "Zeitschriftenartikel"
+            ],
+            "href": "https://www.ndr.de/nachrichten/info/Omikron-300000-Neuinfektionen-pro-Tag-zu-erwarten-,omikron252.html",
+            "year": 2022,
+            "month": [
+                "Feb",
+                "Feb."
+            ],
+            "month_numeric": 2,
+            "day": 5,
+            "publication": "NDR",
+            "score": 100.0,
+            "important": true
+        },
+        {
+            "title": "RKI legt Modellierungen zu m\u00f6glichen Verl\u00e4ufen vor",
+            "type": [
+                "magazine article",
+                "Zeitschriftenartikel"
+            ],
+            "href": "https://www.sueddeutsche.de/gesundheit/krankheiten-rki-legt-modellierungen-zu-moeglichen-verlaeufen-vor-dpa.urn-newsml-dpa-com-20090101-220203-99-963880",
+            "year": 2022,
+            "month": [
+                "Feb",
+                "Feb."
+            ],
+            "month_numeric": 2,
+            "day": 5,
+            "publication": "S\u00fcddeutsche.de",
+            "score": 100.0,
+            "important": true
+        },
+        {
             "title": "Herd Immunity: Is This How the Pandemic Comes to an End?",
             "type": [
                 "newspaper article",
@@ -1432,6 +1524,60 @@
             "day": 13,
             "publication": "The Washington Post",
             "score": 100.0,
+            "important": true
+        },
+        {
+            "title": "Wie sich die Omikron-Welle in Deutschland entwickeln k\u00f6nnte",
+            "type": [
+                "magazine article",
+                "Zeitschriftenartikel"
+            ],
+            "href": "https://www.zdf.de/uri/50ed1d77-f2c2-4171-917f-9a664023dca0",
+            "year": 2022,
+            "month": [
+                "Feb",
+                "Feb."
+            ],
+            "month_numeric": 2,
+            "day": 5,
+            "publication": "ZDF",
+            "score": 50.0,
+            "important": true
+        },
+        {
+            "title": "Lockern oder Lockdown?",
+            "type": [
+                "magazine article",
+                "Zeitschriftenartikel"
+            ],
+            "href": "https://www.sueddeutsche.de/projekte/artikel/gesundheit/coronavirus-in-deutschland-lockern-oder-lockdown-e889281/",
+            "year": 2022,
+            "month": [
+                "Feb",
+                "Feb."
+            ],
+            "month_numeric": 2,
+            "day": 5,
+            "publication": "S\u00fcddeutsche.de",
+            "score": 50.0,
+            "important": true
+        },
+        {
+            "title": "Corona-Lockerungen trotz hoher Inzidenzen: Wie passt das zusammen?",
+            "type": [
+                "magazine article",
+                "Zeitschriftenartikel"
+            ],
+            "href": "https://www.ndr.de/nachrichten/info/Corona-Lockerungen-trotz-hoher-Inzidenzen-Wie-passt-das-zusammen,corona10346.html",
+            "year": 2022,
+            "month": [
+                "Mar",
+                "M\u00e4rz"
+            ],
+            "month_numeric": 3,
+            "day": 20,
+            "publication": "NDR",
+            "score": 20.0,
             "important": true
         },
         {
@@ -1651,6 +1797,78 @@
             "important": true
         },
         {
+            "title": "RKI stellt Modellrechnungen vor: Wie die Omikron-Welle verlaufen k\u00f6nnte",
+            "type": [
+                "magazine article",
+                "Zeitschriftenartikel"
+            ],
+            "href": "https://rp-online.de/panorama/coronavirus/modellrechnungen-des-rki-wie-die-omikron-welle-verlaufen-koennte_aid-65921473",
+            "year": 2022,
+            "month": [
+                "Feb",
+                "Feb."
+            ],
+            "month_numeric": 2,
+            "day": 3,
+            "publication": "RP ONLINE",
+            "score": 5.0,
+            "important": false
+        },
+        {
+            "title": "RKI legt Modellierungen zu m\u00f6glichen Verl\u00e4ufen vor",
+            "type": [
+                "newspaper article",
+                "Zeitungsartikel"
+            ],
+            "href": "https://www.morgenpost.de/vermischtes/article234480549/RKI-legt-Modellierungen-zu-moeglichen-Verlaeufen-vor.html",
+            "year": 2022,
+            "month": [
+                "Feb",
+                "Feb."
+            ],
+            "month_numeric": 2,
+            "day": 3,
+            "publication": "Berliner Morgenpost",
+            "score": 5.0,
+            "important": false
+        },
+        {
+            "title": "RKI-Modell rechnet mit 300.000 Omikron-F\u00e4llen pro Tag",
+            "type": [
+                "magazine article",
+                "Zeitschriftenartikel"
+            ],
+            "href": "https://www.forschung-und-wissen.de/nachrichten/medizin/rki-modell-rechnet-mit-300.000-omikron-faellen-pro-tag-13375853",
+            "year": 2022,
+            "month": [
+                "Feb",
+                "Feb."
+            ],
+            "month_numeric": 2,
+            "day": 5,
+            "publication": "Forschung & Wissen",
+            "score": 5.0,
+            "important": false
+        },
+        {
+            "title": "Ist die Omikron-Welle Ende Februar vorbei \u2013 und ein Corona-Exit denkbar?",
+            "type": [
+                "magazine article",
+                "Zeitschriftenartikel"
+            ],
+            "href": "https://www.ruhrnachrichten.de/ueberregionales/ist-die-omikron-welle-ende-februar-vorbei-und-ein-corona-exit-denkbar-w1721160-2000439195/",
+            "year": 2022,
+            "month": [
+                "Feb",
+                "Feb."
+            ],
+            "month_numeric": 2,
+            "day": 4,
+            "publication": "Ruhr Nachrichten",
+            "score": 5.0,
+            "important": false
+        },
+        {
             "title": "Wieso die Fallzahlen steigen und Social Distancing hilft",
             "type": [
                 "newspaper article",
@@ -1702,6 +1920,24 @@
             "day": 18,
             "publication": "NDR",
             "score": 5.0,
+            "important": false
+        },
+        {
+            "title": "Coronavirus: RKI legt Modelle zu m\u00f6glichen Verl\u00e4ufen der Omikron-Welle vor",
+            "type": [
+                "newspaper article",
+                "Zeitungsartikel"
+            ],
+            "href": "https://www.stuttgarter-zeitung.de/inhalt.coronavirus-rki-legt-modelle-zu-moeglichen-verlaeufen-der-omikron-welle-vor.fa933907-fe62-42e5-b16f-221a77d63bc5.html",
+            "year": 2022,
+            "month": [
+                "Feb",
+                "Feb."
+            ],
+            "month_numeric": 2,
+            "day": 3,
+            "publication": "stuttgarter-zeitung.de",
+            "score": 1.0,
             "important": false
         },
         {
@@ -1810,6 +2046,60 @@
             "day": 4,
             "publication": "neues deutschland",
             "score": 1.0,
+            "important": false
+        },
+        {
+            "title": "RKI wagt Omikron-Ausblick: Erneuter Lockdown k\u00f6nnte alles nur noch schlimmer machen",
+            "type": [
+                "magazine article",
+                "Zeitschriftenartikel"
+            ],
+            "href": "https://www.focus.de/gesundheit/coronavirus/lauterbach-beruft-sich-darauf-jetzt-veroeffentlicht-das-rki-die-modelle-auf-die-sich-lauterbach-schon-seit-wochen-beruft_id_48165567.html",
+            "year": 2022,
+            "month": [
+                "Feb",
+                "Feb."
+            ],
+            "month_numeric": 2,
+            "day": 5,
+            "publication": "FOCUS Online",
+            "score": 0.0,
+            "important": false
+        },
+        {
+            "title": "RKI h\u00e4lt bis zu 300.000 Neuinfektionen f\u00fcr m\u00f6glich",
+            "type": [
+                "magazine article",
+                "Zeitschriftenartikel"
+            ],
+            "href": "https://www.n-tv.de/wissen/RKI-haelt-bis-zu-300-000-Neuinfektionen-fuer-moeglich-article23103407.html",
+            "year": 2022,
+            "month": [
+                "Feb",
+                "Feb."
+            ],
+            "month_numeric": 2,
+            "day": 5,
+            "publication": "n-tv.de",
+            "score": 0.0,
+            "important": false
+        },
+        {
+            "title": "Weitere Omikron-Welle bis April? Neues RKI-Modell liefert bittere Prognose",
+            "type": [
+                "newspaper article",
+                "Zeitungsartikel"
+            ],
+            "href": "https://www.infranken.de/ueberregional/deutschland/prognose-omikron-entwicklung-bis-april-neues-rki-modell-gibt-hinweise-auf-weitere-welle-art-5382874",
+            "year": 2022,
+            "month": [
+                "Feb",
+                "Feb."
+            ],
+            "month_numeric": 2,
+            "day": 5,
+            "publication": "inFranken.de",
+            "score": 0.0,
             "important": false
         },
         {

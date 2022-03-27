@@ -191,7 +191,7 @@
 		"abstract": "Advierten que en pocas semanas toda Europa puede estar como Italia - LA NACION",
 		"container-title": "La Nación",
 		"language": "es",
-		"note": "source: www.lanacion.com.ar",
+		"note": "score: 0",
 		"title": "Advierten que en pocas semanas toda Europa puede estar como Italia",
 		"URL": "https://www.lanacion.com.ar/el-mundo/advierten-pocas-semanas-toda-europa-puede-estar-nid2343119",
 		"accessed": {
@@ -309,7 +309,7 @@
 		"id": "http://zotero.org/users/2275129/items/QDAP9R8A",
 		"type": "article-newspaper",
 		"container-title": "The Washington Post",
-		"title": "Coronavirus curve shows much of Europe could face Italy-like surge within weeks - The Washington Post",
+		"title": "Coronavirus curve shows much of Europe could face Italy-like surge within weeks",
 		"URL": "https://www.washingtonpost.com/world/europe/flatten-the-curve-coronavirus/2020/03/12/a648883c-6460-11ea-8a8e-5c5336b32760_story.html",
 		"author": [
 			{
@@ -368,7 +368,6 @@
 	{
 		"id": "http://zotero.org/users/2275129/items/WM4NC35P",
 		"type": "broadcast",
-		"container-title": "Ab 21",
 		"publisher": "Deutschlandfunk Nova",
 		"title": "Gut gemeint ist nicht immer gut gemacht: Richtig helfen in der Corona-Krise",
 		"URL": "https://www.deutschlandfunknova.de/beitrag/nachbarschaftshilfe-wie-wir-waehrend-corona-richtig-helfen-tipps-vom-experten",
@@ -1185,6 +1184,408 @@
 					"2020",
 					6,
 					12
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/NXQRZHAE",
+		"type": "article-magazine",
+		"abstract": "Einer RKI-Modellierung zufolge könnte die Zahl der Neuinfektionen in der Omikron-Welle Mitte Februar sinken – und eine Extrembelastung der Intensivstationen ausbleiben. Doch es gibt Unsicherheiten.",
+		"container-title": "DER SPIEGEL",
+		"ISSN": "2195-1349",
+		"language": "de",
+		"source": "www.spiegel.de",
+		"title": "RKI-Modellierung der Omikron-Welle: Mitte Februar könnten die Fallzahlen wieder sinken",
+		"title-short": "RKI-Modellierung der Omikron-Welle",
+		"URL": "https://www.spiegel.de/wissenschaft/medizin/coronavirus-mitte-februar-koennten-die-fallzahlen-wieder-sinken-a-47050116-b31c-4dbc-a27c-514070af45f1",
+		"author": [
+			{
+				"family": "Merlot",
+				"given": "Julia"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					2,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					2,
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/7QS3UMAZ",
+		"type": "article-newspaper",
+		"abstract": "Wie geht es mit Omikron in den Kliniken weiter? Das RKI veröffentlicht das Modell, auf das sich Gesundheitsminister Lauterbach beruft. Es steckt voller Unsicherheiten.",
+		"container-title": "Die Zeit",
+		"event-place": "Hamburg",
+		"ISSN": "0044-2070",
+		"language": "de-DE",
+		"publisher-place": "Hamburg",
+		"section": "Wissen",
+		"source": "Die Zeit",
+		"title": "Corona: Überlastung unwahrscheinlich, aber nicht ausgeschlossen",
+		"title-short": "Corona",
+		"URL": "https://www.zeit.de/wissen/2022-02/corona-ueberlastung-omikron-rki-karl-lauterbach",
+		"author": [
+			{
+				"family": "Endt",
+				"given": "Christian"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					2,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					2,
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/MNXBVFIA",
+		"type": "article-magazine",
+		"abstract": "Zwischen Ende Februar und Anfang März könnte die Omikron-Welle in Deutschland ihren Höhepunkt erreicht haben - und das, ohne dass es zu einer Überlastung des Gesundheitssystems kommt.",
+		"container-title": "NDR",
+		"language": "de",
+		"title": "Omikron: 300.000 Neuinfektionen pro Tag zu erwarten",
+		"title-short": "Omikron",
+		"URL": "https://www.ndr.de/nachrichten/info/Omikron-300000-Neuinfektionen-pro-Tag-zu-erwarten-,omikron252.html",
+		"author": [
+			{
+				"family": "Hesseling",
+				"given": "Claus"
+			},
+			{
+				"family": "Behrend",
+				"given": "Anna"
+			},
+			{
+				"family": "Schwentker",
+				"given": "Björn"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					2,
+					5
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/7XZQC4UD",
+		"type": "article-magazine",
+		"abstract": "Eine Modellrechnung des RKI sagt den Verlauf der Omikron-Welle  in Deutschland voraus. Welche Unsicherheiten gibt es dabei?",
+		"container-title": "ZDF",
+		"language": "de",
+		"title": "Wie sich die Omikron-Welle in Deutschland entwickeln könnte",
+		"URL": "https://www.zdf.de/uri/50ed1d77-f2c2-4171-917f-9a664023dca0",
+		"author": [
+			{
+				"family": "Grösch",
+				"given": "Anna"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					2,
+					5
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/DXGEBRI3",
+		"type": "article-magazine",
+		"abstract": "Wie verläuft die Omikron-Welle? Wie viele Infizierte könnte es pro Tag geben? Das Robert Koch-Institut stellt jetzt Ergebnisse von Modellierungen dazu ins Netz. Das Bundesgesundheitsministerium kennt sie nach RKI-Angaben schon länger.",
+		"container-title": "RP ONLINE",
+		"language": "de",
+		"title": "RKI stellt Modellrechnungen vor: Wie die Omikron-Welle verlaufen könnte",
+		"title-short": "RKI stellt Modellrechnungen vor",
+		"URL": "https://rp-online.de/panorama/coronavirus/modellrechnungen-des-rki-wie-die-omikron-welle-verlaufen-koennte_aid-65921473",
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					2,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					2,
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/R2JS95RY",
+		"type": "article-newspaper",
+		"abstract": "Wie verläuft die Omikron-Welle? Wie viele Infizierte könnte es pro Tag geben? Das Robert Koch-Institut stellt jetzt Ergebnisse von Modellierungen dazu ins Netz.",
+		"container-title": "Berliner Morgenpost",
+		"language": "de-DE",
+		"title": "RKI legt Modellierungen zu möglichen Verläufen vor",
+		"URL": "https://www.morgenpost.de/vermischtes/article234480549/RKI-legt-Modellierungen-zu-moeglichen-Verlaeufen-vor.html",
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					2,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					2,
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/CQMH9VW8",
+		"type": "article-magazine",
+		"abstract": "In Deutschland sind laut einer Modellrechnung 300.000 neue Omikron-Fällen pro Tag realistisch.",
+		"container-title": "Forschung & Wissen",
+		"language": "de",
+		"title": "RKI-Modell rechnet mit 300.000 Omikron-Fällen pro Tag",
+		"URL": "https://www.forschung-und-wissen.de/nachrichten/medizin/rki-modell-rechnet-mit-300.000-omikron-faellen-pro-tag-13375853",
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					2,
+					5
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/CS87BUNE",
+		"type": "article-magazine",
+		"abstract": "Die Fragen um Omikron und den weiteren Verlauf reißen nicht ab. Nun veröffentlicht das Robert-Koch-Institut die Modelle, auf die sich Gesundheitsminister Lauterbach seit Wochen beruft. Interessant ist vor allem, was dort zu den Lockdowns und Intensivstationen steht.",
+		"container-title": "FOCUS Online",
+		"language": "de",
+		"title": "RKI wagt Omikron-Ausblick: Erneuter Lockdown könnte alles nur noch schlimmer machen",
+		"title-short": "RKI wagt Omikron-Ausblick",
+		"URL": "https://www.focus.de/gesundheit/coronavirus/lauterbach-beruft-sich-darauf-jetzt-veroeffentlicht-das-rki-die-modelle-auf-die-sich-lauterbach-schon-seit-wochen-beruft_id_48165567.html",
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					2,
+					5
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/NHGPPT6G",
+		"type": "article-magazine",
+		"abstract": "Während Nachbarstaaten lockern und feiern, hält Deutschland an den Corona-Maßnahmen fest. Erst mit dem Höhepunkt der Omikron-Welle sollen Beschränkungen fallen, wie Gesundheitsminister Lauterbach sagt. Ein RKI-Szenario zeigt nun: Dies könnte noch diesen Monat der Fall sein.",
+		"container-title": "n-tv.de",
+		"language": "de",
+		"title": "RKI hält bis zu 300.000 Neuinfektionen für möglich",
+		"URL": "https://www.n-tv.de/wissen/RKI-haelt-bis-zu-300-000-Neuinfektionen-fuer-moeglich-article23103407.html",
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					2,
+					5
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/Q2UCAIM3",
+		"type": "article-magazine",
+		"abstract": "Zu möglichen Verläufen der Omikron-Welle in Deutschland hat das Robert Koch-Institut (RKI) verschiedene Szenarien vorgelegt.",
+		"container-title": "Süddeutsche.de",
+		"language": "de",
+		"title": "RKI legt Modellierungen zu möglichen Verläufen vor",
+		"URL": "https://www.sueddeutsche.de/gesundheit/krankheiten-rki-legt-modellierungen-zu-moeglichen-verlaeufen-vor-dpa.urn-newsml-dpa-com-20090101-220203-99-963880",
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					2,
+					5
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/4P67NXXH",
+		"type": "article-magazine",
+		"abstract": "Täglich kommen mehr mit Omikron Infizierte ins Krankenhaus. Modellrechnungen zeigen, wie sich die Welle in den nächsten Wochen entwickeln könnte. Sie geben Grund zur Hoffnung.",
+		"container-title": "Süddeutsche.de",
+		"language": "de",
+		"note": "section: Gesundheit",
+		"title": "Lockern oder Lockdown?",
+		"URL": "https://www.sueddeutsche.de/projekte/artikel/gesundheit/coronavirus-in-deutschland-lockern-oder-lockdown-e889281/",
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					2,
+					5
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/46WCUCDB",
+		"type": "article-newspaper",
+		"abstract": "Wie verläuft die Omikron-Welle? Wie viele Infizierte könnte es pro Tag geben? Das Robert Koch-Institut stellt jetzt Ergebnisse von Modellierungen dazu ins Netz. Das Bundesgesundheitsministerium kennt sie nach RKI-Angaben schon länger.",
+		"container-title": "stuttgarter-zeitung.de",
+		"language": "de",
+		"title": "Coronavirus: RKI legt Modelle zu möglichen Verläufen der Omikron-Welle vor",
+		"title-short": "Coronavirus",
+		"URL": "https://www.stuttgarter-zeitung.de/inhalt.coronavirus-rki-legt-modelle-zu-moeglichen-verlaeufen-der-omikron-welle-vor.fa933907-fe62-42e5-b16f-221a77d63bc5.html",
+		"author": [
+			{
+				"family": "Germany",
+				"given": "Stuttgarter Zeitung",
+				"suffix": "Stuttgart"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					3,
+					27
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					2,
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/CM3RL9MY",
+		"type": "article-newspaper",
+		"abstract": "Das Robert-Koch-Institut hat ein Modell erstellt, dass einen möglichen Verlauf der Omikron-Infektionen zeigt - inklusive zukünftiger Fallzahlen. Karl Lauterbach liefert eine Einschätzung, für wie zutreffend er die Zahlen hält.",
+		"container-title": "inFranken.de",
+		"language": "de",
+		"title": "Weitere Omikron-Welle bis April? Neues RKI-Modell liefert bittere Prognose",
+		"title-short": "Weitere Omikron-Welle bis April?",
+		"URL": "https://www.infranken.de/ueberregional/deutschland/prognose-omikron-entwicklung-bis-april-neues-rki-modell-gibt-hinweise-auf-weitere-welle-art-5382874",
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					3,
+					27
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					2,
+					5
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/XAHBT63G",
+		"type": "article-magazine",
+		"container-title": "Ruhr Nachrichten",
+		"language": "de-DE",
+		"title": "Ist die Omikron-Welle Ende Februar vorbei – und ein Corona-Exit denkbar?",
+		"URL": "https://www.ruhrnachrichten.de/ueberregionales/ist-die-omikron-welle-ende-februar-vorbei-und-ein-corona-exit-denkbar-w1721160-2000439195/",
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					3,
+					27
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					2,
+					4
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2275129/items/EEB6FFRX",
+		"type": "article-magazine",
+		"abstract": "Ist das neue Infektionsschutzgesetz verantwortungslos oder sind die Lockerungen der richtige Schritt in Richtung einer neuen Normalität? Was die Zahlen verraten und wie Experten auf die Lage blicken.",
+		"container-title": "NDR",
+		"language": "de",
+		"title": "Corona-Lockerungen trotz hoher Inzidenzen: Wie passt das zusammen?",
+		"title-short": "Corona-Lockerungen trotz hoher Inzidenzen",
+		"URL": "https://www.ndr.de/nachrichten/info/Corona-Lockerungen-trotz-hoher-Inzidenzen-Wie-passt-das-zusammen,corona10346.html",
+		"author": [
+			{
+				"family": "NDR",
+				"given": ""
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					3,
+					27
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					3,
+					20
 				]
 			]
 		}

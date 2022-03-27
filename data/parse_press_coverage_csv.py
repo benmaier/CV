@@ -2,6 +2,7 @@ import simplejson as json
 from datetime import date, datetime
 from babel.dates import format_date
 import csv
+from rich import print
 
 def parse_notes(notes):
     entries = notes.split('</p>')
@@ -35,7 +36,7 @@ def format_month(d):
         months.append(format_date(d,'MMM',locale=locale))
     return months
 
-
+successful = True
 
 with open('press_coverage.csv','r') as f:
     reader = csv.DictReader(f)
@@ -64,11 +65,17 @@ with open('press_coverage.csv','r') as f:
         this['publication'] = publication
 
         this.update(parse_notes(entry['Notes']))
-        this['important'] = this['score'] >= 20
+        try:
+            this['important'] = this['score'] >= 20
+        except KeyError as e:
+            print(this)
+            successful = False
+
 
         rows.append(this)
 
-rows = sorted(rows, key=lambda x: (-x['score'],-x['year'],-x['month_numeric']))
+if successful:
+    rows = sorted(rows, key=lambda x: (-x['score'],-x['year'],-x['month_numeric']))
 
-with open('parsed_press_coverage.json','w') as f:
-    json.dump(rows, f, indent=4)
+    with open('parsed_press_coverage.json','w') as f:
+        json.dump(rows, f, indent=4)

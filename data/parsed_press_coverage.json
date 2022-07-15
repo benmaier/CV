@@ -1,5 +1,149 @@
 [
     {
+        "title": "Covid-19: Wie viele Deutsche noch ungesch\u00fctzt sind",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.sueddeutsche.de/gesundheit/coronavirus-covid-19-impfung-infektion-omikron-1.5576729",
+        "year": 2022,
+        "month": [
+            "May",
+            "Mai"
+        ],
+        "month_numeric": 5,
+        "day": 3,
+        "publication": "S\u00fcddeutsche.de",
+        "score": 50.0,
+        "important": true
+    },
+    {
+        "title": "RKI zu\u00a0Corona: 7 Prozent weder geimpft noch genesen",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.welt.de/newsticker/dpa_nt/infoline_nt/wissenschaft_nt/article238525143/RKI-zu-Corona-7-Prozent-weder-geimpft-noch-genesen.html",
+        "year": 2022,
+        "month": [
+            "May",
+            "Mai"
+        ],
+        "month_numeric": 5,
+        "day": 3,
+        "publication": "DIE WELT",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "RKI geht von 5,8 Millionen Ungesch\u00fctzten aus",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.n-tv.de/wissen/RKI-Etwa-5-8-Millionen-Deutsche-haben-keinerlei-Immunschutz-gegen-Corona-article23305614.html",
+        "year": 2022,
+        "month": [
+            "May",
+            "Mai"
+        ],
+        "month_numeric": 5,
+        "day": 9,
+        "publication": "n-tv.de",
+        "score": 10.0,
+        "important": false
+    },
+    {
+        "title": "Neue RKI-Modellierung: So viele Deutsche sind schon geimpft oder genesen",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.focus.de/gesundheit/news/immunitaetslevel-neue-rki-modellierung-so-viele-deutsche-sind-schon-geimpft-oder-genesen_id_93474005.html",
+        "year": 2022,
+        "month": [
+            "May",
+            "Mai"
+        ],
+        "month_numeric": 5,
+        "day": 3,
+        "publication": "FOCUS Online",
+        "score": 5.0,
+        "important": false
+    },
+    {
+        "title": "Fast sechs Millionen Deutsche ohne Immunit\u00e4t gegen Corona",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.mdr.de/wissen/corona-nicht-geimpft-oder-genesen-millionen-ohne-immunitaet-100.html",
+        "year": 2022,
+        "month": [
+            "May",
+            "Mai"
+        ],
+        "month_numeric": 5,
+        "day": 5,
+        "publication": "MDR.de",
+        "score": 5.0,
+        "important": false
+    },
+    {
+        "title": "Neue Daten zeigen: Wie viele Menschen in Deutschland keinen Schutz gegen Corona haben",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.merkur.de/welt/coronavirus-deutschland-schutz-geimpft-impfungen-geboostert-genesen-daten-zr-91519787.html",
+        "year": 2022,
+        "month": [
+            "May",
+            "Mai"
+        ],
+        "month_numeric": 5,
+        "day": 4,
+        "publication": "DER MERKUR",
+        "score": 5.0,
+        "important": false
+    },
+    {
+        "title": "RKI zu Corona: 7 Prozent weder geimpft noch genesen",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.morgenpost.de/web-wissen/article235240727/RKI-zu-Corona-7-Prozent-weder-geimpft-noch-genesen.html",
+        "year": 2022,
+        "month": [
+            "May",
+            "Mai"
+        ],
+        "month_numeric": 5,
+        "day": 3,
+        "publication": "morgenpost.de",
+        "score": 0.0,
+        "important": false
+    },
+    {
+        "title": "Corona-Lockerungen trotz hoher Inzidenzen: Wie passt das zusammen?",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.ndr.de/nachrichten/info/Corona-Lockerungen-trotz-hoher-Inzidenzen-Wie-passt-das-zusammen,corona10346.html",
+        "year": 2022,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 20,
+        "publication": "NDR",
+        "score": 20.0,
+        "important": true
+    },
+    {
         "title": "RKI-Modellierung der Omikron-Welle: Mitte Februar k\u00f6nnten die Fallzahlen wieder sinken",
         "type": [
             "magazine article",
@@ -72,78 +216,6 @@
         "important": true
     },
     {
-        "title": "Herd Immunity: Is This How the Pandemic Comes to an End?",
-        "type": [
-            "newspaper article",
-            "Zeitungsartikel"
-        ],
-        "href": "https://www.zeit.de/wissen/2021-06/herd-immunity-calculator-covid-end-of-pandemic",
-        "year": 2021,
-        "month": [
-            "Jul",
-            "Juli"
-        ],
-        "month_numeric": 7,
-        "day": 1,
-        "publication": "Die Zeit",
-        "score": 100.0,
-        "important": true
-    },
-    {
-        "title": "Schneller als das Virus",
-        "type": [
-            "TV broadcast",
-            "TV-Sendung"
-        ],
-        "href": "",
-        "year": 2020,
-        "month": [
-            "Jun",
-            "Juni"
-        ],
-        "month_numeric": 6,
-        "day": 12,
-        "publication": "ARTE Re:",
-        "score": 100.0,
-        "important": true
-    },
-    {
-        "title": "How the Virus Got Out",
-        "type": [
-            "newspaper article",
-            "Zeitungsartikel"
-        ],
-        "href": "https://www.nytimes.com/interactive/2020/03/22/world/coronavirus-spread.html",
-        "year": 2020,
-        "month": [
-            "Mar",
-            "M\u00e4rz"
-        ],
-        "month_numeric": 3,
-        "day": 22,
-        "publication": "The New York Times",
-        "score": 100.0,
-        "important": true
-    },
-    {
-        "title": "Coronavirus curve shows much of Europe could face Italy-like surge within weeks",
-        "type": [
-            "newspaper article",
-            "Zeitungsartikel"
-        ],
-        "href": "https://www.washingtonpost.com/world/europe/flatten-the-curve-coronavirus/2020/03/12/a648883c-6460-11ea-8a8e-5c5336b32760_story.html",
-        "year": 2020,
-        "month": [
-            "Mar",
-            "M\u00e4rz"
-        ],
-        "month_numeric": 3,
-        "day": 13,
-        "publication": "The Washington Post",
-        "score": 100.0,
-        "important": true
-    },
-    {
         "title": "Wie sich die Omikron-Welle in Deutschland entwickeln k\u00f6nnte",
         "type": [
             "magazine article",
@@ -177,240 +249,6 @@
         "day": 5,
         "publication": "S\u00fcddeutsche.de",
         "score": 50.0,
-        "important": true
-    },
-    {
-        "title": "Corona-Lockerungen trotz hoher Inzidenzen: Wie passt das zusammen?",
-        "type": [
-            "magazine article",
-            "Zeitschriftenartikel"
-        ],
-        "href": "https://www.ndr.de/nachrichten/info/Corona-Lockerungen-trotz-hoher-Inzidenzen-Wie-passt-das-zusammen,corona10346.html",
-        "year": 2022,
-        "month": [
-            "Mar",
-            "M\u00e4rz"
-        ],
-        "month_numeric": 3,
-        "day": 20,
-        "publication": "NDR",
-        "score": 20.0,
-        "important": true
-    },
-    {
-        "title": "Drei Ideen, um die Pandemie besser in den Griff zu kriegen",
-        "type": [
-            "newspaper article",
-            "Zeitungsartikel"
-        ],
-        "href": "https://www.rbb24.de/panorama/thema/corona/beitraege/2021/03/erstimpfung-biontech-schulen-schnelltests.html",
-        "year": 2021,
-        "month": [
-            "Mar",
-            "M\u00e4rz"
-        ],
-        "month_numeric": 3,
-        "day": 3,
-        "publication": "rbb24",
-        "score": 20.0,
-        "important": true
-    },
-    {
-        "title": "Dritte Welle: L\u00e4ngere Impfintervalle w\u00fcrden Tausende Leben retten",
-        "type": [
-            "newspaper article",
-            "Zeitungsartikel"
-        ],
-        "href": "https://www.welt.de/gesundheit/plus227507463/Dritte-Welle-Laengere-Impfintervalle-wuerden-Tausende-Leben-retten.html",
-        "year": 2021,
-        "month": [
-            "Mar",
-            "M\u00e4rz"
-        ],
-        "month_numeric": 3,
-        "day": 3,
-        "publication": "DIE WELT",
-        "score": 20.0,
-        "important": true
-    },
-    {
-        "title": "Corona: So sinnvoll sind Grenzschlie\u00dfungen zu Tschechien und \u00d6sterreich",
-        "type": [
-            "magazine article",
-            "Zeitschriftenartikel"
-        ],
-        "href": "https://www.spiegel.de/wissenschaft/mensch/corona-so-sinnvoll-sind-grenzschliessungen-zu-tschechien-und-oesterreich-a-8a6f9da9-ccae-4000-8124-330809a46e5e",
-        "year": 2021,
-        "month": [
-            "Feb",
-            "Feb."
-        ],
-        "month_numeric": 2,
-        "day": 12,
-        "publication": "DER SPIEGEL",
-        "score": 20.0,
-        "important": true
-    },
-    {
-        "title": "Corona-Leitfaden: Diese Zahlen helfen Ihnen, die Pandemie zu verstehen",
-        "type": [
-            "newspaper article",
-            "Zeitungsartikel"
-        ],
-        "href": "https://www.welt.de/wissenschaft/plus207886867/Corona-Leitfaden-Diese-Zahlen-helfen-Ihnen-die-Pandemie-zu-verstehen.html",
-        "year": 2020,
-        "month": [
-            "May",
-            "Mai"
-        ],
-        "month_numeric": 5,
-        "day": 11,
-        "publication": "DIE WELT",
-        "score": 20.0,
-        "important": true
-    },
-    {
-        "title": "\"Eine Vorhersage w\u00fcrde ich f\u00fcr maximal sechs Tage wagen\"",
-        "type": [
-            "newspaper article",
-            "Zeitungsartikel"
-        ],
-        "href": "",
-        "year": 2020,
-        "month": [
-            "May",
-            "Mai"
-        ],
-        "month_numeric": 5,
-        "day": 10,
-        "publication": "Welt am Sonntag",
-        "score": 20.0,
-        "important": true
-    },
-    {
-        "title": "Die Zahlen der Pandemie",
-        "type": [
-            "newspaper article",
-            "Zeitungsartikel"
-        ],
-        "href": "",
-        "year": 2020,
-        "month": [
-            "May",
-            "Mai"
-        ],
-        "month_numeric": 5,
-        "day": 10,
-        "publication": "Welt am Sonntag",
-        "score": 20.0,
-        "important": true
-    },
-    {
-        "title": "Gut gemeint ist nicht immer gut gemacht: Richtig helfen in der Corona-Krise",
-        "type": [
-            "radio broadcast",
-            "Radiosendung"
-        ],
-        "href": "https://www.deutschlandfunknova.de/beitrag/nachbarschaftshilfe-wie-wir-waehrend-corona-richtig-helfen-tipps-vom-experten",
-        "year": 2020,
-        "month": [
-            "Apr",
-            "Apr."
-        ],
-        "month_numeric": 4,
-        "day": 9,
-        "publication": "Deutschlandfunk Nova",
-        "score": 20.0,
-        "important": true
-    },
-    {
-        "title": "Warum Abstand halten an Ostern gegen die Pandemie helfen kann",
-        "type": [
-            "magazine article",
-            "Zeitschriftenartikel"
-        ],
-        "href": "https://www.rbb24.de/panorama/thema/2020/coronavirus/beitraege_neu/2020/04/ostern-abstand-kontaktverbot-feiertage-coronavirus-daten-zahlen.html",
-        "year": 2020,
-        "month": [
-            "Apr",
-            "Apr."
-        ],
-        "month_numeric": 4,
-        "day": 12,
-        "publication": "rbb24",
-        "score": 20.0,
-        "important": true
-    },
-    {
-        "title": "Lockerung des Lockdowns: So gro\u00df ist die Gefahr der zweiten Welle",
-        "type": [
-            "newspaper article",
-            "Zeitungsartikel"
-        ],
-        "href": "https://www.welt.de/wissenschaft/plus207528275/Lockerung-des-Lockdowns-So-gross-ist-die-Gefahr-der-zweiten-Welle.html",
-        "year": 2020,
-        "month": [
-            "Apr",
-            "Apr."
-        ],
-        "month_numeric": 4,
-        "day": 27,
-        "publication": "DIE WELT",
-        "score": 20.0,
-        "important": true
-    },
-    {
-        "title": "Epidemiological models show Europe faces Italy-like coronavirus surges within weeks",
-        "type": [
-            "newspaper article",
-            "Zeitungsartikel"
-        ],
-        "href": "https://www.independent.co.uk/news/world/europe/coronavirus-news-update-covid-19-mathematical-model-epidemiology-a9402131.html",
-        "year": 2020,
-        "month": [
-            "Mar",
-            "M\u00e4rz"
-        ],
-        "month_numeric": 3,
-        "day": 14,
-        "publication": "The Independent",
-        "score": 20.0,
-        "important": true
-    },
-    {
-        "title": "Nachbarschaftshilfe: \"Nicht einfach draufloshelfen\"",
-        "type": [
-            "newspaper article",
-            "Zeitungsartikel"
-        ],
-        "href": "https://www.zeit.de/zeit-magazin/leben/2020-03/nachbarschaftshilfe-coronavirus-infektionskette-solidaritaet-netzwerkforschung",
-        "year": 2020,
-        "month": [
-            "Mar",
-            "M\u00e4rz"
-        ],
-        "month_numeric": 3,
-        "day": 19,
-        "publication": "Die Zeit",
-        "score": 20.0,
-        "important": true
-    },
-    {
-        "title": "\"Es kann nicht sein, dass Impfstoff liegen bleibt\"",
-        "type": [
-            "newspaper article",
-            "Zeitungsartikel"
-        ],
-        "href": "https://www.sueddeutsche.de/gesundheit/coronavirus-impfstrategie-astra-zeneca-biontech-1.5221584",
-        "year": 2020,
-        "month": [
-            "Mar",
-            "M\u00e4rz"
-        ],
-        "month_numeric": 3,
-        "day": 1,
-        "publication": "S\u00fcddeutsche Zeitung",
-        "score": 20.0,
         "important": true
     },
     {
@@ -486,60 +324,6 @@
         "important": false
     },
     {
-        "title": "Wieso die Fallzahlen steigen und Social Distancing hilft",
-        "type": [
-            "newspaper article",
-            "Zeitungsartikel"
-        ],
-        "href": "https://www.rbb24.de/panorama/thema/2020/coronavirus/beitraege/dunkelziffer-quarantaene-social-distancing-effekt.html",
-        "year": 2021,
-        "month": [
-            "Feb",
-            "Feb."
-        ],
-        "month_numeric": 2,
-        "day": 22,
-        "publication": "rbb24",
-        "score": 5.0,
-        "important": false
-    },
-    {
-        "title": "Zu viele Hoffnungen und absurde Zweifel an neuen Tests",
-        "type": [
-            "newspaper article",
-            "Zeitungsartikel"
-        ],
-        "href": "https://www.rbb24.de/panorama/thema/corona/beitraege/2021/03/selbsttests-schnelltests-inzidenz-auswirkung.html",
-        "year": 2021,
-        "month": [
-            "Feb",
-            "Feb."
-        ],
-        "month_numeric": 2,
-        "day": 22,
-        "publication": "rbb24",
-        "score": 5.0,
-        "important": false
-    },
-    {
-        "title": "Solidarit\u00e4t: Richtig helfen in der Corona-Krise",
-        "type": [
-            "radio broadcast",
-            "Radiosendung"
-        ],
-        "href": "",
-        "year": 2020,
-        "month": [
-            "Mar",
-            "M\u00e4rz"
-        ],
-        "month_numeric": 3,
-        "day": 18,
-        "publication": "NDR",
-        "score": 5.0,
-        "important": false
-    },
-    {
         "title": "Coronavirus: RKI legt Modelle zu m\u00f6glichen Verl\u00e4ufen der Omikron-Welle vor",
         "type": [
             "newspaper article",
@@ -554,114 +338,6 @@
         "month_numeric": 2,
         "day": 3,
         "publication": "stuttgarter-zeitung.de",
-        "score": 1.0,
-        "important": false
-    },
-    {
-        "title": "Warum die Berliner Amts\u00e4rzte richtig argumentieren - aber falsche Schl\u00fcsse ziehen",
-        "type": [
-            "newspaper article",
-            "Zeitungsartikel"
-        ],
-        "href": "https://www.rbb24.de/panorama/thema/corona/beitraege/2021/02/berlin-amtsaerzte-epidemiologen-argumente.html",
-        "year": 2021,
-        "month": [
-            "Feb",
-            "Feb."
-        ],
-        "month_numeric": 2,
-        "day": 22,
-        "publication": "rbb24",
-        "score": 1.0,
-        "important": false
-    },
-    {
-        "title": "Tracking quarantine movement",
-        "type": [
-            "podcast",
-            "Podcast"
-        ],
-        "href": "https://www.dw.com/en/tracking-quarantine-movement/av-52954720",
-        "year": 2020,
-        "month": [
-            "May",
-            "Mai"
-        ],
-        "month_numeric": 5,
-        "day": 20,
-        "publication": "Deutsche Welle: \"Science Unscripted\"",
-        "score": 1.0,
-        "important": false
-    },
-    {
-        "title": "Die Pandemie",
-        "type": [
-            "podcast",
-            "Podcast"
-        ],
-        "href": "https://www.geo.de/geolino/mensch/22743-rtkl-jetzt-anhoeren-gemeinsam-gegen-corona-der-wissenspodcast-von-geolino",
-        "year": 2020,
-        "month": [
-            "May",
-            "Mai"
-        ],
-        "month_numeric": 5,
-        "day": 20,
-        "publication": "Gemeinsam gegen Corona - der Wissenspodcast von GEOlino",
-        "score": 1.0,
-        "important": false
-    },
-    {
-        "title": "Corona ist ein Marathon, kein Sprint",
-        "type": [
-            "magazine article",
-            "Zeitschriftenartikel"
-        ],
-        "href": "https://www.rbb24.de/panorama/thema/2020/coronavirus/beitraege_neu/2020/04/modellrechnungen-epidemie-corona-massnahmen-nach-lockdown.html",
-        "year": 2020,
-        "month": [
-            "Apr",
-            "Apr."
-        ],
-        "month_numeric": 4,
-        "day": 14,
-        "publication": "rbb24",
-        "score": 1.0,
-        "important": false
-    },
-    {
-        "title": "Nicht drauflos helfen",
-        "type": [
-            "newspaper article",
-            "Zeitungsartikel"
-        ],
-        "href": "https://www.neues-deutschland.de/artikel/1134687.nicht-drauflos-helfen.html",
-        "year": 2020,
-        "month": [
-            "Mar",
-            "M\u00e4rz"
-        ],
-        "month_numeric": 3,
-        "day": 24,
-        "publication": "neues deutschland",
-        "score": 1.0,
-        "important": false
-    },
-    {
-        "title": "Distanz und N\u00e4he",
-        "type": [
-            "newspaper article",
-            "Zeitungsartikel"
-        ],
-        "href": "https://www.neues-deutschland.de/artikel/1134688.corona-pandemie-distanz-und-naehe.html",
-        "year": 2020,
-        "month": [
-            "Mar",
-            "M\u00e4rz"
-        ],
-        "month_numeric": 3,
-        "day": 4,
-        "publication": "neues deutschland",
         "score": 1.0,
         "important": false
     },
@@ -720,6 +396,24 @@
         "important": false
     },
     {
+        "title": "Herd Immunity: Is This How the Pandemic Comes to an End?",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.zeit.de/wissen/2021-06/herd-immunity-calculator-covid-end-of-pandemic",
+        "year": 2021,
+        "month": [
+            "Jul",
+            "Juli"
+        ],
+        "month_numeric": 7,
+        "day": 1,
+        "publication": "Die Zeit",
+        "score": 100.0,
+        "important": true
+    },
+    {
         "title": "Herdenimmunit\u00e4t: Endet so die Pandemie?",
         "type": [
             "newspaper article",
@@ -736,6 +430,42 @@
         "publication": "Die Zeit",
         "score": 0.0,
         "important": false
+    },
+    {
+        "title": "Drei Ideen, um die Pandemie besser in den Griff zu kriegen",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.rbb24.de/panorama/thema/corona/beitraege/2021/03/erstimpfung-biontech-schulen-schnelltests.html",
+        "year": 2021,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 3,
+        "publication": "rbb24",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "Dritte Welle: L\u00e4ngere Impfintervalle w\u00fcrden Tausende Leben retten",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.welt.de/gesundheit/plus227507463/Dritte-Welle-Laengere-Impfintervalle-wuerden-Tausende-Leben-retten.html",
+        "year": 2021,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 3,
+        "publication": "DIE WELT",
+        "score": 20.0,
+        "important": true
     },
     {
         "title": "Simulationsrechnung: So l\u00e4sst sich die dritte Corona-Welle brechen",
@@ -774,6 +504,78 @@
         "important": false
     },
     {
+        "title": "Corona: So sinnvoll sind Grenzschlie\u00dfungen zu Tschechien und \u00d6sterreich",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.spiegel.de/wissenschaft/mensch/corona-so-sinnvoll-sind-grenzschliessungen-zu-tschechien-und-oesterreich-a-8a6f9da9-ccae-4000-8124-330809a46e5e",
+        "year": 2021,
+        "month": [
+            "Feb",
+            "Feb."
+        ],
+        "month_numeric": 2,
+        "day": 12,
+        "publication": "DER SPIEGEL",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "Wieso die Fallzahlen steigen und Social Distancing hilft",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.rbb24.de/panorama/thema/2020/coronavirus/beitraege/dunkelziffer-quarantaene-social-distancing-effekt.html",
+        "year": 2021,
+        "month": [
+            "Feb",
+            "Feb."
+        ],
+        "month_numeric": 2,
+        "day": 22,
+        "publication": "rbb24",
+        "score": 5.0,
+        "important": false
+    },
+    {
+        "title": "Zu viele Hoffnungen und absurde Zweifel an neuen Tests",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.rbb24.de/panorama/thema/corona/beitraege/2021/03/selbsttests-schnelltests-inzidenz-auswirkung.html",
+        "year": 2021,
+        "month": [
+            "Feb",
+            "Feb."
+        ],
+        "month_numeric": 2,
+        "day": 22,
+        "publication": "rbb24",
+        "score": 5.0,
+        "important": false
+    },
+    {
+        "title": "Warum die Berliner Amts\u00e4rzte richtig argumentieren - aber falsche Schl\u00fcsse ziehen",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.rbb24.de/panorama/thema/corona/beitraege/2021/02/berlin-amtsaerzte-epidemiologen-argumente.html",
+        "year": 2021,
+        "month": [
+            "Feb",
+            "Feb."
+        ],
+        "month_numeric": 2,
+        "day": 22,
+        "publication": "rbb24",
+        "score": 1.0,
+        "important": false
+    },
+    {
         "title": "Corona-Strategie von Karl Lauterbach: So will er die dritte Welle brechen",
         "type": [
             "magazine article",
@@ -807,6 +609,186 @@
         "day": 28,
         "publication": "BSAktuell",
         "score": 0.0,
+        "important": false
+    },
+    {
+        "title": "Schneller als das Virus",
+        "type": [
+            "TV broadcast",
+            "TV-Sendung"
+        ],
+        "href": "",
+        "year": 2020,
+        "month": [
+            "Jun",
+            "Juni"
+        ],
+        "month_numeric": 6,
+        "day": 12,
+        "publication": "ARTE Re:",
+        "score": 100.0,
+        "important": true
+    },
+    {
+        "title": "Corona-Leitfaden: Diese Zahlen helfen Ihnen, die Pandemie zu verstehen",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.welt.de/wissenschaft/plus207886867/Corona-Leitfaden-Diese-Zahlen-helfen-Ihnen-die-Pandemie-zu-verstehen.html",
+        "year": 2020,
+        "month": [
+            "May",
+            "Mai"
+        ],
+        "month_numeric": 5,
+        "day": 11,
+        "publication": "DIE WELT",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "\"Eine Vorhersage w\u00fcrde ich f\u00fcr maximal sechs Tage wagen\"",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "",
+        "year": 2020,
+        "month": [
+            "May",
+            "Mai"
+        ],
+        "month_numeric": 5,
+        "day": 10,
+        "publication": "Welt am Sonntag",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "Die Zahlen der Pandemie",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "",
+        "year": 2020,
+        "month": [
+            "May",
+            "Mai"
+        ],
+        "month_numeric": 5,
+        "day": 10,
+        "publication": "Welt am Sonntag",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "Tracking quarantine movement",
+        "type": [
+            "podcast",
+            "Podcast"
+        ],
+        "href": "https://www.dw.com/en/tracking-quarantine-movement/av-52954720",
+        "year": 2020,
+        "month": [
+            "May",
+            "Mai"
+        ],
+        "month_numeric": 5,
+        "day": 20,
+        "publication": "Deutsche Welle: \"Science Unscripted\"",
+        "score": 1.0,
+        "important": false
+    },
+    {
+        "title": "Die Pandemie",
+        "type": [
+            "podcast",
+            "Podcast"
+        ],
+        "href": "https://www.geo.de/geolino/mensch/22743-rtkl-jetzt-anhoeren-gemeinsam-gegen-corona-der-wissenspodcast-von-geolino",
+        "year": 2020,
+        "month": [
+            "May",
+            "Mai"
+        ],
+        "month_numeric": 5,
+        "day": 20,
+        "publication": "Gemeinsam gegen Corona - der Wissenspodcast von GEOlino",
+        "score": 1.0,
+        "important": false
+    },
+    {
+        "title": "Gut gemeint ist nicht immer gut gemacht: Richtig helfen in der Corona-Krise",
+        "type": [
+            "radio broadcast",
+            "Radiosendung"
+        ],
+        "href": "https://www.deutschlandfunknova.de/beitrag/nachbarschaftshilfe-wie-wir-waehrend-corona-richtig-helfen-tipps-vom-experten",
+        "year": 2020,
+        "month": [
+            "Apr",
+            "Apr."
+        ],
+        "month_numeric": 4,
+        "day": 9,
+        "publication": "Deutschlandfunk Nova",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "Warum Abstand halten an Ostern gegen die Pandemie helfen kann",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.rbb24.de/panorama/thema/2020/coronavirus/beitraege_neu/2020/04/ostern-abstand-kontaktverbot-feiertage-coronavirus-daten-zahlen.html",
+        "year": 2020,
+        "month": [
+            "Apr",
+            "Apr."
+        ],
+        "month_numeric": 4,
+        "day": 12,
+        "publication": "rbb24",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "Lockerung des Lockdowns: So gro\u00df ist die Gefahr der zweiten Welle",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.welt.de/wissenschaft/plus207528275/Lockerung-des-Lockdowns-So-gross-ist-die-Gefahr-der-zweiten-Welle.html",
+        "year": 2020,
+        "month": [
+            "Apr",
+            "Apr."
+        ],
+        "month_numeric": 4,
+        "day": 27,
+        "publication": "DIE WELT",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "Corona ist ein Marathon, kein Sprint",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.rbb24.de/panorama/thema/2020/coronavirus/beitraege_neu/2020/04/modellrechnungen-epidemie-corona-massnahmen-nach-lockdown.html",
+        "year": 2020,
+        "month": [
+            "Apr",
+            "Apr."
+        ],
+        "month_numeric": 4,
+        "day": 14,
+        "publication": "rbb24",
+        "score": 1.0,
         "important": false
     },
     {
@@ -879,6 +861,150 @@
         "day": 14,
         "publication": "FIT FOR FUN",
         "score": 0.0,
+        "important": false
+    },
+    {
+        "title": "How the Virus Got Out",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.nytimes.com/interactive/2020/03/22/world/coronavirus-spread.html",
+        "year": 2020,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 22,
+        "publication": "The New York Times",
+        "score": 100.0,
+        "important": true
+    },
+    {
+        "title": "Coronavirus curve shows much of Europe could face Italy-like surge within weeks",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.washingtonpost.com/world/europe/flatten-the-curve-coronavirus/2020/03/12/a648883c-6460-11ea-8a8e-5c5336b32760_story.html",
+        "year": 2020,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 13,
+        "publication": "The Washington Post",
+        "score": 100.0,
+        "important": true
+    },
+    {
+        "title": "Epidemiological models show Europe faces Italy-like coronavirus surges within weeks",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.independent.co.uk/news/world/europe/coronavirus-news-update-covid-19-mathematical-model-epidemiology-a9402131.html",
+        "year": 2020,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 14,
+        "publication": "The Independent",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "Nachbarschaftshilfe: \"Nicht einfach draufloshelfen\"",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.zeit.de/zeit-magazin/leben/2020-03/nachbarschaftshilfe-coronavirus-infektionskette-solidaritaet-netzwerkforschung",
+        "year": 2020,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 19,
+        "publication": "Die Zeit",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "\"Es kann nicht sein, dass Impfstoff liegen bleibt\"",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.sueddeutsche.de/gesundheit/coronavirus-impfstrategie-astra-zeneca-biontech-1.5221584",
+        "year": 2020,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 1,
+        "publication": "S\u00fcddeutsche Zeitung",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "Solidarit\u00e4t: Richtig helfen in der Corona-Krise",
+        "type": [
+            "radio broadcast",
+            "Radiosendung"
+        ],
+        "href": "",
+        "year": 2020,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 18,
+        "publication": "NDR",
+        "score": 5.0,
+        "important": false
+    },
+    {
+        "title": "Nicht drauflos helfen",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.neues-deutschland.de/artikel/1134687.nicht-drauflos-helfen.html",
+        "year": 2020,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 24,
+        "publication": "neues deutschland",
+        "score": 1.0,
+        "important": false
+    },
+    {
+        "title": "Distanz und N\u00e4he",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.neues-deutschland.de/artikel/1134688.corona-pandemie-distanz-und-naehe.html",
+        "year": 2020,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 4,
+        "publication": "neues deutschland",
+        "score": 1.0,
         "important": false
     },
     {

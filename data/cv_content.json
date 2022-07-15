@@ -1,5 +1,6 @@
 {
   "fieldorder": [
+    "shortprofile",
     "academic",
     "science",
     "education",
@@ -17,6 +18,7 @@
     "packages"
   ],
   "fieldimportance": {
+    "shortprofile": true,
     "academic": true,
     "science": true,
     "reviews": true,
@@ -35,6 +37,7 @@
     "press": true
   },
   "fieldnames": {
+    "shortprofile": ["Researcher Profile", "Kurzprofil"],
     "education": ["Education", "Ausbildung"],
     "teaching": ["Teaching", "Lehre"],
     "reviews": ["Reviewing Work", "Gutachten"],
@@ -54,7 +57,7 @@
       "Voluntary Work &amp; Free Time",
       "Ehrenämter &amp; Freizeit"
     ],
-    "it": ["IT Knowledge", "IT-Fähigkeiten"],
+    "it": ["Digital Skill Set", "Digitale Datenverarbeitung"],
     "languages": ["Languages", "Sprachen"],
     "publications": ["Publications", "Publikationen"],
     "talks": ["Talks", "Vorträge"],
@@ -64,9 +67,16 @@
     "press": ["Press Coverage", "Presse"]
   },
   "fieldcontent": {
+    "shortprofile": [
+        {
+            "description": [
+           "I am a trans-disciplinary researcher focusing on understanding the fundamental mechanisms that determine how infectious diseases spread and how we can mitigate their dispersal. Originally being trained in statistical physics, I employ methods from non-linear dynamics, complexity science, data science, and statistics incl. machine learning. During the last years, I was able to contribute to Germany's response to the COVID-19 pandemic by conducting infectious disease modeling research at Robert Koch Institute and will shortly assume a postdoc position at DTU Copenhagen to research how socio-economical factors determine individual health from large-scale public data sets. I am interested in finding new ways to collect and analyze medical and epidemiological data to improve predictions of infectious disease outbreaks and facilitate decision-making for rapid responses. My aim is to establish \"complex systems\" methods in the medical and public health contexts by teaching students from the life sciences as well as collaborating in joint health research ventures."
+            ]
+        }
+    ],
     "personal": {
       "name": ["Benjamin F. Maier"],
-      "address": ["RKI, Nordufer 20, D-13353 Berlin"],
+      "address": ["Nattergalevej 64, 2400 K&oslash;benhavn NV"],
       "telephone": ["+49 178 644 72 62"],
       "email": ["contact@benmaier.org"],
       "website": ["benmaier.org"]
@@ -105,7 +115,7 @@
             {
                 "journal": "scienceadv",
                 "year": ["2020"],
-                "title": "Science Advances",
+                "title": "Science&nbsp;Advances",
                 "longtitle": "Science Advances",
                 "shorttitle": "Science Adv.",
                 "href": "https://www.science.org/journal/sciadv"
@@ -113,7 +123,7 @@
             {
                 "journal": "naturecomm",
                 "year": ["2021"],
-                "title": "Nature Communications",
+                "title": "Nature&nbsp;Communications",
                 "longtitle": "Nature Communications",
                 "shorttitle": "Nature Comm.",
                 "href": "https://www.nature.com/ncomms/"
@@ -121,15 +131,15 @@
             {
                 "journal": "prx",
                 "year": ["2020"],
-                "title": "Physical Review X",
-                "longtitle": "Physical Review X",
+                "title": "Physical&nbsp;Review&nbsp;X",
+                "longtitle": "Physical Review&nbsp;X",
                 "shorttitle": "PhysRevX",
                 "href": "https://journals.aps.org/prx/"
             },
             {
                 "journal": "plosdighealth",
                 "year": ["2021"],
-                "title": "PLOS Digital Health",
+                "title": "PLOS&nbsp;Digital&nbsp;Health",
                 "longtitle": "Public Library of Science Digital Health",
                 "shorttitle": "PLOS Dig. Health",
                 "href": "https://journals.plos.org/digitalhealth/"
@@ -137,7 +147,7 @@
             {
                 "journal": "plosone",
                 "year": ["2021"],
-                "title": "PLOS ONE",
+                "title": "PLOS&nbsp;ONE",
                 "longtitle": "Public Library of Science ONE",
                 "shorttitle": "PLOS ONE",
                 "href": "https://journals.plos.org/plosone/"
@@ -145,7 +155,7 @@
             {
                 "journal": "physbio",
                 "year": ["2020"],
-                "title": "Physical Biology",
+                "title": "Physical&nbsp;Biology",
                 "longtitle": "Physical Biology - IOPscience",
                 "shorttitle": "PhysBio",
                 "href": "https://iopscience.iop.org/journal/1478-3975"
@@ -153,7 +163,7 @@
             {
                 "journal": "physA",
                 "year": ["2020"],
-                "title": "Physica A",
+                "title": "Physica&nbsp;A",
                 "longtitle": "Physica A: Statistical Mechanics and its Applications",
                 "shorttitle": "PhysA",
                 "href": "https://www.journals.elsevier.com/physica-a-statistical-mechanics-and-its-applications"
@@ -161,7 +171,7 @@
             {
                 "journal": "pre",
                 "year": ["2021"],
-                "title": "Physical Review E",
+                "title": "Physical&nbsp;Review&nbsp;E",
                 "longtitle": "Physical Review E",
                 "shorttitle": "PhysRevE",
                 "href": "https://journals.aps.org/pre/"
@@ -169,7 +179,7 @@
             {
                 "journal": "plosone",
                 "year": ["2021"],
-                "title": "PLOS ONE",
+                "title": "PLOS&nbsp;ONE",
                 "longtitle": "Public Library of Science ONE",
                 "shorttitle": "PLOS ONE",
                 "href": "https://journals.plos.org/plosone/"
@@ -179,7 +189,7 @@
       {
         "date": ["2014–2019"],
         "name": [
-          "PhD in theoretical physics",
+          "PhD in Theoretical Physics",
           "Promotion in Theoretischer Physik"
         ],
         "place": [
@@ -194,7 +204,7 @@
       },
       {
         "date": ["2011–2014"],
-        "name": ["MSc in physics", "M. Sc. in Physik"],
+        "name": ["MSc in Physics", "M. Sc. in Physik"],
         "place": [
           "Humboldt University of Berlin",
           "Humboldt-Universität zu Berlin"
@@ -214,7 +224,7 @@
       },
       {
         "date": ["2008–2011"],
-        "name": ["BSc in physics", "B. Sc. in Physik"],
+        "name": ["BSc in Physics", "B. Sc. in Physik"],
         "place": [
           "Humboldt University of Berlin",
           "Humboldt-Universität zu Berlin"
@@ -242,7 +252,7 @@
         "name": ["Co-Supervisor", "Co-Betreuer"],
         "place": ["Robert Koch Institute", "Robert Koch-Institut"],
         "description": [
-            "Co-supervision of several Master students and one PhD student in the Biophysics program of HU Berlin",
+            "co-supervision of several Master students and one PhD student in the Biophysics program of HU Berlin",
             "Co-Betreuung von drei Studierenden des Biophysikprogramms der HU Berlin"
         ],
         "important": true
@@ -252,7 +262,7 @@
         "name": ["Teaching Assistant", "Übungsleiter"],
         "place": ["Santa Fe Insitute", "Santa Fe Institut"],
         "description": [
-          "\"Introduction to Dynamical Systems\" on the MOOC-platform \"Complexity Explorer\"",
+          "\"introduction to Dynamical Systems\" on the MOOC-platform \"Complexity Explorer\"",
           "\"Einführung in dynamische Systeme\" der MOOC-Plattform \"Complexity Explorer\""
         ],
         "important": true
@@ -275,7 +285,7 @@
           "Institut für Physik (HU Berlin)"
         ],
         "description": [
-          "Course: \"Classical Mechanics and Introduction to Thermodynamics\"",
+          "course: \"Classical Mechanics and Introduction to Thermodynamics\"",
           "Kurs \"Klassische Mechanik und Einführung in die Wärmelehre\""
         ],
         "important": true
@@ -284,11 +294,11 @@
         "date": ["2013"],
         "name": ["Teacher", "Lehrender"],
         "place": [
-          "Student Association Physics (HU Berlin)",
+          "Student association physics (HU Berlin)",
           "Fachschaftsinitiative Physik (HU Berlin)"
         ],
         "description": [
-          "Lectures in a prep course for the course \"Computational Physics\"",
+          "lectures in a prep course for the course \"Computational Physics\"",
           "Vorbereitungsvorlesung und -übung für den Kurs \"Computational Physics\""
         ],
         "important": false
@@ -297,11 +307,11 @@
         "date": ["2010&ndash;2011"],
         "name": ["Teaching Assistant", "Praktikumsbetreuer"],
         "place": [
-          "Department of Medicine (HU Berlin): Charité",
-          "Charité (HU Berlin)"
+          "Charité (joint Department of Medicine HU Berlin &amp; FU Berlin)",
+          "Charité (HU Berlin &amp; FU Berlin)"
         ],
         "description": [
-          "Introductory lab class in physics for freshmen in medicine",
+          "introductory lab class in physics for freshmen in medicine",
           "Einführungspraktikum Physik für Medizin-Erstsemester"
         ],
         "important": false
@@ -310,11 +320,11 @@
         "date": ["2009"],
         "name": ["Teacher", "Lehrender"],
         "place": [
-          "Student Association Physics (HU Berlin)",
+          "Student association physics (HU Berlin)",
           "Fachschaftsinitiative Physik (HU Berlin)"
         ],
         "description": [
-          "Lectures in a prep course for freshmen in physics",
+          "lectures in a prep course for freshmen in physics",
           "Vorbereitungsvorlesung und -übung für Physik-Erstsemester"
         ],
         "important": false
@@ -333,7 +343,7 @@
       },
       {
         "date": ["since 2015", "seit 2015"],
-        "name": ["Scientific Consultant/Data Scientist", "Wissenschaftlicher Berater"],
+        "name": ["Scientific Consultant / Data Scientist", "Wissenschaftlicher Berater"],
         "place": ["Self-employed", "Freiberuflich"],
         "description": [
           "customers include e.g. Universal Music Germany and the Santa Fe Institute",
@@ -377,7 +387,7 @@
       {
         "date": ["2014"],
         "name": [
-          "HU Berlin Research Track Scholarship",
+          "HU Berlin Research Track scholarship",
           "HU Berlin Research Track Stipendium"
         ],
         "important": true
@@ -409,12 +419,22 @@
     ],
     "academic": [
       {
-        "date": ["since 2020","seit 2020"],
-        "name": ["Postdoc", "Postdoc"],
-        "place": ["Robert Koch Institute", "Robert Koch-Institut"],
+        "date": ["since 2022","seit 2022"],
+        "name": ["Postdoc"],
+        "place": ["DTU Copenhagen, PI: Sune Lehmann J&oslash;rgensen", "DTU Kopenhagen, Gruppenleiter: Sune Lehmann J&oslash;rgensen"],
         "description": [
-          "Research focusing on epidemic spreading processes in human systems, mainly infectious disease modelling and data analysis regarding the COVID-19 pandemic",
-          "Forschung zu infektiösen Ausbreitungsprozessen in menschlichen Systemen, hauptsächlich mit Methoden der Netzwerktheorie und Statistischer Physik"
+          "Modeling of temporal network dynamics and big-data analyses with machine-learning techniques.",
+          "Modellierung der Dynamik zeitlich ver&auml;nderlicher Netzwerke. Analysen gro&szlig;skaliger Datens&auml;tze mithilfe maschinellen Lernens."
+        ],
+        "important": true
+      },
+      {
+        "date": ["2020&ndash;2022"],
+        "name": ["Postdoc / Deputy PI", "Postdoc/Stellv. Fachgebietsleiter"],
+        "place": ["Robert Koch Institute, PI: Dirk Brockmann", "Robert Koch-Institut, Gruppenleiter: Dirk Brockmann"],
+        "description": [
+          "Research focusing on epidemic spreading processes in human systems, mainly infectious disease modeling and data analysis regarding the COVID-19 pandemic. Supervising students and research projects. Reporting to crisis respsonse panel and German ministry of health. Administrative tasks.",
+          "Forschung zu infektiösen Ausbreitungsprozessen in menschlichen Systemen, hauptsächlich mit Methoden der Netzwerktheorie und Statistischer Physik. Betreuung von Studierenden und Forschungsprojekten. Reporting to crisis respsonse panel and German ministry of health. Administrative Aufgaben."
         ],
         "important": true
       }
@@ -423,16 +443,16 @@
       {
         "name": ["Publications", "Publikationen"],
         "description": [
-          "(co-)author of <span id=\"publications-link\"><span id=\"publications-counter\"></span> articles</span>",
-          "(Co-)Autor von <span id=\"publications-link\"><span id=\"publications-counter\"></span> Artikeln</span>"
+          "(co-)author of <span id=\"publications-link\"><span id=\"publications-counter\"></span> articles (see section \"Publications\" below)</span>",
+          "(Co-)Autor von <span id=\"publications-link\"><span id=\"publications-counter\"></span> Artikeln (siehe unten, Abschnitt \"Publikationen\")</span>"
         ],
         "important": true
       },
       {
         "name": ["Talks", "Vorträge"],
         "description": [
-          "presenter at <span id=\"talks-link\"><span id=\"talks-counter\"></span> events</span>",
-          "Vortragender bei <span id=\"talks-link\"><span id=\"talks-counter\"></span> Gelegenheiten</span>"
+          "presenter at <span id=\"talks-link\"><span id=\"talks-counter\"></span> events (see section \"Talks\" below)</span>",
+          "Vortragender bei <span id=\"talks-link\"><span id=\"talks-counter\"></span> Gelegenheiten (siehe unten, Abschnitt \"Vortr&auml;ge\"</span>"
         ],
         "important": true
       },
@@ -448,7 +468,7 @@
         "name": ["PhD Thesis", "Dissertation"],
         "description":
             {
-                "title": ["Spreading Processes in Human Systems"],
+                "title": ["Spreading processes in human systems (2019)"],
                 "href": "",
                 "arxiv": "",
                 "doi": "10.18452/20950"
@@ -464,7 +484,7 @@
       {
         "name": ["Voluntary Work", "Ehrenämter"],
         "description": [
-          "I help painting rooms in a shelter for homeless women from time to time. From 2015 to 2016 I have given private lessons in math and programming to teenagers in the Fibonacci program. During my studies I participated in voluntary activities for the HU Berlin Department of Physics' student association. Responsibilities included: redesigning the department's study regulations together with professors, partial organisation of a student association conference (ZaPF 2010), partial organisation of numerous freshmen introduction weekend trips, handling the association's finances, mentoring for freshmen, design and implementation of various web pages.",
+          "From 2021 to 2022, I helped painting rooms in a shelter for homeless women from time to time. From 2015 to 2016, I have given private lessons in math and programming to teenagers in the Fibonacci program. During my studies I participated in voluntary activities for the HU Berlin Department of Physics' student association. Responsibilities included: redesigning the department's study regulations together with professors, partial organisation of a student association conference (ZaPF 2010), partial organisation of numerous freshmen introduction weekend trips, handling the association's finances, mentoring for freshmen, design and implementation of various web pages.",
           "Gelegentlich streiche ich Zimmer in einer Einrichtung der Diakonie f&uuml;r wohnungslose Frauen. Von 2015 bis 2016 gab ich Einzelunterricht in Mathematik und Programmierung für begabte Schüler über das Fibonacci-Programm. Während meiner Studienzeit war ich Teil zahlreicher Aktivitäten der Fachschaftsinitiative Physik, u. a. der Umarbeitung der Studienordnungen in der Kommission für Lehre und Studium, Organisation der Zusammenkunft aller Physik-Fachschaften (ZaPF 2010), Organisation zahlreicher Erstsemester-Einführungswochenenden, Schatzmeister der Initiative, Mentoring für Erstsemester und Design und Implementierung einiger Webseiten."
         ]
       },
@@ -498,14 +518,6 @@
     ],
     "it": [
       {
-        "name": ["OSes", "Betriebssysteme"],
-        "items": [
-          ["various Linux distributions", "diverse Linuxdistributionen"],
-          "Mac OSX"
-        ],
-        "important": true
-      },
-      {
         "name": ["Scientific", "Wissenschaft"],
         "items": ["Numpy", "Scipy", "Matlab", "Mathematica", "Sun Grid Engine", "Polars (Pandas alternative)"],
         "important": true
@@ -522,13 +534,22 @@
         "important": true
       },
       {
+        "name": ["OSes", "Betriebssysteme"],
+        "items": [
+          ["Linux incl. server administration (Ubuntu, Red Hat, CentOS)", "diverse Linuxdistributionen, inkl. Serveradministration (Ubuntu, Red Hat, CentOS)"],
+          "Mac OSx",
+          "Windows"
+        ],
+        "important": true
+      },
+      {
         "name": ["Web"],
         "items": ["D3.js", "Phaser.js", "Three.js", "P5.js", "HTML", "CSS", "django"],
         "important": true
       },
       {
         "name": ["APIs"],
-        "items": ["Twitter", "Spotify"],
+        "items": ["Twitter", "Spotify", "Wikipedia"],
         "important": false
       },
       {
@@ -544,7 +565,7 @@
       {
         "name": ["Audio &amp; Music", "Audio &amp; Musik"],
         "items": [
-          "Ableton Live 9",
+          "Ableton Live 11",
           "Maschine 2",
           "Reason 8",
           "Audacity",
@@ -605,13 +626,23 @@
         "important": true
       },
       {
-        "authors": ["B. F. Maier*, A. Burdinski, M. Wiedermann, M. an der Heiden, T. Harder, F. Schlosser, D. Brockmann"],
-        "title": ["Abschätzung der Infektionswelle durch die SARS-CoV-2 VOC Omikron"],
+        "authors": ["B. F. Maier*, A. H. Rose, A. Burdinski, P. Klamser, H. Neuhauser, O. Wichmann, L. Schaade, L. H. Wieler, D. Brockmann"],
+        "title": ["Estimating the distribution of COVID-19-susceptible, -recovered, and -vaccinated individuals in Germany up to April 2022"],
         "year": ["2022"],
-        "additional": "Robert Koch Institute",
-        "hyperlink": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Modellierung_Omikronwelle_Bericht.pdf?__blob=publicationFile",
+        "additional": "medRxiv",
+        "hyperlink": "https://www.medrxiv.org/content/10.1101/2022.04.19.22274030v1",
         "arxiv": "",
-        "doi": "",
+        "doi": "10.1101/2022.04.19.22274030",
+        "important": true
+      },
+      {
+        "authors": ["B. F. Maier*, A. Burdinski, M. Wiedermann, M. an der Heiden, T. Harder, O. Wichmann, F. Schlosser, D. Brockmann"],
+        "title": ["Modeling the impact of the Omicron infection wave in Germany"],
+        "year": ["2022"],
+        "additional": "medRxiv",
+        "hyperlink": "https://www.medrxiv.org/content/10.1101/2022.07.07.22277391v1",
+        "arxiv": "",
+        "doi": "10.1101/2022.07.07.22277391",
         "important": true
       },
       {
@@ -700,7 +731,7 @@
           "G. Werner"
         ],
         "title": [
-          "Combining clinical epidemiology, NGS-based analysis and modelling approaches to reveal transmission dynamics of vancomycin-resistant enterococci in a high risk population within a tertiary care hospital"
+          "Combining clinical epidemiology, NGS-based analysis and modeling approaches to reveal transmission dynamics of vancomycin-resistant enterococci in a high risk population within a tertiary care hospital"
         ],
         "year": ["2020"],
         "additional": ["PloS one 15 (6), e0235160"],
@@ -795,13 +826,28 @@
     "talks": [
         {
             "title": [
+                "The role of complexity science and mathematical modeling in fighting the pandemic"
+            ],
+            "event": [
+                "Ising Lectures 2022 (invited)"
+            ],
+            "place": [
+                "ICMP NAS of Ukraine, Lviv (online presentation)"
+            ],
+            "year": [
+                "2022"
+            ],
+            "important": true
+        },
+        {
+            "title": [
                 "Fighting the pandemic with complexity science"
             ],
             "event": [
-                "Davis Complexity Group Seminar, UC Davis"
+                "Davis Complexity Group Seminar (invited)"
             ],
             "place": [
-                "online presentation"
+                "UC Davis (online presentation)"
             ],
             "year": [
                 "2021"
@@ -813,10 +859,10 @@
                 "Temporal networks, modeling infectious diseases, interactive visualizations, and other fancy buzzwords: Three Python packages that might make your life easier"
             ],
             "event": [
-                "Networks 2021, HONS2021 Satellite"
+                "Networks 2021, HONS2021 Satellite (invited)"
             ],
             "place": [
-                "online presentation"
+                "Washington, D.C. (online presentation)"
             ],
             "year": [
                 "2021"
@@ -831,7 +877,7 @@
                 "NetSci"
             ],
             "place": [
-                "Rome"
+                "Rome (online presentation)"
             ],
             "year": [
                 "2020"
@@ -903,7 +949,7 @@
                 "Flockworks: A class of dynamic network models for face-to-face interactions"
             ],
             "event": [
-                "Conference on Complex Sytems"
+                "Conference on Complex Systems"
             ],
             "place": [
                 "Thessaloniki"
@@ -1381,979 +1427,1106 @@
             "important": false
         }
     ],
-    "press": [
-        {
-            "title": "RKI-Modellierung der Omikron-Welle: Mitte Februar k\u00f6nnten die Fallzahlen wieder sinken",
-            "type": [
-                "magazine article",
-                "Zeitschriftenartikel"
-            ],
-            "href": "https://www.spiegel.de/wissenschaft/medizin/coronavirus-mitte-februar-koennten-die-fallzahlen-wieder-sinken-a-47050116-b31c-4dbc-a27c-514070af45f1",
-            "year": 2022,
-            "month": [
-                "Feb",
-                "Feb."
-            ],
-            "month_numeric": 2,
-            "day": 3,
-            "publication": "DER SPIEGEL",
-            "score": 100.0,
-            "important": true
-        },
-        {
-            "title": "Corona: \u00dcberlastung unwahrscheinlich, aber nicht ausgeschlossen",
-            "type": [
-                "newspaper article",
-                "Zeitungsartikel"
-            ],
-            "href": "https://www.zeit.de/wissen/2022-02/corona-ueberlastung-omikron-rki-karl-lauterbach",
-            "year": 2022,
-            "month": [
-                "Feb",
-                "Feb."
-            ],
-            "month_numeric": 2,
-            "day": 3,
-            "publication": "Die Zeit",
-            "score": 100.0,
-            "important": true
-        },
-        {
-            "title": "Omikron: 300.000 Neuinfektionen pro Tag zu erwarten",
-            "type": [
-                "magazine article",
-                "Zeitschriftenartikel"
-            ],
-            "href": "https://www.ndr.de/nachrichten/info/Omikron-300000-Neuinfektionen-pro-Tag-zu-erwarten-,omikron252.html",
-            "year": 2022,
-            "month": [
-                "Feb",
-                "Feb."
-            ],
-            "month_numeric": 2,
-            "day": 5,
-            "publication": "NDR",
-            "score": 100.0,
-            "important": true
-        },
-        {
-            "title": "RKI legt Modellierungen zu m\u00f6glichen Verl\u00e4ufen vor",
-            "type": [
-                "magazine article",
-                "Zeitschriftenartikel"
-            ],
-            "href": "https://www.sueddeutsche.de/gesundheit/krankheiten-rki-legt-modellierungen-zu-moeglichen-verlaeufen-vor-dpa.urn-newsml-dpa-com-20090101-220203-99-963880",
-            "year": 2022,
-            "month": [
-                "Feb",
-                "Feb."
-            ],
-            "month_numeric": 2,
-            "day": 5,
-            "publication": "S\u00fcddeutsche.de",
-            "score": 100.0,
-            "important": true
-        },
-        {
-            "title": "Herd Immunity: Is This How the Pandemic Comes to an End?",
-            "type": [
-                "newspaper article",
-                "Zeitungsartikel"
-            ],
-            "href": "https://www.zeit.de/wissen/2021-06/herd-immunity-calculator-covid-end-of-pandemic",
-            "year": 2021,
-            "month": [
-                "Jul",
-                "Juli"
-            ],
-            "month_numeric": 7,
-            "day": 1,
-            "publication": "Die Zeit",
-            "score": 100.0,
-            "important": true
-        },
-        {
-            "title": "Schneller als das Virus",
-            "type": [
-                "TV broadcast",
-                "TV-Sendung"
-            ],
-            "href": "",
-            "year": 2020,
-            "month": [
-                "Jun",
-                "Juni"
-            ],
-            "month_numeric": 6,
-            "day": 12,
-            "publication": "ARTE Re:",
-            "score": 100.0,
-            "important": true
-        },
-        {
-            "title": "How the Virus Got Out",
-            "type": [
-                "newspaper article",
-                "Zeitungsartikel"
-            ],
-            "href": "https://www.nytimes.com/interactive/2020/03/22/world/coronavirus-spread.html",
-            "year": 2020,
-            "month": [
-                "Mar",
-                "M\u00e4rz"
-            ],
-            "month_numeric": 3,
-            "day": 22,
-            "publication": "The New York Times",
-            "score": 100.0,
-            "important": true
-        },
-        {
-            "title": "Coronavirus curve shows much of Europe could face Italy-like surge within weeks",
-            "type": [
-                "newspaper article",
-                "Zeitungsartikel"
-            ],
-            "href": "https://www.washingtonpost.com/world/europe/flatten-the-curve-coronavirus/2020/03/12/a648883c-6460-11ea-8a8e-5c5336b32760_story.html",
-            "year": 2020,
-            "month": [
-                "Mar",
-                "M\u00e4rz"
-            ],
-            "month_numeric": 3,
-            "day": 13,
-            "publication": "The Washington Post",
-            "score": 100.0,
-            "important": true
-        },
-        {
-            "title": "Wie sich die Omikron-Welle in Deutschland entwickeln k\u00f6nnte",
-            "type": [
-                "magazine article",
-                "Zeitschriftenartikel"
-            ],
-            "href": "https://www.zdf.de/uri/50ed1d77-f2c2-4171-917f-9a664023dca0",
-            "year": 2022,
-            "month": [
-                "Feb",
-                "Feb."
-            ],
-            "month_numeric": 2,
-            "day": 5,
-            "publication": "ZDF",
-            "score": 50.0,
-            "important": true
-        },
-        {
-            "title": "Lockern oder Lockdown?",
-            "type": [
-                "magazine article",
-                "Zeitschriftenartikel"
-            ],
-            "href": "https://www.sueddeutsche.de/projekte/artikel/gesundheit/coronavirus-in-deutschland-lockern-oder-lockdown-e889281/",
-            "year": 2022,
-            "month": [
-                "Feb",
-                "Feb."
-            ],
-            "month_numeric": 2,
-            "day": 5,
-            "publication": "S\u00fcddeutsche.de",
-            "score": 50.0,
-            "important": true
-        },
-        {
-            "title": "Corona-Lockerungen trotz hoher Inzidenzen: Wie passt das zusammen?",
-            "type": [
-                "magazine article",
-                "Zeitschriftenartikel"
-            ],
-            "href": "https://www.ndr.de/nachrichten/info/Corona-Lockerungen-trotz-hoher-Inzidenzen-Wie-passt-das-zusammen,corona10346.html",
-            "year": 2022,
-            "month": [
-                "Mar",
-                "M\u00e4rz"
-            ],
-            "month_numeric": 3,
-            "day": 20,
-            "publication": "NDR",
-            "score": 20.0,
-            "important": true
-        },
-        {
-            "title": "Drei Ideen, um die Pandemie besser in den Griff zu kriegen",
-            "type": [
-                "newspaper article",
-                "Zeitungsartikel"
-            ],
-            "href": "https://www.rbb24.de/panorama/thema/corona/beitraege/2021/03/erstimpfung-biontech-schulen-schnelltests.html",
-            "year": 2021,
-            "month": [
-                "Mar",
-                "M\u00e4rz"
-            ],
-            "month_numeric": 3,
-            "day": 3,
-            "publication": "rbb24",
-            "score": 20.0,
-            "important": true
-        },
-        {
-            "title": "Dritte Welle: L\u00e4ngere Impfintervalle w\u00fcrden Tausende Leben retten",
-            "type": [
-                "newspaper article",
-                "Zeitungsartikel"
-            ],
-            "href": "https://www.welt.de/gesundheit/plus227507463/Dritte-Welle-Laengere-Impfintervalle-wuerden-Tausende-Leben-retten.html",
-            "year": 2021,
-            "month": [
-                "Mar",
-                "M\u00e4rz"
-            ],
-            "month_numeric": 3,
-            "day": 3,
-            "publication": "DIE WELT",
-            "score": 20.0,
-            "important": true
-        },
-        {
-            "title": "Corona: So sinnvoll sind Grenzschlie\u00dfungen zu Tschechien und \u00d6sterreich",
-            "type": [
-                "magazine article",
-                "Zeitschriftenartikel"
-            ],
-            "href": "https://www.spiegel.de/wissenschaft/mensch/corona-so-sinnvoll-sind-grenzschliessungen-zu-tschechien-und-oesterreich-a-8a6f9da9-ccae-4000-8124-330809a46e5e",
-            "year": 2021,
-            "month": [
-                "Feb",
-                "Feb."
-            ],
-            "month_numeric": 2,
-            "day": 12,
-            "publication": "DER SPIEGEL",
-            "score": 20.0,
-            "important": true
-        },
-        {
-            "title": "Corona-Leitfaden: Diese Zahlen helfen Ihnen, die Pandemie zu verstehen",
-            "type": [
-                "newspaper article",
-                "Zeitungsartikel"
-            ],
-            "href": "https://www.welt.de/wissenschaft/plus207886867/Corona-Leitfaden-Diese-Zahlen-helfen-Ihnen-die-Pandemie-zu-verstehen.html",
-            "year": 2020,
-            "month": [
-                "May",
-                "Mai"
-            ],
-            "month_numeric": 5,
-            "day": 11,
-            "publication": "DIE WELT",
-            "score": 20.0,
-            "important": true
-        },
-        {
-            "title": "\"Eine Vorhersage w\u00fcrde ich f\u00fcr maximal sechs Tage wagen\"",
-            "type": [
-                "newspaper article",
-                "Zeitungsartikel"
-            ],
-            "href": "",
-            "year": 2020,
-            "month": [
-                "May",
-                "Mai"
-            ],
-            "month_numeric": 5,
-            "day": 10,
-            "publication": "Welt am Sonntag",
-            "score": 20.0,
-            "important": true
-        },
-        {
-            "title": "Die Zahlen der Pandemie",
-            "type": [
-                "newspaper article",
-                "Zeitungsartikel"
-            ],
-            "href": "",
-            "year": 2020,
-            "month": [
-                "May",
-                "Mai"
-            ],
-            "month_numeric": 5,
-            "day": 10,
-            "publication": "Welt am Sonntag",
-            "score": 20.0,
-            "important": true
-        },
-        {
-            "title": "Gut gemeint ist nicht immer gut gemacht: Richtig helfen in der Corona-Krise",
-            "type": [
-                "radio broadcast",
-                "Radiosendung"
-            ],
-            "href": "https://www.deutschlandfunknova.de/beitrag/nachbarschaftshilfe-wie-wir-waehrend-corona-richtig-helfen-tipps-vom-experten",
-            "year": 2020,
-            "month": [
-                "Apr",
-                "Apr."
-            ],
-            "month_numeric": 4,
-            "day": 9,
-            "publication": "Deutschlandfunk Nova",
-            "score": 20.0,
-            "important": true
-        },
-        {
-            "title": "Warum Abstand halten an Ostern gegen die Pandemie helfen kann",
-            "type": [
-                "magazine article",
-                "Zeitschriftenartikel"
-            ],
-            "href": "https://www.rbb24.de/panorama/thema/2020/coronavirus/beitraege_neu/2020/04/ostern-abstand-kontaktverbot-feiertage-coronavirus-daten-zahlen.html",
-            "year": 2020,
-            "month": [
-                "Apr",
-                "Apr."
-            ],
-            "month_numeric": 4,
-            "day": 12,
-            "publication": "rbb24",
-            "score": 20.0,
-            "important": true
-        },
-        {
-            "title": "Lockerung des Lockdowns: So gro\u00df ist die Gefahr der zweiten Welle",
-            "type": [
-                "newspaper article",
-                "Zeitungsartikel"
-            ],
-            "href": "https://www.welt.de/wissenschaft/plus207528275/Lockerung-des-Lockdowns-So-gross-ist-die-Gefahr-der-zweiten-Welle.html",
-            "year": 2020,
-            "month": [
-                "Apr",
-                "Apr."
-            ],
-            "month_numeric": 4,
-            "day": 27,
-            "publication": "DIE WELT",
-            "score": 20.0,
-            "important": true
-        },
-        {
-            "title": "Epidemiological models show Europe faces Italy-like coronavirus surges within weeks",
-            "type": [
-                "newspaper article",
-                "Zeitungsartikel"
-            ],
-            "href": "https://www.independent.co.uk/news/world/europe/coronavirus-news-update-covid-19-mathematical-model-epidemiology-a9402131.html",
-            "year": 2020,
-            "month": [
-                "Mar",
-                "M\u00e4rz"
-            ],
-            "month_numeric": 3,
-            "day": 14,
-            "publication": "The Independent",
-            "score": 20.0,
-            "important": true
-        },
-        {
-            "title": "Nachbarschaftshilfe: \"Nicht einfach draufloshelfen\"",
-            "type": [
-                "newspaper article",
-                "Zeitungsartikel"
-            ],
-            "href": "https://www.zeit.de/zeit-magazin/leben/2020-03/nachbarschaftshilfe-coronavirus-infektionskette-solidaritaet-netzwerkforschung",
-            "year": 2020,
-            "month": [
-                "Mar",
-                "M\u00e4rz"
-            ],
-            "month_numeric": 3,
-            "day": 19,
-            "publication": "Die Zeit",
-            "score": 20.0,
-            "important": true
-        },
-        {
-            "title": "\"Es kann nicht sein, dass Impfstoff liegen bleibt\"",
-            "type": [
-                "newspaper article",
-                "Zeitungsartikel"
-            ],
-            "href": "https://www.sueddeutsche.de/gesundheit/coronavirus-impfstrategie-astra-zeneca-biontech-1.5221584",
-            "year": 2020,
-            "month": [
-                "Mar",
-                "M\u00e4rz"
-            ],
-            "month_numeric": 3,
-            "day": 1,
-            "publication": "S\u00fcddeutsche Zeitung",
-            "score": 20.0,
-            "important": true
-        },
-        {
-            "title": "RKI stellt Modellrechnungen vor: Wie die Omikron-Welle verlaufen k\u00f6nnte",
-            "type": [
-                "magazine article",
-                "Zeitschriftenartikel"
-            ],
-            "href": "https://rp-online.de/panorama/coronavirus/modellrechnungen-des-rki-wie-die-omikron-welle-verlaufen-koennte_aid-65921473",
-            "year": 2022,
-            "month": [
-                "Feb",
-                "Feb."
-            ],
-            "month_numeric": 2,
-            "day": 3,
-            "publication": "RP ONLINE",
-            "score": 5.0,
-            "important": false
-        },
-        {
-            "title": "RKI legt Modellierungen zu m\u00f6glichen Verl\u00e4ufen vor",
-            "type": [
-                "newspaper article",
-                "Zeitungsartikel"
-            ],
-            "href": "https://www.morgenpost.de/vermischtes/article234480549/RKI-legt-Modellierungen-zu-moeglichen-Verlaeufen-vor.html",
-            "year": 2022,
-            "month": [
-                "Feb",
-                "Feb."
-            ],
-            "month_numeric": 2,
-            "day": 3,
-            "publication": "Berliner Morgenpost",
-            "score": 5.0,
-            "important": false
-        },
-        {
-            "title": "RKI-Modell rechnet mit 300.000 Omikron-F\u00e4llen pro Tag",
-            "type": [
-                "magazine article",
-                "Zeitschriftenartikel"
-            ],
-            "href": "https://www.forschung-und-wissen.de/nachrichten/medizin/rki-modell-rechnet-mit-300.000-omikron-faellen-pro-tag-13375853",
-            "year": 2022,
-            "month": [
-                "Feb",
-                "Feb."
-            ],
-            "month_numeric": 2,
-            "day": 5,
-            "publication": "Forschung & Wissen",
-            "score": 5.0,
-            "important": false
-        },
-        {
-            "title": "Ist die Omikron-Welle Ende Februar vorbei \u2013 und ein Corona-Exit denkbar?",
-            "type": [
-                "magazine article",
-                "Zeitschriftenartikel"
-            ],
-            "href": "https://www.ruhrnachrichten.de/ueberregionales/ist-die-omikron-welle-ende-februar-vorbei-und-ein-corona-exit-denkbar-w1721160-2000439195/",
-            "year": 2022,
-            "month": [
-                "Feb",
-                "Feb."
-            ],
-            "month_numeric": 2,
-            "day": 4,
-            "publication": "Ruhr Nachrichten",
-            "score": 5.0,
-            "important": false
-        },
-        {
-            "title": "Wieso die Fallzahlen steigen und Social Distancing hilft",
-            "type": [
-                "newspaper article",
-                "Zeitungsartikel"
-            ],
-            "href": "https://www.rbb24.de/panorama/thema/2020/coronavirus/beitraege/dunkelziffer-quarantaene-social-distancing-effekt.html",
-            "year": 2021,
-            "month": [
-                "Feb",
-                "Feb."
-            ],
-            "month_numeric": 2,
-            "day": 22,
-            "publication": "rbb24",
-            "score": 5.0,
-            "important": false
-        },
-        {
-            "title": "Zu viele Hoffnungen und absurde Zweifel an neuen Tests",
-            "type": [
-                "newspaper article",
-                "Zeitungsartikel"
-            ],
-            "href": "https://www.rbb24.de/panorama/thema/corona/beitraege/2021/03/selbsttests-schnelltests-inzidenz-auswirkung.html",
-            "year": 2021,
-            "month": [
-                "Feb",
-                "Feb."
-            ],
-            "month_numeric": 2,
-            "day": 22,
-            "publication": "rbb24",
-            "score": 5.0,
-            "important": false
-        },
-        {
-            "title": "Solidarit\u00e4t: Richtig helfen in der Corona-Krise",
-            "type": [
-                "radio broadcast",
-                "Radiosendung"
-            ],
-            "href": "",
-            "year": 2020,
-            "month": [
-                "Mar",
-                "M\u00e4rz"
-            ],
-            "month_numeric": 3,
-            "day": 18,
-            "publication": "NDR",
-            "score": 5.0,
-            "important": false
-        },
-        {
-            "title": "Coronavirus: RKI legt Modelle zu m\u00f6glichen Verl\u00e4ufen der Omikron-Welle vor",
-            "type": [
-                "newspaper article",
-                "Zeitungsartikel"
-            ],
-            "href": "https://www.stuttgarter-zeitung.de/inhalt.coronavirus-rki-legt-modelle-zu-moeglichen-verlaeufen-der-omikron-welle-vor.fa933907-fe62-42e5-b16f-221a77d63bc5.html",
-            "year": 2022,
-            "month": [
-                "Feb",
-                "Feb."
-            ],
-            "month_numeric": 2,
-            "day": 3,
-            "publication": "stuttgarter-zeitung.de",
-            "score": 1.0,
-            "important": false
-        },
-        {
-            "title": "Warum die Berliner Amts\u00e4rzte richtig argumentieren - aber falsche Schl\u00fcsse ziehen",
-            "type": [
-                "newspaper article",
-                "Zeitungsartikel"
-            ],
-            "href": "https://www.rbb24.de/panorama/thema/corona/beitraege/2021/02/berlin-amtsaerzte-epidemiologen-argumente.html",
-            "year": 2021,
-            "month": [
-                "Feb",
-                "Feb."
-            ],
-            "month_numeric": 2,
-            "day": 22,
-            "publication": "rbb24",
-            "score": 1.0,
-            "important": false
-        },
-        {
-            "title": "Tracking quarantine movement",
-            "type": [
-                "podcast",
-                "Podcast"
-            ],
-            "href": "https://www.dw.com/en/tracking-quarantine-movement/av-52954720",
-            "year": 2020,
-            "month": [
-                "May",
-                "Mai"
-            ],
-            "month_numeric": 5,
-            "day": 20,
-            "publication": "Deutsche Welle: \"Science Unscripted\"",
-            "score": 1.0,
-            "important": false
-        },
-        {
-            "title": "Die Pandemie",
-            "type": [
-                "podcast",
-                "Podcast"
-            ],
-            "href": "https://www.geo.de/geolino/mensch/22743-rtkl-jetzt-anhoeren-gemeinsam-gegen-corona-der-wissenspodcast-von-geolino",
-            "year": 2020,
-            "month": [
-                "May",
-                "Mai"
-            ],
-            "month_numeric": 5,
-            "day": 20,
-            "publication": "Gemeinsam gegen Corona - der Wissenspodcast von GEOlino",
-            "score": 1.0,
-            "important": false
-        },
-        {
-            "title": "Corona ist ein Marathon, kein Sprint",
-            "type": [
-                "magazine article",
-                "Zeitschriftenartikel"
-            ],
-            "href": "https://www.rbb24.de/panorama/thema/2020/coronavirus/beitraege_neu/2020/04/modellrechnungen-epidemie-corona-massnahmen-nach-lockdown.html",
-            "year": 2020,
-            "month": [
-                "Apr",
-                "Apr."
-            ],
-            "month_numeric": 4,
-            "day": 14,
-            "publication": "rbb24",
-            "score": 1.0,
-            "important": false
-        },
-        {
-            "title": "Nicht drauflos helfen",
-            "type": [
-                "newspaper article",
-                "Zeitungsartikel"
-            ],
-            "href": "https://www.neues-deutschland.de/artikel/1134687.nicht-drauflos-helfen.html",
-            "year": 2020,
-            "month": [
-                "Mar",
-                "M\u00e4rz"
-            ],
-            "month_numeric": 3,
-            "day": 24,
-            "publication": "neues deutschland",
-            "score": 1.0,
-            "important": false
-        },
-        {
-            "title": "Distanz und N\u00e4he",
-            "type": [
-                "newspaper article",
-                "Zeitungsartikel"
-            ],
-            "href": "https://www.neues-deutschland.de/artikel/1134688.corona-pandemie-distanz-und-naehe.html",
-            "year": 2020,
-            "month": [
-                "Mar",
-                "M\u00e4rz"
-            ],
-            "month_numeric": 3,
-            "day": 4,
-            "publication": "neues deutschland",
-            "score": 1.0,
-            "important": false
-        },
-        {
-            "title": "RKI wagt Omikron-Ausblick: Erneuter Lockdown k\u00f6nnte alles nur noch schlimmer machen",
-            "type": [
-                "magazine article",
-                "Zeitschriftenartikel"
-            ],
-            "href": "https://www.focus.de/gesundheit/coronavirus/lauterbach-beruft-sich-darauf-jetzt-veroeffentlicht-das-rki-die-modelle-auf-die-sich-lauterbach-schon-seit-wochen-beruft_id_48165567.html",
-            "year": 2022,
-            "month": [
-                "Feb",
-                "Feb."
-            ],
-            "month_numeric": 2,
-            "day": 5,
-            "publication": "FOCUS Online",
-            "score": 0.0,
-            "important": false
-        },
-        {
-            "title": "RKI h\u00e4lt bis zu 300.000 Neuinfektionen f\u00fcr m\u00f6glich",
-            "type": [
-                "magazine article",
-                "Zeitschriftenartikel"
-            ],
-            "href": "https://www.n-tv.de/wissen/RKI-haelt-bis-zu-300-000-Neuinfektionen-fuer-moeglich-article23103407.html",
-            "year": 2022,
-            "month": [
-                "Feb",
-                "Feb."
-            ],
-            "month_numeric": 2,
-            "day": 5,
-            "publication": "n-tv.de",
-            "score": 0.0,
-            "important": false
-        },
-        {
-            "title": "Weitere Omikron-Welle bis April? Neues RKI-Modell liefert bittere Prognose",
-            "type": [
-                "newspaper article",
-                "Zeitungsartikel"
-            ],
-            "href": "https://www.infranken.de/ueberregional/deutschland/prognose-omikron-entwicklung-bis-april-neues-rki-modell-gibt-hinweise-auf-weitere-welle-art-5382874",
-            "year": 2022,
-            "month": [
-                "Feb",
-                "Feb."
-            ],
-            "month_numeric": 2,
-            "day": 5,
-            "publication": "inFranken.de",
-            "score": 0.0,
-            "important": false
-        },
-        {
-            "title": "Herdenimmunit\u00e4t: Endet so die Pandemie?",
-            "type": [
-                "newspaper article",
-                "Zeitungsartikel"
-            ],
-            "href": "https://www.zeit.de/wissen/2021-06/herdenimmunitaet-corona-infektionsgeschehen-impfung-neuinfektionen-simulation",
-            "year": 2021,
-            "month": [
-                "Jun",
-                "Juni"
-            ],
-            "month_numeric": 6,
-            "day": 24,
-            "publication": "Die Zeit",
-            "score": 0.0,
-            "important": false
-        },
-        {
-            "title": "Simulationsrechnung: So l\u00e4sst sich die dritte Corona-Welle brechen",
-            "type": [
-                "magazine article",
-                "Zeitschriftenartikel"
-            ],
-            "href": "https://www.nordbayern.de/politik/simulationsrechnung-so-lasst-sich-die-dritte-corona-welle-brechen-1.10883130",
-            "year": 2021,
-            "month": [
-                "Mar",
-                "M\u00e4rz"
-            ],
-            "month_numeric": 3,
-            "day": 2,
-            "publication": "nordbayern.de",
-            "score": 0.0,
-            "important": false
-        },
-        {
-            "title": "Lauterbach h\u00e4lt \u00c4nderung der Impfstrategie f\u00fcr dringend n\u00f6tig",
-            "type": [
-                "newspaper article",
-                "Zeitungsartikel"
-            ],
-            "href": "https://www.tagesspiegel.de/wissen/bis-zu-14-000-corona-tote-weniger-lauterbach-haelt-aenderung-der-impfstrategie-fuer-dringend-noetig/26963916.html",
-            "year": 2021,
-            "month": [
-                "Mar",
-                "M\u00e4rz"
-            ],
-            "month_numeric": 3,
-            "day": 1,
-            "publication": "Der Tagesspiegel",
-            "score": 0.0,
-            "important": false
-        },
-        {
-            "title": "Corona-Strategie von Karl Lauterbach: So will er die dritte Welle brechen",
-            "type": [
-                "magazine article",
-                "Zeitschriftenartikel"
-            ],
-            "href": "https://www.spiegel.de/politik/deutschland/corona-strategie-von-karl-lauterbach-mit-schnelleren-impfungen-und-mehr-tests-gegen-die-dritte-welle-a-4363c47e-5305-4126-aad5-02478bd4d386",
-            "year": 2021,
-            "month": [
-                "Feb",
-                "Feb."
-            ],
-            "month_numeric": 2,
-            "day": 28,
-            "publication": "DER SPIEGEL",
-            "score": 0.0,
-            "important": false
-        },
-        {
-            "title": "Lauterbach schl\u00e4gt neue Impf- und Teststrategie vor",
-            "type": [
-                "newspaper article",
-                "Zeitungsartikel"
-            ],
-            "href": "https://www.bsaktuell.de/deutschland-und-welt/lauterbach-schlaegt-neue-impf-und-teststrategie-vor/197824/",
-            "year": 2021,
-            "month": [
-                "Feb",
-                "Feb."
-            ],
-            "month_numeric": 2,
-            "day": 28,
-            "publication": "BSAktuell",
-            "score": 0.0,
-            "important": false
-        },
-        {
-            "title": "The Effects of Physical Isolation on the Pandemic Quantified",
-            "type": [
-                "magazine article",
-                "Zeitschriftenartikel"
-            ],
-            "href": "https://www.the-scientist.com/news-opinion/the-effects-of-physical-isolation-on-the-pandemic-quantified-67407",
-            "year": 2020,
-            "month": [
-                "Apr",
-                "Apr."
-            ],
-            "month_numeric": 4,
-            "day": 10,
-            "publication": "The Scientist Magazine",
-            "score": 0.0,
-            "important": false
-        },
-        {
-            "title": "Coronavirus: China got it right by locking down Wuhan, German study says",
-            "type": [
-                "newspaper article",
-                "Zeitungsartikel"
-            ],
-            "href": "https://www.scmp.com/news/china/society/article/3079528/coronavirus-china-got-it-right-locking-down-wuhan-german-study",
-            "year": 2020,
-            "month": [
-                "Apr",
-                "Apr."
-            ],
-            "month_numeric": 4,
-            "day": 12,
-            "publication": "South China Morning Post",
-            "score": 0.0,
-            "important": false
-        },
-        {
-            "title": "Bleibt zu Hause!",
-            "type": [
-                "newspaper article",
-                "Zeitungsartikel"
-            ],
-            "href": "http://www.laborjournal.de/editorials/1985.php",
-            "year": 2020,
-            "month": [
-                "Apr",
-                "Apr."
-            ],
-            "month_numeric": 4,
-            "day": 20,
-            "publication": "Laborjournal",
-            "score": 0.0,
-            "important": false
-        },
-        {
-            "title": "Einkaufen f\u00fcr Nachbarn? Richtig helfen in Corona-Zeiten",
-            "type": [
-                "magazine article",
-                "Zeitschriftenartikel"
-            ],
-            "href": "https://www.fitforfun.de/news/nachbarschaftshilfe-aber-richtig-das-sollte-man-bei-aller-naechstenliebe-wissen-421238.html",
-            "year": 2020,
-            "month": [
-                "Apr",
-                "Apr."
-            ],
-            "month_numeric": 4,
-            "day": 14,
-            "publication": "FIT FOR FUN",
-            "score": 0.0,
-            "important": false
-        },
-        {
-            "title": "Ve\u0107i dio Evrope mo\u017ee zadesiti scenarij iz Italije",
-            "type": [
-                "newspaper article",
-                "Zeitungsartikel"
-            ],
-            "href": "https://www.rtvbn.com/3979664/veci-dio-evrope-moze-zadesiti-scenarij-iz-italije",
-            "year": 2020,
-            "month": [
-                "Mar",
-                "M\u00e4rz"
-            ],
-            "month_numeric": 3,
-            "day": 16,
-            "publication": "Radio Televizija BN",
-            "score": 0.0,
-            "important": false
-        },
-        {
-            "title": "Advierten que en pocas semanas toda Europa puede estar como Italia",
-            "type": [
-                "newspaper article",
-                "Zeitungsartikel"
-            ],
-            "href": "https://www.lanacion.com.ar/el-mundo/advierten-pocas-semanas-toda-europa-puede-estar-nid2343119",
-            "year": 2020,
-            "month": [
-                "Mar",
-                "M\u00e4rz"
-            ],
-            "month_numeric": 3,
-            "day": 13,
-            "publication": "La Naci\u00f3n",
-            "score": 0.0,
-            "important": false
-        },
-        {
-            "title": "Prognoze epidemiologa: Ve\u0107i dio Evrope za nekoliko sedmica \u0107e zadesiti italijanski scenarij",
-            "type": [
-                "newspaper article",
-                "Zeitungsartikel"
-            ],
-            "href": "https://www.klix.ba/vijesti/svijet/prognoze-epidemiologa-veci-dio-evrope-za-nekoliko-sedmica-ce-zadesiti-italijanski-scenarij/200316007",
-            "year": 2020,
-            "month": [
-                "Mar",
-                "M\u00e4rz"
-            ],
-            "month_numeric": 3,
-            "day": 16,
-            "publication": "Klix.ba",
-            "score": 0.0,
-            "important": false
-        },
-        {
-            "title": "COVID-19. Europa \u00e0 beira de se tornar uma gigantesca It\u00e1lia",
-            "type": [
-                "newspaper article",
-                "Zeitungsartikel"
-            ],
-            "href": "https://www.rtp.pt/noticias/mundo/covid-19-europa-a-beira-de-se-tornar-uma-gigantesca-italia_n1211891",
-            "year": 2020,
-            "month": [
-                "Mar",
-                "M\u00e4rz"
-            ],
-            "month_numeric": 3,
-            "day": 16,
-            "publication": "R\u00e1dio e Televis\u00e3o de Portugal",
-            "score": 0.0,
-            "important": false
-        },
-        {
-            "title": "Scholz will Strategiewechsel bei Corona-Politik",
-            "type": [
-                "magazine article",
-                "Zeitschriftenartikel"
-            ],
-            "href": "https://www.fuldainfo.de/scholz-will-strategiewechsel-bei-corona-politik/",
-            "year": 2020,
-            "month": [
-                "Mar",
-                "M\u00e4rz"
-            ],
-            "month_numeric": 3,
-            "day": 1,
-            "publication": "fuldainfo.de",
-            "score": 0.0,
-            "important": false
-        }
-    ]
+    "press":
+    [
+    {
+        "title": "Covid-19: Wie viele Deutsche noch ungesch\u00fctzt sind",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.sueddeutsche.de/gesundheit/coronavirus-covid-19-impfung-infektion-omikron-1.5576729",
+        "year": 2022,
+        "month": [
+            "May",
+            "Mai"
+        ],
+        "month_numeric": 5,
+        "day": 3,
+        "publication": "S\u00fcddeutsche.de",
+        "score": 50.0,
+        "important": true
+    },
+    {
+        "title": "RKI zu\u00a0Corona: 7 Prozent weder geimpft noch genesen",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.welt.de/newsticker/dpa_nt/infoline_nt/wissenschaft_nt/article238525143/RKI-zu-Corona-7-Prozent-weder-geimpft-noch-genesen.html",
+        "year": 2022,
+        "month": [
+            "May",
+            "Mai"
+        ],
+        "month_numeric": 5,
+        "day": 3,
+        "publication": "DIE WELT",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "RKI geht von 5,8 Millionen Ungesch\u00fctzten aus",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.n-tv.de/wissen/RKI-Etwa-5-8-Millionen-Deutsche-haben-keinerlei-Immunschutz-gegen-Corona-article23305614.html",
+        "year": 2022,
+        "month": [
+            "May",
+            "Mai"
+        ],
+        "month_numeric": 5,
+        "day": 9,
+        "publication": "n-tv.de",
+        "score": 10.0,
+        "important": false
+    },
+    {
+        "title": "Neue RKI-Modellierung: So viele Deutsche sind schon geimpft oder genesen",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.focus.de/gesundheit/news/immunitaetslevel-neue-rki-modellierung-so-viele-deutsche-sind-schon-geimpft-oder-genesen_id_93474005.html",
+        "year": 2022,
+        "month": [
+            "May",
+            "Mai"
+        ],
+        "month_numeric": 5,
+        "day": 3,
+        "publication": "FOCUS Online",
+        "score": 5.0,
+        "important": false
+    },
+    {
+        "title": "Fast sechs Millionen Deutsche ohne Immunit\u00e4t gegen Corona",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.mdr.de/wissen/corona-nicht-geimpft-oder-genesen-millionen-ohne-immunitaet-100.html",
+        "year": 2022,
+        "month": [
+            "May",
+            "Mai"
+        ],
+        "month_numeric": 5,
+        "day": 5,
+        "publication": "MDR.de",
+        "score": 5.0,
+        "important": false
+    },
+    {
+        "title": "Neue Daten zeigen: Wie viele Menschen in Deutschland keinen Schutz gegen Corona haben",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.merkur.de/welt/coronavirus-deutschland-schutz-geimpft-impfungen-geboostert-genesen-daten-zr-91519787.html",
+        "year": 2022,
+        "month": [
+            "May",
+            "Mai"
+        ],
+        "month_numeric": 5,
+        "day": 4,
+        "publication": "DER MERKUR",
+        "score": 5.0,
+        "important": false
+    },
+    {
+        "title": "RKI zu Corona: 7 Prozent weder geimpft noch genesen",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.morgenpost.de/web-wissen/article235240727/RKI-zu-Corona-7-Prozent-weder-geimpft-noch-genesen.html",
+        "year": 2022,
+        "month": [
+            "May",
+            "Mai"
+        ],
+        "month_numeric": 5,
+        "day": 3,
+        "publication": "morgenpost.de",
+        "score": 0.0,
+        "important": false
+    },
+    {
+        "title": "Corona-Lockerungen trotz hoher Inzidenzen: Wie passt das zusammen?",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.ndr.de/nachrichten/info/Corona-Lockerungen-trotz-hoher-Inzidenzen-Wie-passt-das-zusammen,corona10346.html",
+        "year": 2022,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 20,
+        "publication": "NDR",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "RKI-Modellierung der Omikron-Welle: Mitte Februar k\u00f6nnten die Fallzahlen wieder sinken",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.spiegel.de/wissenschaft/medizin/coronavirus-mitte-februar-koennten-die-fallzahlen-wieder-sinken-a-47050116-b31c-4dbc-a27c-514070af45f1",
+        "year": 2022,
+        "month": [
+            "Feb",
+            "Feb."
+        ],
+        "month_numeric": 2,
+        "day": 3,
+        "publication": "DER SPIEGEL",
+        "score": 100.0,
+        "important": true
+    },
+    {
+        "title": "Corona: \u00dcberlastung unwahrscheinlich, aber nicht ausgeschlossen",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.zeit.de/wissen/2022-02/corona-ueberlastung-omikron-rki-karl-lauterbach",
+        "year": 2022,
+        "month": [
+            "Feb",
+            "Feb."
+        ],
+        "month_numeric": 2,
+        "day": 3,
+        "publication": "Die Zeit",
+        "score": 100.0,
+        "important": true
+    },
+    {
+        "title": "Omikron: 300.000 Neuinfektionen pro Tag zu erwarten",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.ndr.de/nachrichten/info/Omikron-300000-Neuinfektionen-pro-Tag-zu-erwarten-,omikron252.html",
+        "year": 2022,
+        "month": [
+            "Feb",
+            "Feb."
+        ],
+        "month_numeric": 2,
+        "day": 5,
+        "publication": "NDR",
+        "score": 100.0,
+        "important": true
+    },
+    {
+        "title": "RKI legt Modellierungen zu m\u00f6glichen Verl\u00e4ufen vor",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.sueddeutsche.de/gesundheit/krankheiten-rki-legt-modellierungen-zu-moeglichen-verlaeufen-vor-dpa.urn-newsml-dpa-com-20090101-220203-99-963880",
+        "year": 2022,
+        "month": [
+            "Feb",
+            "Feb."
+        ],
+        "month_numeric": 2,
+        "day": 5,
+        "publication": "S\u00fcddeutsche.de",
+        "score": 100.0,
+        "important": true
+    },
+    {
+        "title": "Wie sich die Omikron-Welle in Deutschland entwickeln k\u00f6nnte",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.zdf.de/uri/50ed1d77-f2c2-4171-917f-9a664023dca0",
+        "year": 2022,
+        "month": [
+            "Feb",
+            "Feb."
+        ],
+        "month_numeric": 2,
+        "day": 5,
+        "publication": "ZDF",
+        "score": 50.0,
+        "important": true
+    },
+    {
+        "title": "Lockern oder Lockdown?",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.sueddeutsche.de/projekte/artikel/gesundheit/coronavirus-in-deutschland-lockern-oder-lockdown-e889281/",
+        "year": 2022,
+        "month": [
+            "Feb",
+            "Feb."
+        ],
+        "month_numeric": 2,
+        "day": 5,
+        "publication": "S\u00fcddeutsche.de",
+        "score": 50.0,
+        "important": true
+    },
+    {
+        "title": "RKI stellt Modellrechnungen vor: Wie die Omikron-Welle verlaufen k\u00f6nnte",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://rp-online.de/panorama/coronavirus/modellrechnungen-des-rki-wie-die-omikron-welle-verlaufen-koennte_aid-65921473",
+        "year": 2022,
+        "month": [
+            "Feb",
+            "Feb."
+        ],
+        "month_numeric": 2,
+        "day": 3,
+        "publication": "RP ONLINE",
+        "score": 5.0,
+        "important": false
+    },
+    {
+        "title": "RKI legt Modellierungen zu m\u00f6glichen Verl\u00e4ufen vor",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.morgenpost.de/vermischtes/article234480549/RKI-legt-Modellierungen-zu-moeglichen-Verlaeufen-vor.html",
+        "year": 2022,
+        "month": [
+            "Feb",
+            "Feb."
+        ],
+        "month_numeric": 2,
+        "day": 3,
+        "publication": "Berliner Morgenpost",
+        "score": 5.0,
+        "important": false
+    },
+    {
+        "title": "RKI-Modell rechnet mit 300.000 Omikron-F\u00e4llen pro Tag",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.forschung-und-wissen.de/nachrichten/medizin/rki-modell-rechnet-mit-300.000-omikron-faellen-pro-tag-13375853",
+        "year": 2022,
+        "month": [
+            "Feb",
+            "Feb."
+        ],
+        "month_numeric": 2,
+        "day": 5,
+        "publication": "Forschung & Wissen",
+        "score": 5.0,
+        "important": false
+    },
+    {
+        "title": "Ist die Omikron-Welle Ende Februar vorbei \u2013 und ein Corona-Exit denkbar?",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.ruhrnachrichten.de/ueberregionales/ist-die-omikron-welle-ende-februar-vorbei-und-ein-corona-exit-denkbar-w1721160-2000439195/",
+        "year": 2022,
+        "month": [
+            "Feb",
+            "Feb."
+        ],
+        "month_numeric": 2,
+        "day": 4,
+        "publication": "Ruhr Nachrichten",
+        "score": 5.0,
+        "important": false
+    },
+    {
+        "title": "Coronavirus: RKI legt Modelle zu m\u00f6glichen Verl\u00e4ufen der Omikron-Welle vor",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.stuttgarter-zeitung.de/inhalt.coronavirus-rki-legt-modelle-zu-moeglichen-verlaeufen-der-omikron-welle-vor.fa933907-fe62-42e5-b16f-221a77d63bc5.html",
+        "year": 2022,
+        "month": [
+            "Feb",
+            "Feb."
+        ],
+        "month_numeric": 2,
+        "day": 3,
+        "publication": "stuttgarter-zeitung.de",
+        "score": 1.0,
+        "important": false
+    },
+    {
+        "title": "RKI wagt Omikron-Ausblick: Erneuter Lockdown k\u00f6nnte alles nur noch schlimmer machen",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.focus.de/gesundheit/coronavirus/lauterbach-beruft-sich-darauf-jetzt-veroeffentlicht-das-rki-die-modelle-auf-die-sich-lauterbach-schon-seit-wochen-beruft_id_48165567.html",
+        "year": 2022,
+        "month": [
+            "Feb",
+            "Feb."
+        ],
+        "month_numeric": 2,
+        "day": 5,
+        "publication": "FOCUS Online",
+        "score": 0.0,
+        "important": false
+    },
+    {
+        "title": "RKI h\u00e4lt bis zu 300.000 Neuinfektionen f\u00fcr m\u00f6glich",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.n-tv.de/wissen/RKI-haelt-bis-zu-300-000-Neuinfektionen-fuer-moeglich-article23103407.html",
+        "year": 2022,
+        "month": [
+            "Feb",
+            "Feb."
+        ],
+        "month_numeric": 2,
+        "day": 5,
+        "publication": "n-tv.de",
+        "score": 0.0,
+        "important": false
+    },
+    {
+        "title": "Weitere Omikron-Welle bis April? Neues RKI-Modell liefert bittere Prognose",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.infranken.de/ueberregional/deutschland/prognose-omikron-entwicklung-bis-april-neues-rki-modell-gibt-hinweise-auf-weitere-welle-art-5382874",
+        "year": 2022,
+        "month": [
+            "Feb",
+            "Feb."
+        ],
+        "month_numeric": 2,
+        "day": 5,
+        "publication": "inFranken.de",
+        "score": 0.0,
+        "important": false
+    },
+    {
+        "title": "Herd Immunity: Is This How the Pandemic Comes to an End?",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.zeit.de/wissen/2021-06/herd-immunity-calculator-covid-end-of-pandemic",
+        "year": 2021,
+        "month": [
+            "Jul",
+            "Juli"
+        ],
+        "month_numeric": 7,
+        "day": 1,
+        "publication": "Die Zeit",
+        "score": 100.0,
+        "important": true
+    },
+    {
+        "title": "Herdenimmunit\u00e4t: Endet so die Pandemie?",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.zeit.de/wissen/2021-06/herdenimmunitaet-corona-infektionsgeschehen-impfung-neuinfektionen-simulation",
+        "year": 2021,
+        "month": [
+            "Jun",
+            "Juni"
+        ],
+        "month_numeric": 6,
+        "day": 24,
+        "publication": "Die Zeit",
+        "score": 0.0,
+        "important": false
+    },
+    {
+        "title": "Drei Ideen, um die Pandemie besser in den Griff zu kriegen",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.rbb24.de/panorama/thema/corona/beitraege/2021/03/erstimpfung-biontech-schulen-schnelltests.html",
+        "year": 2021,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 3,
+        "publication": "rbb24",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "Dritte Welle: L\u00e4ngere Impfintervalle w\u00fcrden Tausende Leben retten",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.welt.de/gesundheit/plus227507463/Dritte-Welle-Laengere-Impfintervalle-wuerden-Tausende-Leben-retten.html",
+        "year": 2021,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 3,
+        "publication": "DIE WELT",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "Simulationsrechnung: So l\u00e4sst sich die dritte Corona-Welle brechen",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.nordbayern.de/politik/simulationsrechnung-so-lasst-sich-die-dritte-corona-welle-brechen-1.10883130",
+        "year": 2021,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 2,
+        "publication": "nordbayern.de",
+        "score": 0.0,
+        "important": false
+    },
+    {
+        "title": "Lauterbach h\u00e4lt \u00c4nderung der Impfstrategie f\u00fcr dringend n\u00f6tig",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.tagesspiegel.de/wissen/bis-zu-14-000-corona-tote-weniger-lauterbach-haelt-aenderung-der-impfstrategie-fuer-dringend-noetig/26963916.html",
+        "year": 2021,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 1,
+        "publication": "Der Tagesspiegel",
+        "score": 0.0,
+        "important": false
+    },
+    {
+        "title": "Corona: So sinnvoll sind Grenzschlie\u00dfungen zu Tschechien und \u00d6sterreich",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.spiegel.de/wissenschaft/mensch/corona-so-sinnvoll-sind-grenzschliessungen-zu-tschechien-und-oesterreich-a-8a6f9da9-ccae-4000-8124-330809a46e5e",
+        "year": 2021,
+        "month": [
+            "Feb",
+            "Feb."
+        ],
+        "month_numeric": 2,
+        "day": 12,
+        "publication": "DER SPIEGEL",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "Wieso die Fallzahlen steigen und Social Distancing hilft",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.rbb24.de/panorama/thema/2020/coronavirus/beitraege/dunkelziffer-quarantaene-social-distancing-effekt.html",
+        "year": 2021,
+        "month": [
+            "Feb",
+            "Feb."
+        ],
+        "month_numeric": 2,
+        "day": 22,
+        "publication": "rbb24",
+        "score": 5.0,
+        "important": false
+    },
+    {
+        "title": "Zu viele Hoffnungen und absurde Zweifel an neuen Tests",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.rbb24.de/panorama/thema/corona/beitraege/2021/03/selbsttests-schnelltests-inzidenz-auswirkung.html",
+        "year": 2021,
+        "month": [
+            "Feb",
+            "Feb."
+        ],
+        "month_numeric": 2,
+        "day": 22,
+        "publication": "rbb24",
+        "score": 5.0,
+        "important": false
+    },
+    {
+        "title": "Warum die Berliner Amts\u00e4rzte richtig argumentieren - aber falsche Schl\u00fcsse ziehen",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.rbb24.de/panorama/thema/corona/beitraege/2021/02/berlin-amtsaerzte-epidemiologen-argumente.html",
+        "year": 2021,
+        "month": [
+            "Feb",
+            "Feb."
+        ],
+        "month_numeric": 2,
+        "day": 22,
+        "publication": "rbb24",
+        "score": 1.0,
+        "important": false
+    },
+    {
+        "title": "Corona-Strategie von Karl Lauterbach: So will er die dritte Welle brechen",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.spiegel.de/politik/deutschland/corona-strategie-von-karl-lauterbach-mit-schnelleren-impfungen-und-mehr-tests-gegen-die-dritte-welle-a-4363c47e-5305-4126-aad5-02478bd4d386",
+        "year": 2021,
+        "month": [
+            "Feb",
+            "Feb."
+        ],
+        "month_numeric": 2,
+        "day": 28,
+        "publication": "DER SPIEGEL",
+        "score": 0.0,
+        "important": false
+    },
+    {
+        "title": "Lauterbach schl\u00e4gt neue Impf- und Teststrategie vor",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.bsaktuell.de/deutschland-und-welt/lauterbach-schlaegt-neue-impf-und-teststrategie-vor/197824/",
+        "year": 2021,
+        "month": [
+            "Feb",
+            "Feb."
+        ],
+        "month_numeric": 2,
+        "day": 28,
+        "publication": "BSAktuell",
+        "score": 0.0,
+        "important": false
+    },
+    {
+        "title": "Schneller als das Virus",
+        "type": [
+            "TV broadcast",
+            "TV-Sendung"
+        ],
+        "href": "",
+        "year": 2020,
+        "month": [
+            "Jun",
+            "Juni"
+        ],
+        "month_numeric": 6,
+        "day": 12,
+        "publication": "ARTE Re:",
+        "score": 100.0,
+        "important": true
+    },
+    {
+        "title": "Corona-Leitfaden: Diese Zahlen helfen Ihnen, die Pandemie zu verstehen",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.welt.de/wissenschaft/plus207886867/Corona-Leitfaden-Diese-Zahlen-helfen-Ihnen-die-Pandemie-zu-verstehen.html",
+        "year": 2020,
+        "month": [
+            "May",
+            "Mai"
+        ],
+        "month_numeric": 5,
+        "day": 11,
+        "publication": "DIE WELT",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "\"Eine Vorhersage w\u00fcrde ich f\u00fcr maximal sechs Tage wagen\"",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "",
+        "year": 2020,
+        "month": [
+            "May",
+            "Mai"
+        ],
+        "month_numeric": 5,
+        "day": 10,
+        "publication": "Welt am Sonntag",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "Die Zahlen der Pandemie",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "",
+        "year": 2020,
+        "month": [
+            "May",
+            "Mai"
+        ],
+        "month_numeric": 5,
+        "day": 10,
+        "publication": "Welt am Sonntag",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "Tracking quarantine movement",
+        "type": [
+            "podcast",
+            "Podcast"
+        ],
+        "href": "https://www.dw.com/en/tracking-quarantine-movement/av-52954720",
+        "year": 2020,
+        "month": [
+            "May",
+            "Mai"
+        ],
+        "month_numeric": 5,
+        "day": 20,
+        "publication": "Deutsche Welle: \"Science Unscripted\"",
+        "score": 1.0,
+        "important": false
+    },
+    {
+        "title": "Die Pandemie",
+        "type": [
+            "podcast",
+            "Podcast"
+        ],
+        "href": "https://www.geo.de/geolino/mensch/22743-rtkl-jetzt-anhoeren-gemeinsam-gegen-corona-der-wissenspodcast-von-geolino",
+        "year": 2020,
+        "month": [
+            "May",
+            "Mai"
+        ],
+        "month_numeric": 5,
+        "day": 20,
+        "publication": "Gemeinsam gegen Corona - der Wissenspodcast von GEOlino",
+        "score": 1.0,
+        "important": false
+    },
+    {
+        "title": "Gut gemeint ist nicht immer gut gemacht: Richtig helfen in der Corona-Krise",
+        "type": [
+            "radio broadcast",
+            "Radiosendung"
+        ],
+        "href": "https://www.deutschlandfunknova.de/beitrag/nachbarschaftshilfe-wie-wir-waehrend-corona-richtig-helfen-tipps-vom-experten",
+        "year": 2020,
+        "month": [
+            "Apr",
+            "Apr."
+        ],
+        "month_numeric": 4,
+        "day": 9,
+        "publication": "Deutschlandfunk Nova",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "Warum Abstand halten an Ostern gegen die Pandemie helfen kann",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.rbb24.de/panorama/thema/2020/coronavirus/beitraege_neu/2020/04/ostern-abstand-kontaktverbot-feiertage-coronavirus-daten-zahlen.html",
+        "year": 2020,
+        "month": [
+            "Apr",
+            "Apr."
+        ],
+        "month_numeric": 4,
+        "day": 12,
+        "publication": "rbb24",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "Lockerung des Lockdowns: So gro\u00df ist die Gefahr der zweiten Welle",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.welt.de/wissenschaft/plus207528275/Lockerung-des-Lockdowns-So-gross-ist-die-Gefahr-der-zweiten-Welle.html",
+        "year": 2020,
+        "month": [
+            "Apr",
+            "Apr."
+        ],
+        "month_numeric": 4,
+        "day": 27,
+        "publication": "DIE WELT",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "Corona ist ein Marathon, kein Sprint",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.rbb24.de/panorama/thema/2020/coronavirus/beitraege_neu/2020/04/modellrechnungen-epidemie-corona-massnahmen-nach-lockdown.html",
+        "year": 2020,
+        "month": [
+            "Apr",
+            "Apr."
+        ],
+        "month_numeric": 4,
+        "day": 14,
+        "publication": "rbb24",
+        "score": 1.0,
+        "important": false
+    },
+    {
+        "title": "The Effects of Physical Isolation on the Pandemic Quantified",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.the-scientist.com/news-opinion/the-effects-of-physical-isolation-on-the-pandemic-quantified-67407",
+        "year": 2020,
+        "month": [
+            "Apr",
+            "Apr."
+        ],
+        "month_numeric": 4,
+        "day": 10,
+        "publication": "The Scientist Magazine",
+        "score": 0.0,
+        "important": false
+    },
+    {
+        "title": "Coronavirus: China got it right by locking down Wuhan, German study says",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.scmp.com/news/china/society/article/3079528/coronavirus-china-got-it-right-locking-down-wuhan-german-study",
+        "year": 2020,
+        "month": [
+            "Apr",
+            "Apr."
+        ],
+        "month_numeric": 4,
+        "day": 12,
+        "publication": "South China Morning Post",
+        "score": 0.0,
+        "important": false
+    },
+    {
+        "title": "Bleibt zu Hause!",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "http://www.laborjournal.de/editorials/1985.php",
+        "year": 2020,
+        "month": [
+            "Apr",
+            "Apr."
+        ],
+        "month_numeric": 4,
+        "day": 20,
+        "publication": "Laborjournal",
+        "score": 0.0,
+        "important": false
+    },
+    {
+        "title": "Einkaufen f\u00fcr Nachbarn? Richtig helfen in Corona-Zeiten",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.fitforfun.de/news/nachbarschaftshilfe-aber-richtig-das-sollte-man-bei-aller-naechstenliebe-wissen-421238.html",
+        "year": 2020,
+        "month": [
+            "Apr",
+            "Apr."
+        ],
+        "month_numeric": 4,
+        "day": 14,
+        "publication": "FIT FOR FUN",
+        "score": 0.0,
+        "important": false
+    },
+    {
+        "title": "How the Virus Got Out",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.nytimes.com/interactive/2020/03/22/world/coronavirus-spread.html",
+        "year": 2020,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 22,
+        "publication": "The New York Times",
+        "score": 100.0,
+        "important": true
+    },
+    {
+        "title": "Coronavirus curve shows much of Europe could face Italy-like surge within weeks",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.washingtonpost.com/world/europe/flatten-the-curve-coronavirus/2020/03/12/a648883c-6460-11ea-8a8e-5c5336b32760_story.html",
+        "year": 2020,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 13,
+        "publication": "The Washington Post",
+        "score": 100.0,
+        "important": true
+    },
+    {
+        "title": "Epidemiological models show Europe faces Italy-like coronavirus surges within weeks",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.independent.co.uk/news/world/europe/coronavirus-news-update-covid-19-mathematical-model-epidemiology-a9402131.html",
+        "year": 2020,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 14,
+        "publication": "The Independent",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "Nachbarschaftshilfe: \"Nicht einfach draufloshelfen\"",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.zeit.de/zeit-magazin/leben/2020-03/nachbarschaftshilfe-coronavirus-infektionskette-solidaritaet-netzwerkforschung",
+        "year": 2020,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 19,
+        "publication": "Die Zeit",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "\"Es kann nicht sein, dass Impfstoff liegen bleibt\"",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.sueddeutsche.de/gesundheit/coronavirus-impfstrategie-astra-zeneca-biontech-1.5221584",
+        "year": 2020,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 1,
+        "publication": "S\u00fcddeutsche Zeitung",
+        "score": 20.0,
+        "important": true
+    },
+    {
+        "title": "Solidarit\u00e4t: Richtig helfen in der Corona-Krise",
+        "type": [
+            "radio broadcast",
+            "Radiosendung"
+        ],
+        "href": "",
+        "year": 2020,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 18,
+        "publication": "NDR",
+        "score": 5.0,
+        "important": false
+    },
+    {
+        "title": "Nicht drauflos helfen",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.neues-deutschland.de/artikel/1134687.nicht-drauflos-helfen.html",
+        "year": 2020,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 24,
+        "publication": "neues deutschland",
+        "score": 1.0,
+        "important": false
+    },
+    {
+        "title": "Distanz und N\u00e4he",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.neues-deutschland.de/artikel/1134688.corona-pandemie-distanz-und-naehe.html",
+        "year": 2020,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 4,
+        "publication": "neues deutschland",
+        "score": 1.0,
+        "important": false
+    },
+    {
+        "title": "Ve\u0107i dio Evrope mo\u017ee zadesiti scenarij iz Italije",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.rtvbn.com/3979664/veci-dio-evrope-moze-zadesiti-scenarij-iz-italije",
+        "year": 2020,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 16,
+        "publication": "Radio Televizija BN",
+        "score": 0.0,
+        "important": false
+    },
+    {
+        "title": "Advierten que en pocas semanas toda Europa puede estar como Italia",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.lanacion.com.ar/el-mundo/advierten-pocas-semanas-toda-europa-puede-estar-nid2343119",
+        "year": 2020,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 13,
+        "publication": "La Naci\u00f3n",
+        "score": 0.0,
+        "important": false
+    },
+    {
+        "title": "Prognoze epidemiologa: Ve\u0107i dio Evrope za nekoliko sedmica \u0107e zadesiti italijanski scenarij",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.klix.ba/vijesti/svijet/prognoze-epidemiologa-veci-dio-evrope-za-nekoliko-sedmica-ce-zadesiti-italijanski-scenarij/200316007",
+        "year": 2020,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 16,
+        "publication": "Klix.ba",
+        "score": 0.0,
+        "important": false
+    },
+    {
+        "title": "COVID-19. Europa \u00e0 beira de se tornar uma gigantesca It\u00e1lia",
+        "type": [
+            "newspaper article",
+            "Zeitungsartikel"
+        ],
+        "href": "https://www.rtp.pt/noticias/mundo/covid-19-europa-a-beira-de-se-tornar-uma-gigantesca-italia_n1211891",
+        "year": 2020,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 16,
+        "publication": "R\u00e1dio e Televis\u00e3o de Portugal",
+        "score": 0.0,
+        "important": false
+    },
+    {
+        "title": "Scholz will Strategiewechsel bei Corona-Politik",
+        "type": [
+            "magazine article",
+            "Zeitschriftenartikel"
+        ],
+        "href": "https://www.fuldainfo.de/scholz-will-strategiewechsel-bei-corona-politik/",
+        "year": 2020,
+        "month": [
+            "Mar",
+            "M\u00e4rz"
+        ],
+        "month_numeric": 3,
+        "day": 1,
+        "publication": "fuldainfo.de",
+        "score": 0.0,
+        "important": false
+    }
+]
   }
 }

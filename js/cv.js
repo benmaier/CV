@@ -108,6 +108,16 @@ class CVBuilder {
         });
         cvsection = cvsection.replace("{{ entries }}", descriptions);
       }
+      else if (section == 'shortprofile')
+      {
+        cvsection = _cv_templates.importantSection.replace("{{ title }}", title)
+                                                  .replace("{{ id }}", `id="${section}"`);
+        let descriptions = '';
+        content[section].forEach(function (entry) {
+          descriptions += `<p>${_cv_templates.itemDescription.replace("{{ item-description }}", _T(entry.description))}</p>`;
+        });
+        cvsection = cvsection.replace("{{ entries }}", descriptions);
+      }
       else if (section == 'languages')
       {
         cvsection = parseTabledSection(title, content[section], parseLanguageEntry, section);
@@ -256,7 +266,8 @@ function parseEducationTableRow(entry) {
     let title = _cv_templates.itemTitle.replace("{{ item-title }}",_T(entry.name));
     let place = _cv_templates.itemPlace.replace("{{ item-place }}",_T(entry.place));
     let desc = _cv_templates.itemDescription.replace("{{ item-description }}",_T(entry.description));
-    let right = `${title}<br/>${place}, ${desc}`;
+    let right = `${title}&nbsp;&nbsp;&nbsp;${place}, ${desc}`;
+    //let right = `${title}<br/>${place}, ${desc}`;
   //console.log(right);
     row = row.replace("{{ left-col-content }}", left)
              .replace("{{ right-col-content }}", right);
@@ -302,7 +313,7 @@ function parseImportantSection(title, entries, rowparser, id="")
   if ( (!_CV_SHOW_UNIMPORTANT && entry.important) || _CV_SHOW_UNIMPORTANT)
   {
     if (i>0) {
-      rows += '<div style="font-size:16pt;">&nbsp;</div>';
+      //rows += '<div style="font-size:16pt;">&nbsp;</div>';
     }
     rows += rowparser(entry);
   }
@@ -411,7 +422,7 @@ function parseScientificEntry(entry) {
 
       let thesis = `${title}`;
       if (links != "")
-        thesis += `<br/>${links}`;
+        thesis += `, ${links}`;
 
     right = thesis;
   }
@@ -452,6 +463,7 @@ function parsePublicationEntry(entry) {
       let _a = a;
       //if (a.includes("B. F. Maier") || a.includes("B. Maier"))
       //  _a = `<span class="cv-item-title">${_a}</span>`;
+      _a = _a.replaceAll(". ", ".&nbsp;");
       _a = _cv_templates.paperAuthor.replace("{{ author }}", _a);
       return _a;
     
@@ -529,7 +541,7 @@ function parseSchoolEntry(entry) {
     let title = _cv_templates.itemTitle.replace("{{ item-title }}",_T(entry.title));
     let place = _cv_templates.itemPlace.replace("{{ item-place }}",_T(entry.place));
     let desc = _cv_templates.itemDescription.replace("{{ item-description }}","");
-    let right = `${title}<br/>${place}`;
+    let right = `${title}&nbsp;&nbsp;&nbsp;${place}`;
     row = row.replace("{{ left-col-content }}", left)
              .replace("{{ right-col-content }}", right);
 
@@ -648,7 +660,7 @@ function parseThesisEntry(entry){
 
       let thesis = `${title} (${_T(t.qualification)})`;
       if (links != "")
-        thesis += `<br/>${links}`;
+        thesis += `, ${links}`;
 
 
 

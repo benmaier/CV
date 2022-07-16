@@ -126,12 +126,14 @@ _cv_templates.paperAdd = `<span class="cv-paper-additional">{{ additional }}</sp
 //_cv_templates.paperEntry = `{{ authors }}, &ldquo;{{ title }}&rdquo; ({{ year }}). {{ additional }}.{{ links }}`;
 //_cv_templates.paperEntry = `{{ additional }} ({{ year }})<br/><b>{{ title }}</b><br/>{{ authors }}, {{ links }}`;
 _cv_templates.paperEntry = `{{ title }} ({{ year }}), {{ additional }}.{{ links }} {{ authors }}`;
+_cv_templates.paperTabledEntry = `{{ title }}, {{ authors }}<br/>{{ journal }}.{{ links }}`;
 
 _cv_templates.talkTitle = `<span class="cv-talk-title">{{ title }}</span>`;
 _cv_templates.talkPlace = `<span class="cv-talk-place">{{ place }}</span>`;
 _cv_templates.talkEvent = `<span class="cv-talk-event">{{ event }}</span>`;
 _cv_templates.talkEntry = `{{ title }}<br/> {{ event }}, {{ place }} ({{ year }})` // use this for breaks after title
-_cv_templates.talkEntry = `{{ title }}, {{ event }}, {{ place }} ({{ year }})`
+_cv_templates.talkEntry = `{{ title }}&nbsp;&nbsp;&nbsp;{{ event }}, {{ place }}`
+_cv_templates.talkTableEntry = `{{ title }}&nbsp;&nbsp;&nbsp;{{ event }}, {{ place }}`
 
 _cv_templates.packageTitle = `<span class="cv-item-title">{{ title }}</span>`;
 _cv_templates.packageHREF = `<a href="https://{{ href }}" class="cv-link" target="_blank"><span class="cv-package-href">{{ href }}</span></a>`;

@@ -16,6 +16,7 @@ body {
     margin-right: 36pt;
     -webkit-print-color-adjust: exact;
     float: left;
+    line-height: 1.0;
     /*
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
@@ -33,7 +34,7 @@ body {
 .cv-main-row {
     margin-top: 0.5cm;
     display: flex;
-    max-width: calc(800px + 128pt);
+    max-width: calc(600px + 128pt);
 }
 
 .cv-header-column {
@@ -101,6 +102,7 @@ body {
 
 .cv-important-section {
     margin-bottom: 25pt;
+    max-width: 500px;
 }
 
 .cv-section-content {
@@ -255,3 +257,9 @@ ul.cv-list {
 .cv-talk-title {
     font-weight: bold;
 }
+
+.cv-short-desc {
+    line-height: 1.35;
+    text-indent: 0cm;
+}
+

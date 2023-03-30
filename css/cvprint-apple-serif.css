@@ -119,6 +119,7 @@ tr.cv-row {
   line-height: 1.5;
   padding-left: 0px;
   margin-left: 0px;
+  page-break-inside: avoid;
 }
 
 td {

@@ -193,15 +193,29 @@ class CVBuilder {
     document.getElementById("publications-counter").innerHTML = content.publications.length;
     document.getElementById("talks-counter").innerHTML = content.talks.length;
 
-    if (order.includes("publications"))
+    let pubLink = document.getElementById("publications-link");
+    if (pubLink)
     {
-      let pubLink = document.getElementById("publications-link");
-      pubLink.innerHTML = `<a href="#publications" class="cv-link">${pubLink.innerHTML}</a>`;
+      console.log(content['science'][0].id);
+      let pub_content = content['science'].filter(entry => entry.id == 'publications')[0];
+      console.log(pub_content);
+      let link;
+      if (pub_content['link_to_section'] == 'local')
+        link = '#publications'
+      else
+        link = pub_content['link_to_section'];
+      pubLink.innerHTML = `<a href="${link}" class="cv-link">${pubLink.innerHTML} ${_T(pub_content['additional_link_text'])}</a>`;
     }
-    if (order.includes("talks"))
+    let talkLink = document.getElementById("talks-link");
+    if (talkLink)
     {
-      let talkLink = document.getElementById("talks-link");
-      talkLink.innerHTML = `<a href="#talks" class="cv-link">${talkLink.innerHTML}</a>`;
+      let talk_content = content['science'].filter(entry => entry.id == "talks")[0];
+      let link;
+      if (talk_content['link_to_section'] == 'local')
+        link = '#talks'
+      else
+        link = talk_content['link_to_section'];
+      talkLink.innerHTML = `<a href="${link}" class="cv-link">${talkLink.innerHTML} ${_T(talk_content['additional_link_text'])}</a>`;
     }
     
     // add reviewing section
@@ -222,24 +236,42 @@ class CVBuilder {
 
       let nrev = entries.length;
 
-      entries.forEach(function(entry,d){
+      let review_content = content['science'].filter(entry => entry.id == 'reviews')[0];
 
-          let l = `<a href="${entry.href}" class="cv-link">`;
-          let r = `</a>`;
-          let prfx = '';
-          let sffx = '\n';
-          if ((nrev > 1) && (d == nrev-1)) {
-              prfx = (['and ','und '])[_CV_LANG];
-              sffx = '.';
-          }
-          else if ( ((_CV_LANG == 0) && (d < nrev-1)) || ((_CV_LANG==1) && (d<nrev-2)) ){
-            sffx = ', ';
-          }
-          let link = prfx + l + _T(entry.title)+ r + sffx;
-          journals += link;
-      });
+      if (!review_content['show_counter_instead_of_list'])
+      {
+        entries.forEach(function(entry,d){
+
+            let l = `<a href="${entry.href}" class="cv-link">`;
+            let r = `</a>`;
+            let prfx = '';
+            let sffx = '\n';
+            if ((nrev > 1) && (d == nrev-1)) {
+                prfx = (['and ','und '])[_CV_LANG];
+                sffx = '.';
+            }
+            else if ( ((_CV_LANG == 0) && (d < nrev-1)) || ((_CV_LANG==1) && (d<nrev-2)) ){
+              sffx = ', ';
+            }
+            let link = prfx + l + _T(entry.title)+ r + sffx;
+            journals += link;
+        });
+        journals += _T(review_content['additional_link_text']);
+      }
+      else
+      {
+        journals = `<a href="http://benmaier.org/CV/index.html#science" class="cv-link">${nrev} ${_T(review_content['additional_link_text'])}</a>`;
+      }
 
       reviewSpan.innerHTML = journals;
+    }
+
+    // problem: if you link to the page, the anchor doesnt exist. It's only created after loading.
+    // Thus we need to scroll there after creation
+    if(window.location.hash) {
+      let el = document.getElementById(window.location.hash);
+      if (el)
+        el.scrollIntoView();
     }
 
   };

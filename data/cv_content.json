@@ -70,7 +70,7 @@
     "shortprofile": [
         {
             "description": [
-           "<p class=\"cv-short-desc\">I am a trans-disciplinary researcher focusing on understanding the fundamental mechanisms that determine how our social interactions facilitate the spread of infectious diseases and consequently, how we can mitigate their dispersal. Originally being trained in statistical physics, I employ methods from non-linear dynamics, complexity science, data science, and statistics incl. machine learning.</p><p class=\"cv-short-desc\">During the last years, I was able to contribute to Germany's response to the COVID-19 pandemic by conducting infectious disease modeling research at Robert Koch Institute. At the moment, I hold a postdoc position at DTU Copenhagen and Danmarks Statistiks to research how socio-economical factors determine individual health from large-scale public data sets.</p><p class=\"cv-short-desc\">I am interested in finding new ways to collect and analyze social behavorial and epidemiological data to improve predictions of infectious disease outbreaks and facilitate decision-making for rapid responses. My aim is to establish \"complex systems\" methods in public health contexts by teaching students as well as collaborating in joint social/health research ventures.</p>"
+           "<p class=\"cv-short-desc\">I am a trans-disciplinary researcher focusing on understanding the fundamental mechanisms that determine how our social interactions facilitate the spread of infectious diseases and consequently, how we can mitigate their dispersal. Originally being trained in statistical physics, I employ methods from non-linear dynamics, complexity science, data science, and statistics incl. machine learning.</p><p class=\"cv-short-desc\">During the last years, I was able to contribute to Germany's response to the COVID-19 pandemic by conducting infectious disease modeling research at Robert Koch Institute. At the moment, I hold a postdoc position at DTU Copenhagen and Danmarks Statistiks to research how socio-economical factors determine individual health from large-scale public data sets.</p><p class=\"cv-short-desc\">I am interested in finding new ways to collect and analyze social behavorial and epidemiological data to improve predictions of infectious disease outbreaks and facilitate decision-making for rapid responses. My aim is to establish &ldquo;complex systems&rdquo; methods in public health contexts by teaching students as well as collaborating in joint social/health research ventures.</p>"
             ]
         }
     ],
@@ -92,7 +92,7 @@
         ],
         [
             "skilled in scientific computing and analyses of big data sets",
-            "versiert in Wissen&shy;schaft&shy;lichem Rechnen und \"Big Data\"-Analysen "
+            "versiert in Wissen&shy;schaft&shy;lichem Rechnen und &ldquo;Big Data&rdquo;-Analysen "
         ],
         [
             "taught courses and supervised projects on numerous occasions",
@@ -286,8 +286,8 @@
         "name": ["Teaching Assistant", "Übungsleiter"],
         "place": ["Santa Fe Insitute", "Santa Fe Institut"],
         "description": [
-          "\"introduction to Dynamical Systems\" on the MOOC-platform \"Complexity Explorer\"",
-          "\"Einführung in dynamische Systeme\" der MOOC-Plattform \"Complexity Explorer\""
+          "&ldquo;introduction to Dynamical Systems&rdquo; on the MOOC-platform &ldquo;Complexity Explorer&rdquo;",
+          "&ldquo;Einführung in dynamische Systeme&rdquo; der MOOC-Plattform &ldquo;Complexity Explorer&rdquo;"
         ],
         "important": true
       },
@@ -296,8 +296,8 @@
         "name": ["Teacher", "Kursleiter"],
         "place": ["Deutsche SchülerAkademie"],
         "description": [
-          "three-week course on \"Network Science and Complex Systems\" in a summer school for gifted high-school students",
-          "Dreiwöchiger Kurs zu \"Netzwerktheorie und komplexe Systeme\" für begabte Schüler"
+          "three-week course on &ldquo;Network Science and Complex Systems&rdquo; in a summer school for gifted high-school students",
+          "Dreiwöchiger Kurs zu &ldquo;Netzwerktheorie und komplexe Systeme&rdquo; für begabte Schüler"
         ],
         "important": true
       },
@@ -309,8 +309,8 @@
           "Institut für Physik (HU Berlin)"
         ],
         "description": [
-          "course: \"Classical Mechanics and Introduction to Thermodynamics\"",
-          "Kurs \"Klassische Mechanik und Einführung in die Wärmelehre\""
+          "course: &ldquo;Classical Mechanics and Introduction to Thermodynamics&rdquo;",
+          "Kurs &ldquo;Klassische Mechanik und Einführung in die Wärmelehre&rdquo;"
         ],
         "important": true
       },
@@ -322,8 +322,8 @@
           "Fachschaftsinitiative Physik (HU Berlin)"
         ],
         "description": [
-          "lectures in a prep course for the course \"Computational Physics\"",
-          "Vorbereitungsvorlesung und -übung für den Kurs \"Computational Physics\""
+          "lectures in a prep course for the course &ldquo;Computational Physics&rdquo;",
+          "Vorbereitungsvorlesung und -übung für den Kurs &ldquo;Computational Physics&rdquo;"
         ],
         "important": false
       },
@@ -389,8 +389,8 @@
         "date": ["2010"],
         "name": ["Research Intern", "Forschungspraktikant"],
         "place": [
-          "HU Berlin, Department of Physics, Group \"PHÄ\"",
-          "HU Berlin, Institut für Physik, AG \"PHÄ\""
+          "HU Berlin, Department of Physics, Group &ldquo;PHÄ&rdquo;",
+          "HU Berlin, Institut für Physik, AG &ldquo;PHÄ&rdquo;"
         ],
         "description": [
           "Research internships in lattice gauge theory",
@@ -465,34 +465,44 @@
     ],
     "science": [
       {
+        "id": "publications",
         "name": ["Publications", "Publikationen"],
         "description": [
-          "(co-)author of <span id=\"publications-link\"><span id=\"publications-counter\"></span> articles (see section \"Publications\" below)</span>",
-          "(Co-)Autor von <span id=\"publications-link\"><span id=\"publications-counter\"></span> Artikeln (siehe unten, Abschnitt \"Publikationen\")</span>"
+          "(co-)author of <span id=\"publications-link\"><span id=\"publications-counter\"></span> articles</span>",
+          "(Co-)Autor von <span id=\"publications-link\"><span id=\"publications-counter\"></span> Artikeln</span>"
         ],
-        "important": true
+        "important": true,
+        "link_to_section": "local",
+        "additional_link_text" : ["(see section &ldquo;Publications&rdquo; below)","(siehe unten, Abschnitt &ldquo;Publikationen&rdquo;)" ]
       },
       {
+        "id": "talks",
         "name": ["Talks", "Vorträge"],
         "description": [
-          "presenter at <span id=\"talks-link\"><span id=\"talks-counter\"></span> events (see section \"Talks\" below)</span>",
-          "Vortragender bei <span id=\"talks-link\"><span id=\"talks-counter\"></span> Gelegenheiten (siehe unten, Abschnitt \"Vortr&auml;ge\"</span>"
+          "presenter at <span id=\"talks-link\"><span id=\"talks-counter\"></span> events</span>",
+          "Vortragender bei <span id=\"talks-link\"><span id=\"talks-counter\"></span> Gelegenheiten</span>"
         ],
-        "important": true
+        "important": true,
+        "link_to_section": "local",
+        "additional_link_text" : ["(see section &ldquo;Talks&rdquo; below)","(siehe unten, Abschnitt &ldquo;Vortr&auml;ge&rdquo;)" ]
       },
       {
+        "id": "reviews",
         "name": "Reviews",
         "description":[
            "I reviewed manuscripts for <span id=\"reviews-list\"></span>",
            "Manuskripte begutachtet f&uuml;r <span id=\"reviews-list\"></span>"
         ],
-        "important": true
+        "important": true,
+        "show_counter_instead_of_list": false,
+        "additional_link_text": [ "", "" ]
       },
       {
+        "id": "phd",
         "name": ["PhD Thesis", "Dissertation"],
         "description":
             {
-                "title": ["Spreading processes in human systems (2019)"],
+                "title": ["&ldquo;Spreading processes in human systems&rdquo;"],
                 "href": "",
                 "arxiv": "",
                 "doi": "10.18452/20950"
@@ -512,7 +522,7 @@
         "name": ["Hobbies", "Hobbys"],
         "description": [
           "In my free time I produce electronic music using synthesizers and live coding techniques, build furniture or play the guitar. I also produce visualizations and make algorithmic art.",
-          "In meiner Freizeit produziere ich leidenschaftlich elektronische Musik unter Benutzung von Synthesizern und \"Live Coding\"-Techniken, baue Möbel oder spiele Gitarre. Au&szlig;erdem produziere ich Visualisierungen von Daten oder algorithmscher Kunst."
+          "In meiner Freizeit produziere ich leidenschaftlich elektronische Musik unter Benutzung von Synthesizern und &ldquo;Live Coding&rdquo;-Techniken, baue Möbel oder spiele Gitarre. Au&szlig;erdem produziere ich Visualisierungen von Daten oder algorithmscher Kunst."
         ]
       }
     ],
@@ -952,7 +962,7 @@
                 "Infectious-disease models: Types and theory"
             ],
             "event": [
-                "Summer School \"Modellierung schwerer Infektionskrankheiten\" (invited)"
+                "Summer School &ldquo;Modellierung schwerer Infektionskrankheiten&rdquo; (invited)"
             ],
             "place": [
                 "University of Halle"
@@ -1117,8 +1127,8 @@
                 "When you're sick, please stay at home&mdash;Making sense of spreading phenomena using human mobility and contact data"
             ],
             "event": [
-                "\"idalab\" company seminar (invited)",
-                "\"idalab\"-Firmenseminar (geladen)"
+                "&ldquo;idalab&rdquo; company seminar (invited)",
+                "&ldquo;idalab&rdquo;-Firmenseminar (geladen)"
             ],
             "place": [
                 "Berlin"
@@ -1182,8 +1192,8 @@
                 "Influence of group-structured network topologies on dynamical processes"
             ],
             "event": [
-                "\"Biophysics and Evolutionary Dynamics\" Gruppenseminar UC Berkeley",
-                "\"Biophysics and Evolutionary Dynamics\" group seminar UC Berkeley"
+                "&ldquo;Biophysics and Evolutionary Dynamics&rdquo; Gruppenseminar UC Berkeley",
+                "&ldquo;Biophysics and Evolutionary Dynamics&rdquo; group seminar UC Berkeley"
             ],
             "place": [
                 "Berkeley"
@@ -1316,8 +1326,8 @@
         },
         {
             "title": [
-                "Specialization \"Deep Learning\"",
-                "Spezialisierung \"Deep Learning\""
+                "Specialization &ldquo;Deep Learning&rdquo;",
+                "Spezialisierung &ldquo;Deep Learning&rdquo;"
             ],
             "place": [
                 "coursera.org"
@@ -1329,8 +1339,8 @@
         },
         {
             "title": [
-                "Seminar \"Time-Management\"",
-                "Seminar \"Zeitmanagement\""
+                "Seminar &ldquo;Time-Management&rdquo;",
+                "Seminar &ldquo;Zeitmanagement&rdquo;"
             ],
             "place": [
                 "Humboldt Graduate School Berlin"
@@ -1545,8 +1555,8 @@
                 "github.com/benmaier/GTOM"
             ],
             "description": [
-                "Python package for computing the \"general topological overlap measure\" of potentially very large networks",
-                "Python-Paket für die Berechnung der \"general topological overlap measure\" für potentiell sehr große Netzwerke"
+                "Python package for computing the &ldquo;general topological overlap measure&rdquo; of potentially very large networks",
+                "Python-Paket für die Berechnung der &ldquo;general topological overlap measure&rdquo; für potentiell sehr große Netzwerke"
             ],
             "additional_hrefs": [],
             "important": false
@@ -1560,7 +1570,7 @@
             ],
             "description": [
                 "Fast evaluation of incidence- and abundance-based species overlap measures",
-                "Schnelle Berechnung von \"incidence\"- und \"abundance\"-basierten Überlappungen von Spezies"
+                "Schnelle Berechnung von &ldquo;incidence&rdquo;- und &ldquo;abundance&rdquo;-basierten Überlappungen von Spezies"
             ],
             "additional_hrefs": [],
             "important": false
@@ -1574,7 +1584,7 @@
             ],
             "description": [
                 "Classes to compute the stable equilibrium of the quasispecies-equation on complex networks",
-                "Klassen zur Berechnungen des stabilen Gleichgewichts der \"Quasispecies\"-equation on komplexen Netzwerken"
+                "Klassen zur Berechnungen des stabilen Gleichgewichts der &ldquo;Quasispecies&rdquo;-equation on komplexen Netzwerken"
             ],
             "additional_hrefs": [],
             "important": false
@@ -2231,7 +2241,7 @@
         "important": true
     },
     {
-        "title": "\"Eine Vorhersage w\u00fcrde ich f\u00fcr maximal sechs Tage wagen\"",
+        "title": "&ldquo;Eine Vorhersage w\u00fcrde ich f\u00fcr maximal sechs Tage wagen&rdquo;",
         "type": [
             "newspaper article",
             "Zeitungsartikel"
@@ -2280,7 +2290,7 @@
         ],
         "month_numeric": 5,
         "day": 20,
-        "publication": "Deutsche Welle: \"Science Unscripted\"",
+        "publication": "Deutsche Welle: &ldquo;Science Unscripted&rdquo;",
         "score": 1.0,
         "important": false
     },
@@ -2501,7 +2511,7 @@
         "important": true
     },
     {
-        "title": "Nachbarschaftshilfe: \"Nicht einfach draufloshelfen\"",
+        "title": "Nachbarschaftshilfe: &ldquo;Nicht einfach draufloshelfen&rdquo;",
         "type": [
             "newspaper article",
             "Zeitungsartikel"
@@ -2519,7 +2529,7 @@
         "important": true
     },
     {
-        "title": "\"Es kann nicht sein, dass Impfstoff liegen bleibt\"",
+        "title": "&ldquo;Es kann nicht sein, dass Impfstoff liegen bleibt&rdquo;",
         "type": [
             "newspaper article",
             "Zeitungsartikel"

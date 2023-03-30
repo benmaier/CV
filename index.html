@@ -70,6 +70,15 @@
   <script src="js/templates.js"></script>
   <script src="js/cv.js"></script>
   <script>
+
+        let href = window.location.href;
+        let urlParams = new URLSearchParams(href.substring(href.indexOf("?")));
+
+        if (urlParams.has('show_all_sections'))
+            _CV_SHOW_ALL_SECTIONS = true;
+        if (urlParams.has('show_all_entries'))
+            _CV_SHOW_UNIMPORTANT = true;
+        
         let CV = new CVBuilder("cvcontainer", "data/cv_content.json");
 
         function download() {

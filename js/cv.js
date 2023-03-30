@@ -196,9 +196,7 @@ class CVBuilder {
     let pubLink = document.getElementById("publications-link");
     if (pubLink)
     {
-      console.log(content['science'][0].id);
       let pub_content = content['science'].filter(entry => entry.id == 'publications')[0];
-      console.log(pub_content);
       let link;
       if (pub_content['link_to_section'] == 'local')
         link = '#publications'
@@ -269,7 +267,12 @@ class CVBuilder {
     // problem: if you link to the page, the anchor doesnt exist. It's only created after loading.
     // Thus we need to scroll there after creation
     if(window.location.hash) {
-      let el = document.getElementById(window.location.hash);
+      let hash;
+      if (window.location.hash.includes("?"))
+        hash = window.location.hash.split("?")[0]
+      else
+        hash = window.location.hash
+      let el = document.querySelector(hash);
       if (el)
         el.scrollIntoView();
     }
@@ -441,7 +444,6 @@ function parseImportantEntry(entry) {
     let title = _cv_templates.itemTitle.replace("{{ item-title }}",_T(entry.name));
     let place = _cv_templates.itemPlace.replace("{{ item-place }}",_T(entry.place));
     let desc = _cv_templates.itemDescription.replace("{{ item-description }}",_T(entry.description));
-  //console.log(right);
     row = row.replace("{{ header-left }}", place)
              .replace("{{ header-right }}", time)
              .replace("{{ item-title }}", title)

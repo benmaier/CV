@@ -18,7 +18,7 @@
     "press"
   ],
   "fieldimportance": {
-    "shortprofile": true,
+    "shortprofile": false,
     "academic": true,
     "science": true,
     "reviews": true,
@@ -626,54 +626,6 @@
     ],
     "publications": [
       {
-            "authors": ["P. Klamser*", "V. d'Andrea", "F. di Lauro", "A. Zachariae", "S. Bontorin", "A. di Nardo", "M. Hall", "B. F. Maier", "L. Ferretti", "D. Brockmann", "M. de Domenico"],
-            "title": ["Enhancing global preparedness during an ongoing pandemic from partial and noisy data"],
-            "year": "2022",
-            "journal": "medRxiv",
-            "additional": "",
-            "hyperlink": "",
-            "arxiv": "",
-            "doi": "10.1101/2022.08.19.22278981",
-            "important": true,
-            "score":0
-      },
-      {
-        "authors": ["M. Wiedermann*", "A. H. Rose.","B. F. Maier", "Jakob J. Kolb", "D. Hinrichs", "D. Brockmann"],
-        "title": ["Evidence for positive long-and short-term effects of vaccinations against COVID-19 in wearable sensor metrics&ndash;Insights from the German Corona Data Donation Project"],
-        "year": "2022",
-        "journal": "arXiv",
-        "additional": "",
-        "hyperlink": "",
-        "arxiv": "2204.02846",
-        "doi": "",
-        "important": true,
-        "score":0
-      },
-      {
-        "authors": ["B. F. Maier*", "D. Brockmann"],
-        "title": ["Effective containment explains subexponential growth in recent confirmed COVID-19 cases in China"],
-        "year": "2020",
-        "journal": "Science",
-        "additional": "Science 368 (6492), pp. 742-746",
-        "hyperlink": "https://science.sciencemag.org/content/368/6492/742/tab-article-info",
-        "arxiv": "2002.07572",
-        "doi": "10.1126/science.abb4557",
-        "important": true,
-        "score":100
-      },
-      {
-        "authors": ["F. Schlosser*", "B. F. Maier", "D. Hinrichs", "A. Zachariae", "D. Brockmann"],
-        "title": ["COVID-19 lockdown induces structural changes in mobility networks — Implication for mitigating disease dynamics"],
-        "year": "2020",
-        "journal": "PNAS",
-        "additional": "PNAS 117 (52), 32883-32890",
-        "hyperlink": "https://www.pnas.org/content/117/52/32883.short",
-        "arxiv": "2007.01583",
-        "doi": "10.1073/pnas.2012326117",
-        "important": true,
-        "score":100
-      },
-      {
         "authors": ["B. F. Maier*, A. H. Rose, A. Burdinski, P. Klamser, H. Neuhauser, O. Wichmann, L. Schaade, L. H. Wieler, D. Brockmann"],
         "title": ["Estimating the share of SARS-CoV-2-immunologically naïve individuals in Germany up to June 2022"],
         "year": "2023",
@@ -710,6 +662,66 @@
         "score":5
       },
       {
+        "authors": ["A. Burdinski*", "D. Brockmann", "B. F. Maier*"],
+        "title": ["Understanding the impact of digital contact tracing during the COVID-19 pandemic"],
+        "year": "2022",
+        "journal": "PLOS Digital Health",
+        "additional": "PLOS Digital Health 1 (12), e0000149",
+        "hyperlink": "https://www.cambridge.org/core/journals/epidemiology-and-infection/article/estimating-the-share-of-sarscov2immunologically-naive-individuals-in-germany-up-to-june-2022/D465300E4136D1D63B25BD6F48EC2994",
+        "arxiv": "",
+        "doi": "10.1017/S0950268823000195",
+        "important": true,
+        "score":5
+      },
+      {
+            "authors": ["P. Klamser*", "V. d'Andrea", "F. di Lauro", "A. Zachariae", "S. Bontorin", "A. di Nardo", "M. Hall", "B. F. Maier", "L. Ferretti", "D. Brockmann", "M. de Domenico"],
+            "title": ["Enhancing global preparedness during an ongoing pandemic from partial and noisy data"],
+            "year": "2022",
+            "journal": "medRxiv",
+            "additional": "",
+            "hyperlink": "",
+            "arxiv": "",
+            "doi": "10.1101/2022.08.19.22278981",
+            "important": false,
+            "score":0
+      },
+      {
+        "authors": ["M. Wiedermann*", "A. H. Rose.","B. F. Maier", "Jakob J. Kolb", "D. Hinrichs", "D. Brockmann"],
+        "title": ["Evidence for positive long-and short-term effects of vaccinations against COVID-19 in wearable sensor metrics&ndash;Insights from the German Corona Data Donation Project"],
+        "year": "2022",
+        "journal": "arXiv",
+        "additional": "",
+        "hyperlink": "",
+        "arxiv": "2204.02846",
+        "doi": "",
+        "important": false,
+        "score":0
+      },
+      {
+        "authors": ["B. F. Maier*", "D. Brockmann"],
+        "title": ["Effective containment explains subexponential growth in recent confirmed COVID-19 cases in China"],
+        "year": "2020",
+        "journal": "Science",
+        "additional": "Science 368 (6492), pp. 742-746",
+        "hyperlink": "https://science.sciencemag.org/content/368/6492/742/tab-article-info",
+        "arxiv": "2002.07572",
+        "doi": "10.1126/science.abb4557",
+        "important": true,
+        "score":100
+      },
+      {
+        "authors": ["F. Schlosser*", "B. F. Maier", "D. Hinrichs", "A. Zachariae", "D. Brockmann"],
+        "title": ["COVID-19 lockdown induces structural changes in mobility networks — Implication for mitigating disease dynamics"],
+        "year": "2020",
+        "journal": "PNAS",
+        "additional": "PNAS 117 (52), 32883-32890",
+        "hyperlink": "https://www.pnas.org/content/117/52/32883.short",
+        "arxiv": "2007.01583",
+        "doi": "10.1073/pnas.2012326117",
+        "important": true,
+        "score":100
+      },
+      {
         "authors": ["B. F. Maier*"],
         "title": ["epipack: An infectious disease modeling package for Python"],
         "year": "2021",
@@ -718,7 +730,7 @@
         "hyperlink": "https://joss.theoj.org/papers/10.21105/joss.03097",
         "arxiv": "",
         "doi": "10.21105/joss.03097",
-        "important": true,
+        "important": false,
         "score":20
       },
       {
@@ -730,19 +742,7 @@
         "hyperlink": "",
         "arxiv": "2102.13600",
         "doi": "",
-        "important": true,
-        "score":5
-      },
-      {
-        "authors": ["A. Burdinski*", "D. Brockmann", "B. F. Maier*"],
-        "title": ["Understanding the impact of digital contact tracing during the COVID-19 pandemic"],
-        "year": "2022",
-        "journal": "PLOS Digital Health",
-        "additional": "PLOS Digital Health 1 (12), e0000149",
-        "hyperlink": "https://www.cambridge.org/core/journals/epidemiology-and-infection/article/estimating-the-share-of-sarscov2immunologically-naive-individuals-in-germany-up-to-june-2022/D465300E4136D1D63B25BD6F48EC2994",
-        "arxiv": "",
-        "doi": "10.1017/S0950268823000195",
-        "important": true,
+        "important": false,
         "score":5
       },
       {
@@ -764,7 +764,7 @@
         "hyperlink": "https://journals.aps.org/pre/abstract/10.1103/PhysRevE.101.062302",
         "arxiv": "1902.08278",
         "doi": "10.1103/PhysRevE.101.062302",
-        "important": true,
+        "important": false,
         "score":20
       },
       {
@@ -776,7 +776,7 @@
         "hyperlink": "https://www.cambridge.org/core/journals/network-science/article/commentary-a-network-science-summer-course-for-highschool-students/CFCE737C7A392033AD05E9EDA9FA54CD",
         "arxiv": "2005.02487",
         "doi": "10.1017/nws.2020.12",
-        "important": true,
+        "important": false,
         "score":20
       },
       {
@@ -815,7 +815,7 @@
         "hyperlink": "https://joss.theoj.org/papers/10.21105/joss.01425",
         "arxiv": "",
         "doi": "10.21105/joss.01425",
-        "important": true,
+        "important": false,
         "score": 20
       },
       {
@@ -829,7 +829,7 @@
         "hyperlink": "https://www.nature.com/articles/s41598-019-45576-3",
         "arxiv": "1901.02381",
         "doi": "10.1038/s41598-019-45576-3",
-        "important": true,
+        "important": false,
         "score":20
       },
       {
@@ -843,7 +843,7 @@
         "hyperlink": "https://academic.oup.com/comnet/advance-article-abstract/doi/10.1093/comnet/cnz010/5432290?redirectedFrom=fulltext",
         "arxiv": "1808.00240",
         "doi": "10.1093/comnet/cnz010",
-        "important": true,
+        "important": false,
         "score":20
       },
       {

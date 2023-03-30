@@ -5,10 +5,13 @@ import csv
 from rich import print
 
 def parse_notes(notes):
+    notes = notes.replace('<div data-schema-version="8">','')
+    notes = notes.replace(' </div>','')
     entries = notes.split('</p>')
     entries = [ note.rstrip(' ').lstrip('<p> ') for note in entries  if note.replace(' ','') != '']
     this = {}
     for entry in entries:
+        #print(entry)
         _key_val = entry.split(':')
         key_val = []
         for s in _key_val:
@@ -17,6 +20,7 @@ def parse_notes(notes):
             val = float(key_val[1])
         except ValueError as e:
             val = key_val[1]
+
         this[key_val[0]] = val
 
     return this
@@ -64,6 +68,7 @@ with open('press_coverage.csv','r') as f:
             publication = entry['Publisher']
         this['publication'] = publication
 
+        #print(entry)
         this.update(parse_notes(entry['Notes']))
         try:
             this['important'] = this['score'] >= 20
@@ -75,7 +80,7 @@ with open('press_coverage.csv','r') as f:
         rows.append(this)
 
 if successful:
-    rows = sorted(rows, key=lambda x: (-x['score'],-x['year'],-x['month_numeric']))
+    rows = sorted(rows, key=lambda x: (-x['year'],-x['month_numeric'],-x['score']))
 
     with open('parsed_press_coverage.json','w') as f:
         json.dump(rows, f, indent=4)

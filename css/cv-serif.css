@@ -1,0 +1,249 @@
+body {
+    font-family: Palatino, Times New Roman, Times, serif;
+    font-size: 12pt;
+    -webkit-print-color-adjust: exact;
+    hyphens: auto;
+}
+
+.cv-title {
+    color: #333333;
+    font-weight: bold;    
+    font-size: 36pt;
+    margin-left: 0pt;
+    margin-top: 100px;
+    margin-right: 36pt;
+    -webkit-print-color-adjust: exact;
+    width: 100%;
+
+    /*
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    */
+}
+
+.cv-header-row {
+    display: flex;
+    margin-left: 100px;
+    max-width: calc(800px + 128pt);
+}
+
+.cv-control-row {
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    max-width: calc(800px + 128pt);
+}
+
+td.cv-control-table {
+    padding: 5px;
+}
+td.cv-control-td {
+    vertical-align: middle;
+}
+
+.cv-main-row {
+    margin-top: 0cm;
+    margin-left: 100px;
+    display: flex;
+    max-width: calc(800px + 128pt);
+}
+
+.cv-header-column {
+    flex: 100%;
+}
+
+.cv-main-column-left {
+    flex: 145pt;
+}
+
+.cv-main-column-right {
+    flex: calc(100%-145pt);
+}
+
+
+.cv-container {
+    /*
+   -webkit-column-count: 2;
+      -moz-column-count: 2;
+           column-count: 2;
+
+   -webkit-column-gap: 20px;
+      -moz-column-gap: 20px;
+           column-gap: 20px;
+           */
+    -webkit-print-color-adjust: exact;
+}
+
+@page {
+    margin-top: 2cm !important;
+    /*margin-bottom: 2cm;
+    margin-left: 0.5cm;
+    margin-right: 1cm;
+    */
+}
+
+
+.cv-section-title {
+    /*color: #77777f;*/
+    color: #333333;
+    margin-right: 0pt;
+    font-size: 20pt;
+    margin-left: 0pt;
+    font-weight: bold;
+    /*border-bottom: 1px solid;*/
+    text-align: left;
+    -webkit-print-color-adjust: exact;
+    margin-bottom:14pt;
+    margin-top: 0;
+}
+
+.cv-section {
+    /*margin-left: 128pt; */
+    margin-top:48pt;
+    margin-right: 72pt;
+    /*max-width: 600px;*/
+}
+
+.cv-avoid-breaking {
+    page-break-inside: avoid;
+}
+
+.cv-important-section {
+    margin-bottom: 25pt;
+}
+
+.cv-section-content {
+    padding-left: 25px;
+    /*border-left: solid 1px #777;*/
+}
+
+table.cv-table {
+    border: 0px;
+}
+
+tr.cv-row {
+  line-height: 1.5;
+}
+
+td {
+    vertical-align: baseline;
+    padding-bottom: 5pt;
+}
+
+td.cv-left-col {
+    padding-right: 12pt;
+    /*font-variant: small-caps;*/
+    text-align: right;
+    white-space: nowrap;
+    font-weight: bold;
+    color: #333;
+}
+
+.cv-item-title {
+    font-weight: bold;
+    color: #333;
+}
+
+.cv-item-description {
+    color: #000;
+    padding-bottom: 5pt;
+    line-height: 1.5;
+}
+
+.cv-item-time-range {
+    font-weight: normal;
+    color: #000;
+}
+
+.cv-item-place {
+    font-style: italic;
+}
+.cv-important-header-left {
+    /*float: left;*/
+}
+.cv-important-header-right {
+    text-align: left;
+    font-size: 12pt;
+    margin-bottom: 4pt;
+    float: left;
+    width: 100%
+}
+
+.cv-important-title {
+    font-size: 16pt; 
+    margin-top: 5pt;
+    margin-bottom: 2pt;
+    font-weight: bold;
+    color: #444;
+}
+
+.cv-description {
+    padding-bottom: 5pt;
+    line-height: 1.5;
+}
+
+.cv-personal-container {
+    float: right;
+    color: #7A7A7A;
+    margin-right: 36pt;
+}
+
+.cv-main-column-left-content {
+    margin-top:22pt;
+    margin-right: 25pt;
+    padding-right: 10pt;
+    padding-left: 10pt;
+    border-right: dotted 2px #262261;
+    text-align: right;
+    color: #262261;
+    /*list-style-position: inside;*/
+}
+
+.bullets-right {
+      direction:rtl;
+      margin-right: 10pt;
+      padding-right: 2pt;      
+}
+
+li.profile {
+    margin-bottom: 5pt;
+}
+
+li.list-section {
+    margin-bottom: 5pt;
+    page-break-inside: avoid;
+}
+
+.cv-paper-title {
+    font-style: italic;
+}
+
+
+a.cv-link:link {
+    color: #262261;
+    text-decoration: none;
+}
+
+a.cv-link:visited {
+    color: #262261;
+    text-decoration: none;
+}
+
+a.cv-link:hover {
+    color: #262261;
+    text-decoration: underline;
+}
+
+a.cv-link:active {
+    color: #262261;
+    text-decoration: underline;
+}
+
+ul.cv-list {
+/*     list-style-position: inside; */
+  padding-left: 1.2em;
+    line-height: 1.5;
+ /*   padding-left: 0; */
+}

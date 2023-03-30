@@ -1,0 +1,265 @@
+body {
+    font-family: Palatino, Times New Roman, Times, serif;/*, Helvetica Neue, Arial, sans-serif;*/
+    font-size: 10pt;
+    -webkit-print-color-adjust: exact;
+    hyphens: auto;
+    color: #232222;
+}
+
+.cv-title {
+    font-family: Helvetica Neue, Arial, sans-serif;
+    color: #232222;
+    font-weight: bold;    
+    font-size: 36pt;
+    margin-left: 48pt;
+    margin-top: 0pt;
+    margin-right: 36pt;
+    -webkit-print-color-adjust: exact;
+    float: left;
+    line-height: 1.0;
+    /*
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    */
+}
+
+.cv-header-row {
+    display: flex;
+    width: 21cm;
+    /*max-width: calc(800px + 128pt);*/
+}
+
+.cv-main-row {
+    margin-top: 0.5cm;
+    display: flex;
+    max-width: calc(600px + 128pt);
+}
+
+.cv-header-column {
+    flex: 50%;
+}
+
+.cv-main-column-left {
+    /*flex: 1pt;*/
+}
+
+.cv-main-column-right {
+    /*flex: calc(100%-1pt);*/
+    margin-left: 48pt;
+}
+
+
+.cv-container {
+    /*
+   -webkit-column-count: 2;
+      -moz-column-count: 2;
+           column-count: 2;
+
+   -webkit-column-gap: 20px;
+      -moz-column-gap: 20px;
+           column-gap: 20px;
+           */
+    -webkit-print-color-adjust: exact;
+}
+
+@page {
+    margin-top: 2cm !important;
+    padding-top: 10cm !important;
+    /*margin-bottom: 2cm;
+    margin-right: 1cm;
+    */
+}
+
+
+.cv-section-title {
+    font-family: Helvetica Neue, Arial, sans-serif;
+   color: #232222;
+    margin-right: 0pt;
+    font-size: 16pt;
+    margin-left: 0pt;
+    font-weight: 500;
+    /*border-bottom: 1px dotted;*/
+    text-align: left;
+    -webkit-print-color-adjust: exact;
+    margin-bottom:12pt;
+    margin-top: 20pt;
+}
+
+.cv-section {
+    /*page-break-inside: avoid;*/
+    /*margin-left: 128pt; */
+    margin-top:16pt;
+    margin-right: 36pt;
+    max-width: 800px;
+    margin-bottom:24pt;
+}
+
+.cv-avoid-breaking {
+    page-break-inside: avoid;
+}
+
+.cv-important-section {
+    margin-bottom: 25pt;
+    max-width: 500px;
+}
+
+.cv-section-content {
+    /*margin-left: 25px;*/
+}
+
+table.cv-table {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+tr.cv-row {
+  line-height: 1.5;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+td {
+    vertical-align: baseline;
+    padding-bottom: 5pt;
+    margin-left: 0pt;
+    padding-left: 0pt;
+}
+
+td.cv-left-col {
+    padding-right: 12pt;
+    padding-left: 0pt;
+    margin-left: 0pt;
+    /*font-variant: small-caps;*/
+    text-align: left;
+    white-space: nowrap;
+}
+
+.cv-item-title {
+    font-weight: bold;
+    color: #333;
+}
+
+.cv-item-description {
+    color: #000;
+    padding-bottom: 5pt;
+    line-height: 1.5;
+}
+
+.cv-item-time-range {
+}
+
+.cv-item-place {
+    font-style: italic;
+}
+
+.cv-important-entry{
+    margin-bottom: 16pt;
+}
+
+.cv-important-header-left {
+    float: left;
+}
+
+.cv-important-header-right {
+    text-align: right;
+}
+
+.cv-important-title {
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-size: 12pt; 
+    margin-top: 5pt;
+    margin-bottom: 5pt;
+    font-weight: none;
+    /*font-weight: bold;*/
+    color: #444;
+}
+
+.cv-description {
+    padding-bottom: 5pt;
+    line-height: 1.5;
+}
+
+.cv-personal-container {
+    float: right;
+    color: #432222;
+    margin-right: 36pt;
+    margin-top: 5pt;
+    text-align: right;
+    border-right: 1px solid;
+    /*border-bottom: 1px solid;*/
+    padding-right: 10pt;
+}
+
+.cv-main-column-left-content {
+    margin-top:22pt;
+    margin-right: 25pt;
+    padding-right: 10pt;
+    padding-left: 10pt;
+    border-right: dotted 1px #232222;
+    text-align: right;
+    color: #464444;
+    width:0;
+    /*list-style-position: inside;*/
+}
+
+.bullets-right {
+      direction:rtl;
+      margin-right: 10pt;
+      padding-right: 2pt;      
+}
+
+li.profile {
+    margin-bottom: 5pt;
+}
+
+li.list-section {
+    margin-bottom: 5pt;
+    page-break-inside: avoid;
+}
+
+.cv-paper-title {
+    /*font-style: italic;*/
+    
+    font-weight: bold;
+}
+
+
+a.cv-link:link {
+    color: #446;
+    text-decoration: none;
+}
+
+a.cv-link:visited {
+    color: #446;
+    text-decoration: none;
+}
+
+a.cv-link:hover {
+    color: #232222;
+    text-decoration: underline;
+}
+
+a.cv-link:active {
+    color: #232222;
+    text-decoration: underline;
+}
+
+ul.cv-list {
+/*     list-style-position: inside; */
+  padding-left: 1.2em;
+    line-height: 1.5;
+ /*   padding-left: 0; */
+}
+
+.cv-talk-title {
+    font-weight: bold;
+}
+
+.cv-short-desc {
+    line-height: 1.35;
+    text-indent: 0cm;
+}
+

@@ -445,7 +445,7 @@
       {
         "date": ["since 2022","seit 2022"],
         "name": ["Postdoc"],
-        "place": ["DTU Copenhagen, PI: Sune Lehmann J&oslash;rgensen", "DTU Kopenhagen, Gruppenleiter: Sune Lehmann J&oslash;rgensen"],
+        "place": ["DTU Copenhagen, PI: Sune Lehmann", "DTU Kopenhagen, Gruppenleiter: Sune Lehmann J&oslash;rgensen"],
         "description": [
           "Modeling of temporal network dynamics and big-data analyses of nation-scale social systems with machine-learning techniques.",
           "Modellierung der Dynamik zeitlich ver&auml;nderlicher Netzwerke. Analysen gro&szlig;skaliger Datens&auml;tze auf nationaler Ebene mithilfe maschinellen Lernens."

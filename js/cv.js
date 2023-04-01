@@ -190,30 +190,23 @@ class CVBuilder {
       document.getElementById(self.profileid).innerHTML = profileHTML;
     }
 
-    document.getElementById("publications-counter").innerHTML = content.publications.length;
-    document.getElementById("talks-counter").innerHTML = content.talks.length;
+    for (const counter_content_id of ['publications','talks','press'])
+    {
+      let counter_el = document.getElementById(`${counter_content_id}-counter`);
+      if (counter_el)
+        counter_el.innerHTML = content[counter_content_id].length;
 
-    let pubLink = document.getElementById("publications-link");
-    if (pubLink)
-    {
-      let pub_content = content['science'].filter(entry => entry.id == 'publications')[0];
-      let link;
-      if (pub_content['link_to_section'] == 'local')
-        link = '#publications'
-      else
-        link = pub_content['link_to_section'];
-      pubLink.innerHTML = `<a href="${link}" class="cv-link">${pubLink.innerHTML} ${_T(pub_content['additional_link_text'])}</a>`;
-    }
-    let talkLink = document.getElementById("talks-link");
-    if (talkLink)
-    {
-      let talk_content = content['science'].filter(entry => entry.id == "talks")[0];
-      let link;
-      if (talk_content['link_to_section'] == 'local')
-        link = '#talks'
-      else
-        link = talk_content['link_to_section'];
-      talkLink.innerHTML = `<a href="${link}" class="cv-link">${talkLink.innerHTML} ${_T(talk_content['additional_link_text'])}</a>`;
+      let link = document.getElementById(`${counter_content_id}-link`);
+      if (link)
+      {
+        let this_content = content['science'].filter(entry => entry.id == counter_content_id)[0];
+        let linkto;
+        if (this_content['link_to_section'] == 'local')
+          linkto = '#'+counter_content_id
+        else
+          linkto = this_content['link_to_section'];
+        link.innerHTML = `<a href="${linkto}" class="cv-link">${link.innerHTML} ${_T(this_content['additional_link_text'])}</a>`;
+      }
     }
     
     // add reviewing section
@@ -472,7 +465,9 @@ function parseScientificEntry(entry) {
   let left = _T(entry.name);
   let right = "";
 
-  if ( (entry.name.includes("Publications")) || (entry.name.includes("Talks") || (entry.name.includes("Reviews"))))
+  if ( (entry.id == "publications") || (entry.id == "talks") || 
+       (entry.id == "press") || (entry.id == 'reviews')
+     )
   {
     right = _cv_templates.itemDescription.replace("{{ item-description }}",_T(entry.description));
   }

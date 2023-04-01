@@ -52,7 +52,7 @@
     ],
     "personal": ["Person"],
     "profile": ["Short Profile", "Kurzprofil"],
-    "science": ["Scientific Work", "Wissenschaftliche Arbeiten"],
+    "science": ["Scientific Record", "Wissenschaft"],
     "voluntary_freetime": [
       "Voluntary Work &amp; Free Time",
       "Ehrenämter &amp; Freizeit"
@@ -496,6 +496,17 @@
         "important": true,
         "show_counter_instead_of_list": false,
         "additional_link_text": [ "", "" ]
+      },
+      {
+        "id": "press",
+        "name": ["Press", "Presse"],
+        "description":[
+           "my work has been featured in the media more than <span id=\"press-link\"><span id=\"press-counter\"></span> times</span>",
+           "Medien berichteten &uuml;ber meine Arbeit mehr als <span id=\"press-link\"><span id=\"press-counter\"></span> mal</span>"
+        ],
+        "important": true,
+        "link_to_section": "local",
+        "additional_link_text" : ["(see section &ldquo;Press Coverage&rdquo; below)","(siehe unten, Abschnitt &ldquo;Presse&rdquo;)" ]
       },
       {
         "id": "phd",

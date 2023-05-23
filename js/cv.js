@@ -190,7 +190,7 @@ class CVBuilder {
       document.getElementById(self.profileid).innerHTML = profileHTML;
     }
 
-    for (const counter_content_id of ['publications','talks','press'])
+    for (const counter_content_id of ['publications','talks','press','packages'])
     {
       let counter_el = document.getElementById(`${counter_content_id}-counter`);
       if (counter_el)
@@ -466,7 +466,8 @@ function parseScientificEntry(entry) {
   let right = "";
 
   if ( (entry.id == "publications") || (entry.id == "talks") || 
-       (entry.id == "press") || (entry.id == 'reviews')
+       (entry.id == "press") || (entry.id == 'reviews') ||
+       (entry.id == "packages") || (entry.id == 'grants')
      )
   {
     right = _cv_templates.itemDescription.replace("{{ item-description }}",_T(entry.description));

@@ -18,7 +18,7 @@
     "press"
   ],
   "fieldimportance": {
-    "shortprofile": false,
+    "shortprofile": true,
     "academic": true,
     "science": true,
     "reviews": true,
@@ -37,7 +37,7 @@
     "press": true
   },
   "fieldnames": {
-    "shortprofile": ["Researcher Profile", "Kurzprofil"],
+    "shortprofile": ["", ""],
     "education": ["Education", "Ausbildung"],
     "teaching": ["Teaching", "Lehre"],
     "reviews": ["Reviewing Work", "Gutachten"],
@@ -70,7 +70,7 @@
     "shortprofile": [
         {
             "description": [
-           "<p class=\"cv-short-desc\">I am a trans-disciplinary researcher focusing on understanding the fundamental mechanisms that determine how our social interactions facilitate the spread of infectious diseases and consequently, how we can mitigate their dispersal. Originally being trained in statistical physics, I employ methods from non-linear dynamics, complexity science, data science, and statistics incl. machine learning.</p><p class=\"cv-short-desc\">During the last years, I was able to contribute to Germany's response to the COVID-19 pandemic by conducting infectious disease modeling research at Robert Koch Institute. At the moment, I hold a postdoc position at DTU Copenhagen and Danmarks Statistiks to research how socio-economical factors determine individual health from large-scale public data sets.</p><p class=\"cv-short-desc\">I am interested in finding new ways to collect and analyze social behavorial and epidemiological data to improve predictions of infectious disease outbreaks and facilitate decision-making for rapid responses. My aim is to establish &ldquo;complex systems&rdquo; methods in public health contexts by teaching students as well as collaborating in joint social/health research ventures.</p>"
+           "<p class=\"cv-short-desc\">Trans-disciplinary researcher focused on understanding the fundamental social mechanisms that facilitate the spread of infectious diseases. Trained in statistical physics and data science with an established track record in digital epidemiology.</p><p class=\"cv-short-desc\">Contributed to Germany's response to the COVID-19 pandemic by means of internationally renowned infectious-disease modeling research at the Robert Koch Institute. Interested in finding new ways to collect and analyze social behavorial and epidemiological data to improve predictions of outbreaks and enable timely decision-making. I want to establish complex-systems methods in public-health contexts by teaching students and collaborating in joint social/health research ventures.</p>"
             ]
         }
     ],
@@ -401,7 +401,14 @@
     ],
     "fellowships": [
       {
-        "date": ["since 2019","seit 2019"],
+        "date": ["2023"],
+        "name": [
+          "Research Environment of the Year (Danish Young Academy)"
+        ],
+        "important": true
+      },
+      {
+        "date": ["2019&ndash;2023"],
         "name": [
           "Add-on Fellow for Interdisciplinary Life Science of the Joachim Herz Stiftung",
           "Add-on Fellow for Interdisciplinary Life Science der Joachim Herz Stiftung"
@@ -447,18 +454,18 @@
         "name": ["Postdoc"],
         "place": ["DTU Copenhagen, PI: Sune Lehmann", "DTU Kopenhagen, Gruppenleiter: Sune Lehmann J&oslash;rgensen"],
         "description": [
-          "Modeling of temporal network dynamics and big-data analyses of nation-scale social systems with machine-learning techniques.",
+          "Modeling of temporal network dynamics and big-data analyses of nation-scale social systems with machine-learning techniques and applications in infectious-disease modeling. Supervising students and independent research projects.",
           "Modellierung der Dynamik zeitlich ver&auml;nderlicher Netzwerke. Analysen gro&szlig;skaliger Datens&auml;tze auf nationaler Ebene mithilfe maschinellen Lernens."
         ],
         "important": true
       },
       {
         "date": ["2020&ndash;2022"],
-        "name": ["Postdoc / Deputy PI", "Postdoc/Stellv. Fachgebietsleiter"],
+        "name": ["Postdoc &amp; Deputy PI", "Postdoc &amp; Stellv. Fachgebietsleiter"],
         "place": ["Robert Koch Institute, PI: Dirk Brockmann", "Robert Koch-Institut, Gruppenleiter: Dirk Brockmann"],
         "description": [
-          "Research focusing on epidemic spreading processes in human systems, mainly infectious disease modeling and data analysis regarding the COVID-19 pandemic. Supervising students and research projects. Reporting to crisis respsonse panel and German ministry of health. Administrative tasks.",
-          "Forschung zu infektiösen Ausbreitungsprozessen in menschlichen Systemen, hauptsächlich mit Methoden der Netzwerktheorie und Statistischer Physik. Betreuung von Studierenden und Forschungsprojekten. Reporting to crisis respsonse panel and German ministry of health. Administrative Aufgaben."
+          "Research focusing on epidemic spreading processes in human systems, mainly infectious disease modeling and data analysis regarding the COVID-19 pandemic. Supervising students and research projects. Reporting to crisis response panel and German ministry of health. Administrative tasks.",
+          "Forschung zu infektiösen Ausbreitungsprozessen in menschlichen Systemen, hauptsächlich mit Methoden der Netzwerktheorie und Statistischer Physik. Betreuung von Studierenden und Forschungsprojekten. Reporting to crisis response panel and German ministry of health. Administrative Aufgaben."
         ],
         "important": true
       }
@@ -468,12 +475,35 @@
         "id": "publications",
         "name": ["Publications", "Publikationen"],
         "description": [
-          "(co-)author of <span id=\"publications-link\"><span id=\"publications-counter\"></span> articles</span>",
-          "(Co-)Autor von <span id=\"publications-link\"><span id=\"publications-counter\"></span> Artikeln</span>"
+          "(co-)author of <span id=\"publications-link\"><span id=\"publications-counter\"></span> articles</span><br/>Citations: 1383, h-index: 8",
+          "(Co-)Autor von <span id=\"publications-link\"><span id=\"publications-counter\"></span> Artikeln</span><br/>Zitationen: 1383, h-Index: 8"
         ],
         "important": true,
         "link_to_section": "local",
         "additional_link_text" : ["(see section &ldquo;Publications&rdquo; below)","(siehe unten, Abschnitt &ldquo;Publikationen&rdquo;)" ]
+      },
+      {
+        "id": "grants",
+        "name": ["Grants", "Drittmittel"],
+        "description": [
+          "(co-)author of 3 successful grant applications (DFG &amp; BMG)",
+          "Co-Autor von drei erfolgreichen Drittmittelantr&auml;gen (DFG &amp; BMG)"
+        ],
+        "important": true,
+        "link_to_section": "",
+        "show_counter_instead_of_list": false,
+        "additional_link_text" : ["",""]
+      },
+      {
+        "id": "press",
+        "name": ["Press", "Presse"],
+        "description":[
+           "my work has been featured in the media more than <span id=\"press-link\"><span id=\"press-counter\"></span> times</span>",
+           "Medien berichteten &uuml;ber meine Arbeit mehr als <span id=\"press-link\"><span id=\"press-counter\"></span> mal</span>"
+        ],
+        "important": true,
+        "link_to_section": "local",
+        "additional_link_text" : ["(see section &ldquo;Press Coverage&rdquo; below)","(siehe unten, Abschnitt &ldquo;Presse&rdquo;)" ]
       },
       {
         "id": "talks",
@@ -487,6 +517,17 @@
         "additional_link_text" : ["(see section &ldquo;Talks&rdquo; below)","(siehe unten, Abschnitt &ldquo;Vortr&auml;ge&rdquo;)" ]
       },
       {
+        "id": "packages",
+        "name": ["Software", "Software"],
+        "description": [
+          "developed more than <span id=\"packages-link\"><span id=\"packages-counter\"></span> open-source libraries</span>",
+          "Entwickler von mehr als <span id=\"packages-link\"><span id=\"packages-counter\"></span> open-source Bibliotheken</span>"
+        ],
+        "important": true,
+        "link_to_section": "local",
+        "additional_link_text" : ["(see section &ldquo;Open-Source Software&rdquo; below)","(siehe unten, Abschnitt &ldquoOpen-Source Software&rdquo;)" ]
+      },
+      {
         "id": "reviews",
         "name": "Reviews",
         "description":[
@@ -496,17 +537,6 @@
         "important": true,
         "show_counter_instead_of_list": false,
         "additional_link_text": [ "", "" ]
-      },
-      {
-        "id": "press",
-        "name": ["Press", "Presse"],
-        "description":[
-           "my work has been featured in the media more than <span id=\"press-link\"><span id=\"press-counter\"></span> times</span>",
-           "Medien berichteten &uuml;ber meine Arbeit mehr als <span id=\"press-link\"><span id=\"press-counter\"></span> mal</span>"
-        ],
-        "important": true,
-        "link_to_section": "local",
-        "additional_link_text" : ["(see section &ldquo;Press Coverage&rdquo; below)","(siehe unten, Abschnitt &ldquo;Presse&rdquo;)" ]
       },
       {
         "id": "phd",
@@ -646,6 +676,18 @@
         }
     ],
     "publications": [
+      {
+        "authors": ["P. Klamser*, A. Zachariae, B. F. Maier, O. Baranov, C. Jongen, F. Schlosser, D. Brockmann"],
+        "title": ["Inferring country-specific import risk of diseases from the world air transportation network"],
+        "year": "2023",
+        "journal": "arXiv",
+        "additional": "",
+        "hyperlink": "",
+        "arxiv": "2304.12087",
+        "doi": "",
+        "important": true,
+        "score":1
+      },
       {
         "authors": ["B. F. Maier*, A. H. Rose, A. Burdinski, P. Klamser, H. Neuhauser, O. Wichmann, L. Schaade, L. H. Wieler, D. Brockmann"],
         "title": ["Estimating the share of SARS-CoV-2-immunologically naïve individuals in Germany up to June 2022"],
@@ -943,7 +985,7 @@
                 "Mobility and the spread of infectious diseases"
             ],
             "event": [
-                "Course: Fighting Infectious Diseases (guest lecture)"
+                "Guest lecture &ldquo;Fighting Infectious Diseases&rdquo;"
             ],
             "place": [
                 "DTU"

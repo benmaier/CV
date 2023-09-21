@@ -70,7 +70,8 @@
     "shortprofile": [
         {
             "description": [
-           "<p class=\"cv-short-desc\">Trans-disciplinary researcher focused on understanding the fundamental social mechanisms that facilitate the spread of infectious diseases. Trained in statistical physics and data science with an established track record in digital epidemiology.</p><p class=\"cv-short-desc\">Contributed to Germany's response to the COVID-19 pandemic by means of internationally renowned infectious-disease modeling research at the Robert Koch Institute. Interested in finding new ways to collect and analyze social behavorial and epidemiological data to improve predictions of outbreaks and enable timely decision-making. I want to establish complex-systems methods in public-health contexts by teaching students and collaborating in joint social/health research ventures.</p>"
+                           "<p class=\"cv-short-desc\">I develop mathematical models and software frameworks to solve them. Experienced in setting up automated big-data processing solutions. Excellent technical and inter-personal communication skills. Team player. More than a decade of experience in renowned inter-disciplinary research with a PhD in theoretical physics and a broad interest in mechanistic modelling of interconnected systems by means of network science. Advised the German government on model-informed mitigation strategies during the COVID-19 pandemic.</p>",
+                           "<p class=\"cv-short-desc\">Ich entwickle mathematische Modelle und Software-Frameworks zu deren Lösung. Erfahren in der Einrichtung automatisierter Big-Data-Verarbeitungslösungen. Ausgezeichnete technische und zwischenmenschliche Kommunikationsfähigkeiten. Teamplayer. Mehr als ein Jahrzehnt Erfahrung in renommierter interdisziplinärer Forschung mit einem Doktortitel in theoretischer Physik und einem breiten Interesse an der mechanistischen Modellierung vernetzter Systeme mit Hilfe von Netzwerktheorie und Nichtlinearer Dynamik. Beratung der deutschen Regierung zu modellgestützten Eindämmungsstrategien während der COVID-19-Pandemie.</p>"
             ]
         }
     ],
@@ -475,8 +476,8 @@
         "id": "publications",
         "name": ["Publications", "Publikationen"],
         "description": [
-          "(co-)author of <span id=\"publications-link\"><span id=\"publications-counter\"></span> articles</span><br/>Citations: 1383, h-index: 8",
-          "(Co-)Autor von <span id=\"publications-link\"><span id=\"publications-counter\"></span> Artikeln</span><br/>Zitationen: 1383, h-Index: 8"
+          "(co-)author of <span id=\"publications-link\"><span id=\"publications-counter\"></span> articles</span><br/>Citations: 1469, h-index: 8",
+          "(Co-)Autor von <span id=\"publications-link\"><span id=\"publications-counter\"></span> Artikeln</span><br/>Zitationen: 1469, h-Index: 8"
         ],
         "important": true,
         "link_to_section": "local",
@@ -590,7 +591,7 @@
     "it": [
       {
         "name": ["Scientific", "Wissenschaft"],
-        "items": ["Numpy", "Scipy", "Matlab", "Mathematica", "Sun Grid Engine", "Polars (Pandas alternative)"],
+        "items": ["numpy", "scipy", "polars", "pandas", "geopandas", "pytorch", "scikit-learn", "Matlab", "Mathematica", "Sun Grid Engine"],
         "important": true
       },
       {
@@ -600,7 +601,10 @@
           "C++",
           "JavaScript",
           "bash",
-          ["various SQL dialects", "diverse SQL-Dialekte"]
+          ["various SQL dialects", "diverse SQL-Dialekte"],
+          "AWS",
+          "git",
+          "CI"
         ],
         "important": true
       },
@@ -615,7 +619,7 @@
       },
       {
         "name": ["Web"],
-        "items": ["d3.js", "Phaser.js", "Three.js", "p5.js", "HTML", "CSS", "django"],
+        "items": ["d3.js", "Three.js", "p5.js", "HTML", "CSS", "django"],
         "important": true
       },
       {
@@ -677,15 +681,39 @@
     ],
     "publications": [
       {
-        "authors": ["P. Klamser*, A. Zachariae, B. F. Maier, O. Baranov, C. Jongen, F. Schlosser, D. Brockmann"],
+        "authors": ["B. F. Maier*"],
+        "title": "Maximum-likelihood fits of piece-wise Pareto distributions with finite and non-zero core ",
+        "year": "2023",
+        "journal": "arXiv",
+        "additional": "",
+        "hyperlink": "https://doi.org/10.48550/arXiv.2309.09589",
+        "arxiv": "2309.09589",
+        "doi": "10.48550/arXiv.2309.09589",
+        "important": false,
+        "score":1
+      },
+      {
+        "authors": ["P. Klamser, V. d'Andrea, F. Di Lauro, A. Zachariae, S. Bontorin, A. Di Nardo, M. Hall, B. F. Maier*, L. Ferretti, D. Brockmann, M. De Domenico"],
+        "title": ["Enhancing global preparedness during an ongoing pandemic from partial and noisy data"],
+        "year": "2023",
+        "journal": "PNAS Nexus",
+        "additional": "PNAS Nexus vol. 2 (6), pgad192",
+        "hyperlink": "https://doi.org/10.1093/pnasnexus/pgad192",
+        "arxiv": "",
+        "doi": "10.1093/pnasnexus/pgad192",
+        "important": false,
+        "score":1
+      },
+      {
+        "authors": ["P. Klamser, A. Zachariae, B. F. Maier*, O. Baranov, C. Jongen, F. Schlosser, D. Brockmann"],
         "title": ["Inferring country-specific import risk of diseases from the world air transportation network"],
         "year": "2023",
         "journal": "arXiv",
         "additional": "",
-        "hyperlink": "",
+        "hyperlink": "https://doi.org/10.48550/arXiv.2304.12087",
         "arxiv": "2304.12087",
-        "doi": "",
-        "important": true,
+        "doi": "10.48550/arXiv.2304.12087",
+        "important": false,
         "score":1
       },
       {
@@ -735,18 +763,6 @@
         "doi": "10.1017/S0950268823000195",
         "important": true,
         "score":5
-      },
-      {
-            "authors": ["P. Klamser*", "V. d'Andrea", "F. di Lauro", "A. Zachariae", "S. Bontorin", "A. di Nardo", "M. Hall", "B. F. Maier", "L. Ferretti", "D. Brockmann", "M. de Domenico"],
-            "title": ["Enhancing global preparedness during an ongoing pandemic from partial and noisy data"],
-            "year": "2022",
-            "journal": "medRxiv",
-            "additional": "",
-            "hyperlink": "",
-            "arxiv": "",
-            "doi": "10.1101/2022.08.19.22278981",
-            "important": false,
-            "score":0
       },
       {
         "authors": ["M. Wiedermann*", "A. H. Rose.","B. F. Maier", "Jakob J. Kolb", "D. Hinrichs", "D. Brockmann"],

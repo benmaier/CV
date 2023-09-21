@@ -134,8 +134,8 @@ class CVBuilder {
       else if (section == 'publications')
       {
         title = _modify_title(title);
-        let this_content = content[section].slice().sort((a, b)=> (+b.year) - (+a.year));
-        this_content =_group_tabled_entries_by_left_column(this_content, 'year');
+        let this_content = _deepclone(content[section]).sort((a, b)=> (+b.year) - (+a.year));
+        this_content = _group_tabled_entries_by_left_column_and_filter_by_importance(this_content, 'year');
 
         //cvsection = parseListSection(title, content[section], parsePublicationEntry, section);
         cvsection = parseTabledSection(title, this_content, parseTabledPublicationEntry, section);
@@ -155,14 +155,14 @@ class CVBuilder {
       {
         title = _modify_title(title);
         //cvsection = parseListSection(title, content[section], parseTalkEntry, section);
-        let this_content = content[section].slice().sort((a, b)=> (+b.year) - (+a.year));
-        this_content =_group_tabled_entries_by_left_column(this_content, 'year');
-        cvsection = parseTabledSection(title, content[section], parseTabledTalkEntry, section);
+        let this_content = _deepclone(content[section]).sort((a, b)=> (+b.year) - (+a.year));
+        this_content = _group_tabled_entries_by_left_column_and_filter_by_importance(this_content, 'year');
+        cvsection = parseTabledSection(title, this_content, parseTabledTalkEntry, section);
       }
       else if (section == 'press')
       {
         title = _modify_title(title);
-        let this_content =_group_tabled_entries_by_left_column(content[section], ['year', 'month']);
+        let this_content = _group_tabled_entries_by_left_column_and_filter_by_importance(content[section], ['year', 'month']);
         cvsection = parseTabledSection(title, this_content, parsePressEntry, section);
       }
       else if (section == 'packages')
@@ -273,7 +273,11 @@ class CVBuilder {
   };
 }
 
-function _group_tabled_entries_by_left_column(entries, left_column)
+function _deepclone(obj){
+  return JSON.parse(JSON.stringify(obj));
+}
+
+function _group_tabled_entries_by_left_column_and_filter_by_importance(entries, left_column)
 {
   let is_arr = Array.isArray(left_column);
   if (!is_arr){
@@ -282,7 +286,9 @@ function _group_tabled_entries_by_left_column(entries, left_column)
   let last_label = {};
   left_column.forEach(key => last_label[key] = -1);
 
-  let this_content = entries.slice();
+  let this_content = _deepclone(entries).filter((entry) => 
+              ((!_CV_SHOW_UNIMPORTANT && entry.important) || _CV_SHOW_UNIMPORTANT)
+            );
 
   
   function arrayEquals(a, b) {

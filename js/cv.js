@@ -534,7 +534,6 @@ function parseITEntry(entry) {
     let row = _cv_templates.tableRow;
     let left = _T(entry.name);
     let right = entry.items.map(_T).join(", ");
-  //console.log(right);
     row = row.replace("{{ left-col-content }}", left)
              .replace("{{ right-col-content }}", right);
 
@@ -545,7 +544,6 @@ function parseFellowshipEntry(entry) {
     let row = _cv_templates.tableRow;
     let left = _cv_templates.timeRange.replace("{{ time-range }}",_T(entry.date));
     let right = _cv_templates.itemDescription.replace("{{ item-description }}",_T(entry.name));
-  //console.log(right);
     row = row.replace("{{ left-col-content }}", left)
              .replace("{{ right-col-content }}", right);
 

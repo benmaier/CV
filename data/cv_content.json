@@ -70,7 +70,7 @@
     "shortprofile": [
         {
             "description": [
-                           "<p class=\"cv-short-desc\">I develop mathematical models and software frameworks to solve them. Experienced in setting up automated big-data processing solutions. Excellent technical and inter-personal communication skills. Team player. More than a decade of experience in renowned inter-disciplinary research with a PhD in theoretical physics and a broad interest in mechanistic modelling of interconnected systems by means of network science. Advised the German government on model-informed mitigation strategies during the COVID-19 pandemic.</p>",
+                           "<p class=\"cv-short-desc\">I develop mathematical models and software frameworks to solve them, currently in quantitative finance. Experienced in setting up automated big-data processing solutions. Excellent technical and inter-personal communication skills. Team player. More than a decade of experience in renowned inter-disciplinary research with a PhD in theoretical physics and a broad interest in mechanistic modelling of interconnected systems. Advised the German government on model-informed mitigation strategies during the COVID-19 pandemic. Developing investment strategies at Deutsche Bank.</p>",
                            "<p class=\"cv-short-desc\">Ich entwickle mathematische Modelle und Software-Frameworks zu deren Lösung. Erfahren in der Einrichtung automatisierter Big-Data-Verarbeitungslösungen. Ausgezeichnete technische und zwischenmenschliche Kommunikationsfähigkeiten. Teamplayer. Mehr als ein Jahrzehnt Erfahrung in renommierter interdisziplinärer Forschung mit einem Doktortitel in theoretischer Physik und einem breiten Interesse an der mechanistischen Modellierung vernetzter Systeme mit Hilfe von Netzwerktheorie und Nichtlinearer Dynamik. Beratung der deutschen Regierung zu modellgestützten Eindämmungsstrategien während der COVID-19-Pandemie.</p>"
             ]
         }
@@ -451,7 +451,17 @@
     ],
     "academic": [
       {
-        "date": ["since 2022","seit 2022"],
+        "date": ["since 2024","seit 2024"],
+        "name": ["Quantitative Strategist"],
+        "place": ["Group Strategic Analysis, Deutsche Bank, Berlin"],
+        "description": [
+          "Developing and implementing investment products for retirement solutions.",
+          "Modellierung der Dynamik zeitlich ver&auml;nderlicher Netzwerke. Analysen gro&szlig;skaliger Datens&auml;tze auf nationaler Ebene mithilfe maschinellen Lernens."
+        ],
+        "important": true
+      },
+      {
+        "date": ["2022&ndash;2023"],
         "name": ["Postdoc"],
         "place": ["DTU Copenhagen, PI: Sune Lehmann", "DTU Kopenhagen, Gruppenleiter: Sune Lehmann J&oslash;rgensen"],
         "description": [

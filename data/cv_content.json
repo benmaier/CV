@@ -455,8 +455,8 @@
         "name": ["Quantitative Strategist"],
         "place": ["Group Strategic Analysis, Deutsche Bank, Berlin"],
         "description": [
-          "Developing and implementing investment products for retirement solutions.",
-          "Modellierung der Dynamik zeitlich ver&auml;nderlicher Netzwerke. Analysen gro&szlig;skaliger Datens&auml;tze auf nationaler Ebene mithilfe maschinellen Lernens."
+          "Full-stack development and implementation of algorithmic investment products.",
+          "Full-Stack Entwicklung und Implementierung von algorithmischen Investmentprodukten."
         ],
         "important": true
       },
@@ -465,7 +465,7 @@
         "name": ["Postdoc"],
         "place": ["DTU Copenhagen, PI: Sune Lehmann", "DTU Kopenhagen, Gruppenleiter: Sune Lehmann J&oslash;rgensen"],
         "description": [
-          "Modeling of temporal network dynamics and big-data analyses of nation-scale social systems with machine-learning techniques and applications in infectious-disease modeling. Supervising students and independent research projects.",
+          "Modeling of temporal network dynamics and big-data analyses of nation-scale social systems with machine-learning techniques and applications in infectious-disease modeling. Supervising students and independent research projects. Dev work in Python, C++, and JS.",
           "Modellierung der Dynamik zeitlich ver&auml;nderlicher Netzwerke. Analysen gro&szlig;skaliger Datens&auml;tze auf nationaler Ebene mithilfe maschinellen Lernens."
         ],
         "important": true
@@ -475,7 +475,7 @@
         "name": ["Postdoc &amp; Deputy PI", "Postdoc &amp; Stellv. Fachgebietsleiter"],
         "place": ["Robert Koch Institute, PI: Dirk Brockmann", "Robert Koch-Institut, Gruppenleiter: Dirk Brockmann"],
         "description": [
-          "Research focusing on epidemic spreading processes in human systems, mainly infectious disease modeling and data analysis regarding the COVID-19 pandemic. Supervising students and research projects. Reporting to crisis response panel and German ministry of health. Administrative tasks.",
+          "Research focusing on epidemic spreading processes in human systems, mainly infectious disease modeling and data analysis regarding the COVID-19 pandemic. Supervising students and research projects. Reporting to crisis response panel and German ministry of health. Administrative tasks. Dev work in Python, C++, and JS. Administering web and database servers.",
           "Forschung zu infektiösen Ausbreitungsprozessen in menschlichen Systemen, hauptsächlich mit Methoden der Netzwerktheorie und Statistischer Physik. Betreuung von Studierenden und Forschungsprojekten. Reporting to crisis response panel and German ministry of health. Administrative Aufgaben."
         ],
         "important": true
@@ -486,8 +486,8 @@
         "id": "publications",
         "name": ["Publications", "Publikationen"],
         "description": [
-          "(co-)author of <span id=\"publications-link\"><span id=\"publications-counter\"></span> articles</span><br/>Citations: 1469, h-index: 8",
-          "(Co-)Autor von <span id=\"publications-link\"><span id=\"publications-counter\"></span> Artikeln</span><br/>Zitationen: 1469, h-Index: 8"
+          "(co-)author of <span id=\"publications-link\"><span id=\"publications-counter\"></span> articles</span><br/>Citations: 1663, h-index: 10",
+          "(Co-)Autor von <span id=\"publications-link\"><span id=\"publications-counter\"></span> Artikeln</span><br/>Zitationen: 1663, h-Index: 10"
         ],
         "important": true,
         "link_to_section": "local",
@@ -614,7 +614,9 @@
           ["various SQL dialects", "diverse SQL-Dialekte"],
           "AWS",
           "git",
-          "CI"
+          "CI",
+          "Perforce",
+          "Java"
         ],
         "important": true
       },
@@ -629,7 +631,7 @@
       },
       {
         "name": ["Web"],
-        "items": ["d3.js", "Three.js", "p5.js", "HTML", "CSS", "django"],
+        "items": ["JavaScript (incl. d3.js, Three.js, p5.js)", "HTML", "CSS", "django"],
         "important": true
       },
       {
@@ -691,6 +693,30 @@
     ],
     "publications": [
       {
+        "authors": ["L. Boucherie*", "B. F. Maier, S. Lehmann"],
+        "title": "Decomposing geographical and universal aspects of human mobility",
+        "year": "2024",
+        "journal": "arXiv",
+        "additional": "",
+        "hyperlink": "https://doi.org/10.48550/arXiv.2309.09589",
+        "arxiv": "2405.08746",
+        "doi": "10.48550/arXiv.2405.08746",
+        "important": true,
+        "score":10
+      },
+      {
+        "authors": ["P. Klamser*, A. Zachariae, B. F. Maier, O. Baranov, C. Jongen, F. Schlosser, D. Brockmann"],
+        "title": ["Inferring country-specific import risk of diseases from the world air transportation network"],
+        "year": "2024",
+        "journal": "PLOS Comp. Bio.",
+        "additional": "PLOS Computational Biology vol. 20 (1), e1011775",
+        "hyperlink": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011775",
+        "arxiv": "2304.12087",
+        "doi": "10.1371/journal.pcbi.1011775",
+        "important": false,
+        "score":1
+      },
+      {
         "authors": ["B. F. Maier*"],
         "title": "Maximum-likelihood fits of piece-wise Pareto distributions with finite and non-zero core ",
         "year": "2023",
@@ -711,18 +737,6 @@
         "hyperlink": "https://doi.org/10.1093/pnasnexus/pgad192",
         "arxiv": "",
         "doi": "10.1093/pnasnexus/pgad192",
-        "important": false,
-        "score":1
-      },
-      {
-        "authors": ["P. Klamser, A. Zachariae, B. F. Maier*, O. Baranov, C. Jongen, F. Schlosser, D. Brockmann"],
-        "title": ["Inferring country-specific import risk of diseases from the world air transportation network"],
-        "year": "2023",
-        "journal": "arXiv",
-        "additional": "",
-        "hyperlink": "https://doi.org/10.48550/arXiv.2304.12087",
-        "arxiv": "2304.12087",
-        "doi": "10.48550/arXiv.2304.12087",
         "important": false,
         "score":1
       },

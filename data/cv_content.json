@@ -70,8 +70,8 @@
     "shortprofile": [
         {
             "description": [
-                           "<p class=\"cv-short-desc\">I develop mathematical models of the world and software frameworks to learn from them, last in quantitative finance. Experienced in setting up automated big-data analysis and processing solutions. Excellent technical and inter-personal communication skills. Team player. More than a decade of experience in renowned inter-disciplinary research with a PhD in theoretical physics and a broad interest in mechanistic modelling of interconnected systems. Advised the German government on model-informed mitigation strategies during the COVID-19 pandemic. Developed investment strategies at Deutsche Bank.</p>",
-                           "<p class=\"cv-short-desc\">Ich entwickle mathematische Modelle und Software-Frameworks zu deren Lösung. Erfahren in der Einrichtung automatisierter Big-Data-Verarbeitungslösungen. Ausgezeichnete technische und zwischenmenschliche Kommunikationsfähigkeiten. Teamplayer. Mehr als ein Jahrzehnt Erfahrung in renommierter interdisziplinärer Forschung mit einem Doktortitel in theoretischer Physik und einem breiten Interesse an der mechanistischen Modellierung vernetzter Systeme mit Hilfe von Netzwerktheorie und Nichtlinearer Dynamik. Beratung der deutschen Regierung zu modellgestützten Eindämmungsstrategien während der COVID-19-Pandemie.</p>"
+                           "<p class=\"cv-short-desc\">I develop mathematical models of the world and software frameworks to learn from them. Experienced in setting up automated big-data analysis and processing solutions. Excellent technical and inter-personal communication skills. Team player. More than a decade of experience in renowned inter-disciplinary research with a PhD in theoretical physics and a broad interest in mechanistic modelling of interconnected systems. Advised the German government on model-informed mitigation strategies during the COVID-19 pandemic. Developed algorithmic investment strategies at Deutsche Bank.</p>",
+                           "<p class=\"cv-short-desc\">Ich entwickle mathematische Modelle und Software-Frameworks zu deren Lösung. Erfahren in der Einrichtung automatisierter Big-Data-Verarbeitungslösungen. Ausgezeichnete technische und zwischenmenschliche Kommunikationsfähigkeiten. Teamplayer. Mehr als ein Jahrzehnt Erfahrung in renommierter interdisziplinärer Forschung mit einem Doktortitel in theoretischer Physik und einem breiten Interesse an der mechanistischen Modellierung vernetzter Systeme mit Hilfe von Netzwerktheorie und Nichtlinearer Dynamik. Beratung der deutschen Regierung zu modellgestützten Eindämmungsstrategien während der COVID-19-Pandemie. Entwickelte alogrithmische Investmentprodukte bei der Deutschen Bank.</p>"
             ]
         }
     ],
@@ -431,32 +431,32 @@
     ],
     "academic": [
       {
-        "date": ["since 2024","seit 2024"],
+        "date": ["since 2025","seit 2025"],
+        "name": ["IT Consultant &amp; Software Dev", "IT-Berater &amp; Softwareentwickler"],
+        "place": ["Self-employed", "Freiberufler"],
+        "description": [
+          "Development of full-stack solutions for automated big data processing based on methods from statistical and mechanistic modelling as well as artificial intelligence. Specialized in Python incl. data stack, C++, JS and SQL dialects. Well-documented software packages with automated tests. Concise presentation of analysis insights.",
+          "Entwicklung von Full-Stack-L&ouml;sungen zur automatisierten Big-Data-Verarbeitung, basierend auf Methoden der statistischen und mechanistischen Modellierung sowie der k&uuml;nstlichen Intelligenz. Spezialisiert auf Python inkl. Data Stack, C++, JS und SQL-Dialekte. Pr&auml;zise dokumentierte Softwarepakete mit automatisierten Tests. Businessnahe Pr&auml;sentation komplexer Analyseergebnisse."
+        ],
+        "important": true
+      },
+      {
+        "date": ["2024","2024"],
         "name": ["Quantitative Strategist"],
         "place": ["Group Strategic Analysis, Deutsche Bank, Berlin"],
         "description": [
-          "Full-stack development and implementation of algorithmic investment products.",
-          "Full-Stack Entwicklung und Implementierung von algorithmischen Investmentprodukten."
+          "Full-stack development and implementation of algorithmic investment products. Dev work in Python, JS, OracleDB, Matlab.",
+          "Full-Stack Entwicklung und Implementierung von algorithmischen Investmentprodukten. Arbeit in Python, JS, OracleDB, Matlab."
         ],
         "important": true
       },
       {
-        "date": ["2022&ndash;2023"],
-        "name": ["Postdoc"],
-        "place": ["DTU Copenhagen, PI: Sune Lehmann", "DTU Kopenhagen, Gruppenleiter: Sune Lehmann J&oslash;rgensen"],
-        "description": [
-          "Modeling of temporal network dynamics and big-data analyses of nation-scale social systems with machine-learning techniques and applications in infectious-disease modeling. Supervising students and independent research projects. Dev work in Python, C++, and JS.",
-          "Modellierung der Dynamik zeitlich ver&auml;nderlicher Netzwerke. Analysen gro&szlig;skaliger Datens&auml;tze auf nationaler Ebene mithilfe maschinellen Lernens."
-        ],
-        "important": true
-      },
-      {
-        "date": ["2020&ndash;2022"],
+        "date": ["2020&ndash;2023"],
         "name": ["Postdoc &amp; Deputy PI", "Postdoc &amp; Stellv. Fachgebietsleiter"],
-        "place": ["Robert Koch Institute, PI: Dirk Brockmann", "Robert Koch-Institut, Gruppenleiter: Dirk Brockmann"],
+        "place": ["Robert Koch Institute, DTU Copenhagen, Danmarks Statistiks", "Robert Koch-Institut, DTU Kopenhagen, Danmarks Statistiks"],
         "description": [
-          "Research focusing on epidemic spreading processes in human systems, mainly infectious disease modeling and data analysis regarding the COVID-19 pandemic. Supervising students and research projects. Reporting to crisis response panel and German ministry of health. Administrative tasks. Dev work in Python, C++, and JS. Administering web and database servers.",
-          "Forschung zu infektiösen Ausbreitungsprozessen in menschlichen Systemen, hauptsächlich mit Methoden der Netzwerktheorie und Statistischer Physik. Betreuung von Studierenden und Forschungsprojekten. Reporting to crisis response panel and German ministry of health. Administrative Aufgaben."
+          "In Germany: Research focusing on epidemic spreading processes in human systems, mainly infectious disease modeling and data analysis regarding the COVID-19 pandemic. Supervising students and research projects. Reporting to crisis response panel and German ministry of health. Administrative tasks. Dev work in Python, C++, and JS. Administering web and database servers. In Denmark: Modeling of temporal network dynamics and big-data analyses of nation-scale social systems with machine-learning techniques and applications in infectious-disease modeling. Supervising students and independent research projects. Dev work in Python, C++, and JS.",
+          "In Deutschland: Forschung zu infektiösen Ausbreitungsprozessen in menschlichen Systemen, hauptsächlich mit Methoden der Netzwerktheorie und Statistischer Physik. Betreuung von Studierenden und Forschungsprojekten. Reporting to crisis response panel and German ministry of health. Administrative Aufgaben. Python, C++, JS, MySQL. In D&auml;nemark: Modellierung der Dynamik zeitlich ver&auml;nderlicher Netzwerke. Analysen gro&szlig;skaliger Datens&auml;tze auf nationaler Ebene mithilfe maschinellen Lernens. Python, C++, JS, OracleDB."
         ],
         "important": true
       },
@@ -486,8 +486,8 @@
         "id": "publications",
         "name": ["Publications", "Publikationen"],
         "description": [
-          "(co-)author of <span id=\"publications-link\"><span id=\"publications-counter\"></span> articles</span><br/>Citations: 1702, h-index: 10",
-          "(Co-)Autor von <span id=\"publications-link\"><span id=\"publications-counter\"></span> Artikeln</span><br/>Zitationen: 1702, h-Index: 10"
+          "(co-)author of <span id=\"publications-link\"><span id=\"publications-counter\"></span> articles</span><br/>Citations: 1768, h-index: 10",
+          "(Co-)Autor von <span id=\"publications-link\"><span id=\"publications-counter\"></span> Artikeln</span><br/>Zitationen: 1768, h-Index: 10"
         ],
         "important": true,
         "link_to_section": "local",
@@ -703,6 +703,18 @@
         "doi": "10.48550/arXiv.2405.08746",
         "important": true,
         "score":10
+      },
+      {
+        "authors": ["J. Cremers*, B. Kohler*, B. F. Maier*, S. N. Eriksen, J. Einsiedler, F. K. Christensen, S. Lehmann, D. D. Lassen, L. H. Mortensen, A. Bjerre-Nielsen"],
+        "title": ["Unveiling the Social Fabric: A Temporal, Nation-Scale Social Network and its Characteristics"],
+        "year": "2024",
+        "journal": "arXiv",
+        "additional": "",
+        "hyperlink": "",
+        "arxiv": "2409.11099",
+        "doi": "10.48550/arXiv.2409.11099",
+        "important": false,
+        "score":1
       },
       {
         "authors": ["P. Klamser*, A. Zachariae, B. F. Maier, O. Baranov, C. Jongen, F. Schlosser, D. Brockmann"],
@@ -1005,6 +1017,23 @@
       }
     ],
     "talks": [
+        {
+            "title": [
+                "Be water, my friend: Urban structure and human mobility through the lens of soft matter theory"
+            ],
+            "event": [
+                "Add-on fellow meeting Joachim Herz Foundation",
+                "Add-on Fellow Meeting der Joachim Herz-Stiftung"
+            ],
+            "place": [
+                "Joachim Herz Foundation, Hamburg",
+                "Joachim Herz Stiftung, Hamburg"
+            ],
+            "year": [
+                "2024"
+            ],
+            "important": true
+        },
         {
             "title": [
                 "Mobility and the spread of infectious diseases"

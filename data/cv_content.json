@@ -432,7 +432,7 @@
     "academic": [
       {
         "date": ["since 2025","seit 2025"],
-        "name": ["IT Consultant &amp; Software Dev", "IT-Berater &amp; Softwareentwickler"],
+        "name": ["IT Consultant &amp; Developer", "IT-Berater &amp; Softwareentwickler"],
         "place": ["Self-employed", "Freiberufler"],
         "description": [
           "Development of full-stack solutions for automated big data processing based on methods from statistical and mechanistic modelling as well as artificial intelligence. Specialized in Python incl. data stack, C++, JS and SQL dialects. Well-documented software packages with automated tests. Concise presentation of analysis insights.",
